@@ -1,5 +1,4 @@
-before_build:
-  - nuget restore
+
 
 platform: x64
 
@@ -7,5 +6,6 @@ configuration: Release
 
 
 before_build:
+  - nuget restore
  - cd lib\src
  - winbuild.bat
