@@ -1,0 +1,6 @@
+before_build:
+  - nuget restore
+
+platform: x64
+
+configuration: Release
