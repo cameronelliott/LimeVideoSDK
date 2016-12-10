@@ -6,5 +6,5 @@ platform: x64
 configuration: Release
 
 build:
-  project: limevideosdk.sln 
+  project: Dotnet/limevideosdk.sln 
   
