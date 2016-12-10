@@ -70,7 +70,7 @@ namespace LimeVideoSDKQuickSync
     [SuppressUnmanagedCodeSecurity]
     public unsafe static class UnsafeNativeMethods
     {
-        public const string dllname = @"libLimeVideoSDKNativex64"; // must have lib prefix for Linux, keep it!
+        public const string dllname = "libLimeVideoSDKNativex64"; // must have lib prefix for Linux, keep it!
 
         [DllImport(dllname, EntryPoint = "prefix_MFXInit")]
         public static extern mfxStatus MFXInit(mfxIMPL impl, mfxVersion* ver, mfxSession* session);

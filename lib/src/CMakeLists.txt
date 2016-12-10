@@ -115,17 +115,17 @@ if(WIN32)
 
     #on windows, we create a .SLN dependancy so libmfxsw64 gets built before ${LIBNAME}
     add_dependencies(${LIBNAME} libmfxsw64)     
-    add_dependencies(${LIBNAME} libFourCCResizeConvert)                
+    add_dependencies(${LIBNAME} libLimeVideoSDK_ipp)                
     add_library( libmfxsw64  SHARED  src/libmfxsw64stub.cpp ) # we also need to build libmfxsw64 on windows
     set_target_properties(libmfxsw64 PROPERTIES RUNTIME_OUTPUT_DIRECTORY ../../../lib/bin )
 
-    #on windows, we create a .SLN dependancy so libFourCCResizeConvert gets built before ${LIBNAME}
-    add_dependencies(${LIBNAME} libFourCCResizeConvert )   
-    list(APPEND SRC_FOURCC src/_resampler.cpp )
-    list(APPEND SRC_FOURCC src/_ColorConversions.cpp )
-    add_library( libFourCCResizeConvert  SHARED    ${SRC_FOURCC} ) 
-    set_target_properties(libFourCCResizeConvert PROPERTIES RUNTIME_OUTPUT_DIRECTORY ../../../lib/bin )
-    set_target_properties(libFourCCResizeConvert PROPERTIES LINK_FLAGS " /ignore:4099 /def:../src/exports_FourCCResizeConvert.def ") 
+    #on windows, we create a .SLN dependancy so libLimeVideoSDK_ipp gets built before ${LIBNAME}
+    add_dependencies(${LIBNAME} libLimeVideoSDK_ipp )   
+    list(APPEND SRC_IPPALT src/_resampler.cpp )
+    list(APPEND SRC_IPPALT src/_ColorConversions.cpp )
+    add_library( libLimeVideoSDK_ipp  SHARED    ${SRC_IPPALT} ) 
+    set_target_properties(libLimeVideoSDK_ipp PROPERTIES RUNTIME_OUTPUT_DIRECTORY ../../../lib/bin )
+    set_target_properties(libLimeVideoSDK_ipp PROPERTIES LINK_FLAGS " /ignore:4099 /def:../src/exports_FourCCResizeConvert.def ") 
   
     # we dont need a post-build copy when we can just set the output path.
     set_target_properties(${LIBNAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY ../../../lib/bin )
@@ -156,7 +156,7 @@ target_compile_options(${LIBNAME} PUBLIC /W4 /WX)
 
 
     # These lines do the following:
-    # They create a special relationship between the files ${LIBNAME} and LibmfxSW64.dll and libFourCCResizeConvert
+    # They create a special relationship between the files ${LIBNAME} and LibmfxSW64.dll and libLimeVideoSDK_ipp
     #
     # LibmfxSW64.dll is Intel's software fallback library for Quick Sync encode, decode, etc...
     # Having LibmfxSW64.dll as a 'assemblylinkresource' means when Visual Studio
@@ -171,13 +171,13 @@ target_compile_options(${LIBNAME} PUBLIC /W4 /WX)
     set_target_properties(${LIBNAME} PROPERTIES LINK_FLAGS " ${tmp_link_flags} /assemblylinkresource:libmfxsw64.dll") 
     
     get_target_property(tmp_link_flags ${LIBNAME} LINK_FLAGS)
-    set_target_properties(${LIBNAME} PROPERTIES LINK_FLAGS " ${tmp_link_flags} /assemblylinkresource:libFourCCResizeConvert.dll") 
+    set_target_properties(${LIBNAME} PROPERTIES LINK_FLAGS " ${tmp_link_flags} /assemblylinkresource:libLimeVideoSDK_ipp.dll") 
    
     ##add_custom_command(TARGET ${LIBNAME} POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy libmfxsw64.dll $<TARGET_FILE_DIR:${LIBNAME}> )
 
     # this gets executed before ${LIBNAME} is built
     add_custom_command(TARGET libmfxsw64 POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:libmfxsw64> . )
-    add_custom_command(TARGET libFourCCResizeConvert POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:libFourCCResizeConvert> . )
+    add_custom_command(TARGET libLimeVideoSDK_ipp POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:libLimeVideoSDK_ipp> . )
 
     target_link_libraries( ${LIBNAME}  ${DXVA2DIR}/dxva2.lib)
     target_link_libraries( ${LIBNAME}  ${DirectX_ROOT_DIR}/lib/${MSVC_CXX_ARCHITECTURE_ID}/dxgi.lib)

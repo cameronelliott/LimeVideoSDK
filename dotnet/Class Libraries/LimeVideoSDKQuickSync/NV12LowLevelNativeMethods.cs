@@ -17,7 +17,8 @@ namespace LimeVideoSDKQuickSync
     [SuppressUnmanagedCodeSecurity]
     public unsafe static class NV12UnsafeNativeMethods
     {
-        public const string dllname = LimeVideoSDKQuickSync.UnsafeNativeMethods.dllname;
+      
+        public const string dllname = "libLimeVideoSDK_ipp";// must have lib prefix for Linux, keep it!
 
         [DllImport(dllname)]
         internal static extern NativeResizeConvertStatus ResizeYUV420GetSize(
