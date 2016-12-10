@@ -5,11 +5,12 @@ platform: x64
 configuration: Release
 
 
-before_build:
-  - echo pppp
-  - cd lib\src
-  - nuget restore
+
+ 
+
   
   
 build_script:
+ - cd lib\src
+  - nuget restore
   - '%APPVEYOR_BUILD_FOLDER%\lib\src\winbuild.bat'
