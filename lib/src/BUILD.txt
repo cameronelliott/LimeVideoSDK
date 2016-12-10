@@ -1,0 +1,43 @@
+
+
+
+--
+WINDOWS
+HOW TO USE CMAKE ON WINDOWS TO BUILD NATIVE PINVOKE DLL
+--
+# Cmake 3.6.1 has worked well, while 3.6.0 did not.
+
+Click Windows start button, in the box type 'msbuild', select 'MSBuild command prompt for VS2015'
+cd native
+mkdir build.windows
+cd build.windows
+
+
+
+
+
+--
+LINUX
+HOW TO USE CMAKE ON LINUX TO BUILD NATIVE PINVOKE DLL
+--
+
+
+cd native
+mkdir build.linux
+cd build.linux
+rm -rf ../build.linux/* &&  cmake ..  && make && /bin/cp -n libLimeVideoSDKNativex64.so /root/libLimeVideoSDK
+
+
+[The last command can be repeated while tweaking the cmakelists.txt]
+
+
+
+# testing notes:
+mono '/root/LimeVideoSDK/Sample Programs/Decoder Samples/Decoder1/bin/x64/Debug/Decoder1.exe' 2>/dev/null
+mono '/root/LimeVideoSDK/Sample Programs/Decoder Samples/Decoder2/bin/x64/Debug/Decoder2.exe' 2>/dev/null
+mono '/root/published/LimeVideoSDK/Sample Programs/Encoder Samples/Encoder1/bin/x64/Debug/Encoder1.exe' 2>/dev/null
+mono '/root/LimeVideoSDK/Sample Programs/Encoder Samples/Encoder2/bin/x64/Debug/Encoder2.exe' 2>/dev/null
+mono '/root/LimeVideoSDK/Sample Programs/Transcoder Samples/Transcoder1/bin/x64/Debug/Transcoder1.exe' 2>/dev/null
+mono '/root/LimeVideoSDK/Sample Programs/Transcoder Samples/Transcoder2/bin/x64/Debug/Transcoder2.exe' 2>/dev/null
+mono '/root/LimeVideoSDK/Sample Programs/Transcoder Samples/Transcoder3/bin/x64/Debug/Transcoder3.exe' 2>/dev/null
+
