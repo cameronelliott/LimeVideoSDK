@@ -14,7 +14,8 @@
 #include "decode_render.h"
 
 
-
+#undef NDEBUG
+#include <assert.h>
 
 
 
@@ -109,7 +110,7 @@ public:
 	MemType					m_memType = SYSTEM_MEMORY;
 	eWorkMode				m_eWorkMode = MODE_PERFORMANCE;
 #if D3D_SURFACES_SUPPORT
-	IGFXS3DControl          *m_pS3DControl = NULL;
+	//IGFXS3DControl          *m_pS3DControl = NULL;
 	CDecodeD3DRender         m_d3dRender;
 #endif
 	GeneralAllocator*       m_pGeneralAllocator = NULL;
@@ -143,7 +144,7 @@ public:
 	~VideoAccelerationSupport()
 	{
 #if D3D_SURFACES_SUPPORT
-		MSDK_SAFE_DELETE(m_pS3DControl);
+		//MSDK_SAFE_DELETE(m_pS3DControl);
 #endif
 
 		MSDK_SAFE_DELETE(m_pGeneralAllocator);
@@ -342,8 +343,9 @@ protected:
 			return MFX_ERR_MEMORY_ALLOC;
 
 		if (render && m_bIsMVC && m_memType == D3D9_MEMORY) {
-			sts = m_hwdev->SetHandle((mfxHandleType)MFX_HANDLE_GFXS3DCONTROL, m_pS3DControl);
-			MSDK_CHECK_RESULT(sts, MFX_ERR_NONE, sts);
+			assert(0);
+			//sts = m_hwdev->SetHandle((mfxHandleType)MFX_HANDLE_GFXS3DCONTROL, m_pS3DControl);
+			//MSDK_CHECK_RESULT(sts, MFX_ERR_NONE, sts);
 		}
 		sts = m_hwdev->Init(
 			window,
