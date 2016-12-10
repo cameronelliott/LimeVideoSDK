@@ -7,5 +7,5 @@ configuration: Release
 
 before_build:
   - nuget restore
- - cd lib\src
- - winbuild.bat
+  - cd lib\src
+  - winbuild.bat
