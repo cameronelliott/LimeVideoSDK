@@ -29,7 +29,7 @@ or https://software.intel.com/en-us/media-client-solutions-support.
 #include "d3d_device.h"
 #include "d3d_allocator.h"
 #include "sample_defs.h"
-#include "igfx_s3dcontrol.h"
+#include "xigfx_s3dcontrol.h"
 
 #include "atlbase.h"
 
