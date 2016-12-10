@@ -12,5 +12,7 @@ configuration: Release
   
   
 build_script:
-  - cd lib\src
+  - cd '%APPVEYOR_BUILD_FOLDER%\dotnet'
+  - nuget restore
+  - cd '%APPVEYOR_BUILD_FOLDER%\lib\src'
   - winbuild.bat
