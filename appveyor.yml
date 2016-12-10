@@ -6,7 +6,7 @@ configuration: Release
 
 
 before_build:
-  - echo foxoq
+  - echo pppp
   - cd lib\src
   - nuget restore
   
