@@ -10,3 +10,7 @@ before_build:
   - nuget restore
   - cd lib\src
   - winbuild.bat
+  
+  
+build_script:
+  - '%APPVEYOR_BUILD_FOLDER%\lib\src\winbuild.bat'
