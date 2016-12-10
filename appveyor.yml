@@ -4,3 +4,7 @@ before_build:
 platform: x64
 
 configuration: Release
+
+build:
+  project: limevideosdk.sln 
+  
