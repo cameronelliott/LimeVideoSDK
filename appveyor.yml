@@ -14,4 +14,4 @@ build_script:
  - cd lib\src
   #nuget restore
   # '%APPVEYOR_BUILD_FOLDER%\lib\src\winbuild.bat'
-  winbuild.bat
+  - winbuild.bat
