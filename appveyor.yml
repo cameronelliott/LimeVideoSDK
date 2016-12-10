@@ -6,12 +6,11 @@ configuration: Release
 
 
 
- 
+   #nuget restore
+  # '%APPVEYOR_BUILD_FOLDER%\lib\src\winbuild.bat'
 
   
   
 build_script:
- - cd lib\src
-  #nuget restore
-  # '%APPVEYOR_BUILD_FOLDER%\lib\src\winbuild.bat'
+  - cd lib\src
   - winbuild.bat
