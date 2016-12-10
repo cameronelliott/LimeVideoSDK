@@ -4,3 +4,8 @@ before_build:
 platform: x64
 
 configuration: Release
+
+
+before_build:
+ - cd lib\src
+ - winbuild.bat
