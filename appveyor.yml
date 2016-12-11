@@ -17,7 +17,7 @@ build_script:
   - cd "%APPVEYOR_BUILD_FOLDER%\lib\src"
   - winbuild.bat
   - dir "%APPVEYOR_BUILD_FOLDER%\lib"
-  - dir "%APPVEYOR_BUILD_FOLDER%\lib\release"
+  - dir "%APPVEYOR_BUILD_FOLDER%\lib\bin\release"
   
   
   
