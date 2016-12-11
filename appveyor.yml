@@ -19,7 +19,7 @@ build_script:
   - cd "%APPVEYOR_BUILD_FOLDER%\lib\src"
   - winbuild.bat
   
-  
+  #foo
   
   
 on_success:
