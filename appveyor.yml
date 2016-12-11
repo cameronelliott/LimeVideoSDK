@@ -16,6 +16,8 @@ build_script:
   - nuget restore
   - cd "%APPVEYOR_BUILD_FOLDER%\lib\src"
   - winbuild.bat
+  - dir "%APPVEYOR_BUILD_FOLDER%\lib"
+  - dir "%APPVEYOR_BUILD_FOLDER%\lib\release"
   
   
   
