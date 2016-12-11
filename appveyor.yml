@@ -19,8 +19,7 @@ build_script:
   
   
   
-  
-  on_success:
+on_success:
   # Switch branches to gh-pages, clean the folder, copy everything in from the Wyam output, and commit/push
   # See http://www.appveyor.com/docs/how-to/git-push for more info
   #- rmdir /s/q docs
