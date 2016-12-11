@@ -16,3 +16,22 @@ build_script:
   - nuget restore
   - cd "%APPVEYOR_BUILD_FOLDER%\lib\src"
   - winbuild.bat
+  
+  
+  
+  
+  on_success:
+  # Switch branches to gh-pages, clean the folder, copy everything in from the Wyam output, and commit/push
+  # See http://www.appveyor.com/docs/how-to/git-push for more info
+  #- rmdir /s/q docs
+  #- xcopy temp\html docs\ /e
+  - git config --global credential.helper store
+  - git config --global user.email "cameron-elliott@users.noreply.github.com"
+  - git config --global user.name "Cameron Elliott"
+  - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
+  - git checkout master
+  #- git remote set-url origin https://github.com/daveaglick/daveaglick.git
+ # - git add -A
+  - git add -A lib/bin
+  - git commit -a -m "Commit from AppVeyor [ci skip]"
+  - git push
