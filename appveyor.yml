@@ -35,6 +35,6 @@ on_success:
  # - git add -A
   - dir 
   - dir lib
-  - git add -A lib\bin
+  - git add -A  "%APPVEYOR_BUILD_FOLDER%\lib\bin"
   - git commit -a -m "Commit from AppVeyor [ci skip]"
   - git push
