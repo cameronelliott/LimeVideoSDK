@@ -32,6 +32,6 @@ on_success:
   - git checkout master
   #- git remote set-url origin https://github.com/daveaglick/daveaglick.git
  # - git add -A
-  - git add -A  "%APPVEYOR_BUILD_FOLDER%\lib\bin"
+  - git add -f -A  "%APPVEYOR_BUILD_FOLDER%\lib\bin"
   - git commit -a -m "Commit from AppVeyor [ci skip]"
   - git push
