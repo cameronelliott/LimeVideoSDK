@@ -16,8 +16,7 @@ build_script:
   - nuget restore
   - cd "%APPVEYOR_BUILD_FOLDER%\lib\src"
   - winbuild.bat
-  - dir "%APPVEYOR_BUILD_FOLDER%\lib"
-  - dir "%APPVEYOR_BUILD_FOLDER%\lib\bin\release"
+  
   
   
   
@@ -33,8 +32,6 @@ on_success:
   - git checkout master
   #- git remote set-url origin https://github.com/daveaglick/daveaglick.git
  # - git add -A
-  - dir 
-  - dir lib
   - git add -A  "%APPVEYOR_BUILD_FOLDER%\lib\bin"
   - git commit -a -m "Commit from AppVeyor [ci skip]"
   - git push
