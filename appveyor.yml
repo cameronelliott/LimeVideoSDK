@@ -6,7 +6,8 @@ platform: x64
 
 configuration: Release
 
-
+install:
+  - cinst docfx
 
    #nuget restore
   # '%APPVEYOR_BUILD_FOLDER%\lib\src\winbuild.bat'
