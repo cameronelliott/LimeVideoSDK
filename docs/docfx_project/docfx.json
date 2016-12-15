@@ -4,14 +4,14 @@
       "src": [
         {
           "files": [
-            "**/*.csproj"
+            "**.csproj"
           ],
           "exclude": [
             "**/obj/**",
             "**/bin/**",
             "_site/**"
           ],
-          "src": "../../dotnet"
+          "src": "..\..\dotnet"
         }
       ],
       "dest": "api"
