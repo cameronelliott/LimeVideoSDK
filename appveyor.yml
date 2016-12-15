@@ -19,6 +19,7 @@ build_script:
   - cd "%APPVEYOR_BUILD_FOLDER%\docs\docfx_project"
   - dir
   - docfx build docfx.json
+  - dir _site/api
   - cd "%APPVEYOR_BUILD_FOLDER%\dotnet"
   - nuget restore
   - cd "%APPVEYOR_BUILD_FOLDER%\lib\src"
