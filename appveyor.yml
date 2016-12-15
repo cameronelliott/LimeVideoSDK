@@ -24,12 +24,14 @@ install:
   
   
 build_script:
- # - cd "%APPVEYOR_BUILD_FOLDER%\docs\docfx_project"
+ #
  # - dir
 #  - dir ..\..\dotnet
  # - type docfx.json
   #  docfx build --logLevel Verbose docfx.json
-  - docfx build "%APPVEYOR_BUILD_FOLDER%\docs\docfx_project\docfx.json"
+  - cd "%APPVEYOR_BUILD_FOLDER%\docs\docfx_project"
+  - dir /s ..\..\*.csproj
+  - docfx
   - dir "%APPVEYOR_BUILD_FOLDER%\docs\docfx_project\_site\api"
   - cd "%APPVEYOR_BUILD_FOLDER%\dotnet"
   - nuget restore
