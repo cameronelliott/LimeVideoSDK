@@ -51,6 +51,7 @@ add_subdirectory (imsdk.dispatcher/opensource/mfx_dispatch)
 list(APPEND SOURCES  src/_VideoAccelerationSupport.cpp )
 # old list(APPEND SOURCES  src/_DeviceSetup.cpp )
 list(APPEND SOURCES  src/_CPPCLI.cpp )
+list(APPEND SOURCES  src/exports_limevideosdk.def )
 # these need to wait until I rewrite them to be free of 3rd party code
 #list(APPEND SOURCES  src/_Decoder.cpp )
 #list(APPEND SOURCES  src/_Encoder.cpp )
@@ -114,8 +115,7 @@ if(WIN32)
     # does not work set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT Decoder1)
 
     #on windows, we create a .SLN dependancy so libmfxsw64 gets built before ${LIBNAME}
-    add_dependencies(${LIBNAME} libmfxsw64)     
-    add_dependencies(${LIBNAME} libLimeVideoSDK_ipp)                
+    add_dependencies(${LIBNAME} libmfxsw64)                  
     add_library( libmfxsw64  SHARED  src/libmfxsw64stub.cpp ) # we also need to build libmfxsw64 on windows
     set_target_properties(libmfxsw64 PROPERTIES RUNTIME_OUTPUT_DIRECTORY ../../../lib/bin )
 
@@ -123,6 +123,7 @@ if(WIN32)
     add_dependencies(${LIBNAME} libLimeVideoSDK_ipp )   
     list(APPEND SRC_IPPALT src/_resampler.cpp )
     list(APPEND SRC_IPPALT src/_ColorConversions.cpp )
+     list(APPEND SRC_IPPALT src/exports_FourCCResizeConvert.def )
     add_library( libLimeVideoSDK_ipp  SHARED    ${SRC_IPPALT} ) 
     set_target_properties(libLimeVideoSDK_ipp PROPERTIES RUNTIME_OUTPUT_DIRECTORY ../../../lib/bin )
     set_target_properties(libLimeVideoSDK_ipp PROPERTIES LINK_FLAGS " /ignore:4099 /def:../src/exports_FourCCResizeConvert.def ") 
@@ -168,16 +169,20 @@ target_compile_options(${LIBNAME} PUBLIC /W4 /WX)
     # This also means Visual Studio will complain when it cannot find libmfxsw64.dll
     #
     get_target_property(tmp_link_flags ${LIBNAME} LINK_FLAGS)
-    set_target_properties(${LIBNAME} PROPERTIES LINK_FLAGS " ${tmp_link_flags} /assemblylinkresource:libmfxsw64.dll") 
+    set_target_properties(${LIBNAME} PROPERTIES LINK_FLAGS_DEBUG " ${tmp_link_flags} /assemblylinkresource:../../../lib/bin/debug/libmfxsw64.dll") 
+      set_target_properties(${LIBNAME} PROPERTIES LINK_FLAGS_RELEASE " ${tmp_link_flags} /assemblylinkresource:../../../lib/bin/release/libmfxsw64.dll") 
     
     get_target_property(tmp_link_flags ${LIBNAME} LINK_FLAGS)
-    set_target_properties(${LIBNAME} PROPERTIES LINK_FLAGS " ${tmp_link_flags} /assemblylinkresource:libLimeVideoSDK_ipp.dll") 
+    set_target_properties(${LIBNAME} PROPERTIES LINK_FLAGS_DEBUG " ${tmp_link_flags} /assemblylinkresource:../../../lib/bin/debug/libLimeVideoSDK_ipp.dll") 
+        set_target_properties(${LIBNAME} PROPERTIES LINK_FLAGS_RELEASE " ${tmp_link_flags} /assemblylinkresource:../../../lib/bin/release/libLimeVideoSDK_ipp.dll") 
    
+   
+
     ##add_custom_command(TARGET ${LIBNAME} POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy libmfxsw64.dll $<TARGET_FILE_DIR:${LIBNAME}> )
 
     # this gets executed before ${LIBNAME} is built
-    add_custom_command(TARGET libmfxsw64 POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:libmfxsw64> . )
-    add_custom_command(TARGET libLimeVideoSDK_ipp POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:libLimeVideoSDK_ipp> . )
+   # add_custom_command(TARGET libmfxsw64 POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:libmfxsw64> . )
+   # add_custom_command(TARGET libLimeVideoSDK_ipp POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:libLimeVideoSDK_ipp> . )
 
     target_link_libraries( ${LIBNAME}  ${DXVA2DIR}/dxva2.lib)
     target_link_libraries( ${LIBNAME}  ${DirectX_ROOT_DIR}/lib/${MSVC_CXX_ARCHITECTURE_ID}/dxgi.lib)
