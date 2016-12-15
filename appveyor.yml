@@ -6,7 +6,16 @@ platform: x64
 
 configuration: Release
 
+init:
+  - git config --global credential.helper store
+  # visit http://cameronelliott.com to contact me. I want to hear from you.
+  - git config --global user.email "cameron-elliott@users.noreply.github.com"
+  - git config --global user.name "Cameron Elliott"
+  - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
+
 install:
+  # Checkout master branch
+  - git checkout master
   - cinst --version=2.9.1 docfx
 
    #nuget restore
@@ -15,7 +24,6 @@ install:
   
   
 build_script:
-  - git checkout master
  # - cd "%APPVEYOR_BUILD_FOLDER%\docs\docfx_project"
  # - dir
 #  - dir ..\..\dotnet
@@ -36,10 +44,7 @@ on_success:
   # See http://www.appveyor.com/docs/how-to/git-push for more info
   #- rmdir /s/q docs
   #- xcopy temp\html docs\ /e
-  - git config --global credential.helper store
-  - git config --global user.email "cameron-elliott@users.noreply.github.com"
-  - git config --global user.name "Cameron Elliott"
-  - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
+ 
   - git checkout master
   #- git remote set-url origin https://github.com/daveaglick/daveaglick.git
  # - git add -A
