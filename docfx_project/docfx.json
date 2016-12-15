@@ -11,7 +11,7 @@
             "**/bin/**",
             "_site/**"
           ],
-          "src": "../../dotnet"
+          "src": "../dotnet"
         }
       ],
       "dest": "api"
@@ -60,7 +60,7 @@
         ]
       }
     ],
-    "dest": "../../docs",
+    "dest": "../docs",
     "globalMetadataFiles": [],
       "globalMetadata": {
       "_disableContribution": "true"
