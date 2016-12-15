@@ -30,9 +30,7 @@ build_script:
  # - type docfx.json
   #  docfx build --logLevel Verbose docfx.json
   - cd "%APPVEYOR_BUILD_FOLDER%\docs\docfx_project"
-  - dir /s ..\..\*.csproj
   - docfx
-  - dir "%APPVEYOR_BUILD_FOLDER%\docs\docfx_project\_site\api"
   - cd "%APPVEYOR_BUILD_FOLDER%\dotnet"
   - nuget restore
   - cd "%APPVEYOR_BUILD_FOLDER%\lib\src"
