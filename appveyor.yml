@@ -15,9 +15,9 @@ install:
   
   
 build_script:
+  - git checkout master
   - cd "%APPVEYOR_BUILD_FOLDER%\docs\docfx_project"
   - dir
-   - git checkout master
   - docfx build docfx.json
   - cd "%APPVEYOR_BUILD_FOLDER%\dotnet"
   - nuget restore
