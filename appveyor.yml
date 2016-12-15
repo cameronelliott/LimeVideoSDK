@@ -15,7 +15,7 @@ install:
   
   
 build_script:
-  - git checkout master
+ 
   - cd "%APPVEYOR_BUILD_FOLDER%\docs\docfx_project"
   - dir
   - dir ..\..\dotnet
