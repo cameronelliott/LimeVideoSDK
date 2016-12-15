@@ -15,8 +15,8 @@ install:
   
   
 build_script:
-  - pwd
-  - docfx build docs\docfx_project\docfx.json
+  - cd "%APPVEYOR_BUILD_FOLDER%\docs\docfx_project"
+  - docfx build docfx.json
   - cd "%APPVEYOR_BUILD_FOLDER%\dotnet"
   - nuget restore
   - cd "%APPVEYOR_BUILD_FOLDER%\lib\src"
