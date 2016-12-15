@@ -18,9 +18,9 @@ using System.Runtime.InteropServices;
 
 namespace Decoder1
 {
-    class Program
+    public class Program
     {
-        static public void Main(string[] args)
+        static public void Main()
         {
             Environment.CurrentDirectory = AppDomain.CurrentDomain.BaseDirectory;
             // keep ascending directories until 'media' folder is found
@@ -135,7 +135,7 @@ namespace Decoder1
 
 
             // make sure program always waits for user, except F5-Release run
-            if (Debugger.IsAttached ||
+            if (!UnitTest.IsRunning && Debugger.IsAttached ||
                 Environment.GetEnvironmentVariable("VisualStudioVersion") == null)
             {
                 Console.WriteLine("done - press a key to exit");
