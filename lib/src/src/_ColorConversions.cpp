@@ -1107,7 +1107,7 @@ namespace NV12ConvertOrResize {
 		*pInitBufSize = 0;
 		if (interpolation == 16) // 16 specifies the type lanczos
 		{
-			*pSpecSize = 1;
+			*pSpecSize = sizeof(ResizeYUV420Spec);
 			*pInitBufSize = 1;
 
 		}
@@ -1121,6 +1121,15 @@ namespace NV12ConvertOrResize {
 		*pBufSize = 1;
 		return 0;
 	}
+
+	int ResizeYUV420GetBufferSize(const ResizeYUV420Spec* pSpec, StructWidthHeight dstSize, int32_t* pBufSize)
+	{
+		*pBufSize = 1;
+		return 0;
+	}
+
+	
+	
 
 
 	int ResizeYUV420LanczosInit(StructWidthHeight srcSize, StructWidthHeight dstSize, uint32_t numLobes, ResizeYUV420Spec*  pSpec, u_char* pInitBuf)

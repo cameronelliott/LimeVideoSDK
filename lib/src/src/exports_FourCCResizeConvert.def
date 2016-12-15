@@ -1,6 +1,14 @@
 LIBRARY
 EXPORTS
 
+ResizeYUV420GetSize
+ResizeYUVGetBufferSize
+ResizeYUV420GetBufferSize
+ResizeYUV420LanczosInit
+ResizeYUV420Lanczos
+
+
+
 NV12ToBGR3
 NV12ToBGR4
 NV12ToRGB3
