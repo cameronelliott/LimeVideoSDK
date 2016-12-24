@@ -32,7 +32,7 @@ build_script:
   - cd "%APPVEYOR_BUILD_FOLDER%\docfx_project"
   - docfx
   - cd "%APPVEYOR_BUILD_FOLDER%\dotnet"
-  - nuget restore
+  #- nuget restore
   - cd "%APPVEYOR_BUILD_FOLDER%\lib\src"
  # - winbuild.bat
   
@@ -49,6 +49,8 @@ on_success:
   #- git remote set-url origin https://github.com/daveaglick/daveaglick.git
  # - git add -A
   - git add -f -A  "%APPVEYOR_BUILD_FOLDER%\lib\bin"
+  - git commit -a -m "Commit from AppVeyor master"
+  - git checkout gh-pages
   - git add -f -A  "%APPVEYOR_BUILD_FOLDER%\docs"
-  - git commit -a -m "Commit from AppVeyor [ci skip]"
+  - git commit -a -m "Commit from AppVeyor gh-pages"
   - git push
