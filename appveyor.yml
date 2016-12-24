@@ -24,19 +24,14 @@ install:
   
   
 build_script:
- #
- # - dir
-#  - dir ..\..\dotnet
- # - type docfx.json
-  #  docfx build --logLevel Verbose docfx.json
-  - cd "%APPVEYOR_BUILD_FOLDER%\docfx_project"
-  - docfx
   - cd "%APPVEYOR_BUILD_FOLDER%\dotnet"
   #- nuget restore
   - cd "%APPVEYOR_BUILD_FOLDER%\lib\src"
  # - winbuild.bat
+ #  - git checkout master
+#  - git add -f -A  "%APPVEYOR_BUILD_FOLDER%\lib\bin"
+#  - git commit -a -m "Commit from AppVeyor master"
   
-  #foo
   
   
 on_success:
@@ -44,13 +39,13 @@ on_success:
   # See http://www.appveyor.com/docs/how-to/git-push for more info
   #- rmdir /s/q docs
   #- xcopy temp\html docs\ /e
- 
-  - git checkout master
-  #- git remote set-url origin https://github.com/daveaglick/daveaglick.git
- # - git add -A
-  - git add -f -A  "%APPVEYOR_BUILD_FOLDER%\lib\bin"
-  - git commit -a -m "Commit from AppVeyor master"
+    #  docfx build --logLevel Verbose docfx.json
+  - cd "%APPVEYOR_BUILD_FOLDER%\docfx_project"
+  - docfx
   - git checkout gh-pages
   - git add -f -A  "%APPVEYOR_BUILD_FOLDER%\docs"
   - git commit -a -m "Commit from AppVeyor gh-pages"
   - git push
+ 
+
+
