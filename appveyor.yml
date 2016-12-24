@@ -41,7 +41,7 @@ on_success:
   #- xcopy temp\html docs\ /e
     #  docfx build --logLevel Verbose docfx.json
   - cd "%APPVEYOR_BUILD_FOLDER%\docfx_project"
-  - docfx "%APPVEYOR_BUILD_FOLDER%\docfx_project" -o "%APPVEYOR_BUILD_FOLDER%\..\docout"
+  - docfx  -o "%APPVEYOR_BUILD_FOLDER%\..\docout"
   - cd "%APPVEYOR_BUILD_FOLDER%"
   - git checkout gh-pages
   - git rm -rf .
