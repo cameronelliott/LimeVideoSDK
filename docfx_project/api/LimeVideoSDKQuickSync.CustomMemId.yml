@@ -1,0 +1,426 @@
+### YamlMime:ManagedReference
+items:
+- uid: LimeVideoSDKQuickSync.CustomMemId
+  commentId: T:LimeVideoSDKQuickSync.CustomMemId
+  id: CustomMemId
+  parent: LimeVideoSDKQuickSync
+  children:
+  - LimeVideoSDKQuickSync.CustomMemId.memId
+  - LimeVideoSDKQuickSync.CustomMemId.memIdStage
+  - LimeVideoSDKQuickSync.CustomMemId.rw
+  langs:
+  - csharp
+  - vb
+  name: CustomMemId
+  nameWithType: CustomMemId
+  fullName: LimeVideoSDKQuickSync.CustomMemId
+  type: Struct
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: CustomMemId
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+    startLine: 59
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public struct CustomMemId
+    content.vb: Public Structure CustomMemId
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: LimeVideoSDKQuickSync.CustomMemId.memId
+  commentId: F:LimeVideoSDKQuickSync.CustomMemId.memId
+  id: memId
+  parent: LimeVideoSDKQuickSync.CustomMemId
+  langs:
+  - csharp
+  - vb
+  name: memId
+  nameWithType: CustomMemId.memId
+  fullName: LimeVideoSDKQuickSync.CustomMemId.memId
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: memId
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+    startLine: 62
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr memId
+    content.vb: Public memId As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.CustomMemId.memIdStage
+  commentId: F:LimeVideoSDKQuickSync.CustomMemId.memIdStage
+  id: memIdStage
+  parent: LimeVideoSDKQuickSync.CustomMemId
+  langs:
+  - csharp
+  - vb
+  name: memIdStage
+  nameWithType: CustomMemId.memIdStage
+  fullName: LimeVideoSDKQuickSync.CustomMemId.memIdStage
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: memIdStage
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+    startLine: 63
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr memIdStage
+    content.vb: Public memIdStage As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.CustomMemId.rw
+  commentId: F:LimeVideoSDKQuickSync.CustomMemId.rw
+  id: rw
+  parent: LimeVideoSDKQuickSync.CustomMemId
+  langs:
+  - csharp
+  - vb
+  name: rw
+  nameWithType: CustomMemId.rw
+  fullName: LimeVideoSDKQuickSync.CustomMemId.rw
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: rw
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+    startLine: 64
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort rw
+    content.vb: Public rw As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: LimeVideoSDKQuickSync
+  commentId: N:LimeVideoSDKQuickSync
+  isExternal: false
+  name: LimeVideoSDKQuickSync
+  nameWithType: LimeVideoSDKQuickSync
+  fullName: LimeVideoSDKQuickSync
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16

@@ -1,0 +1,650 @@
+### YamlMime:ManagedReference
+items:
+- uid: LimeVideoSDKQuickSync.mfxVPPCompInputStream
+  commentId: T:LimeVideoSDKQuickSync.mfxVPPCompInputStream
+  id: mfxVPPCompInputStream
+  parent: LimeVideoSDKQuickSync
+  children:
+  - LimeVideoSDKQuickSync.mfxVPPCompInputStream.DstH
+  - LimeVideoSDKQuickSync.mfxVPPCompInputStream.DstW
+  - LimeVideoSDKQuickSync.mfxVPPCompInputStream.DstX
+  - LimeVideoSDKQuickSync.mfxVPPCompInputStream.DstY
+  - LimeVideoSDKQuickSync.mfxVPPCompInputStream.GlobalAlpha
+  - LimeVideoSDKQuickSync.mfxVPPCompInputStream.GlobalAlphaEnable
+  - LimeVideoSDKQuickSync.mfxVPPCompInputStream.LumaKeyEnable
+  - LimeVideoSDKQuickSync.mfxVPPCompInputStream.LumaKeyMax
+  - LimeVideoSDKQuickSync.mfxVPPCompInputStream.LumaKeyMin
+  - LimeVideoSDKQuickSync.mfxVPPCompInputStream.PixelAlphaEnable
+  langs:
+  - csharp
+  - vb
+  name: mfxVPPCompInputStream
+  nameWithType: mfxVPPCompInputStream
+  fullName: LimeVideoSDKQuickSync.mfxVPPCompInputStream
+  type: Struct
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: mfxVPPCompInputStream
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 330
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public struct mfxVPPCompInputStream
+    content.vb: Public Structure mfxVPPCompInputStream
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: LimeVideoSDKQuickSync.mfxVPPCompInputStream.DstX
+  commentId: F:LimeVideoSDKQuickSync.mfxVPPCompInputStream.DstX
+  id: DstX
+  parent: LimeVideoSDKQuickSync.mfxVPPCompInputStream
+  langs:
+  - csharp
+  - vb
+  name: DstX
+  nameWithType: mfxVPPCompInputStream.DstX
+  fullName: LimeVideoSDKQuickSync.mfxVPPCompInputStream.DstX
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: DstX
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 334
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public uint DstX
+    content.vb: Public DstX As UInteger
+    return:
+      type: System.UInt32
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxVPPCompInputStream.DstY
+  commentId: F:LimeVideoSDKQuickSync.mfxVPPCompInputStream.DstY
+  id: DstY
+  parent: LimeVideoSDKQuickSync.mfxVPPCompInputStream
+  langs:
+  - csharp
+  - vb
+  name: DstY
+  nameWithType: mfxVPPCompInputStream.DstY
+  fullName: LimeVideoSDKQuickSync.mfxVPPCompInputStream.DstY
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: DstY
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 336
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public uint DstY
+    content.vb: Public DstY As UInteger
+    return:
+      type: System.UInt32
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxVPPCompInputStream.DstW
+  commentId: F:LimeVideoSDKQuickSync.mfxVPPCompInputStream.DstW
+  id: DstW
+  parent: LimeVideoSDKQuickSync.mfxVPPCompInputStream
+  langs:
+  - csharp
+  - vb
+  name: DstW
+  nameWithType: mfxVPPCompInputStream.DstW
+  fullName: LimeVideoSDKQuickSync.mfxVPPCompInputStream.DstW
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: DstW
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 338
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public uint DstW
+    content.vb: Public DstW As UInteger
+    return:
+      type: System.UInt32
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxVPPCompInputStream.DstH
+  commentId: F:LimeVideoSDKQuickSync.mfxVPPCompInputStream.DstH
+  id: DstH
+  parent: LimeVideoSDKQuickSync.mfxVPPCompInputStream
+  langs:
+  - csharp
+  - vb
+  name: DstH
+  nameWithType: mfxVPPCompInputStream.DstH
+  fullName: LimeVideoSDKQuickSync.mfxVPPCompInputStream.DstH
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: DstH
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 340
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public uint DstH
+    content.vb: Public DstH As UInteger
+    return:
+      type: System.UInt32
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxVPPCompInputStream.LumaKeyEnable
+  commentId: F:LimeVideoSDKQuickSync.mfxVPPCompInputStream.LumaKeyEnable
+  id: LumaKeyEnable
+  parent: LimeVideoSDKQuickSync.mfxVPPCompInputStream
+  langs:
+  - csharp
+  - vb
+  name: LumaKeyEnable
+  nameWithType: mfxVPPCompInputStream.LumaKeyEnable
+  fullName: LimeVideoSDKQuickSync.mfxVPPCompInputStream.LumaKeyEnable
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: LumaKeyEnable
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 342
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort LumaKeyEnable
+    content.vb: Public LumaKeyEnable As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxVPPCompInputStream.LumaKeyMin
+  commentId: F:LimeVideoSDKQuickSync.mfxVPPCompInputStream.LumaKeyMin
+  id: LumaKeyMin
+  parent: LimeVideoSDKQuickSync.mfxVPPCompInputStream
+  langs:
+  - csharp
+  - vb
+  name: LumaKeyMin
+  nameWithType: mfxVPPCompInputStream.LumaKeyMin
+  fullName: LimeVideoSDKQuickSync.mfxVPPCompInputStream.LumaKeyMin
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: LumaKeyMin
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 344
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort LumaKeyMin
+    content.vb: Public LumaKeyMin As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxVPPCompInputStream.LumaKeyMax
+  commentId: F:LimeVideoSDKQuickSync.mfxVPPCompInputStream.LumaKeyMax
+  id: LumaKeyMax
+  parent: LimeVideoSDKQuickSync.mfxVPPCompInputStream
+  langs:
+  - csharp
+  - vb
+  name: LumaKeyMax
+  nameWithType: mfxVPPCompInputStream.LumaKeyMax
+  fullName: LimeVideoSDKQuickSync.mfxVPPCompInputStream.LumaKeyMax
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: LumaKeyMax
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 346
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort LumaKeyMax
+    content.vb: Public LumaKeyMax As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxVPPCompInputStream.GlobalAlphaEnable
+  commentId: F:LimeVideoSDKQuickSync.mfxVPPCompInputStream.GlobalAlphaEnable
+  id: GlobalAlphaEnable
+  parent: LimeVideoSDKQuickSync.mfxVPPCompInputStream
+  langs:
+  - csharp
+  - vb
+  name: GlobalAlphaEnable
+  nameWithType: mfxVPPCompInputStream.GlobalAlphaEnable
+  fullName: LimeVideoSDKQuickSync.mfxVPPCompInputStream.GlobalAlphaEnable
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: GlobalAlphaEnable
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 348
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort GlobalAlphaEnable
+    content.vb: Public GlobalAlphaEnable As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxVPPCompInputStream.GlobalAlpha
+  commentId: F:LimeVideoSDKQuickSync.mfxVPPCompInputStream.GlobalAlpha
+  id: GlobalAlpha
+  parent: LimeVideoSDKQuickSync.mfxVPPCompInputStream
+  langs:
+  - csharp
+  - vb
+  name: GlobalAlpha
+  nameWithType: mfxVPPCompInputStream.GlobalAlpha
+  fullName: LimeVideoSDKQuickSync.mfxVPPCompInputStream.GlobalAlpha
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: GlobalAlpha
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 350
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort GlobalAlpha
+    content.vb: Public GlobalAlpha As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxVPPCompInputStream.PixelAlphaEnable
+  commentId: F:LimeVideoSDKQuickSync.mfxVPPCompInputStream.PixelAlphaEnable
+  id: PixelAlphaEnable
+  parent: LimeVideoSDKQuickSync.mfxVPPCompInputStream
+  langs:
+  - csharp
+  - vb
+  name: PixelAlphaEnable
+  nameWithType: mfxVPPCompInputStream.PixelAlphaEnable
+  fullName: LimeVideoSDKQuickSync.mfxVPPCompInputStream.PixelAlphaEnable
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: PixelAlphaEnable
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 352
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort PixelAlphaEnable
+    content.vb: Public PixelAlphaEnable As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: LimeVideoSDKQuickSync
+  commentId: N:LimeVideoSDKQuickSync
+  isExternal: false
+  name: LimeVideoSDKQuickSync
+  nameWithType: LimeVideoSDKQuickSync
+  fullName: LimeVideoSDKQuickSync
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16

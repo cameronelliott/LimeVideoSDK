@@ -1,0 +1,737 @@
+### YamlMime:ManagedReference
+items:
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods
+  commentId: T:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods
+  id: NativeLLEncoderUnsafeNativeMethods
+  parent: LimeVideoSDKQuickSync
+  children:
+  - LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Delete(System.IntPtr)
+  - LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_EncodeFrame(System.IntPtr,LimeVideoSDKQuickSync.mfxFrameSurface1*)
+  - LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush1(System.IntPtr)
+  - LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush2(System.IntPtr)
+  - LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_GetFreeFrameIndex(System.IntPtr)
+  - LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Init(System.IntPtr)
+  - LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_LockFrame(System.IntPtr,System.IntPtr)
+  - LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_New
+  - LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_UnlockFrame(System.IntPtr,System.IntPtr)
+  langs:
+  - csharp
+  - vb
+  name: NativeLLEncoderUnsafeNativeMethods
+  nameWithType: NativeLLEncoderUnsafeNativeMethods
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods
+  type: Class
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderNative.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: NativeLLEncoderUnsafeNativeMethods
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderNative.cs
+    startLine: 245
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static class NativeLLEncoderUnsafeNativeMethods
+    content.vb: Public Module NativeLLEncoderUnsafeNativeMethods
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_New
+  commentId: M:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_New
+  id: NativeEncoder_New
+  parent: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: NativeEncoder_New()
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_New()
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_New()
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static IntPtr NativeEncoder_New()
+    content.vb: Public Shared Function NativeEncoder_New As IntPtr
+    return:
+      type: System.IntPtr
+  overload: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_New*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Delete(System.IntPtr)
+  commentId: M:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Delete(System.IntPtr)
+  id: NativeEncoder_Delete(System.IntPtr)
+  parent: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: NativeEncoder_Delete(IntPtr)
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Delete(IntPtr)
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Delete(System.IntPtr)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static void NativeEncoder_Delete(IntPtr handle)
+    content.vb: Public Shared Sub NativeEncoder_Delete(handle As IntPtr)
+    parameters:
+    - id: handle
+      type: System.IntPtr
+  overload: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Delete*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush1(System.IntPtr)
+  commentId: M:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush1(System.IntPtr)
+  id: NativeEncoder_Flush1(System.IntPtr)
+  parent: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: NativeEncoder_Flush1(IntPtr)
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush1(IntPtr)
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush1(System.IntPtr)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus NativeEncoder_Flush1(IntPtr handle)
+    content.vb: Public Shared Function NativeEncoder_Flush1(handle As IntPtr) As mfxStatus
+    parameters:
+    - id: handle
+      type: System.IntPtr
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush1*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush2(System.IntPtr)
+  commentId: M:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush2(System.IntPtr)
+  id: NativeEncoder_Flush2(System.IntPtr)
+  parent: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: NativeEncoder_Flush2(IntPtr)
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush2(IntPtr)
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush2(System.IntPtr)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus NativeEncoder_Flush2(IntPtr handle)
+    content.vb: Public Shared Function NativeEncoder_Flush2(handle As IntPtr) As mfxStatus
+    parameters:
+    - id: handle
+      type: System.IntPtr
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_EncodeFrame(System.IntPtr,LimeVideoSDKQuickSync.mfxFrameSurface1*)
+  commentId: M:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_EncodeFrame(System.IntPtr,LimeVideoSDKQuickSync.mfxFrameSurface1*)
+  id: NativeEncoder_EncodeFrame(System.IntPtr,LimeVideoSDKQuickSync.mfxFrameSurface1*)
+  parent: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: NativeEncoder_EncodeFrame(IntPtr, mfxFrameSurface1*)
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_EncodeFrame(IntPtr, mfxFrameSurface1*)
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_EncodeFrame(System.IntPtr, LimeVideoSDKQuickSync.mfxFrameSurface1*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus NativeEncoder_EncodeFrame(IntPtr handle, mfxFrameSurface1*frame)
+    content.vb: Public Shared Function NativeEncoder_EncodeFrame(handle As IntPtr, frame As mfxFrameSurface1 *) As mfxStatus
+    parameters:
+    - id: handle
+      type: System.IntPtr
+    - id: frame
+      type: LimeVideoSDKQuickSync.mfxFrameSurface1*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_EncodeFrame*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_LockFrame(System.IntPtr,System.IntPtr)
+  commentId: M:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_LockFrame(System.IntPtr,System.IntPtr)
+  id: NativeEncoder_LockFrame(System.IntPtr,System.IntPtr)
+  parent: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: NativeEncoder_LockFrame(IntPtr, IntPtr)
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_LockFrame(IntPtr, IntPtr)
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_LockFrame(System.IntPtr, System.IntPtr)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus NativeEncoder_LockFrame(IntPtr handle, IntPtr frame)
+    content.vb: Public Shared Function NativeEncoder_LockFrame(handle As IntPtr, frame As IntPtr) As mfxStatus
+    parameters:
+    - id: handle
+      type: System.IntPtr
+    - id: frame
+      type: System.IntPtr
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_LockFrame*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_UnlockFrame(System.IntPtr,System.IntPtr)
+  commentId: M:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_UnlockFrame(System.IntPtr,System.IntPtr)
+  id: NativeEncoder_UnlockFrame(System.IntPtr,System.IntPtr)
+  parent: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: NativeEncoder_UnlockFrame(IntPtr, IntPtr)
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_UnlockFrame(IntPtr, IntPtr)
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_UnlockFrame(System.IntPtr, System.IntPtr)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus NativeEncoder_UnlockFrame(IntPtr handle, IntPtr frame)
+    content.vb: Public Shared Function NativeEncoder_UnlockFrame(handle As IntPtr, frame As IntPtr) As mfxStatus
+    parameters:
+    - id: handle
+      type: System.IntPtr
+    - id: frame
+      type: System.IntPtr
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_UnlockFrame*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Init(System.IntPtr)
+  commentId: M:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Init(System.IntPtr)
+  id: NativeEncoder_Init(System.IntPtr)
+  parent: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: NativeEncoder_Init(IntPtr)
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Init(IntPtr)
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Init(System.IntPtr)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus NativeEncoder_Init(IntPtr handle)
+    content.vb: Public Shared Function NativeEncoder_Init(handle As IntPtr) As mfxStatus
+    parameters:
+    - id: handle
+      type: System.IntPtr
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Init*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_GetFreeFrameIndex(System.IntPtr)
+  commentId: M:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_GetFreeFrameIndex(System.IntPtr)
+  id: NativeEncoder_GetFreeFrameIndex(System.IntPtr)
+  parent: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: NativeEncoder_GetFreeFrameIndex(IntPtr)
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_GetFreeFrameIndex(IntPtr)
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_GetFreeFrameIndex(System.IntPtr)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static int NativeEncoder_GetFreeFrameIndex(IntPtr handle)
+    content.vb: Public Shared Function NativeEncoder_GetFreeFrameIndex(handle As IntPtr) As Integer
+    parameters:
+    - id: handle
+      type: System.IntPtr
+    return:
+      type: System.Int32
+  overload: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_GetFreeFrameIndex*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: LimeVideoSDKQuickSync
+  commentId: N:LimeVideoSDKQuickSync
+  isExternal: false
+  name: LimeVideoSDKQuickSync
+  nameWithType: LimeVideoSDKQuickSync
+  fullName: LimeVideoSDKQuickSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_New*
+  commentId: Overload:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_New
+  isExternal: true
+  name: NativeEncoder_New
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_New
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_New
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Delete*
+  commentId: Overload:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Delete
+  isExternal: true
+  name: NativeEncoder_Delete
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Delete
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Delete
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush1*
+  commentId: Overload:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush1
+  isExternal: true
+  name: NativeEncoder_Flush1
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush1
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush1
+- uid: LimeVideoSDKQuickSync.mfxStatus
+  commentId: T:LimeVideoSDKQuickSync.mfxStatus
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxStatus
+  nameWithType: mfxStatus
+  fullName: LimeVideoSDKQuickSync.mfxStatus
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush2*
+  commentId: Overload:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush2
+  isExternal: true
+  name: NativeEncoder_Flush2
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush2
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Flush2
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_EncodeFrame*
+  commentId: Overload:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_EncodeFrame
+  isExternal: true
+  name: NativeEncoder_EncodeFrame
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_EncodeFrame
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_EncodeFrame
+- uid: LimeVideoSDKQuickSync.mfxFrameSurface1*
+  name: mfxFrameSurface1*
+  nameWithType: mfxFrameSurface1*
+  fullName: LimeVideoSDKQuickSync.mfxFrameSurface1*
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.mfxFrameSurface1
+    name: mfxFrameSurface1
+    nameWithType: mfxFrameSurface1
+    fullName: LimeVideoSDKQuickSync.mfxFrameSurface1
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.mfxFrameSurface1
+    name: mfxFrameSurface1
+    nameWithType: mfxFrameSurface1
+    fullName: LimeVideoSDKQuickSync.mfxFrameSurface1
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_LockFrame*
+  commentId: Overload:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_LockFrame
+  isExternal: true
+  name: NativeEncoder_LockFrame
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_LockFrame
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_LockFrame
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_UnlockFrame*
+  commentId: Overload:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_UnlockFrame
+  isExternal: true
+  name: NativeEncoder_UnlockFrame
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_UnlockFrame
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_UnlockFrame
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Init*
+  commentId: Overload:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Init
+  isExternal: true
+  name: NativeEncoder_Init
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Init
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_Init
+- uid: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_GetFreeFrameIndex*
+  commentId: Overload:LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_GetFreeFrameIndex
+  isExternal: true
+  name: NativeEncoder_GetFreeFrameIndex
+  nameWithType: NativeLLEncoderUnsafeNativeMethods.NativeEncoder_GetFreeFrameIndex
+  fullName: LimeVideoSDKQuickSync.NativeLLEncoderUnsafeNativeMethods.NativeEncoder_GetFreeFrameIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,1685 @@
+### YamlMime:ManagedReference
+items:
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  commentId: T:LimeVideoSDKQuickSync.UnsafeNativeMethods
+  id: UnsafeNativeMethods
+  parent: LimeVideoSDKQuickSync
+  children:
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.dllname
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXClose(LimeVideoSDKQuickSync.mfxSession)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXInit(LimeVideoSDKQuickSync.mfxIMPL,LimeVideoSDKQuickSync.mfxVersion*,LimeVideoSDKQuickSync.mfxSession*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXQueryIMPL(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxIMPL*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXQueryVersion(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVersion*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_GetHandle(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxHandleType,System.IntPtr*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SetFrameAllocator(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxFrameAllocator*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SetHandle(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxHandleType,System.IntPtr)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SyncOperation(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxSyncPoint,System.UInt32)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_DecodeFrameAsync(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxBitstream*,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxFrameSurface1**,LimeVideoSDKQuickSync.mfxSyncPoint*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_DecodeHeader(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxBitstream*,LimeVideoSDKQuickSync.mfxVideoParam*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_Init(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_QueryIOSurf(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*,LimeVideoSDKQuickSync.mfxFrameAllocRequest*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_Reset(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_EncodeFrameAsync(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxEncodeCtrl*,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxBitstream*,LimeVideoSDKQuickSync.mfxSyncPoint*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_GetVideoParam(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_Init(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_Query(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*,LimeVideoSDKQuickSync.mfxVideoParam*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_QueryIOSurf(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*,LimeVideoSDKQuickSync.mfxFrameAllocRequest*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_GetVideoParam(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_Init(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_QueryIOSurf(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*,LimeVideoSDKQuickSync.mfxFrameAllocRequest*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsync(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxExtVppAuxData*,LimeVideoSDKQuickSync.mfxSyncPoint*)
+  - LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsyncEx(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxFrameSurface1**,LimeVideoSDKQuickSync.mfxSyncPoint*)
+  langs:
+  - csharp
+  - vb
+  name: UnsafeNativeMethods
+  nameWithType: UnsafeNativeMethods
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  type: Class
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/UnsafeNativeMethods.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: UnsafeNativeMethods
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/UnsafeNativeMethods.cs
+    startLine: 69
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static class UnsafeNativeMethods
+    content.vb: Public Module UnsafeNativeMethods
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.dllname
+  commentId: F:LimeVideoSDKQuickSync.UnsafeNativeMethods.dllname
+  id: dllname
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: dllname
+  nameWithType: UnsafeNativeMethods.dllname
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.dllname
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/UnsafeNativeMethods.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: dllname
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/UnsafeNativeMethods.cs
+    startLine: 72
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public const string dllname = "libLimeVideoSDKNativex64"
+    content.vb: Public Const dllname As String = "libLimeVideoSDKNativex64"
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXInit(LimeVideoSDKQuickSync.mfxIMPL,LimeVideoSDKQuickSync.mfxVersion*,LimeVideoSDKQuickSync.mfxSession*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXInit(LimeVideoSDKQuickSync.mfxIMPL,LimeVideoSDKQuickSync.mfxVersion*,LimeVideoSDKQuickSync.mfxSession*)
+  id: MFXInit(LimeVideoSDKQuickSync.mfxIMPL,LimeVideoSDKQuickSync.mfxVersion*,LimeVideoSDKQuickSync.mfxSession*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXInit(mfxIMPL, mfxVersion*, mfxSession*)
+  nameWithType: UnsafeNativeMethods.MFXInit(mfxIMPL, mfxVersion*, mfxSession*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXInit(LimeVideoSDKQuickSync.mfxIMPL, LimeVideoSDKQuickSync.mfxVersion*, LimeVideoSDKQuickSync.mfxSession*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXInit(mfxIMPL impl, mfxVersion*ver, mfxSession*session)
+    content.vb: Public Shared Function MFXInit(impl As mfxIMPL, ver As mfxVersion *, session As mfxSession *) As mfxStatus
+    parameters:
+    - id: impl
+      type: LimeVideoSDKQuickSync.mfxIMPL
+    - id: ver
+      type: LimeVideoSDKQuickSync.mfxVersion*
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXInit*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXQueryIMPL(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxIMPL*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXQueryIMPL(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxIMPL*)
+  id: MFXQueryIMPL(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxIMPL*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXQueryIMPL(mfxSession, mfxIMPL*)
+  nameWithType: UnsafeNativeMethods.MFXQueryIMPL(mfxSession, mfxIMPL*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXQueryIMPL(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxIMPL*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXQueryIMPL(mfxSession session, mfxIMPL*impl)
+    content.vb: Public Shared Function MFXQueryIMPL(session As mfxSession, impl As mfxIMPL *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: impl
+      type: LimeVideoSDKQuickSync.mfxIMPL*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXQueryIMPL*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXQueryVersion(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVersion*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXQueryVersion(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVersion*)
+  id: MFXQueryVersion(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVersion*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXQueryVersion(mfxSession, mfxVersion*)
+  nameWithType: UnsafeNativeMethods.MFXQueryVersion(mfxSession, mfxVersion*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXQueryVersion(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxVersion*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXQueryVersion(mfxSession session, mfxVersion*version)
+    content.vb: Public Shared Function MFXQueryVersion(session As mfxSession, version As mfxVersion *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: version
+      type: LimeVideoSDKQuickSync.mfxVersion*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXQueryVersion*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXClose(LimeVideoSDKQuickSync.mfxSession)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXClose(LimeVideoSDKQuickSync.mfxSession)
+  id: MFXClose(LimeVideoSDKQuickSync.mfxSession)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXClose(mfxSession)
+  nameWithType: UnsafeNativeMethods.MFXClose(mfxSession)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXClose(LimeVideoSDKQuickSync.mfxSession)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXClose(mfxSession session)
+    content.vb: Public Shared Function MFXClose(session As mfxSession) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXClose*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_Init(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_Init(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  id: MFXVideoENCODE_Init(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoENCODE_Init(mfxSession, mfxVideoParam*)
+  nameWithType: UnsafeNativeMethods.MFXVideoENCODE_Init(mfxSession, mfxVideoParam*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_Init(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxVideoParam*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoENCODE_Init(mfxSession session, mfxVideoParam*version)
+    content.vb: Public Shared Function MFXVideoENCODE_Init(session As mfxSession, version As mfxVideoParam *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: version
+      type: LimeVideoSDKQuickSync.mfxVideoParam*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_Init*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_Query(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*,LimeVideoSDKQuickSync.mfxVideoParam*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_Query(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*,LimeVideoSDKQuickSync.mfxVideoParam*)
+  id: MFXVideoENCODE_Query(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*,LimeVideoSDKQuickSync.mfxVideoParam*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoENCODE_Query(mfxSession, mfxVideoParam*, mfxVideoParam*)
+  nameWithType: UnsafeNativeMethods.MFXVideoENCODE_Query(mfxSession, mfxVideoParam*, mfxVideoParam*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_Query(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxVideoParam*, LimeVideoSDKQuickSync.mfxVideoParam*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoENCODE_Query(mfxSession session, mfxVideoParam*inin, mfxVideoParam*outout)
+    content.vb: Public Shared Function MFXVideoENCODE_Query(session As mfxSession, inin As mfxVideoParam *, outout As mfxVideoParam *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: inin
+      type: LimeVideoSDKQuickSync.mfxVideoParam*
+    - id: outout
+      type: LimeVideoSDKQuickSync.mfxVideoParam*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_Query*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_Reset(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_Reset(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  id: MFXVideoDECODE_Reset(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoDECODE_Reset(mfxSession, mfxVideoParam*)
+  nameWithType: UnsafeNativeMethods.MFXVideoDECODE_Reset(mfxSession, mfxVideoParam*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_Reset(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxVideoParam*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoDECODE_Reset(mfxSession session, mfxVideoParam*version)
+    content.vb: Public Shared Function MFXVideoDECODE_Reset(session As mfxSession, version As mfxVideoParam *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: version
+      type: LimeVideoSDKQuickSync.mfxVideoParam*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_Reset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_Init(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_Init(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  id: MFXVideoDECODE_Init(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoDECODE_Init(mfxSession, mfxVideoParam*)
+  nameWithType: UnsafeNativeMethods.MFXVideoDECODE_Init(mfxSession, mfxVideoParam*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_Init(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxVideoParam*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoDECODE_Init(mfxSession session, mfxVideoParam*version)
+    content.vb: Public Shared Function MFXVideoDECODE_Init(session As mfxSession, version As mfxVideoParam *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: version
+      type: LimeVideoSDKQuickSync.mfxVideoParam*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_Init*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_DecodeHeader(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxBitstream*,LimeVideoSDKQuickSync.mfxVideoParam*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_DecodeHeader(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxBitstream*,LimeVideoSDKQuickSync.mfxVideoParam*)
+  id: MFXVideoDECODE_DecodeHeader(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxBitstream*,LimeVideoSDKQuickSync.mfxVideoParam*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoDECODE_DecodeHeader(mfxSession, mfxBitstream*, mfxVideoParam*)
+  nameWithType: UnsafeNativeMethods.MFXVideoDECODE_DecodeHeader(mfxSession, mfxBitstream*, mfxVideoParam*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_DecodeHeader(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxBitstream*, LimeVideoSDKQuickSync.mfxVideoParam*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoDECODE_DecodeHeader(mfxSession session, mfxBitstream*bs, mfxVideoParam*par)
+    content.vb: Public Shared Function MFXVideoDECODE_DecodeHeader(session As mfxSession, bs As mfxBitstream *, par As mfxVideoParam *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: bs
+      type: LimeVideoSDKQuickSync.mfxBitstream*
+    - id: par
+      type: LimeVideoSDKQuickSync.mfxVideoParam*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_DecodeHeader*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_QueryIOSurf(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*,LimeVideoSDKQuickSync.mfxFrameAllocRequest*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_QueryIOSurf(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*,LimeVideoSDKQuickSync.mfxFrameAllocRequest*)
+  id: MFXVideoDECODE_QueryIOSurf(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*,LimeVideoSDKQuickSync.mfxFrameAllocRequest*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoDECODE_QueryIOSurf(mfxSession, mfxVideoParam*, mfxFrameAllocRequest*)
+  nameWithType: UnsafeNativeMethods.MFXVideoDECODE_QueryIOSurf(mfxSession, mfxVideoParam*, mfxFrameAllocRequest*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_QueryIOSurf(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxVideoParam*, LimeVideoSDKQuickSync.mfxFrameAllocRequest*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoDECODE_QueryIOSurf(mfxSession session, mfxVideoParam*par, mfxFrameAllocRequest*request)
+    content.vb: Public Shared Function MFXVideoDECODE_QueryIOSurf(session As mfxSession, par As mfxVideoParam *, request As mfxFrameAllocRequest *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: par
+      type: LimeVideoSDKQuickSync.mfxVideoParam*
+    - id: request
+      type: LimeVideoSDKQuickSync.mfxFrameAllocRequest*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_QueryIOSurf*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_DecodeFrameAsync(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxBitstream*,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxFrameSurface1**,LimeVideoSDKQuickSync.mfxSyncPoint*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_DecodeFrameAsync(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxBitstream*,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxFrameSurface1**,LimeVideoSDKQuickSync.mfxSyncPoint*)
+  id: MFXVideoDECODE_DecodeFrameAsync(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxBitstream*,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxFrameSurface1**,LimeVideoSDKQuickSync.mfxSyncPoint*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoDECODE_DecodeFrameAsync(mfxSession, mfxBitstream*, mfxFrameSurface1*, mfxFrameSurface1**, mfxSyncPoint*)
+  nameWithType: UnsafeNativeMethods.MFXVideoDECODE_DecodeFrameAsync(mfxSession, mfxBitstream*, mfxFrameSurface1*, mfxFrameSurface1**, mfxSyncPoint*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_DecodeFrameAsync(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxBitstream*, LimeVideoSDKQuickSync.mfxFrameSurface1*, LimeVideoSDKQuickSync.mfxFrameSurface1**, LimeVideoSDKQuickSync.mfxSyncPoint*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoDECODE_DecodeFrameAsync(mfxSession session, mfxBitstream*bs, mfxFrameSurface1*surface_work, mfxFrameSurface1**surface_out, mfxSyncPoint*syncp)
+    content.vb: Public Shared Function MFXVideoDECODE_DecodeFrameAsync(session As mfxSession, bs As mfxBitstream *, surface_work As mfxFrameSurface1 *, surface_out As mfxFrameSurface1 * *, syncp As mfxSyncPoint *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: bs
+      type: LimeVideoSDKQuickSync.mfxBitstream*
+    - id: surface_work
+      type: LimeVideoSDKQuickSync.mfxFrameSurface1*
+    - id: surface_out
+      type: LimeVideoSDKQuickSync.mfxFrameSurface1**
+    - id: syncp
+      type: LimeVideoSDKQuickSync.mfxSyncPoint*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_DecodeFrameAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SyncOperation(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxSyncPoint,System.UInt32)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SyncOperation(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxSyncPoint,System.UInt32)
+  id: MFXVideoCORE_SyncOperation(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxSyncPoint,System.UInt32)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoCORE_SyncOperation(mfxSession, mfxSyncPoint, UInt32)
+  nameWithType: UnsafeNativeMethods.MFXVideoCORE_SyncOperation(mfxSession, mfxSyncPoint, UInt32)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SyncOperation(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxSyncPoint, System.UInt32)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoCORE_SyncOperation(mfxSession session, mfxSyncPoint syncp, uint wait)
+    content.vb: Public Shared Function MFXVideoCORE_SyncOperation(session As mfxSession, syncp As mfxSyncPoint, wait As UInteger) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: syncp
+      type: LimeVideoSDKQuickSync.mfxSyncPoint
+    - id: wait
+      type: System.UInt32
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SyncOperation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_Init(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_Init(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  id: MFXVideoVPP_Init(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoVPP_Init(mfxSession, mfxVideoParam*)
+  nameWithType: UnsafeNativeMethods.MFXVideoVPP_Init(mfxSession, mfxVideoParam*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_Init(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxVideoParam*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoVPP_Init(mfxSession session, mfxVideoParam*version)
+    content.vb: Public Shared Function MFXVideoVPP_Init(session As mfxSession, version As mfxVideoParam *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: version
+      type: LimeVideoSDKQuickSync.mfxVideoParam*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_Init*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_GetVideoParam(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_GetVideoParam(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  id: MFXVideoENCODE_GetVideoParam(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoENCODE_GetVideoParam(mfxSession, mfxVideoParam*)
+  nameWithType: UnsafeNativeMethods.MFXVideoENCODE_GetVideoParam(mfxSession, mfxVideoParam*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_GetVideoParam(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxVideoParam*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoENCODE_GetVideoParam(mfxSession session, mfxVideoParam*version)
+    content.vb: Public Shared Function MFXVideoENCODE_GetVideoParam(session As mfxSession, version As mfxVideoParam *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: version
+      type: LimeVideoSDKQuickSync.mfxVideoParam*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_GetVideoParam*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsync(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxExtVppAuxData*,LimeVideoSDKQuickSync.mfxSyncPoint*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsync(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxExtVppAuxData*,LimeVideoSDKQuickSync.mfxSyncPoint*)
+  id: MFXVideoVPP_RunFrameVPPAsync(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxExtVppAuxData*,LimeVideoSDKQuickSync.mfxSyncPoint*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoVPP_RunFrameVPPAsync(mfxSession, mfxFrameSurface1*, mfxFrameSurface1*, mfxExtVppAuxData*, mfxSyncPoint*)
+  nameWithType: UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsync(mfxSession, mfxFrameSurface1*, mfxFrameSurface1*, mfxExtVppAuxData*, mfxSyncPoint*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsync(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxFrameSurface1*, LimeVideoSDKQuickSync.mfxFrameSurface1*, LimeVideoSDKQuickSync.mfxExtVppAuxData*, LimeVideoSDKQuickSync.mfxSyncPoint*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoVPP_RunFrameVPPAsync(mfxSession session, mfxFrameSurface1*insurf, mfxFrameSurface1*outsurf, mfxExtVppAuxData*aux, mfxSyncPoint*syncp)
+    content.vb: Public Shared Function MFXVideoVPP_RunFrameVPPAsync(session As mfxSession, insurf As mfxFrameSurface1 *, outsurf As mfxFrameSurface1 *, aux As mfxExtVppAuxData *, syncp As mfxSyncPoint *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: insurf
+      type: LimeVideoSDKQuickSync.mfxFrameSurface1*
+    - id: outsurf
+      type: LimeVideoSDKQuickSync.mfxFrameSurface1*
+    - id: aux
+      type: LimeVideoSDKQuickSync.mfxExtVppAuxData*
+    - id: syncp
+      type: LimeVideoSDKQuickSync.mfxSyncPoint*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsyncEx(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxFrameSurface1**,LimeVideoSDKQuickSync.mfxSyncPoint*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsyncEx(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxFrameSurface1**,LimeVideoSDKQuickSync.mfxSyncPoint*)
+  id: MFXVideoVPP_RunFrameVPPAsyncEx(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxFrameSurface1**,LimeVideoSDKQuickSync.mfxSyncPoint*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoVPP_RunFrameVPPAsyncEx(mfxSession, mfxFrameSurface1*, mfxFrameSurface1*, mfxFrameSurface1**, mfxSyncPoint*)
+  nameWithType: UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsyncEx(mfxSession, mfxFrameSurface1*, mfxFrameSurface1*, mfxFrameSurface1**, mfxSyncPoint*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsyncEx(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxFrameSurface1*, LimeVideoSDKQuickSync.mfxFrameSurface1*, LimeVideoSDKQuickSync.mfxFrameSurface1**, LimeVideoSDKQuickSync.mfxSyncPoint*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoVPP_RunFrameVPPAsyncEx(mfxSession session, mfxFrameSurface1*insurf, mfxFrameSurface1*work, mfxFrameSurface1**outsurf, mfxSyncPoint*syncp)
+    content.vb: Public Shared Function MFXVideoVPP_RunFrameVPPAsyncEx(session As mfxSession, insurf As mfxFrameSurface1 *, work As mfxFrameSurface1 *, outsurf As mfxFrameSurface1 * *, syncp As mfxSyncPoint *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: insurf
+      type: LimeVideoSDKQuickSync.mfxFrameSurface1*
+    - id: work
+      type: LimeVideoSDKQuickSync.mfxFrameSurface1*
+    - id: outsurf
+      type: LimeVideoSDKQuickSync.mfxFrameSurface1**
+    - id: syncp
+      type: LimeVideoSDKQuickSync.mfxSyncPoint*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsyncEx*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_EncodeFrameAsync(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxEncodeCtrl*,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxBitstream*,LimeVideoSDKQuickSync.mfxSyncPoint*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_EncodeFrameAsync(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxEncodeCtrl*,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxBitstream*,LimeVideoSDKQuickSync.mfxSyncPoint*)
+  id: MFXVideoENCODE_EncodeFrameAsync(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxEncodeCtrl*,LimeVideoSDKQuickSync.mfxFrameSurface1*,LimeVideoSDKQuickSync.mfxBitstream*,LimeVideoSDKQuickSync.mfxSyncPoint*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoENCODE_EncodeFrameAsync(mfxSession, mfxEncodeCtrl*, mfxFrameSurface1*, mfxBitstream*, mfxSyncPoint*)
+  nameWithType: UnsafeNativeMethods.MFXVideoENCODE_EncodeFrameAsync(mfxSession, mfxEncodeCtrl*, mfxFrameSurface1*, mfxBitstream*, mfxSyncPoint*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_EncodeFrameAsync(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxEncodeCtrl*, LimeVideoSDKQuickSync.mfxFrameSurface1*, LimeVideoSDKQuickSync.mfxBitstream*, LimeVideoSDKQuickSync.mfxSyncPoint*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoENCODE_EncodeFrameAsync(mfxSession session, mfxEncodeCtrl*ctrl, mfxFrameSurface1*surface, mfxBitstream*bs, mfxSyncPoint*syncp)
+    content.vb: Public Shared Function MFXVideoENCODE_EncodeFrameAsync(session As mfxSession, ctrl As mfxEncodeCtrl *, surface As mfxFrameSurface1 *, bs As mfxBitstream *, syncp As mfxSyncPoint *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: ctrl
+      type: LimeVideoSDKQuickSync.mfxEncodeCtrl*
+    - id: surface
+      type: LimeVideoSDKQuickSync.mfxFrameSurface1*
+    - id: bs
+      type: LimeVideoSDKQuickSync.mfxBitstream*
+    - id: syncp
+      type: LimeVideoSDKQuickSync.mfxSyncPoint*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_EncodeFrameAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_QueryIOSurf(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*,LimeVideoSDKQuickSync.mfxFrameAllocRequest*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_QueryIOSurf(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*,LimeVideoSDKQuickSync.mfxFrameAllocRequest*)
+  id: MFXVideoENCODE_QueryIOSurf(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*,LimeVideoSDKQuickSync.mfxFrameAllocRequest*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoENCODE_QueryIOSurf(mfxSession, mfxVideoParam*, mfxFrameAllocRequest*)
+  nameWithType: UnsafeNativeMethods.MFXVideoENCODE_QueryIOSurf(mfxSession, mfxVideoParam*, mfxFrameAllocRequest*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_QueryIOSurf(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxVideoParam*, LimeVideoSDKQuickSync.mfxFrameAllocRequest*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoENCODE_QueryIOSurf(mfxSession session, mfxVideoParam*par, mfxFrameAllocRequest*request)
+    content.vb: Public Shared Function MFXVideoENCODE_QueryIOSurf(session As mfxSession, par As mfxVideoParam *, request As mfxFrameAllocRequest *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: par
+      type: LimeVideoSDKQuickSync.mfxVideoParam*
+    - id: request
+      type: LimeVideoSDKQuickSync.mfxFrameAllocRequest*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_QueryIOSurf*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_QueryIOSurf(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*,LimeVideoSDKQuickSync.mfxFrameAllocRequest*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_QueryIOSurf(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*,LimeVideoSDKQuickSync.mfxFrameAllocRequest*)
+  id: MFXVideoVPP_QueryIOSurf(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*,LimeVideoSDKQuickSync.mfxFrameAllocRequest*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoVPP_QueryIOSurf(mfxSession, mfxVideoParam*, mfxFrameAllocRequest*)
+  nameWithType: UnsafeNativeMethods.MFXVideoVPP_QueryIOSurf(mfxSession, mfxVideoParam*, mfxFrameAllocRequest*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_QueryIOSurf(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxVideoParam*, LimeVideoSDKQuickSync.mfxFrameAllocRequest*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoVPP_QueryIOSurf(mfxSession session, mfxVideoParam*par, mfxFrameAllocRequest*request)
+    content.vb: Public Shared Function MFXVideoVPP_QueryIOSurf(session As mfxSession, par As mfxVideoParam *, request As mfxFrameAllocRequest *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: par
+      type: LimeVideoSDKQuickSync.mfxVideoParam*
+    - id: request
+      type: LimeVideoSDKQuickSync.mfxFrameAllocRequest*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_QueryIOSurf*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_GetVideoParam(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_GetVideoParam(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  id: MFXVideoVPP_GetVideoParam(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxVideoParam*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoVPP_GetVideoParam(mfxSession, mfxVideoParam*)
+  nameWithType: UnsafeNativeMethods.MFXVideoVPP_GetVideoParam(mfxSession, mfxVideoParam*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_GetVideoParam(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxVideoParam*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoVPP_GetVideoParam(mfxSession session, mfxVideoParam*par)
+    content.vb: Public Shared Function MFXVideoVPP_GetVideoParam(session As mfxSession, par As mfxVideoParam *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: par
+      type: LimeVideoSDKQuickSync.mfxVideoParam*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_GetVideoParam*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_GetHandle(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxHandleType,System.IntPtr*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_GetHandle(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxHandleType,System.IntPtr*)
+  id: MFXVideoCORE_GetHandle(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxHandleType,System.IntPtr*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoCORE_GetHandle(mfxSession, mfxHandleType, IntPtr*)
+  nameWithType: UnsafeNativeMethods.MFXVideoCORE_GetHandle(mfxSession, mfxHandleType, IntPtr*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_GetHandle(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxHandleType, System.IntPtr*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoCORE_GetHandle(mfxSession session, mfxHandleType type, IntPtr*hdl)
+    content.vb: Public Shared Function MFXVideoCORE_GetHandle(session As mfxSession, type As mfxHandleType, hdl As IntPtr *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: type
+      type: LimeVideoSDKQuickSync.mfxHandleType
+    - id: hdl
+      type: System.IntPtr*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_GetHandle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SetHandle(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxHandleType,System.IntPtr)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SetHandle(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxHandleType,System.IntPtr)
+  id: MFXVideoCORE_SetHandle(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxHandleType,System.IntPtr)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoCORE_SetHandle(mfxSession, mfxHandleType, IntPtr)
+  nameWithType: UnsafeNativeMethods.MFXVideoCORE_SetHandle(mfxSession, mfxHandleType, IntPtr)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SetHandle(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxHandleType, System.IntPtr)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoCORE_SetHandle(mfxSession session, mfxHandleType type, IntPtr hdl)
+    content.vb: Public Shared Function MFXVideoCORE_SetHandle(session As mfxSession, type As mfxHandleType, hdl As IntPtr) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: type
+      type: LimeVideoSDKQuickSync.mfxHandleType
+    - id: hdl
+      type: System.IntPtr
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SetHandle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SetFrameAllocator(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxFrameAllocator*)
+  commentId: M:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SetFrameAllocator(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxFrameAllocator*)
+  id: MFXVideoCORE_SetFrameAllocator(LimeVideoSDKQuickSync.mfxSession,LimeVideoSDKQuickSync.mfxFrameAllocator*)
+  parent: LimeVideoSDKQuickSync.UnsafeNativeMethods
+  langs:
+  - csharp
+  - vb
+  name: MFXVideoCORE_SetFrameAllocator(mfxSession, mfxFrameAllocator*)
+  nameWithType: UnsafeNativeMethods.MFXVideoCORE_SetFrameAllocator(mfxSession, mfxFrameAllocator*)
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SetFrameAllocator(LimeVideoSDKQuickSync.mfxSession, LimeVideoSDKQuickSync.mfxFrameAllocator*)
+  type: Method
+  source:
+    path: LimeVideoSDKQuickSync
+    isExternal: true
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public static mfxStatus MFXVideoCORE_SetFrameAllocator(mfxSession session, mfxFrameAllocator*allocator)
+    content.vb: Public Shared Function MFXVideoCORE_SetFrameAllocator(session As mfxSession, allocator As mfxFrameAllocator *) As mfxStatus
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+    - id: allocator
+      type: LimeVideoSDKQuickSync.mfxFrameAllocator*
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  overload: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SetFrameAllocator*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: LimeVideoSDKQuickSync
+  commentId: N:LimeVideoSDKQuickSync
+  isExternal: false
+  name: LimeVideoSDKQuickSync
+  nameWithType: LimeVideoSDKQuickSync
+  fullName: LimeVideoSDKQuickSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXInit*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXInit
+  isExternal: true
+  name: MFXInit
+  nameWithType: UnsafeNativeMethods.MFXInit
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXInit
+- uid: LimeVideoSDKQuickSync.mfxIMPL
+  commentId: T:LimeVideoSDKQuickSync.mfxIMPL
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxIMPL
+  nameWithType: mfxIMPL
+  fullName: LimeVideoSDKQuickSync.mfxIMPL
+- uid: LimeVideoSDKQuickSync.mfxVersion*
+  name: mfxVersion*
+  nameWithType: mfxVersion*
+  fullName: LimeVideoSDKQuickSync.mfxVersion*
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.mfxVersion
+    name: mfxVersion
+    nameWithType: mfxVersion
+    fullName: LimeVideoSDKQuickSync.mfxVersion
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.mfxVersion
+    name: mfxVersion
+    nameWithType: mfxVersion
+    fullName: LimeVideoSDKQuickSync.mfxVersion
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+- uid: LimeVideoSDKQuickSync.mfxSession*
+  name: mfxSession*
+  nameWithType: mfxSession*
+  fullName: LimeVideoSDKQuickSync.mfxSession*
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.mfxSession
+    name: mfxSession
+    nameWithType: mfxSession
+    fullName: LimeVideoSDKQuickSync.mfxSession
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.mfxSession
+    name: mfxSession
+    nameWithType: mfxSession
+    fullName: LimeVideoSDKQuickSync.mfxSession
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+- uid: LimeVideoSDKQuickSync.mfxStatus
+  commentId: T:LimeVideoSDKQuickSync.mfxStatus
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxStatus
+  nameWithType: mfxStatus
+  fullName: LimeVideoSDKQuickSync.mfxStatus
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXQueryIMPL*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXQueryIMPL
+  isExternal: true
+  name: MFXQueryIMPL
+  nameWithType: UnsafeNativeMethods.MFXQueryIMPL
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXQueryIMPL
+- uid: LimeVideoSDKQuickSync.mfxSession
+  commentId: T:LimeVideoSDKQuickSync.mfxSession
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxSession
+  nameWithType: mfxSession
+  fullName: LimeVideoSDKQuickSync.mfxSession
+- uid: LimeVideoSDKQuickSync.mfxIMPL*
+  name: mfxIMPL*
+  nameWithType: mfxIMPL*
+  fullName: LimeVideoSDKQuickSync.mfxIMPL*
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.mfxIMPL
+    name: mfxIMPL
+    nameWithType: mfxIMPL
+    fullName: LimeVideoSDKQuickSync.mfxIMPL
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.mfxIMPL
+    name: mfxIMPL
+    nameWithType: mfxIMPL
+    fullName: LimeVideoSDKQuickSync.mfxIMPL
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXQueryVersion*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXQueryVersion
+  isExternal: true
+  name: MFXQueryVersion
+  nameWithType: UnsafeNativeMethods.MFXQueryVersion
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXQueryVersion
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXClose*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXClose
+  isExternal: true
+  name: MFXClose
+  nameWithType: UnsafeNativeMethods.MFXClose
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXClose
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_Init*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_Init
+  isExternal: true
+  name: MFXVideoENCODE_Init
+  nameWithType: UnsafeNativeMethods.MFXVideoENCODE_Init
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_Init
+- uid: LimeVideoSDKQuickSync.mfxVideoParam*
+  name: mfxVideoParam*
+  nameWithType: mfxVideoParam*
+  fullName: LimeVideoSDKQuickSync.mfxVideoParam*
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.mfxVideoParam
+    name: mfxVideoParam
+    nameWithType: mfxVideoParam
+    fullName: LimeVideoSDKQuickSync.mfxVideoParam
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.mfxVideoParam
+    name: mfxVideoParam
+    nameWithType: mfxVideoParam
+    fullName: LimeVideoSDKQuickSync.mfxVideoParam
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_Query*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_Query
+  isExternal: true
+  name: MFXVideoENCODE_Query
+  nameWithType: UnsafeNativeMethods.MFXVideoENCODE_Query
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_Query
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_Reset*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_Reset
+  isExternal: true
+  name: MFXVideoDECODE_Reset
+  nameWithType: UnsafeNativeMethods.MFXVideoDECODE_Reset
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_Reset
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_Init*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_Init
+  isExternal: true
+  name: MFXVideoDECODE_Init
+  nameWithType: UnsafeNativeMethods.MFXVideoDECODE_Init
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_Init
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_DecodeHeader*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_DecodeHeader
+  isExternal: true
+  name: MFXVideoDECODE_DecodeHeader
+  nameWithType: UnsafeNativeMethods.MFXVideoDECODE_DecodeHeader
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_DecodeHeader
+- uid: LimeVideoSDKQuickSync.mfxBitstream*
+  name: mfxBitstream*
+  nameWithType: mfxBitstream*
+  fullName: LimeVideoSDKQuickSync.mfxBitstream*
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.mfxBitstream
+    name: mfxBitstream
+    nameWithType: mfxBitstream
+    fullName: LimeVideoSDKQuickSync.mfxBitstream
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.mfxBitstream
+    name: mfxBitstream
+    nameWithType: mfxBitstream
+    fullName: LimeVideoSDKQuickSync.mfxBitstream
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_QueryIOSurf*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_QueryIOSurf
+  isExternal: true
+  name: MFXVideoDECODE_QueryIOSurf
+  nameWithType: UnsafeNativeMethods.MFXVideoDECODE_QueryIOSurf
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_QueryIOSurf
+- uid: LimeVideoSDKQuickSync.mfxFrameAllocRequest*
+  name: mfxFrameAllocRequest*
+  nameWithType: mfxFrameAllocRequest*
+  fullName: LimeVideoSDKQuickSync.mfxFrameAllocRequest*
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.mfxFrameAllocRequest
+    name: mfxFrameAllocRequest
+    nameWithType: mfxFrameAllocRequest
+    fullName: LimeVideoSDKQuickSync.mfxFrameAllocRequest
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.mfxFrameAllocRequest
+    name: mfxFrameAllocRequest
+    nameWithType: mfxFrameAllocRequest
+    fullName: LimeVideoSDKQuickSync.mfxFrameAllocRequest
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_DecodeFrameAsync*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_DecodeFrameAsync
+  isExternal: true
+  name: MFXVideoDECODE_DecodeFrameAsync
+  nameWithType: UnsafeNativeMethods.MFXVideoDECODE_DecodeFrameAsync
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoDECODE_DecodeFrameAsync
+- uid: LimeVideoSDKQuickSync.mfxFrameSurface1*
+  name: mfxFrameSurface1*
+  nameWithType: mfxFrameSurface1*
+  fullName: LimeVideoSDKQuickSync.mfxFrameSurface1*
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.mfxFrameSurface1
+    name: mfxFrameSurface1
+    nameWithType: mfxFrameSurface1
+    fullName: LimeVideoSDKQuickSync.mfxFrameSurface1
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.mfxFrameSurface1
+    name: mfxFrameSurface1
+    nameWithType: mfxFrameSurface1
+    fullName: LimeVideoSDKQuickSync.mfxFrameSurface1
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+- uid: LimeVideoSDKQuickSync.mfxFrameSurface1**
+  name: mfxFrameSurface1**
+  nameWithType: mfxFrameSurface1**
+  fullName: LimeVideoSDKQuickSync.mfxFrameSurface1**
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.mfxFrameSurface1
+    name: mfxFrameSurface1
+    nameWithType: mfxFrameSurface1
+    fullName: LimeVideoSDKQuickSync.mfxFrameSurface1
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.mfxFrameSurface1
+    name: mfxFrameSurface1
+    nameWithType: mfxFrameSurface1
+    fullName: LimeVideoSDKQuickSync.mfxFrameSurface1
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+- uid: LimeVideoSDKQuickSync.mfxSyncPoint*
+  name: mfxSyncPoint*
+  nameWithType: mfxSyncPoint*
+  fullName: LimeVideoSDKQuickSync.mfxSyncPoint*
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.mfxSyncPoint
+    name: mfxSyncPoint
+    nameWithType: mfxSyncPoint
+    fullName: LimeVideoSDKQuickSync.mfxSyncPoint
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.mfxSyncPoint
+    name: mfxSyncPoint
+    nameWithType: mfxSyncPoint
+    fullName: LimeVideoSDKQuickSync.mfxSyncPoint
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SyncOperation*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SyncOperation
+  isExternal: true
+  name: MFXVideoCORE_SyncOperation
+  nameWithType: UnsafeNativeMethods.MFXVideoCORE_SyncOperation
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SyncOperation
+- uid: LimeVideoSDKQuickSync.mfxSyncPoint
+  commentId: T:LimeVideoSDKQuickSync.mfxSyncPoint
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxSyncPoint
+  nameWithType: mfxSyncPoint
+  fullName: LimeVideoSDKQuickSync.mfxSyncPoint
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_Init*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_Init
+  isExternal: true
+  name: MFXVideoVPP_Init
+  nameWithType: UnsafeNativeMethods.MFXVideoVPP_Init
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_Init
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_GetVideoParam*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_GetVideoParam
+  isExternal: true
+  name: MFXVideoENCODE_GetVideoParam
+  nameWithType: UnsafeNativeMethods.MFXVideoENCODE_GetVideoParam
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_GetVideoParam
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsync*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsync
+  isExternal: true
+  name: MFXVideoVPP_RunFrameVPPAsync
+  nameWithType: UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsync
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsync
+- uid: LimeVideoSDKQuickSync.mfxExtVppAuxData*
+  name: mfxExtVppAuxData*
+  nameWithType: mfxExtVppAuxData*
+  fullName: LimeVideoSDKQuickSync.mfxExtVppAuxData*
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.mfxExtVppAuxData
+    name: mfxExtVppAuxData
+    nameWithType: mfxExtVppAuxData
+    fullName: LimeVideoSDKQuickSync.mfxExtVppAuxData
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.mfxExtVppAuxData
+    name: mfxExtVppAuxData
+    nameWithType: mfxExtVppAuxData
+    fullName: LimeVideoSDKQuickSync.mfxExtVppAuxData
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsyncEx*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsyncEx
+  isExternal: true
+  name: MFXVideoVPP_RunFrameVPPAsyncEx
+  nameWithType: UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsyncEx
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_RunFrameVPPAsyncEx
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_EncodeFrameAsync*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_EncodeFrameAsync
+  isExternal: true
+  name: MFXVideoENCODE_EncodeFrameAsync
+  nameWithType: UnsafeNativeMethods.MFXVideoENCODE_EncodeFrameAsync
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_EncodeFrameAsync
+- uid: LimeVideoSDKQuickSync.mfxEncodeCtrl*
+  name: mfxEncodeCtrl*
+  nameWithType: mfxEncodeCtrl*
+  fullName: LimeVideoSDKQuickSync.mfxEncodeCtrl*
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.mfxEncodeCtrl
+    name: mfxEncodeCtrl
+    nameWithType: mfxEncodeCtrl
+    fullName: LimeVideoSDKQuickSync.mfxEncodeCtrl
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.mfxEncodeCtrl
+    name: mfxEncodeCtrl
+    nameWithType: mfxEncodeCtrl
+    fullName: LimeVideoSDKQuickSync.mfxEncodeCtrl
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_QueryIOSurf*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_QueryIOSurf
+  isExternal: true
+  name: MFXVideoENCODE_QueryIOSurf
+  nameWithType: UnsafeNativeMethods.MFXVideoENCODE_QueryIOSurf
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoENCODE_QueryIOSurf
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_QueryIOSurf*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_QueryIOSurf
+  isExternal: true
+  name: MFXVideoVPP_QueryIOSurf
+  nameWithType: UnsafeNativeMethods.MFXVideoVPP_QueryIOSurf
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_QueryIOSurf
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_GetVideoParam*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_GetVideoParam
+  isExternal: true
+  name: MFXVideoVPP_GetVideoParam
+  nameWithType: UnsafeNativeMethods.MFXVideoVPP_GetVideoParam
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoVPP_GetVideoParam
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_GetHandle*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_GetHandle
+  isExternal: true
+  name: MFXVideoCORE_GetHandle
+  nameWithType: UnsafeNativeMethods.MFXVideoCORE_GetHandle
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_GetHandle
+- uid: LimeVideoSDKQuickSync.mfxHandleType
+  commentId: T:LimeVideoSDKQuickSync.mfxHandleType
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxHandleType
+  nameWithType: mfxHandleType
+  fullName: LimeVideoSDKQuickSync.mfxHandleType
+- uid: System.IntPtr*
+  name: IntPtr*
+  nameWithType: IntPtr*
+  fullName: System.IntPtr*
+  spec.csharp:
+  - uid: System.IntPtr
+    name: IntPtr
+    nameWithType: IntPtr
+    fullName: System.IntPtr
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: System.IntPtr
+    name: IntPtr
+    nameWithType: IntPtr
+    fullName: System.IntPtr
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SetHandle*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SetHandle
+  isExternal: true
+  name: MFXVideoCORE_SetHandle
+  nameWithType: UnsafeNativeMethods.MFXVideoCORE_SetHandle
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SetHandle
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SetFrameAllocator*
+  commentId: Overload:LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SetFrameAllocator
+  isExternal: true
+  name: MFXVideoCORE_SetFrameAllocator
+  nameWithType: UnsafeNativeMethods.MFXVideoCORE_SetFrameAllocator
+  fullName: LimeVideoSDKQuickSync.UnsafeNativeMethods.MFXVideoCORE_SetFrameAllocator
+- uid: LimeVideoSDKQuickSync.mfxFrameAllocator*
+  name: mfxFrameAllocator*
+  nameWithType: mfxFrameAllocator*
+  fullName: LimeVideoSDKQuickSync.mfxFrameAllocator*
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.mfxFrameAllocator
+    name: mfxFrameAllocator
+    nameWithType: mfxFrameAllocator
+    fullName: LimeVideoSDKQuickSync.mfxFrameAllocator
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.mfxFrameAllocator
+    name: mfxFrameAllocator
+    nameWithType: mfxFrameAllocator
+    fullName: LimeVideoSDKQuickSync.mfxFrameAllocator
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'

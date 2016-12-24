@@ -1,0 +1,947 @@
+### YamlMime:ManagedReference
+items:
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic
+  commentId: T:LimeVideoSDKQuickSync.QuickSyncStatic
+  id: QuickSyncStatic
+  parent: LimeVideoSDKQuickSync
+  children:
+  - LimeVideoSDKQuickSync.QuickSyncStatic.ALIGN16(System.Int32)
+  - LimeVideoSDKQuickSync.QuickSyncStatic.ALIGN32(System.Int32)
+  - LimeVideoSDKQuickSync.QuickSyncStatic.AlignHeightTo32or16(System.Int32,LimeVideoSDKQuickSync.PicStruct)
+  - LimeVideoSDKQuickSync.QuickSyncStatic.DecodeHeader(System.Byte[],LimeVideoSDKQuickSync.CodecId,LimeVideoSDKQuickSync.mfxIMPL)
+  - LimeVideoSDKQuickSync.QuickSyncStatic.DecodeHeader(System.IO.Stream,LimeVideoSDKQuickSync.CodecId,LimeVideoSDKQuickSync.mfxIMPL)
+  - LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString
+  - LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString(LimeVideoSDKQuickSync.mfxIMPL)
+  - LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString(LimeVideoSDKQuickSync.mfxSession)
+  - LimeVideoSDKQuickSync.QuickSyncStatic.ReadFileHeaderInfo(LimeVideoSDKQuickSync.CodecId,LimeVideoSDKQuickSync.mfxIMPL,System.IO.Stream,LimeVideoSDKQuickSync.IOPattern)
+  - LimeVideoSDKQuickSync.QuickSyncStatic.ThrowOnBadStatus(LimeVideoSDKQuickSync.mfxStatus,System.String)
+  langs:
+  - csharp
+  - vb
+  name: QuickSyncStatic
+  nameWithType: QuickSyncStatic
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic
+  type: Class
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: QuickSyncStatic
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+    startLine: 16
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: "\nStatic methods for Quick Sync operations\n"
+  example: []
+  syntax:
+    content: public class QuickSyncStatic
+    content.vb: Public Class QuickSyncStatic
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic.ThrowOnBadStatus(LimeVideoSDKQuickSync.mfxStatus,System.String)
+  commentId: M:LimeVideoSDKQuickSync.QuickSyncStatic.ThrowOnBadStatus(LimeVideoSDKQuickSync.mfxStatus,System.String)
+  id: ThrowOnBadStatus(LimeVideoSDKQuickSync.mfxStatus,System.String)
+  parent: LimeVideoSDKQuickSync.QuickSyncStatic
+  langs:
+  - csharp
+  - vb
+  name: ThrowOnBadStatus(mfxStatus, String)
+  nameWithType: QuickSyncStatic.ThrowOnBadStatus(mfxStatus, String)
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic.ThrowOnBadStatus(LimeVideoSDKQuickSync.mfxStatus, System.String)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: ThrowOnBadStatus
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+    startLine: 40
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: Helper method that throws an exception when a status code reflects an error.
+  example: []
+  syntax:
+    content: public static void ThrowOnBadStatus(mfxStatus sts, string msg)
+    content.vb: Public Shared Sub ThrowOnBadStatus(sts As mfxStatus, msg As String)
+    parameters:
+    - id: sts
+      type: LimeVideoSDKQuickSync.mfxStatus
+      description: The STS.
+    - id: msg
+      type: System.String
+      description: The MSG.
+  overload: LimeVideoSDKQuickSync.QuickSyncStatic.ThrowOnBadStatus*
+  exceptions:
+  - type: LimeVideoSDKQuickSync.LimeVideoSDKQuickSyncException
+    commentId: T:LimeVideoSDKQuickSync.LimeVideoSDKQuickSyncException
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic.DecodeHeader(System.IO.Stream,LimeVideoSDKQuickSync.CodecId,LimeVideoSDKQuickSync.mfxIMPL)
+  commentId: M:LimeVideoSDKQuickSync.QuickSyncStatic.DecodeHeader(System.IO.Stream,LimeVideoSDKQuickSync.CodecId,LimeVideoSDKQuickSync.mfxIMPL)
+  id: DecodeHeader(System.IO.Stream,LimeVideoSDKQuickSync.CodecId,LimeVideoSDKQuickSync.mfxIMPL)
+  parent: LimeVideoSDKQuickSync.QuickSyncStatic
+  langs:
+  - csharp
+  - vb
+  name: DecodeHeader(Stream, CodecId, mfxIMPL)
+  nameWithType: QuickSyncStatic.DecodeHeader(Stream, CodecId, mfxIMPL)
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic.DecodeHeader(System.IO.Stream, LimeVideoSDKQuickSync.CodecId, LimeVideoSDKQuickSync.mfxIMPL)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: DecodeHeader
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+    startLine: 52
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: >-
+    Attempts to decode a stream using codecId as the format indicator.
+
+    Only enough of the stream is decoded to return stream parameters such as width, height, etc...
+  example: []
+  syntax:
+    content: public static mfxVideoParam DecodeHeader(Stream stream, CodecId codecId, mfxIMPL impl = mfxIMPL.MFX_IMPL_AUTO)
+    content.vb: Public Shared Function DecodeHeader(stream As Stream, codecId As CodecId, impl As mfxIMPL = mfxIMPL.MFX_IMPL_AUTO) As mfxVideoParam
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+      description: The stream.
+    - id: codecId
+      type: LimeVideoSDKQuickSync.CodecId
+      description: The codec identifier.
+    - id: impl
+      type: LimeVideoSDKQuickSync.mfxIMPL
+      description: The implementation.
+    return:
+      type: LimeVideoSDKQuickSync.mfxVideoParam
+      description: A video parameter structure describing the bitstream.
+  overload: LimeVideoSDKQuickSync.QuickSyncStatic.DecodeHeader*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic.DecodeHeader(System.Byte[],LimeVideoSDKQuickSync.CodecId,LimeVideoSDKQuickSync.mfxIMPL)
+  commentId: M:LimeVideoSDKQuickSync.QuickSyncStatic.DecodeHeader(System.Byte[],LimeVideoSDKQuickSync.CodecId,LimeVideoSDKQuickSync.mfxIMPL)
+  id: DecodeHeader(System.Byte[],LimeVideoSDKQuickSync.CodecId,LimeVideoSDKQuickSync.mfxIMPL)
+  parent: LimeVideoSDKQuickSync.QuickSyncStatic
+  langs:
+  - csharp
+  - vb
+  name: DecodeHeader(Byte[], CodecId, mfxIMPL)
+  nameWithType: QuickSyncStatic.DecodeHeader(Byte[], CodecId, mfxIMPL)
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic.DecodeHeader(System.Byte[], LimeVideoSDKQuickSync.CodecId, LimeVideoSDKQuickSync.mfxIMPL)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: DecodeHeader
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+    startLine: 69
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: >-
+    Attempts to decode a byte array using codecId as the format indicator.
+
+    If the array is decodable stream parameters such as width, height, etc... will be returned
+  example: []
+  syntax:
+    content: public static mfxVideoParam DecodeHeader(byte[] bitstream, CodecId codecId, mfxIMPL impl = mfxIMPL.MFX_IMPL_AUTO)
+    content.vb: Public Shared Function DecodeHeader(bitstream As Byte(), codecId As CodecId, impl As mfxIMPL = mfxIMPL.MFX_IMPL_AUTO) As mfxVideoParam
+    parameters:
+    - id: bitstream
+      type: System.Byte[]
+      description: The bitstream.
+    - id: codecId
+      type: LimeVideoSDKQuickSync.CodecId
+      description: The codec identifier.
+    - id: impl
+      type: LimeVideoSDKQuickSync.mfxIMPL
+      description: The implementation.
+    return:
+      type: LimeVideoSDKQuickSync.mfxVideoParam
+      description: A video parameter structure describing the bitstream.
+  overload: LimeVideoSDKQuickSync.QuickSyncStatic.DecodeHeader*
+  nameWithType.vb: QuickSyncStatic.DecodeHeader(Byte(), CodecId, mfxIMPL)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LimeVideoSDKQuickSync.QuickSyncStatic.DecodeHeader(System.Byte(), LimeVideoSDKQuickSync.CodecId, LimeVideoSDKQuickSync.mfxIMPL)
+  name.vb: DecodeHeader(Byte(), CodecId, mfxIMPL)
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic.ReadFileHeaderInfo(LimeVideoSDKQuickSync.CodecId,LimeVideoSDKQuickSync.mfxIMPL,System.IO.Stream,LimeVideoSDKQuickSync.IOPattern)
+  commentId: M:LimeVideoSDKQuickSync.QuickSyncStatic.ReadFileHeaderInfo(LimeVideoSDKQuickSync.CodecId,LimeVideoSDKQuickSync.mfxIMPL,System.IO.Stream,LimeVideoSDKQuickSync.IOPattern)
+  id: ReadFileHeaderInfo(LimeVideoSDKQuickSync.CodecId,LimeVideoSDKQuickSync.mfxIMPL,System.IO.Stream,LimeVideoSDKQuickSync.IOPattern)
+  parent: LimeVideoSDKQuickSync.QuickSyncStatic
+  langs:
+  - csharp
+  - vb
+  name: ReadFileHeaderInfo(CodecId, mfxIMPL, Stream, IOPattern)
+  nameWithType: QuickSyncStatic.ReadFileHeaderInfo(CodecId, mfxIMPL, Stream, IOPattern)
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic.ReadFileHeaderInfo(LimeVideoSDKQuickSync.CodecId, LimeVideoSDKQuickSync.mfxIMPL, System.IO.Stream, LimeVideoSDKQuickSync.IOPattern)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: ReadFileHeaderInfo
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+    startLine: 117
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: Reads the file header information.
+  example: []
+  syntax:
+    content: public static mfxVideoParam ReadFileHeaderInfo(CodecId codecId, mfxIMPL impl, Stream infs, IOPattern outIOPattern)
+    content.vb: Public Shared Function ReadFileHeaderInfo(codecId As CodecId, impl As mfxIMPL, infs As Stream, outIOPattern As IOPattern) As mfxVideoParam
+    parameters:
+    - id: codecId
+      type: LimeVideoSDKQuickSync.CodecId
+      description: The codec identifier.
+    - id: impl
+      type: LimeVideoSDKQuickSync.mfxIMPL
+      description: The implementation.
+    - id: infs
+      type: System.IO.Stream
+      description: The infs.
+    - id: outIOPattern
+      type: LimeVideoSDKQuickSync.IOPattern
+      description: The out io pattern.
+    return:
+      type: LimeVideoSDKQuickSync.mfxVideoParam
+      description: ''
+  overload: LimeVideoSDKQuickSync.QuickSyncStatic.ReadFileHeaderInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic.ALIGN16(System.Int32)
+  commentId: M:LimeVideoSDKQuickSync.QuickSyncStatic.ALIGN16(System.Int32)
+  id: ALIGN16(System.Int32)
+  parent: LimeVideoSDKQuickSync.QuickSyncStatic
+  langs:
+  - csharp
+  - vb
+  name: ALIGN16(Int32)
+  nameWithType: QuickSyncStatic.ALIGN16(Int32)
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic.ALIGN16(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: ALIGN16
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+    startLine: 134
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: make sure x is divisible by 16, if not rounds up to next multiple of 16
+  example: []
+  syntax:
+    content: public static ushort ALIGN16(int x)
+    content.vb: Public Shared Function ALIGN16(x As Integer) As UShort
+    parameters:
+    - id: x
+      type: System.Int32
+    return:
+      type: System.UInt16
+  overload: LimeVideoSDKQuickSync.QuickSyncStatic.ALIGN16*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic.ALIGN32(System.Int32)
+  commentId: M:LimeVideoSDKQuickSync.QuickSyncStatic.ALIGN32(System.Int32)
+  id: ALIGN32(System.Int32)
+  parent: LimeVideoSDKQuickSync.QuickSyncStatic
+  langs:
+  - csharp
+  - vb
+  name: ALIGN32(Int32)
+  nameWithType: QuickSyncStatic.ALIGN32(Int32)
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic.ALIGN32(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: ALIGN32
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+    startLine: 140
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: make sure x is divisible by 32, if not rounds up to next multiple of 32
+  example: []
+  syntax:
+    content: public static ushort ALIGN32(int x)
+    content.vb: Public Shared Function ALIGN32(x As Integer) As UShort
+    parameters:
+    - id: x
+      type: System.Int32
+    return:
+      type: System.UInt16
+  overload: LimeVideoSDKQuickSync.QuickSyncStatic.ALIGN32*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic.AlignHeightTo32or16(System.Int32,LimeVideoSDKQuickSync.PicStruct)
+  commentId: M:LimeVideoSDKQuickSync.QuickSyncStatic.AlignHeightTo32or16(System.Int32,LimeVideoSDKQuickSync.PicStruct)
+  id: AlignHeightTo32or16(System.Int32,LimeVideoSDKQuickSync.PicStruct)
+  parent: LimeVideoSDKQuickSync.QuickSyncStatic
+  langs:
+  - csharp
+  - vb
+  name: AlignHeightTo32or16(Int32, PicStruct)
+  nameWithType: QuickSyncStatic.AlignHeightTo32or16(Int32, PicStruct)
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic.AlignHeightTo32or16(System.Int32, LimeVideoSDKQuickSync.PicStruct)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: AlignHeightTo32or16
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+    startLine: 153
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: "\nRounds height upto value divisible by 16,\nor 32 in the case where picstruct is MFX_PICSTRUCT_PROGRESSIVE\n"
+  example: []
+  syntax:
+    content: public static ushort AlignHeightTo32or16(int height, PicStruct picstruct)
+    content.vb: Public Shared Function AlignHeightTo32or16(height As Integer, picstruct As PicStruct) As UShort
+    parameters:
+    - id: height
+      type: System.Int32
+      description: ''
+    - id: picstruct
+      type: LimeVideoSDKQuickSync.PicStruct
+      description: Used to decide 16 or 32 for rounding up
+    return:
+      type: System.UInt16
+      description: ''
+  overload: LimeVideoSDKQuickSync.QuickSyncStatic.AlignHeightTo32or16*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString(LimeVideoSDKQuickSync.mfxSession)
+  commentId: M:LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString(LimeVideoSDKQuickSync.mfxSession)
+  id: ImplementationString(LimeVideoSDKQuickSync.mfxSession)
+  parent: LimeVideoSDKQuickSync.QuickSyncStatic
+  langs:
+  - csharp
+  - vb
+  name: ImplementationString(mfxSession)
+  nameWithType: QuickSyncStatic.ImplementationString(mfxSession)
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString(LimeVideoSDKQuickSync.mfxSession)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: ImplementationString
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+    startLine: 166
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: Get a human readable implementation description.
+  example: []
+  syntax:
+    content: public static string ImplementationString(mfxSession session)
+    content.vb: Public Shared Function ImplementationString(session As mfxSession) As String
+    parameters:
+    - id: session
+      type: LimeVideoSDKQuickSync.mfxSession
+      description: The session.
+    return:
+      type: System.String
+      description: ''
+  overload: LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString(LimeVideoSDKQuickSync.mfxIMPL)
+  commentId: M:LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString(LimeVideoSDKQuickSync.mfxIMPL)
+  id: ImplementationString(LimeVideoSDKQuickSync.mfxIMPL)
+  parent: LimeVideoSDKQuickSync.QuickSyncStatic
+  langs:
+  - csharp
+  - vb
+  name: ImplementationString(mfxIMPL)
+  nameWithType: QuickSyncStatic.ImplementationString(mfxIMPL)
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString(LimeVideoSDKQuickSync.mfxIMPL)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: ImplementationString
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+    startLine: 179
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: "\ngenerate human readable description of an mfxIMPL type\n"
+  example: []
+  syntax:
+    content: public static string ImplementationString(mfxIMPL impl)
+    content.vb: Public Shared Function ImplementationString(impl As mfxIMPL) As String
+    parameters:
+    - id: impl
+      type: LimeVideoSDKQuickSync.mfxIMPL
+      description: ''
+    return:
+      type: System.String
+  overload: LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString
+  commentId: M:LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString
+  id: ImplementationString
+  parent: LimeVideoSDKQuickSync.QuickSyncStatic
+  langs:
+  - csharp
+  - vb
+  name: ImplementationString()
+  nameWithType: QuickSyncStatic.ImplementationString()
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString()
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: ImplementationString
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/QuickSyncStatic.cs
+    startLine: 220
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: "\ngenerate human readable description of an DeviceSetup.FrameMemType type\n"
+  example: []
+  syntax:
+    content: public static string ImplementationString()
+    content.vb: Public Shared Function ImplementationString As String
+    return:
+      type: System.String
+  overload: LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: LimeVideoSDKQuickSync
+  commentId: N:LimeVideoSDKQuickSync
+  isExternal: false
+  name: LimeVideoSDKQuickSync
+  nameWithType: LimeVideoSDKQuickSync
+  fullName: LimeVideoSDKQuickSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic.ThrowOnBadStatus*
+  commentId: Overload:LimeVideoSDKQuickSync.QuickSyncStatic.ThrowOnBadStatus
+  isExternal: false
+  name: ThrowOnBadStatus
+  nameWithType: QuickSyncStatic.ThrowOnBadStatus
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic.ThrowOnBadStatus
+- uid: LimeVideoSDKQuickSync.LimeVideoSDKQuickSyncException
+  commentId: T:LimeVideoSDKQuickSync.LimeVideoSDKQuickSyncException
+  isExternal: false
+  name: LimeVideoSDKQuickSyncException
+  nameWithType: LimeVideoSDKQuickSyncException
+  fullName: LimeVideoSDKQuickSync.LimeVideoSDKQuickSyncException
+- uid: LimeVideoSDKQuickSync.mfxStatus
+  commentId: T:LimeVideoSDKQuickSync.mfxStatus
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxStatus
+  nameWithType: mfxStatus
+  fullName: LimeVideoSDKQuickSync.mfxStatus
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic.DecodeHeader*
+  commentId: Overload:LimeVideoSDKQuickSync.QuickSyncStatic.DecodeHeader
+  isExternal: false
+  name: DecodeHeader
+  nameWithType: QuickSyncStatic.DecodeHeader
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic.DecodeHeader
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: LimeVideoSDKQuickSync.CodecId
+  commentId: T:LimeVideoSDKQuickSync.CodecId
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: CodecId
+  nameWithType: CodecId
+  fullName: LimeVideoSDKQuickSync.CodecId
+- uid: LimeVideoSDKQuickSync.mfxIMPL
+  commentId: T:LimeVideoSDKQuickSync.mfxIMPL
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxIMPL
+  nameWithType: mfxIMPL
+  fullName: LimeVideoSDKQuickSync.mfxIMPL
+- uid: LimeVideoSDKQuickSync.mfxVideoParam
+  commentId: T:LimeVideoSDKQuickSync.mfxVideoParam
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxVideoParam
+  nameWithType: mfxVideoParam
+  fullName: LimeVideoSDKQuickSync.mfxVideoParam
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: false
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullname.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic.ReadFileHeaderInfo*
+  commentId: Overload:LimeVideoSDKQuickSync.QuickSyncStatic.ReadFileHeaderInfo
+  isExternal: false
+  name: ReadFileHeaderInfo
+  nameWithType: QuickSyncStatic.ReadFileHeaderInfo
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic.ReadFileHeaderInfo
+- uid: LimeVideoSDKQuickSync.IOPattern
+  commentId: T:LimeVideoSDKQuickSync.IOPattern
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: IOPattern
+  nameWithType: IOPattern
+  fullName: LimeVideoSDKQuickSync.IOPattern
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic.ALIGN16*
+  commentId: Overload:LimeVideoSDKQuickSync.QuickSyncStatic.ALIGN16
+  isExternal: false
+  name: ALIGN16
+  nameWithType: QuickSyncStatic.ALIGN16
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic.ALIGN16
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic.ALIGN32*
+  commentId: Overload:LimeVideoSDKQuickSync.QuickSyncStatic.ALIGN32
+  isExternal: false
+  name: ALIGN32
+  nameWithType: QuickSyncStatic.ALIGN32
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic.ALIGN32
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic.AlignHeightTo32or16*
+  commentId: Overload:LimeVideoSDKQuickSync.QuickSyncStatic.AlignHeightTo32or16
+  isExternal: false
+  name: AlignHeightTo32or16
+  nameWithType: QuickSyncStatic.AlignHeightTo32or16
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic.AlignHeightTo32or16
+- uid: LimeVideoSDKQuickSync.PicStruct
+  commentId: T:LimeVideoSDKQuickSync.PicStruct
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: PicStruct
+  nameWithType: PicStruct
+  fullName: LimeVideoSDKQuickSync.PicStruct
+- uid: LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString*
+  commentId: Overload:LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString
+  isExternal: false
+  name: ImplementationString
+  nameWithType: QuickSyncStatic.ImplementationString
+  fullName: LimeVideoSDKQuickSync.QuickSyncStatic.ImplementationString
+- uid: LimeVideoSDKQuickSync.mfxSession
+  commentId: T:LimeVideoSDKQuickSync.mfxSession
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxSession
+  nameWithType: mfxSession
+  fullName: LimeVideoSDKQuickSync.mfxSession

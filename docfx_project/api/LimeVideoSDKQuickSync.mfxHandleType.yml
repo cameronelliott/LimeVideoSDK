@@ -1,0 +1,246 @@
+### YamlMime:ManagedReference
+items:
+- uid: LimeVideoSDKQuickSync.mfxHandleType
+  commentId: T:LimeVideoSDKQuickSync.mfxHandleType
+  id: mfxHandleType
+  parent: LimeVideoSDKQuickSync
+  children:
+  - LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_D3D11_DEVICE
+  - LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_D3D9_DEVICE_MANAGER
+  - LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_DIRECT3D_DEVICE_MANAGER9
+  - LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_RESERVED1
+  - LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_RESERVED3
+  - LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_VA_DISPLAY
+  langs:
+  - csharp
+  - vb
+  name: mfxHandleType
+  nameWithType: mfxHandleType
+  fullName: LimeVideoSDKQuickSync.mfxHandleType
+  type: Enum
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: mfxHandleType
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+    startLine: 67
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public enum mfxHandleType
+    content.vb: Public Enum mfxHandleType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_DIRECT3D_DEVICE_MANAGER9
+  commentId: F:LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_DIRECT3D_DEVICE_MANAGER9
+  id: MFX_HANDLE_DIRECT3D_DEVICE_MANAGER9
+  parent: LimeVideoSDKQuickSync.mfxHandleType
+  langs:
+  - csharp
+  - vb
+  name: MFX_HANDLE_DIRECT3D_DEVICE_MANAGER9
+  nameWithType: mfxHandleType.MFX_HANDLE_DIRECT3D_DEVICE_MANAGER9
+  fullName: LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_DIRECT3D_DEVICE_MANAGER9
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_HANDLE_DIRECT3D_DEVICE_MANAGER9
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+    startLine: 69
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_HANDLE_DIRECT3D_DEVICE_MANAGER9 = 1
+    return:
+      type: LimeVideoSDKQuickSync.mfxHandleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_D3D9_DEVICE_MANAGER
+  commentId: F:LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_D3D9_DEVICE_MANAGER
+  id: MFX_HANDLE_D3D9_DEVICE_MANAGER
+  parent: LimeVideoSDKQuickSync.mfxHandleType
+  langs:
+  - csharp
+  - vb
+  name: MFX_HANDLE_D3D9_DEVICE_MANAGER
+  nameWithType: mfxHandleType.MFX_HANDLE_D3D9_DEVICE_MANAGER
+  fullName: LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_D3D9_DEVICE_MANAGER
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_HANDLE_D3D9_DEVICE_MANAGER
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+    startLine: 70
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_HANDLE_D3D9_DEVICE_MANAGER = 1
+    return:
+      type: LimeVideoSDKQuickSync.mfxHandleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_RESERVED1
+  commentId: F:LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_RESERVED1
+  id: MFX_HANDLE_RESERVED1
+  parent: LimeVideoSDKQuickSync.mfxHandleType
+  langs:
+  - csharp
+  - vb
+  name: MFX_HANDLE_RESERVED1
+  nameWithType: mfxHandleType.MFX_HANDLE_RESERVED1
+  fullName: LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_RESERVED1
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_HANDLE_RESERVED1
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+    startLine: 71
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_HANDLE_RESERVED1 = 2
+    return:
+      type: LimeVideoSDKQuickSync.mfxHandleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_D3D11_DEVICE
+  commentId: F:LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_D3D11_DEVICE
+  id: MFX_HANDLE_D3D11_DEVICE
+  parent: LimeVideoSDKQuickSync.mfxHandleType
+  langs:
+  - csharp
+  - vb
+  name: MFX_HANDLE_D3D11_DEVICE
+  nameWithType: mfxHandleType.MFX_HANDLE_D3D11_DEVICE
+  fullName: LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_D3D11_DEVICE
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_HANDLE_D3D11_DEVICE
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+    startLine: 72
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_HANDLE_D3D11_DEVICE = 3
+    return:
+      type: LimeVideoSDKQuickSync.mfxHandleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_VA_DISPLAY
+  commentId: F:LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_VA_DISPLAY
+  id: MFX_HANDLE_VA_DISPLAY
+  parent: LimeVideoSDKQuickSync.mfxHandleType
+  langs:
+  - csharp
+  - vb
+  name: MFX_HANDLE_VA_DISPLAY
+  nameWithType: mfxHandleType.MFX_HANDLE_VA_DISPLAY
+  fullName: LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_VA_DISPLAY
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_HANDLE_VA_DISPLAY
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+    startLine: 73
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_HANDLE_VA_DISPLAY = 4
+    return:
+      type: LimeVideoSDKQuickSync.mfxHandleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_RESERVED3
+  commentId: F:LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_RESERVED3
+  id: MFX_HANDLE_RESERVED3
+  parent: LimeVideoSDKQuickSync.mfxHandleType
+  langs:
+  - csharp
+  - vb
+  name: MFX_HANDLE_RESERVED3
+  nameWithType: mfxHandleType.MFX_HANDLE_RESERVED3
+  fullName: LimeVideoSDKQuickSync.mfxHandleType.MFX_HANDLE_RESERVED3
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_HANDLE_RESERVED3
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+    startLine: 74
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_HANDLE_RESERVED3 = 5
+    return:
+      type: LimeVideoSDKQuickSync.mfxHandleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: LimeVideoSDKQuickSync
+  commentId: N:LimeVideoSDKQuickSync
+  isExternal: false
+  name: LimeVideoSDKQuickSync
+  nameWithType: LimeVideoSDKQuickSync
+  fullName: LimeVideoSDKQuickSync
+- uid: LimeVideoSDKQuickSync.mfxHandleType
+  commentId: T:LimeVideoSDKQuickSync.mfxHandleType
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxHandleType
+  nameWithType: mfxHandleType
+  fullName: LimeVideoSDKQuickSync.mfxHandleType

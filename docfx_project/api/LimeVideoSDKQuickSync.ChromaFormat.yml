@@ -1,0 +1,312 @@
+### YamlMime:ManagedReference
+items:
+- uid: LimeVideoSDKQuickSync.ChromaFormat
+  commentId: T:LimeVideoSDKQuickSync.ChromaFormat
+  id: ChromaFormat
+  parent: LimeVideoSDKQuickSync
+  children:
+  - LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_MONOCHROME
+  - LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV400
+  - LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV411
+  - LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV420
+  - LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV422
+  - LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV422H
+  - LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV422V
+  - LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV444
+  langs:
+  - csharp
+  - vb
+  name: ChromaFormat
+  nameWithType: ChromaFormat
+  fullName: LimeVideoSDKQuickSync.ChromaFormat
+  type: Enum
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: ChromaFormat
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 62
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: 'public enum ChromaFormat : ushort'
+    content.vb: Public Enum ChromaFormat As UShort
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_MONOCHROME
+  commentId: F:LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_MONOCHROME
+  id: MFX_CHROMAFORMAT_MONOCHROME
+  parent: LimeVideoSDKQuickSync.ChromaFormat
+  langs:
+  - csharp
+  - vb
+  name: MFX_CHROMAFORMAT_MONOCHROME
+  nameWithType: ChromaFormat.MFX_CHROMAFORMAT_MONOCHROME
+  fullName: LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_MONOCHROME
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_CHROMAFORMAT_MONOCHROME
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 64
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_CHROMAFORMAT_MONOCHROME = 0
+    return:
+      type: LimeVideoSDKQuickSync.ChromaFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV420
+  commentId: F:LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV420
+  id: MFX_CHROMAFORMAT_YUV420
+  parent: LimeVideoSDKQuickSync.ChromaFormat
+  langs:
+  - csharp
+  - vb
+  name: MFX_CHROMAFORMAT_YUV420
+  nameWithType: ChromaFormat.MFX_CHROMAFORMAT_YUV420
+  fullName: LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV420
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_CHROMAFORMAT_YUV420
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 65
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_CHROMAFORMAT_YUV420 = 1
+    return:
+      type: LimeVideoSDKQuickSync.ChromaFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV422
+  commentId: F:LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV422
+  id: MFX_CHROMAFORMAT_YUV422
+  parent: LimeVideoSDKQuickSync.ChromaFormat
+  langs:
+  - csharp
+  - vb
+  name: MFX_CHROMAFORMAT_YUV422
+  nameWithType: ChromaFormat.MFX_CHROMAFORMAT_YUV422
+  fullName: LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV422
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_CHROMAFORMAT_YUV422
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 66
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_CHROMAFORMAT_YUV422 = 2
+    return:
+      type: LimeVideoSDKQuickSync.ChromaFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV444
+  commentId: F:LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV444
+  id: MFX_CHROMAFORMAT_YUV444
+  parent: LimeVideoSDKQuickSync.ChromaFormat
+  langs:
+  - csharp
+  - vb
+  name: MFX_CHROMAFORMAT_YUV444
+  nameWithType: ChromaFormat.MFX_CHROMAFORMAT_YUV444
+  fullName: LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV444
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_CHROMAFORMAT_YUV444
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 67
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_CHROMAFORMAT_YUV444 = 3
+    return:
+      type: LimeVideoSDKQuickSync.ChromaFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV400
+  commentId: F:LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV400
+  id: MFX_CHROMAFORMAT_YUV400
+  parent: LimeVideoSDKQuickSync.ChromaFormat
+  langs:
+  - csharp
+  - vb
+  name: MFX_CHROMAFORMAT_YUV400
+  nameWithType: ChromaFormat.MFX_CHROMAFORMAT_YUV400
+  fullName: LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV400
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_CHROMAFORMAT_YUV400
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 68
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_CHROMAFORMAT_YUV400 = 0
+    return:
+      type: LimeVideoSDKQuickSync.ChromaFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV411
+  commentId: F:LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV411
+  id: MFX_CHROMAFORMAT_YUV411
+  parent: LimeVideoSDKQuickSync.ChromaFormat
+  langs:
+  - csharp
+  - vb
+  name: MFX_CHROMAFORMAT_YUV411
+  nameWithType: ChromaFormat.MFX_CHROMAFORMAT_YUV411
+  fullName: LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV411
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_CHROMAFORMAT_YUV411
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 69
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_CHROMAFORMAT_YUV411 = 4
+    return:
+      type: LimeVideoSDKQuickSync.ChromaFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV422H
+  commentId: F:LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV422H
+  id: MFX_CHROMAFORMAT_YUV422H
+  parent: LimeVideoSDKQuickSync.ChromaFormat
+  langs:
+  - csharp
+  - vb
+  name: MFX_CHROMAFORMAT_YUV422H
+  nameWithType: ChromaFormat.MFX_CHROMAFORMAT_YUV422H
+  fullName: LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV422H
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_CHROMAFORMAT_YUV422H
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 70
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_CHROMAFORMAT_YUV422H = 2
+    return:
+      type: LimeVideoSDKQuickSync.ChromaFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV422V
+  commentId: F:LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV422V
+  id: MFX_CHROMAFORMAT_YUV422V
+  parent: LimeVideoSDKQuickSync.ChromaFormat
+  langs:
+  - csharp
+  - vb
+  name: MFX_CHROMAFORMAT_YUV422V
+  nameWithType: ChromaFormat.MFX_CHROMAFORMAT_YUV422V
+  fullName: LimeVideoSDKQuickSync.ChromaFormat.MFX_CHROMAFORMAT_YUV422V
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_CHROMAFORMAT_YUV422V
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 71
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_CHROMAFORMAT_YUV422V = 5
+    return:
+      type: LimeVideoSDKQuickSync.ChromaFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: LimeVideoSDKQuickSync
+  commentId: N:LimeVideoSDKQuickSync
+  isExternal: false
+  name: LimeVideoSDKQuickSync
+  nameWithType: LimeVideoSDKQuickSync
+  fullName: LimeVideoSDKQuickSync
+- uid: LimeVideoSDKQuickSync.ChromaFormat
+  commentId: T:LimeVideoSDKQuickSync.ChromaFormat
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: ChromaFormat
+  nameWithType: ChromaFormat
+  fullName: LimeVideoSDKQuickSync.ChromaFormat

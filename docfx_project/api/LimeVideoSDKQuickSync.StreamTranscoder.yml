@@ -1,0 +1,728 @@
+### YamlMime:ManagedReference
+items:
+- uid: LimeVideoSDKQuickSync.StreamTranscoder
+  commentId: T:LimeVideoSDKQuickSync.StreamTranscoder
+  id: StreamTranscoder
+  parent: LimeVideoSDKQuickSync
+  children:
+  - LimeVideoSDKQuickSync.StreamTranscoder.#ctor(System.IO.Stream,LimeVideoSDKQuickSync.TranscoderConfiguration,LimeVideoSDKQuickSync.mfxIMPL,System.Boolean)
+  - LimeVideoSDKQuickSync.StreamTranscoder.Dispose
+  - LimeVideoSDKQuickSync.StreamTranscoder.Dispose(System.Boolean)
+  - LimeVideoSDKQuickSync.StreamTranscoder.GetFrames
+  - LimeVideoSDKQuickSync.StreamTranscoder.lowLevelTranscoder
+  langs:
+  - csharp
+  - vb
+  name: StreamTranscoder
+  nameWithType: StreamTranscoder
+  fullName: LimeVideoSDKQuickSync.StreamTranscoder
+  type: Class
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/StreamTranscoder.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: StreamTranscoder
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/StreamTranscoder.cs
+    startLine: 20
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: "\nStream based transcoder\n"
+  example: []
+  syntax:
+    content: 'public class StreamTranscoder : IDisposable'
+    content.vb: >-
+      Public Class StreamTranscoder
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: LimeVideoSDKQuickSync.StreamTranscoder.lowLevelTranscoder
+  commentId: F:LimeVideoSDKQuickSync.StreamTranscoder.lowLevelTranscoder
+  id: lowLevelTranscoder
+  parent: LimeVideoSDKQuickSync.StreamTranscoder
+  langs:
+  - csharp
+  - vb
+  name: lowLevelTranscoder
+  nameWithType: StreamTranscoder.lowLevelTranscoder
+  fullName: LimeVideoSDKQuickSync.StreamTranscoder.lowLevelTranscoder
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/StreamTranscoder.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: lowLevelTranscoder
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/StreamTranscoder.cs
+    startLine: 23
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: The low level transcoder
+  example: []
+  syntax:
+    content: public LowLevelTranscoderCSharp lowLevelTranscoder
+    content.vb: Public lowLevelTranscoder As LowLevelTranscoderCSharp
+    return:
+      type: LimeVideoSDKQuickSync.LowLevelTranscoderCSharp
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.StreamTranscoder.#ctor(System.IO.Stream,LimeVideoSDKQuickSync.TranscoderConfiguration,LimeVideoSDKQuickSync.mfxIMPL,System.Boolean)
+  commentId: M:LimeVideoSDKQuickSync.StreamTranscoder.#ctor(System.IO.Stream,LimeVideoSDKQuickSync.TranscoderConfiguration,LimeVideoSDKQuickSync.mfxIMPL,System.Boolean)
+  id: '#ctor(System.IO.Stream,LimeVideoSDKQuickSync.TranscoderConfiguration,LimeVideoSDKQuickSync.mfxIMPL,System.Boolean)'
+  parent: LimeVideoSDKQuickSync.StreamTranscoder
+  langs:
+  - csharp
+  - vb
+  name: StreamTranscoder(Stream, TranscoderConfiguration, mfxIMPL, Boolean)
+  nameWithType: StreamTranscoder.StreamTranscoder(Stream, TranscoderConfiguration, mfxIMPL, Boolean)
+  fullName: LimeVideoSDKQuickSync.StreamTranscoder.StreamTranscoder(System.IO.Stream, LimeVideoSDKQuickSync.TranscoderConfiguration, LimeVideoSDKQuickSync.mfxIMPL, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/StreamTranscoder.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: .ctor
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/StreamTranscoder.cs
+    startLine: 35
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: Initializes a new instance of the <xref href="LimeVideoSDKQuickSync.StreamTranscoder" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public StreamTranscoder(Stream inStream, TranscoderConfiguration config, mfxIMPL impl = mfxIMPL.MFX_IMPL_AUTO, bool forceSystemMemory = false)
+    content.vb: Public Sub New(inStream As Stream, config As TranscoderConfiguration, impl As mfxIMPL = mfxIMPL.MFX_IMPL_AUTO, forceSystemMemory As Boolean = False)
+    parameters:
+    - id: inStream
+      type: System.IO.Stream
+      description: The in stream.
+    - id: config
+      type: LimeVideoSDKQuickSync.TranscoderConfiguration
+      description: The configuration.
+    - id: impl
+      type: LimeVideoSDKQuickSync.mfxIMPL
+      description: The implementation.
+    - id: forceSystemMemory
+      type: System.Boolean
+      description: if set to <code>true</code> [force system memory].
+  overload: LimeVideoSDKQuickSync.StreamTranscoder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.StreamTranscoder.GetFrames
+  commentId: M:LimeVideoSDKQuickSync.StreamTranscoder.GetFrames
+  id: GetFrames
+  parent: LimeVideoSDKQuickSync.StreamTranscoder
+  langs:
+  - csharp
+  - vb
+  name: GetFrames()
+  nameWithType: StreamTranscoder.GetFrames()
+  fullName: LimeVideoSDKQuickSync.StreamTranscoder.GetFrames()
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/StreamTranscoder.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: GetFrames
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/StreamTranscoder.cs
+    startLine: 44
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: Return the next frame available
+  example: []
+  syntax:
+    content: public IEnumerable<BitStreamChunk> GetFrames()
+    content.vb: Public Function GetFrames As IEnumerable(Of BitStreamChunk)
+    return:
+      type: System.Collections.Generic.IEnumerable{LimeVideoSDKQuickSync.BitStreamChunk}
+  overload: LimeVideoSDKQuickSync.StreamTranscoder.GetFrames*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.StreamTranscoder.Dispose(System.Boolean)
+  commentId: M:LimeVideoSDKQuickSync.StreamTranscoder.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: LimeVideoSDKQuickSync.StreamTranscoder
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: StreamTranscoder.Dispose(Boolean)
+  fullName: LimeVideoSDKQuickSync.StreamTranscoder.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/StreamTranscoder.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Dispose
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/StreamTranscoder.cs
+    startLine: 104
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: Releases unmanaged and - optionally - managed resources.
+  example: []
+  syntax:
+    content: protected virtual void Dispose(bool disposing)
+    content.vb: Protected Overridable Sub Dispose(disposing As Boolean)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: <code>true</code> to release both managed and unmanaged resources; <code>false</code> to release only unmanaged resources.
+  overload: LimeVideoSDKQuickSync.StreamTranscoder.Dispose*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: LimeVideoSDKQuickSync.StreamTranscoder.Dispose
+  commentId: M:LimeVideoSDKQuickSync.StreamTranscoder.Dispose
+  id: Dispose
+  parent: LimeVideoSDKQuickSync.StreamTranscoder
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: StreamTranscoder.Dispose()
+  fullName: LimeVideoSDKQuickSync.StreamTranscoder.Dispose()
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/StreamTranscoder.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Dispose
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/StreamTranscoder.cs
+    startLine: 128
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: LimeVideoSDKQuickSync.StreamTranscoder.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: LimeVideoSDKQuickSync
+  commentId: N:LimeVideoSDKQuickSync
+  isExternal: false
+  name: LimeVideoSDKQuickSync
+  nameWithType: LimeVideoSDKQuickSync
+  fullName: LimeVideoSDKQuickSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LimeVideoSDKQuickSync.LowLevelTranscoderCSharp
+  commentId: T:LimeVideoSDKQuickSync.LowLevelTranscoderCSharp
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: LowLevelTranscoderCSharp
+  nameWithType: LowLevelTranscoderCSharp
+  fullName: LimeVideoSDKQuickSync.LowLevelTranscoderCSharp
+- uid: LimeVideoSDKQuickSync.StreamTranscoder
+  commentId: T:LimeVideoSDKQuickSync.StreamTranscoder
+  isExternal: false
+  name: StreamTranscoder
+  nameWithType: StreamTranscoder
+  fullName: LimeVideoSDKQuickSync.StreamTranscoder
+- uid: LimeVideoSDKQuickSync.StreamTranscoder.#ctor*
+  commentId: Overload:LimeVideoSDKQuickSync.StreamTranscoder.#ctor
+  isExternal: false
+  name: StreamTranscoder
+  nameWithType: StreamTranscoder.StreamTranscoder
+  fullName: LimeVideoSDKQuickSync.StreamTranscoder.StreamTranscoder
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: LimeVideoSDKQuickSync.TranscoderConfiguration
+  commentId: T:LimeVideoSDKQuickSync.TranscoderConfiguration
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: TranscoderConfiguration
+  nameWithType: TranscoderConfiguration
+  fullName: LimeVideoSDKQuickSync.TranscoderConfiguration
+- uid: LimeVideoSDKQuickSync.mfxIMPL
+  commentId: T:LimeVideoSDKQuickSync.mfxIMPL
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxIMPL
+  nameWithType: mfxIMPL
+  fullName: LimeVideoSDKQuickSync.mfxIMPL
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: false
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: LimeVideoSDKQuickSync.StreamTranscoder.GetFrames*
+  commentId: Overload:LimeVideoSDKQuickSync.StreamTranscoder.GetFrames
+  isExternal: false
+  name: GetFrames
+  nameWithType: StreamTranscoder.GetFrames
+  fullName: LimeVideoSDKQuickSync.StreamTranscoder.GetFrames
+- uid: System.Collections.Generic.IEnumerable{LimeVideoSDKQuickSync.BitStreamChunk}
+  commentId: T:System.Collections.Generic.IEnumerable{LimeVideoSDKQuickSync.BitStreamChunk}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<BitStreamChunk>
+  nameWithType: IEnumerable<BitStreamChunk>
+  fullName: System.Collections.Generic.IEnumerable<LimeVideoSDKQuickSync.BitStreamChunk>
+  nameWithType.vb: IEnumerable(Of BitStreamChunk)
+  fullname.vb: System.Collections.Generic.IEnumerable(Of LimeVideoSDKQuickSync.BitStreamChunk)
+  name.vb: IEnumerable(Of BitStreamChunk)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: LimeVideoSDKQuickSync.BitStreamChunk
+    name: BitStreamChunk
+    nameWithType: BitStreamChunk
+    fullName: LimeVideoSDKQuickSync.BitStreamChunk
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: LimeVideoSDKQuickSync.BitStreamChunk
+    name: BitStreamChunk
+    nameWithType: BitStreamChunk
+    fullName: LimeVideoSDKQuickSync.BitStreamChunk
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullname.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: LimeVideoSDKQuickSync.StreamTranscoder.Dispose*
+  commentId: Overload:LimeVideoSDKQuickSync.StreamTranscoder.Dispose
+  isExternal: false
+  name: Dispose
+  nameWithType: StreamTranscoder.Dispose
+  fullName: LimeVideoSDKQuickSync.StreamTranscoder.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

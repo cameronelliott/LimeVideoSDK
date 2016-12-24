@@ -1,0 +1,467 @@
+### YamlMime:ManagedReference
+items:
+- uid: LimeVideoSDKQuickSync.VideoUtility
+  commentId: T:LimeVideoSDKQuickSync.VideoUtility
+  id: VideoUtility
+  parent: LimeVideoSDKQuickSync
+  children:
+  - LimeVideoSDKQuickSync.VideoUtility.GetBitsPerPixel(LimeVideoSDKQuickSync.FourCC)
+  - LimeVideoSDKQuickSync.VideoUtility.GetPackedPitchMultiplier(LimeVideoSDKQuickSync.FourCC)
+  langs:
+  - csharp
+  - vb
+  name: VideoUtility
+  nameWithType: VideoUtility
+  fullName: LimeVideoSDKQuickSync.VideoUtility
+  type: Class
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/VideoUtility.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: VideoUtility
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/VideoUtility.cs
+    startLine: 19
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: "\nVideo helper methods.\n"
+  example: []
+  syntax:
+    content: public static class VideoUtility
+    content.vb: Public Module VideoUtility
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: LimeVideoSDKQuickSync.VideoUtility.GetBitsPerPixel(LimeVideoSDKQuickSync.FourCC)
+  commentId: M:LimeVideoSDKQuickSync.VideoUtility.GetBitsPerPixel(LimeVideoSDKQuickSync.FourCC)
+  id: GetBitsPerPixel(LimeVideoSDKQuickSync.FourCC)
+  parent: LimeVideoSDKQuickSync.VideoUtility
+  langs:
+  - csharp
+  - vb
+  name: GetBitsPerPixel(FourCC)
+  nameWithType: VideoUtility.GetBitsPerPixel(FourCC)
+  fullName: LimeVideoSDKQuickSync.VideoUtility.GetBitsPerPixel(LimeVideoSDKQuickSync.FourCC)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/VideoUtility.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: GetBitsPerPixel
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/VideoUtility.cs
+    startLine: 27
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: "\nFind the number of bits per pixel of a FourCC\n"
+  example: []
+  syntax:
+    content: public static int GetBitsPerPixel(FourCC fourcc)
+    content.vb: Public Shared Function GetBitsPerPixel(fourcc As FourCC) As Integer
+    parameters:
+    - id: fourcc
+      type: LimeVideoSDKQuickSync.FourCC
+      description: Fourcc in question
+    return:
+      type: System.Int32
+      description: Number of bits per pixel
+  overload: LimeVideoSDKQuickSync.VideoUtility.GetBitsPerPixel*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LimeVideoSDKQuickSync.VideoUtility.GetPackedPitchMultiplier(LimeVideoSDKQuickSync.FourCC)
+  commentId: M:LimeVideoSDKQuickSync.VideoUtility.GetPackedPitchMultiplier(LimeVideoSDKQuickSync.FourCC)
+  id: GetPackedPitchMultiplier(LimeVideoSDKQuickSync.FourCC)
+  parent: LimeVideoSDKQuickSync.VideoUtility
+  langs:
+  - csharp
+  - vb
+  name: GetPackedPitchMultiplier(FourCC)
+  nameWithType: VideoUtility.GetPackedPitchMultiplier(FourCC)
+  fullName: LimeVideoSDKQuickSync.VideoUtility.GetPackedPitchMultiplier(LimeVideoSDKQuickSync.FourCC)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/VideoUtility.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: GetPackedPitchMultiplier
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/VideoUtility.cs
+    startLine: 55
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: This function can be used to compute the pitch for a FourCC.
+  example: []
+  syntax:
+    content: public static int GetPackedPitchMultiplier(FourCC fourCC)
+    content.vb: Public Shared Function GetPackedPitchMultiplier(fourCC As FourCC) As Integer
+    parameters:
+    - id: fourCC
+      type: LimeVideoSDKQuickSync.FourCC
+      description: The FourCC
+    return:
+      type: System.Int32
+      description: ''
+  overload: LimeVideoSDKQuickSync.VideoUtility.GetPackedPitchMultiplier*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: 'Contact support: PackedPitchmultiplier() not available for " + fourCC.ToString()'
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: LimeVideoSDKQuickSync
+  commentId: N:LimeVideoSDKQuickSync
+  isExternal: false
+  name: LimeVideoSDKQuickSync
+  nameWithType: LimeVideoSDKQuickSync
+  fullName: LimeVideoSDKQuickSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LimeVideoSDKQuickSync.VideoUtility.GetBitsPerPixel*
+  commentId: Overload:LimeVideoSDKQuickSync.VideoUtility.GetBitsPerPixel
+  isExternal: false
+  name: GetBitsPerPixel
+  nameWithType: VideoUtility.GetBitsPerPixel
+  fullName: LimeVideoSDKQuickSync.VideoUtility.GetBitsPerPixel
+- uid: LimeVideoSDKQuickSync.FourCC
+  commentId: T:LimeVideoSDKQuickSync.FourCC
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: FourCC
+  nameWithType: FourCC
+  fullName: LimeVideoSDKQuickSync.FourCC
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: LimeVideoSDKQuickSync.VideoUtility.GetPackedPitchMultiplier*
+  commentId: Overload:LimeVideoSDKQuickSync.VideoUtility.GetPackedPitchMultiplier
+  isExternal: false
+  name: GetPackedPitchMultiplier
+  nameWithType: VideoUtility.GetPackedPitchMultiplier
+  fullName: LimeVideoSDKQuickSync.VideoUtility.GetPackedPitchMultiplier
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception

@@ -1,0 +1,413 @@
+### YamlMime:ManagedReference
+items:
+- uid: LimeVideoSDKQuickSync.TargetUsage
+  commentId: T:LimeVideoSDKQuickSync.TargetUsage
+  id: TargetUsage
+  parent: LimeVideoSDKQuickSync
+  children:
+  - LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_1
+  - LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_2
+  - LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_3
+  - LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_4
+  - LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_5
+  - LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_6
+  - LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_7
+  - LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_BALANCED
+  - LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_BEST_QUALITY
+  - LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_BEST_SPEED
+  - LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_UNKNOWN
+  langs:
+  - csharp
+  - vb
+  name: TargetUsage
+  nameWithType: TargetUsage
+  fullName: LimeVideoSDKQuickSync.TargetUsage
+  type: Enum
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: TargetUsage
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 17
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: "\nThis describes the tradeoff between speed and quality to select.\n1 = 100% quality over speed\n7 = 100% speed over quality\n"
+  example: []
+  syntax:
+    content: 'public enum TargetUsage : ushort'
+    content.vb: Public Enum TargetUsage As UShort
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_1
+  commentId: F:LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_1
+  id: MFX_TARGETUSAGE_1
+  parent: LimeVideoSDKQuickSync.TargetUsage
+  langs:
+  - csharp
+  - vb
+  name: MFX_TARGETUSAGE_1
+  nameWithType: TargetUsage.MFX_TARGETUSAGE_1
+  fullName: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_1
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_TARGETUSAGE_1
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 20
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_TARGETUSAGE_1 = 1
+    return:
+      type: LimeVideoSDKQuickSync.TargetUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_2
+  commentId: F:LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_2
+  id: MFX_TARGETUSAGE_2
+  parent: LimeVideoSDKQuickSync.TargetUsage
+  langs:
+  - csharp
+  - vb
+  name: MFX_TARGETUSAGE_2
+  nameWithType: TargetUsage.MFX_TARGETUSAGE_2
+  fullName: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_2
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_TARGETUSAGE_2
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 21
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_TARGETUSAGE_2 = 2
+    return:
+      type: LimeVideoSDKQuickSync.TargetUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_3
+  commentId: F:LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_3
+  id: MFX_TARGETUSAGE_3
+  parent: LimeVideoSDKQuickSync.TargetUsage
+  langs:
+  - csharp
+  - vb
+  name: MFX_TARGETUSAGE_3
+  nameWithType: TargetUsage.MFX_TARGETUSAGE_3
+  fullName: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_3
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_TARGETUSAGE_3
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 22
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_TARGETUSAGE_3 = 3
+    return:
+      type: LimeVideoSDKQuickSync.TargetUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_4
+  commentId: F:LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_4
+  id: MFX_TARGETUSAGE_4
+  parent: LimeVideoSDKQuickSync.TargetUsage
+  langs:
+  - csharp
+  - vb
+  name: MFX_TARGETUSAGE_4
+  nameWithType: TargetUsage.MFX_TARGETUSAGE_4
+  fullName: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_4
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_TARGETUSAGE_4
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 23
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_TARGETUSAGE_4 = 4
+    return:
+      type: LimeVideoSDKQuickSync.TargetUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_5
+  commentId: F:LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_5
+  id: MFX_TARGETUSAGE_5
+  parent: LimeVideoSDKQuickSync.TargetUsage
+  langs:
+  - csharp
+  - vb
+  name: MFX_TARGETUSAGE_5
+  nameWithType: TargetUsage.MFX_TARGETUSAGE_5
+  fullName: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_5
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_TARGETUSAGE_5
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 24
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_TARGETUSAGE_5 = 5
+    return:
+      type: LimeVideoSDKQuickSync.TargetUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_6
+  commentId: F:LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_6
+  id: MFX_TARGETUSAGE_6
+  parent: LimeVideoSDKQuickSync.TargetUsage
+  langs:
+  - csharp
+  - vb
+  name: MFX_TARGETUSAGE_6
+  nameWithType: TargetUsage.MFX_TARGETUSAGE_6
+  fullName: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_6
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_TARGETUSAGE_6
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 25
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_TARGETUSAGE_6 = 6
+    return:
+      type: LimeVideoSDKQuickSync.TargetUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_7
+  commentId: F:LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_7
+  id: MFX_TARGETUSAGE_7
+  parent: LimeVideoSDKQuickSync.TargetUsage
+  langs:
+  - csharp
+  - vb
+  name: MFX_TARGETUSAGE_7
+  nameWithType: TargetUsage.MFX_TARGETUSAGE_7
+  fullName: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_7
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_TARGETUSAGE_7
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 26
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_TARGETUSAGE_7 = 7
+    return:
+      type: LimeVideoSDKQuickSync.TargetUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_UNKNOWN
+  commentId: F:LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_UNKNOWN
+  id: MFX_TARGETUSAGE_UNKNOWN
+  parent: LimeVideoSDKQuickSync.TargetUsage
+  langs:
+  - csharp
+  - vb
+  name: MFX_TARGETUSAGE_UNKNOWN
+  nameWithType: TargetUsage.MFX_TARGETUSAGE_UNKNOWN
+  fullName: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_TARGETUSAGE_UNKNOWN
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 27
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_TARGETUSAGE_UNKNOWN = 0
+    return:
+      type: LimeVideoSDKQuickSync.TargetUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_BEST_QUALITY
+  commentId: F:LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_BEST_QUALITY
+  id: MFX_TARGETUSAGE_BEST_QUALITY
+  parent: LimeVideoSDKQuickSync.TargetUsage
+  langs:
+  - csharp
+  - vb
+  name: MFX_TARGETUSAGE_BEST_QUALITY
+  nameWithType: TargetUsage.MFX_TARGETUSAGE_BEST_QUALITY
+  fullName: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_BEST_QUALITY
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_TARGETUSAGE_BEST_QUALITY
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 28
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_TARGETUSAGE_BEST_QUALITY = 1
+    return:
+      type: LimeVideoSDKQuickSync.TargetUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_BALANCED
+  commentId: F:LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_BALANCED
+  id: MFX_TARGETUSAGE_BALANCED
+  parent: LimeVideoSDKQuickSync.TargetUsage
+  langs:
+  - csharp
+  - vb
+  name: MFX_TARGETUSAGE_BALANCED
+  nameWithType: TargetUsage.MFX_TARGETUSAGE_BALANCED
+  fullName: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_BALANCED
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_TARGETUSAGE_BALANCED
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 29
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_TARGETUSAGE_BALANCED = 4
+    return:
+      type: LimeVideoSDKQuickSync.TargetUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_BEST_SPEED
+  commentId: F:LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_BEST_SPEED
+  id: MFX_TARGETUSAGE_BEST_SPEED
+  parent: LimeVideoSDKQuickSync.TargetUsage
+  langs:
+  - csharp
+  - vb
+  name: MFX_TARGETUSAGE_BEST_SPEED
+  nameWithType: TargetUsage.MFX_TARGETUSAGE_BEST_SPEED
+  fullName: LimeVideoSDKQuickSync.TargetUsage.MFX_TARGETUSAGE_BEST_SPEED
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_TARGETUSAGE_BEST_SPEED
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 30
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_TARGETUSAGE_BEST_SPEED = 7
+    return:
+      type: LimeVideoSDKQuickSync.TargetUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: LimeVideoSDKQuickSync
+  commentId: N:LimeVideoSDKQuickSync
+  isExternal: false
+  name: LimeVideoSDKQuickSync
+  nameWithType: LimeVideoSDKQuickSync
+  fullName: LimeVideoSDKQuickSync
+- uid: LimeVideoSDKQuickSync.TargetUsage
+  commentId: T:LimeVideoSDKQuickSync.TargetUsage
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: TargetUsage
+  nameWithType: TargetUsage
+  fullName: LimeVideoSDKQuickSync.TargetUsage

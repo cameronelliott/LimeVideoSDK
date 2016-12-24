@@ -1,0 +1,603 @@
+### YamlMime:ManagedReference
+items:
+- uid: LimeVideoSDKQuickSync.NV12FromXXXXConverter
+  commentId: T:LimeVideoSDKQuickSync.NV12FromXXXXConverter
+  id: NV12FromXXXXConverter
+  parent: LimeVideoSDKQuickSync
+  children:
+  - LimeVideoSDKQuickSync.NV12FromXXXXConverter.#ctor(LimeVideoSDKQuickSync.FourCC,System.Int32,System.Int32)
+  - LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12(System.Byte[],System.Boolean)
+  - LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12FrameSurface(LimeVideoSDKQuickSync.mfxFrameSurface1@,System.Byte[],System.Int32)
+  - LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12FrameSurface(System.IntPtr@,System.Byte[],System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: NV12FromXXXXConverter
+  nameWithType: NV12FromXXXXConverter
+  fullName: LimeVideoSDKQuickSync.NV12FromXXXXConverter
+  type: Class
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/NV12Resizer.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: NV12FromXXXXConverter
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/NV12Resizer.cs
+    startLine: 21
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: "\nFor converting non-NV12 raw frames to NV12\nFor example to convert RGB3 or I420 to NV12\nSee methods for fourcc formats supported\n"
+  example: []
+  syntax:
+    content: public class NV12FromXXXXConverter
+    content.vb: Public Class NV12FromXXXXConverter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12FrameSurface(LimeVideoSDKQuickSync.mfxFrameSurface1@,System.Byte[],System.Int32)
+  commentId: M:LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12FrameSurface(LimeVideoSDKQuickSync.mfxFrameSurface1@,System.Byte[],System.Int32)
+  id: ConvertToNV12FrameSurface(LimeVideoSDKQuickSync.mfxFrameSurface1@,System.Byte[],System.Int32)
+  parent: LimeVideoSDKQuickSync.NV12FromXXXXConverter
+  langs:
+  - csharp
+  - vb
+  name: ConvertToNV12FrameSurface(ref mfxFrameSurface1, Byte[], Int32)
+  nameWithType: NV12FromXXXXConverter.ConvertToNV12FrameSurface(ref mfxFrameSurface1, Byte[], Int32)
+  fullName: LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12FrameSurface(ref LimeVideoSDKQuickSync.mfxFrameSurface1, System.Byte[], System.Int32)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/NV12Resizer.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: ConvertToNV12FrameSurface
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/NV12Resizer.cs
+    startLine: 37
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: "\nTakes \n"
+  example: []
+  syntax:
+    content: public void ConvertToNV12FrameSurface(ref mfxFrameSurface1 nv12surf, byte[] srcframe, int offset)
+    content.vb: Public Sub ConvertToNV12FrameSurface(ByRef nv12surf As mfxFrameSurface1, srcframe As Byte(), offset As Integer)
+    parameters:
+    - id: nv12surf
+      type: LimeVideoSDKQuickSync.mfxFrameSurface1
+      description: ''
+    - id: srcframe
+      type: System.Byte[]
+      description: ''
+    - id: offset
+      type: System.Int32
+      description: ''
+  overload: LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12FrameSurface*
+  nameWithType.vb: NV12FromXXXXConverter.ConvertToNV12FrameSurface(ByRef mfxFrameSurface1, Byte(), Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12FrameSurface(ByRef LimeVideoSDKQuickSync.mfxFrameSurface1, System.Byte(), System.Int32)
+  name.vb: ConvertToNV12FrameSurface(ByRef mfxFrameSurface1, Byte(), Int32)
+- uid: LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12FrameSurface(System.IntPtr@,System.Byte[],System.Int32)
+  commentId: M:LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12FrameSurface(System.IntPtr@,System.Byte[],System.Int32)
+  id: ConvertToNV12FrameSurface(System.IntPtr@,System.Byte[],System.Int32)
+  parent: LimeVideoSDKQuickSync.NV12FromXXXXConverter
+  langs:
+  - csharp
+  - vb
+  name: ConvertToNV12FrameSurface(ref IntPtr, Byte[], Int32)
+  nameWithType: NV12FromXXXXConverter.ConvertToNV12FrameSurface(ref IntPtr, Byte[], Int32)
+  fullName: LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12FrameSurface(ref System.IntPtr, System.Byte[], System.Int32)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/NV12Resizer.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: ConvertToNV12FrameSurface
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/NV12Resizer.cs
+    startLine: 60
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: Converts to n V12 frame surface.
+  example: []
+  syntax:
+    content: public void ConvertToNV12FrameSurface(ref IntPtr nv12surfx, byte[] srcframe, int offset)
+    content.vb: Public Sub ConvertToNV12FrameSurface(ByRef nv12surfx As IntPtr, srcframe As Byte(), offset As Integer)
+    parameters:
+    - id: nv12surfx
+      type: System.IntPtr
+      description: The nv12surfx.
+    - id: srcframe
+      type: System.Byte[]
+      description: The srcframe.
+    - id: offset
+      type: System.Int32
+      description: The offset.
+  overload: LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12FrameSurface*
+  nameWithType.vb: NV12FromXXXXConverter.ConvertToNV12FrameSurface(ByRef IntPtr, Byte(), Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12FrameSurface(ByRef System.IntPtr, System.Byte(), System.Int32)
+  name.vb: ConvertToNV12FrameSurface(ByRef IntPtr, Byte(), Int32)
+- uid: LimeVideoSDKQuickSync.NV12FromXXXXConverter.#ctor(LimeVideoSDKQuickSync.FourCC,System.Int32,System.Int32)
+  commentId: M:LimeVideoSDKQuickSync.NV12FromXXXXConverter.#ctor(LimeVideoSDKQuickSync.FourCC,System.Int32,System.Int32)
+  id: '#ctor(LimeVideoSDKQuickSync.FourCC,System.Int32,System.Int32)'
+  parent: LimeVideoSDKQuickSync.NV12FromXXXXConverter
+  langs:
+  - csharp
+  - vb
+  name: NV12FromXXXXConverter(FourCC, Int32, Int32)
+  nameWithType: NV12FromXXXXConverter.NV12FromXXXXConverter(FourCC, Int32, Int32)
+  fullName: LimeVideoSDKQuickSync.NV12FromXXXXConverter.NV12FromXXXXConverter(LimeVideoSDKQuickSync.FourCC, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/NV12Resizer.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: .ctor
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/NV12Resizer.cs
+    startLine: 88
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: "\nConstructor\n"
+  example: []
+  syntax:
+    content: public NV12FromXXXXConverter(FourCC infourcc, int width, int height)
+    content.vb: Public Sub New(infourcc As FourCC, width As Integer, height As Integer)
+    parameters:
+    - id: infourcc
+      type: LimeVideoSDKQuickSync.FourCC
+      description: ''
+    - id: width
+      type: System.Int32
+      description: ''
+    - id: height
+      type: System.Int32
+      description: ''
+  overload: LimeVideoSDKQuickSync.NV12FromXXXXConverter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12(System.Byte[],System.Boolean)
+  commentId: M:LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12(System.Byte[],System.Boolean)
+  id: ConvertToNV12(System.Byte[],System.Boolean)
+  parent: LimeVideoSDKQuickSync.NV12FromXXXXConverter
+  langs:
+  - csharp
+  - vb
+  name: ConvertToNV12(Byte[], Boolean)
+  nameWithType: NV12FromXXXXConverter.ConvertToNV12(Byte[], Boolean)
+  fullName: LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12(System.Byte[], System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/NV12Resizer.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: ConvertToNV12
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/NV12Resizer.cs
+    startLine: 103
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: "\nConvert a non-NV12 raw frame to NV12. for RGB3, I420, etc...\n"
+  example: []
+  syntax:
+    content: public byte[] ConvertToNV12(byte[] inbuf, bool allocateNewArray = true)
+    content.vb: Public Function ConvertToNV12(inbuf As Byte(), allocateNewArray As Boolean = True) As Byte()
+    parameters:
+    - id: inbuf
+      type: System.Byte[]
+      description: Raw frame
+    - id: allocateNewArray
+      type: System.Boolean
+      description: True = allocate a new array on each call
+    return:
+      type: System.Byte[]
+  overload: LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12*
+  nameWithType.vb: NV12FromXXXXConverter.ConvertToNV12(Byte(), Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12(System.Byte(), System.Boolean)
+  name.vb: ConvertToNV12(Byte(), Boolean)
+references:
+- uid: LimeVideoSDKQuickSync
+  commentId: N:LimeVideoSDKQuickSync
+  isExternal: false
+  name: LimeVideoSDKQuickSync
+  nameWithType: LimeVideoSDKQuickSync
+  fullName: LimeVideoSDKQuickSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12FrameSurface*
+  commentId: Overload:LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12FrameSurface
+  isExternal: false
+  name: ConvertToNV12FrameSurface
+  nameWithType: NV12FromXXXXConverter.ConvertToNV12FrameSurface
+  fullName: LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12FrameSurface
+- uid: LimeVideoSDKQuickSync.mfxFrameSurface1
+  commentId: T:LimeVideoSDKQuickSync.mfxFrameSurface1
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxFrameSurface1
+  nameWithType: mfxFrameSurface1
+  fullName: LimeVideoSDKQuickSync.mfxFrameSurface1
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullname.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: LimeVideoSDKQuickSync.NV12FromXXXXConverter.#ctor*
+  commentId: Overload:LimeVideoSDKQuickSync.NV12FromXXXXConverter.#ctor
+  isExternal: false
+  name: NV12FromXXXXConverter
+  nameWithType: NV12FromXXXXConverter.NV12FromXXXXConverter
+  fullName: LimeVideoSDKQuickSync.NV12FromXXXXConverter.NV12FromXXXXConverter
+- uid: LimeVideoSDKQuickSync.FourCC
+  commentId: T:LimeVideoSDKQuickSync.FourCC
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: FourCC
+  nameWithType: FourCC
+  fullName: LimeVideoSDKQuickSync.FourCC
+- uid: LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12*
+  commentId: Overload:LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12
+  isExternal: false
+  name: ConvertToNV12
+  nameWithType: NV12FromXXXXConverter.ConvertToNV12
+  fullName: LimeVideoSDKQuickSync.NV12FromXXXXConverter.ConvertToNV12
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

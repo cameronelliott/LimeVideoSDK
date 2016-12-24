@@ -1,0 +1,1796 @@
+### YamlMime:ManagedReference
+items:
+- uid: LimeVideoSDKQuickSync.mfxFrameData
+  commentId: T:LimeVideoSDKQuickSync.mfxFrameData
+  id: mfxFrameData
+  parent: LimeVideoSDKQuickSync
+  children:
+  - LimeVideoSDKQuickSync.mfxFrameData.A
+  - LimeVideoSDKQuickSync.mfxFrameData.A_ptr
+  - LimeVideoSDKQuickSync.mfxFrameData.B
+  - LimeVideoSDKQuickSync.mfxFrameData.B_ptr
+  - LimeVideoSDKQuickSync.mfxFrameData.Cb
+  - LimeVideoSDKQuickSync.mfxFrameData.Cb_ptr
+  - LimeVideoSDKQuickSync.mfxFrameData.CbCr
+  - LimeVideoSDKQuickSync.mfxFrameData.CbCr_ptr
+  - LimeVideoSDKQuickSync.mfxFrameData.Corrupted
+  - LimeVideoSDKQuickSync.mfxFrameData.Cr
+  - LimeVideoSDKQuickSync.mfxFrameData.Cr_ptr
+  - LimeVideoSDKQuickSync.mfxFrameData.CrCb
+  - LimeVideoSDKQuickSync.mfxFrameData.CrCb_ptr
+  - LimeVideoSDKQuickSync.mfxFrameData.DataFlag
+  - LimeVideoSDKQuickSync.mfxFrameData.FrameOrder
+  - LimeVideoSDKQuickSync.mfxFrameData.G
+  - LimeVideoSDKQuickSync.mfxFrameData.G_ptr
+  - LimeVideoSDKQuickSync.mfxFrameData.Locked
+  - LimeVideoSDKQuickSync.mfxFrameData.MemId
+  - LimeVideoSDKQuickSync.mfxFrameData.MemId_ptr
+  - LimeVideoSDKQuickSync.mfxFrameData.NumExtParam
+  - LimeVideoSDKQuickSync.mfxFrameData.Pitch
+  - LimeVideoSDKQuickSync.mfxFrameData.PitchHigh
+  - LimeVideoSDKQuickSync.mfxFrameData.PitchLow
+  - LimeVideoSDKQuickSync.mfxFrameData.R
+  - LimeVideoSDKQuickSync.mfxFrameData.R_ptr
+  - LimeVideoSDKQuickSync.mfxFrameData.reserved2
+  - LimeVideoSDKQuickSync.mfxFrameData.TimeStamp
+  - LimeVideoSDKQuickSync.mfxFrameData.U
+  - LimeVideoSDKQuickSync.mfxFrameData.U_ptr
+  - LimeVideoSDKQuickSync.mfxFrameData.U16
+  - LimeVideoSDKQuickSync.mfxFrameData.U16_ptr
+  - LimeVideoSDKQuickSync.mfxFrameData.UV
+  - LimeVideoSDKQuickSync.mfxFrameData.UV_ptr
+  - LimeVideoSDKQuickSync.mfxFrameData.V
+  - LimeVideoSDKQuickSync.mfxFrameData.V_ptr
+  - LimeVideoSDKQuickSync.mfxFrameData.V16
+  - LimeVideoSDKQuickSync.mfxFrameData.V16_ptr
+  - LimeVideoSDKQuickSync.mfxFrameData.VU
+  - LimeVideoSDKQuickSync.mfxFrameData.VU_ptr
+  - LimeVideoSDKQuickSync.mfxFrameData.Y
+  - LimeVideoSDKQuickSync.mfxFrameData.Y_ptr
+  - LimeVideoSDKQuickSync.mfxFrameData.Y16
+  - LimeVideoSDKQuickSync.mfxFrameData.Y16_ptr
+  langs:
+  - csharp
+  - vb
+  name: mfxFrameData
+  nameWithType: mfxFrameData
+  fullName: LimeVideoSDKQuickSync.mfxFrameData
+  type: Struct
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: mfxFrameData
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 212
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public struct mfxFrameData
+    content.vb: Public Structure mfxFrameData
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: LimeVideoSDKQuickSync.mfxFrameData.MemId
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.MemId
+  id: MemId
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: MemId
+  nameWithType: mfxFrameData.MemId
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.MemId
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MemId
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+    startLine: 186
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr MemId
+    content.vb: Public MemId As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.MemId_ptr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.MemId_ptr
+  id: MemId_ptr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: MemId_ptr
+  nameWithType: mfxFrameData.MemId_ptr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.MemId_ptr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MemId_ptr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.byhand.cs
+    startLine: 188
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public byte *MemId_ptr
+    content.vb: Public MemId_ptr As Byte
+    return:
+      type: System.Byte*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.reserved2
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.reserved2
+  id: reserved2
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: reserved2
+  nameWithType: mfxFrameData.reserved2
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.reserved2
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: reserved2
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 215
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ulong reserved2
+    content.vb: Public reserved2 As ULong
+    return:
+      type: System.UInt64
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.NumExtParam
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.NumExtParam
+  id: NumExtParam
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: NumExtParam
+  nameWithType: mfxFrameData.NumExtParam
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.NumExtParam
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: NumExtParam
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 217
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort NumExtParam
+    content.vb: Public NumExtParam As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.PitchHigh
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.PitchHigh
+  id: PitchHigh
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: PitchHigh
+  nameWithType: mfxFrameData.PitchHigh
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.PitchHigh
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: PitchHigh
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 220
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort PitchHigh
+    content.vb: Public PitchHigh As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.TimeStamp
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.TimeStamp
+  id: TimeStamp
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: TimeStamp
+  nameWithType: mfxFrameData.TimeStamp
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.TimeStamp
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: TimeStamp
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 222
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ulong TimeStamp
+    content.vb: Public TimeStamp As ULong
+    return:
+      type: System.UInt64
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.FrameOrder
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.FrameOrder
+  id: FrameOrder
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: FrameOrder
+  nameWithType: mfxFrameData.FrameOrder
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.FrameOrder
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: FrameOrder
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 224
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public uint FrameOrder
+    content.vb: Public FrameOrder As UInteger
+    return:
+      type: System.UInt32
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.Locked
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.Locked
+  id: Locked
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: Locked
+  nameWithType: mfxFrameData.Locked
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.Locked
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Locked
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 226
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort Locked
+    content.vb: Public Locked As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.Pitch
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.Pitch
+  id: Pitch
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: Pitch
+  nameWithType: mfxFrameData.Pitch
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.Pitch
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Pitch
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 228
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort Pitch
+    content.vb: Public Pitch As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.PitchLow
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.PitchLow
+  id: PitchLow
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: PitchLow
+  nameWithType: mfxFrameData.PitchLow
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.PitchLow
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: PitchLow
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 230
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort PitchLow
+    content.vb: Public PitchLow As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.Y
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.Y
+  id: Y
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: mfxFrameData.Y
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.Y
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Y
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 232
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr Y
+    content.vb: Public Y As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.Y_ptr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.Y_ptr
+  id: Y_ptr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: Y_ptr
+  nameWithType: mfxFrameData.Y_ptr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.Y_ptr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Y_ptr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 234
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public byte *Y_ptr
+    content.vb: Public Y_ptr As Byte
+    return:
+      type: System.Byte*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.Y16
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.Y16
+  id: Y16
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: Y16
+  nameWithType: mfxFrameData.Y16
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.Y16
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Y16
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 236
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr Y16
+    content.vb: Public Y16 As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.Y16_ptr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.Y16_ptr
+  id: Y16_ptr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: Y16_ptr
+  nameWithType: mfxFrameData.Y16_ptr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.Y16_ptr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Y16_ptr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 238
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort *Y16_ptr
+    content.vb: Public Y16_ptr As UShort
+    return:
+      type: System.UInt16*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.R
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.R
+  id: R
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: R
+  nameWithType: mfxFrameData.R
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.R
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: R
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 240
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr R
+    content.vb: Public R As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.R_ptr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.R_ptr
+  id: R_ptr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: R_ptr
+  nameWithType: mfxFrameData.R_ptr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.R_ptr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: R_ptr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 242
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public byte *R_ptr
+    content.vb: Public R_ptr As Byte
+    return:
+      type: System.Byte*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.UV
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.UV
+  id: UV
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: UV
+  nameWithType: mfxFrameData.UV
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.UV
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: UV
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 244
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr UV
+    content.vb: Public UV As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.UV_ptr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.UV_ptr
+  id: UV_ptr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: UV_ptr
+  nameWithType: mfxFrameData.UV_ptr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.UV_ptr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: UV_ptr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 246
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public byte *UV_ptr
+    content.vb: Public UV_ptr As Byte
+    return:
+      type: System.Byte*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.VU
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.VU
+  id: VU
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: VU
+  nameWithType: mfxFrameData.VU
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.VU
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: VU
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 248
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr VU
+    content.vb: Public VU As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.VU_ptr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.VU_ptr
+  id: VU_ptr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: VU_ptr
+  nameWithType: mfxFrameData.VU_ptr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.VU_ptr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: VU_ptr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 250
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public byte *VU_ptr
+    content.vb: Public VU_ptr As Byte
+    return:
+      type: System.Byte*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.CbCr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.CbCr
+  id: CbCr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: CbCr
+  nameWithType: mfxFrameData.CbCr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.CbCr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: CbCr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 252
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr CbCr
+    content.vb: Public CbCr As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.CbCr_ptr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.CbCr_ptr
+  id: CbCr_ptr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: CbCr_ptr
+  nameWithType: mfxFrameData.CbCr_ptr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.CbCr_ptr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: CbCr_ptr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 254
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public byte *CbCr_ptr
+    content.vb: Public CbCr_ptr As Byte
+    return:
+      type: System.Byte*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.CrCb
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.CrCb
+  id: CrCb
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: CrCb
+  nameWithType: mfxFrameData.CrCb
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.CrCb
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: CrCb
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 256
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr CrCb
+    content.vb: Public CrCb As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.CrCb_ptr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.CrCb_ptr
+  id: CrCb_ptr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: CrCb_ptr
+  nameWithType: mfxFrameData.CrCb_ptr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.CrCb_ptr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: CrCb_ptr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 258
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public byte *CrCb_ptr
+    content.vb: Public CrCb_ptr As Byte
+    return:
+      type: System.Byte*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.Cb
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.Cb
+  id: Cb
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: Cb
+  nameWithType: mfxFrameData.Cb
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.Cb
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Cb
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 260
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr Cb
+    content.vb: Public Cb As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.Cb_ptr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.Cb_ptr
+  id: Cb_ptr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: Cb_ptr
+  nameWithType: mfxFrameData.Cb_ptr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.Cb_ptr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Cb_ptr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 262
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public byte *Cb_ptr
+    content.vb: Public Cb_ptr As Byte
+    return:
+      type: System.Byte*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.U
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.U
+  id: U
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: U
+  nameWithType: mfxFrameData.U
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.U
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: U
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 264
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr U
+    content.vb: Public U As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.U_ptr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.U_ptr
+  id: U_ptr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: U_ptr
+  nameWithType: mfxFrameData.U_ptr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.U_ptr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: U_ptr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 266
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public byte *U_ptr
+    content.vb: Public U_ptr As Byte
+    return:
+      type: System.Byte*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.U16
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.U16
+  id: U16
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: U16
+  nameWithType: mfxFrameData.U16
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.U16
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: U16
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 268
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr U16
+    content.vb: Public U16 As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.U16_ptr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.U16_ptr
+  id: U16_ptr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: U16_ptr
+  nameWithType: mfxFrameData.U16_ptr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.U16_ptr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: U16_ptr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 270
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort *U16_ptr
+    content.vb: Public U16_ptr As UShort
+    return:
+      type: System.UInt16*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.G
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.G
+  id: G
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: G
+  nameWithType: mfxFrameData.G
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.G
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: G
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 272
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr G
+    content.vb: Public G As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.G_ptr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.G_ptr
+  id: G_ptr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: G_ptr
+  nameWithType: mfxFrameData.G_ptr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.G_ptr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: G_ptr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 274
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public byte *G_ptr
+    content.vb: Public G_ptr As Byte
+    return:
+      type: System.Byte*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.Cr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.Cr
+  id: Cr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: Cr
+  nameWithType: mfxFrameData.Cr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.Cr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Cr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 276
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr Cr
+    content.vb: Public Cr As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.Cr_ptr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.Cr_ptr
+  id: Cr_ptr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: Cr_ptr
+  nameWithType: mfxFrameData.Cr_ptr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.Cr_ptr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Cr_ptr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 278
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public byte *Cr_ptr
+    content.vb: Public Cr_ptr As Byte
+    return:
+      type: System.Byte*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.V
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.V
+  id: V
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: V
+  nameWithType: mfxFrameData.V
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.V
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: V
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 280
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr V
+    content.vb: Public V As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.V_ptr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.V_ptr
+  id: V_ptr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: V_ptr
+  nameWithType: mfxFrameData.V_ptr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.V_ptr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: V_ptr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 282
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public byte *V_ptr
+    content.vb: Public V_ptr As Byte
+    return:
+      type: System.Byte*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.V16
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.V16
+  id: V16
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: V16
+  nameWithType: mfxFrameData.V16
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.V16
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: V16
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 284
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr V16
+    content.vb: Public V16 As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.V16_ptr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.V16_ptr
+  id: V16_ptr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: V16_ptr
+  nameWithType: mfxFrameData.V16_ptr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.V16_ptr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: V16_ptr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 286
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort *V16_ptr
+    content.vb: Public V16_ptr As UShort
+    return:
+      type: System.UInt16*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.B
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.B
+  id: B
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: B
+  nameWithType: mfxFrameData.B
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.B
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: B
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 288
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr B
+    content.vb: Public B As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.B_ptr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.B_ptr
+  id: B_ptr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: B_ptr
+  nameWithType: mfxFrameData.B_ptr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.B_ptr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: B_ptr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 290
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public byte *B_ptr
+    content.vb: Public B_ptr As Byte
+    return:
+      type: System.Byte*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.A
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.A
+  id: A
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: A
+  nameWithType: mfxFrameData.A
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.A
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: A
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 292
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public IntPtr A
+    content.vb: Public A As IntPtr
+    return:
+      type: System.IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.A_ptr
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.A_ptr
+  id: A_ptr
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: A_ptr
+  nameWithType: mfxFrameData.A_ptr
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.A_ptr
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: A_ptr
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 294
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public byte *A_ptr
+    content.vb: Public A_ptr As Byte
+    return:
+      type: System.Byte*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.Corrupted
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.Corrupted
+  id: Corrupted
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: Corrupted
+  nameWithType: mfxFrameData.Corrupted
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.Corrupted
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Corrupted
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 296
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort Corrupted
+    content.vb: Public Corrupted As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxFrameData.DataFlag
+  commentId: F:LimeVideoSDKQuickSync.mfxFrameData.DataFlag
+  id: DataFlag
+  parent: LimeVideoSDKQuickSync.mfxFrameData
+  langs:
+  - csharp
+  - vb
+  name: DataFlag
+  nameWithType: mfxFrameData.DataFlag
+  fullName: LimeVideoSDKQuickSync.mfxFrameData.DataFlag
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: DataFlag
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 298
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort DataFlag
+    content.vb: Public DataFlag As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: LimeVideoSDKQuickSync
+  commentId: N:LimeVideoSDKQuickSync
+  isExternal: false
+  name: LimeVideoSDKQuickSync
+  nameWithType: LimeVideoSDKQuickSync
+  fullName: LimeVideoSDKQuickSync
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.Byte*
+  name: Byte*
+  nameWithType: Byte*
+  fullName: System.Byte*
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  name: UInt64
+  nameWithType: UInt64
+  fullName: System.UInt64
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.UInt16*
+  name: UInt16*
+  nameWithType: UInt16*
+  fullName: System.UInt16*
+  spec.csharp:
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'

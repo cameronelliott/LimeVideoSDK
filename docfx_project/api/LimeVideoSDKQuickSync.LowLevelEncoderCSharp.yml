@@ -1,0 +1,1548 @@
+### YamlMime:ManagedReference
+items:
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  commentId: T:LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  id: LowLevelEncoderCSharp
+  parent: LimeVideoSDKQuickSync
+  children:
+  - LimeVideoSDKQuickSync.LowLevelEncoderCSharp.#ctor(LimeVideoSDKQuickSync.mfxVideoParam,LimeVideoSDKQuickSync.mfxIMPL)
+  - LimeVideoSDKQuickSync.LowLevelEncoderCSharp.bitstream
+  - LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Dispose
+  - LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Dispose(System.Boolean)
+  - LimeVideoSDKQuickSync.LowLevelEncoderCSharp.EncodeFrame(System.Int32,LimeVideoSDKQuickSync.BitStreamChunk@)
+  - LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Finalize
+  - LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Flush(LimeVideoSDKQuickSync.BitStreamChunk@)
+  - LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Frames
+  - LimeVideoSDKQuickSync.LowLevelEncoderCSharp.GetFreeFrameIndex
+  - LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LimeVideoSDKQuickSync#ILowLevelEncoder#Frames
+  - LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LimeVideoSDKQuickSync#ILowLevelEncoder#session
+  - LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LockFrame(LimeVideoSDKQuickSync.mfxFrameSurface1@,LimeVideoSDKQuickSync.mfxFrameData@)
+  - LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LockFrame(System.IntPtr)
+  - LimeVideoSDKQuickSync.LowLevelEncoderCSharp.session
+  - LimeVideoSDKQuickSync.LowLevelEncoderCSharp.UnlockFrame(LimeVideoSDKQuickSync.mfxFrameSurface1@,LimeVideoSDKQuickSync.mfxFrameData@)
+  - LimeVideoSDKQuickSync.LowLevelEncoderCSharp.UnlockFrame(System.IntPtr)
+  - LimeVideoSDKQuickSync.LowLevelEncoderCSharp.warnings
+  langs:
+  - csharp
+  - vb
+  name: LowLevelEncoderCSharp
+  nameWithType: LowLevelEncoderCSharp
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  type: Class
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: LowLevelEncoderCSharp
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 24
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: "\nTurns uncompressed frames into compressed video bitstreams.\n"
+  example: []
+  syntax:
+    content: 'public class LowLevelEncoderCSharp : ILowLevelEncoder, IDisposable'
+    content.vb: >-
+      Public Class LowLevelEncoderCSharp
+          Implements ILowLevelEncoder, IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - LimeVideoSDKQuickSync.ILowLevelEncoder
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.session
+  commentId: F:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.session
+  id: session
+  parent: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  langs:
+  - csharp
+  - vb
+  name: session
+  nameWithType: LowLevelEncoderCSharp.session
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.session
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: session
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 27
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: The session
+  example: []
+  syntax:
+    content: public mfxSession session
+    content.vb: Public session As mfxSession
+    return:
+      type: LimeVideoSDKQuickSync.mfxSession
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.warnings
+  commentId: F:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.warnings
+  id: warnings
+  parent: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  langs:
+  - csharp
+  - vb
+  name: warnings
+  nameWithType: LowLevelEncoderCSharp.warnings
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.warnings
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: warnings
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 29
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: The warnings
+  example: []
+  syntax:
+    content: public Dictionary<string, mfxStatus> warnings
+    content.vb: Public warnings As Dictionary(Of String, mfxStatus)
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,LimeVideoSDKQuickSync.mfxStatus}
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.bitstream
+  commentId: F:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.bitstream
+  id: bitstream
+  parent: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  langs:
+  - csharp
+  - vb
+  name: bitstream
+  nameWithType: LowLevelEncoderCSharp.bitstream
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.bitstream
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: bitstream
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 31
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: The bitstream
+  example: []
+  syntax:
+    content: public mfxBitstream bitstream
+    content.vb: Public bitstream As mfxBitstream
+    return:
+      type: LimeVideoSDKQuickSync.mfxBitstream
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Frames
+  commentId: F:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Frames
+  id: Frames
+  parent: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  langs:
+  - csharp
+  - vb
+  name: Frames
+  nameWithType: LowLevelEncoderCSharp.Frames
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Frames
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Frames
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 33
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: The frames
+  example: []
+  syntax:
+    content: public mfxFrameSurface1[] Frames
+    content.vb: Public Frames As mfxFrameSurface1()
+    return:
+      type: LimeVideoSDKQuickSync.mfxFrameSurface1[]
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.#ctor(LimeVideoSDKQuickSync.mfxVideoParam,LimeVideoSDKQuickSync.mfxIMPL)
+  commentId: M:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.#ctor(LimeVideoSDKQuickSync.mfxVideoParam,LimeVideoSDKQuickSync.mfxIMPL)
+  id: '#ctor(LimeVideoSDKQuickSync.mfxVideoParam,LimeVideoSDKQuickSync.mfxIMPL)'
+  parent: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  langs:
+  - csharp
+  - vb
+  name: LowLevelEncoderCSharp(mfxVideoParam, mfxIMPL)
+  nameWithType: LowLevelEncoderCSharp.LowLevelEncoderCSharp(mfxVideoParam, mfxIMPL)
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LowLevelEncoderCSharp(LimeVideoSDKQuickSync.mfxVideoParam, LimeVideoSDKQuickSync.mfxIMPL)
+  type: Constructor
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: .ctor
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 86
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: Initializes a new instance of the <xref href="LimeVideoSDKQuickSync.LowLevelEncoderCSharp" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public LowLevelEncoderCSharp(mfxVideoParam mfxEncParams, mfxIMPL impl = mfxIMPL.MFX_IMPL_AUTO)
+    content.vb: Public Sub New(mfxEncParams As mfxVideoParam, impl As mfxIMPL = mfxIMPL.MFX_IMPL_AUTO)
+    parameters:
+    - id: mfxEncParams
+      type: LimeVideoSDKQuickSync.mfxVideoParam
+      description: The encoder parameters.
+    - id: impl
+      type: LimeVideoSDKQuickSync.mfxIMPL
+      description: The implementation.
+  overload: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.GetFreeFrameIndex
+  commentId: M:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.GetFreeFrameIndex
+  id: GetFreeFrameIndex
+  parent: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  langs:
+  - csharp
+  - vb
+  name: GetFreeFrameIndex()
+  nameWithType: LowLevelEncoderCSharp.GetFreeFrameIndex()
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.GetFreeFrameIndex()
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: GetFreeFrameIndex
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 215
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: Gets the index of a free frame which can be used for encoding.
+  example: []
+  syntax:
+    content: public int GetFreeFrameIndex()
+    content.vb: Public Function GetFreeFrameIndex As Integer
+    return:
+      type: System.Int32
+      description: free frame index
+  overload: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.GetFreeFrameIndex*
+  implements:
+  - LimeVideoSDKQuickSync.ILowLevelEncoder.GetFreeFrameIndex
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.EncodeFrame(System.Int32,LimeVideoSDKQuickSync.BitStreamChunk@)
+  commentId: M:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.EncodeFrame(System.Int32,LimeVideoSDKQuickSync.BitStreamChunk@)
+  id: EncodeFrame(System.Int32,LimeVideoSDKQuickSync.BitStreamChunk@)
+  parent: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  langs:
+  - csharp
+  - vb
+  name: EncodeFrame(Int32, ref BitStreamChunk)
+  nameWithType: LowLevelEncoderCSharp.EncodeFrame(Int32, ref BitStreamChunk)
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.EncodeFrame(System.Int32, ref LimeVideoSDKQuickSync.BitStreamChunk)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: EncodeFrame
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 267
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: Encodes a frame.
+  example: []
+  syntax:
+    content: public void EncodeFrame(int frameIndex, ref BitStreamChunk bitStreamChunk)
+    content.vb: Public Sub EncodeFrame(frameIndex As Integer, ByRef bitStreamChunk As BitStreamChunk)
+    parameters:
+    - id: frameIndex
+      type: System.Int32
+      description: Index of the frame to encode.
+    - id: bitStreamChunk
+      type: LimeVideoSDKQuickSync.BitStreamChunk
+      description: Output frames bitstream data, if available
+  overload: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.EncodeFrame*
+  implements:
+  - LimeVideoSDKQuickSync.ILowLevelEncoder.EncodeFrame(System.Int32,LimeVideoSDKQuickSync.BitStreamChunk@)
+  nameWithType.vb: LowLevelEncoderCSharp.EncodeFrame(Int32, ByRef BitStreamChunk)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.EncodeFrame(System.Int32, ByRef LimeVideoSDKQuickSync.BitStreamChunk)
+  name.vb: EncodeFrame(Int32, ByRef BitStreamChunk)
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LimeVideoSDKQuickSync#ILowLevelEncoder#session
+  commentId: P:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LimeVideoSDKQuickSync#ILowLevelEncoder#session
+  id: LimeVideoSDKQuickSync#ILowLevelEncoder#session
+  isEii: true
+  parent: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  langs:
+  - csharp
+  - vb
+  name: ILowLevelEncoder.session
+  nameWithType: LowLevelEncoderCSharp.ILowLevelEncoder.session
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LimeVideoSDKQuickSync.ILowLevelEncoder.session
+  type: Property
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: LimeVideoSDKQuickSync.ILowLevelEncoder.session
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 366
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: mfxSession ILowLevelEncoder.session { get; }
+    content.vb: ReadOnly WriteOnly Property LimeVideoSDKQuickSync.ILowLevelEncoder.session As mfxSession Implements ILowLevelEncoder.session
+    parameters: []
+    return:
+      type: LimeVideoSDKQuickSync.mfxSession
+  overload: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LimeVideoSDKQuickSync#ILowLevelEncoder#session*
+  implements:
+  - LimeVideoSDKQuickSync.ILowLevelEncoder.session
+  nameWithType.vb: LowLevelEncoderCSharp.LimeVideoSDKQuickSync.ILowLevelEncoder.session
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: LimeVideoSDKQuickSync.ILowLevelEncoder.session
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LimeVideoSDKQuickSync#ILowLevelEncoder#Frames
+  commentId: P:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LimeVideoSDKQuickSync#ILowLevelEncoder#Frames
+  id: LimeVideoSDKQuickSync#ILowLevelEncoder#Frames
+  isEii: true
+  parent: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  langs:
+  - csharp
+  - vb
+  name: ILowLevelEncoder.Frames
+  nameWithType: LowLevelEncoderCSharp.ILowLevelEncoder.Frames
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LimeVideoSDKQuickSync.ILowLevelEncoder.Frames
+  type: Property
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: LimeVideoSDKQuickSync.ILowLevelEncoder.Frames
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 375
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: IntPtr[] ILowLevelEncoder.Frames { get; }
+    content.vb: ReadOnly WriteOnly Property LimeVideoSDKQuickSync.ILowLevelEncoder.Frames As IntPtr() Implements ILowLevelEncoder.Frames
+    parameters: []
+    return:
+      type: System.IntPtr[]
+  overload: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LimeVideoSDKQuickSync#ILowLevelEncoder#Frames*
+  implements:
+  - LimeVideoSDKQuickSync.ILowLevelEncoder.Frames
+  nameWithType.vb: LowLevelEncoderCSharp.LimeVideoSDKQuickSync.ILowLevelEncoder.Frames
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: LimeVideoSDKQuickSync.ILowLevelEncoder.Frames
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Flush(LimeVideoSDKQuickSync.BitStreamChunk@)
+  commentId: M:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Flush(LimeVideoSDKQuickSync.BitStreamChunk@)
+  id: Flush(LimeVideoSDKQuickSync.BitStreamChunk@)
+  parent: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  langs:
+  - csharp
+  - vb
+  name: Flush(ref BitStreamChunk)
+  nameWithType: LowLevelEncoderCSharp.Flush(ref BitStreamChunk)
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Flush(ref LimeVideoSDKQuickSync.BitStreamChunk)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Flush
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 394
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: After passing all frames to be encoded you must call this to flush out bitstream in the engine.
+  example: []
+  syntax:
+    content: public bool Flush(ref BitStreamChunk bitstreamChunk)
+    content.vb: Public Function Flush(ByRef bitstreamChunk As BitStreamChunk) As Boolean
+    parameters:
+    - id: bitstreamChunk
+      type: LimeVideoSDKQuickSync.BitStreamChunk
+      description: Frames returned
+    return:
+      type: System.Boolean
+      description: true indicates you must keep calling me
+  overload: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Flush*
+  implements:
+  - LimeVideoSDKQuickSync.ILowLevelEncoder.Flush(LimeVideoSDKQuickSync.BitStreamChunk@)
+  nameWithType.vb: LowLevelEncoderCSharp.Flush(ByRef BitStreamChunk)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Flush(ByRef LimeVideoSDKQuickSync.BitStreamChunk)
+  name.vb: Flush(ByRef BitStreamChunk)
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Dispose
+  commentId: M:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Dispose
+  id: Dispose
+  parent: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: LowLevelEncoderCSharp.Dispose()
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Dispose()
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Dispose
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 468
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: "\nDispose.\n"
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Dispose(System.Boolean)
+  commentId: M:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: LowLevelEncoderCSharp.Dispose(Boolean)
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Dispose
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 478
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: "\nDispose\n"
+  example: []
+  syntax:
+    content: protected virtual void Dispose(bool disposing)
+    content.vb: Protected Overridable Sub Dispose(disposing As Boolean)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: ''
+  overload: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Dispose*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Finalize
+  commentId: M:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Finalize
+  id: Finalize
+  parent: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  langs:
+  - csharp
+  - vb
+  name: Finalize()
+  nameWithType: LowLevelEncoderCSharp.Finalize()
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Finalize()
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Finalize
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 502
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: "\nDestructor\n"
+  example: []
+  syntax:
+    content: protected void Finalize()
+    content.vb: Protected Sub Finalize
+  overload: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Finalize*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LockFrame(LimeVideoSDKQuickSync.mfxFrameSurface1@,LimeVideoSDKQuickSync.mfxFrameData@)
+  commentId: M:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LockFrame(LimeVideoSDKQuickSync.mfxFrameSurface1@,LimeVideoSDKQuickSync.mfxFrameData@)
+  id: LockFrame(LimeVideoSDKQuickSync.mfxFrameSurface1@,LimeVideoSDKQuickSync.mfxFrameData@)
+  parent: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  langs:
+  - csharp
+  - vb
+  name: LockFrame(ref mfxFrameSurface1, ref mfxFrameData)
+  nameWithType: LowLevelEncoderCSharp.LockFrame(ref mfxFrameSurface1, ref mfxFrameData)
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LockFrame(ref LimeVideoSDKQuickSync.mfxFrameSurface1, ref LimeVideoSDKQuickSync.mfxFrameData)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: LockFrame
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 536
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public void LockFrame(ref mfxFrameSurface1 frame, ref mfxFrameData frameData)
+    content.vb: Public Sub LockFrame(ByRef frame As mfxFrameSurface1, ByRef frameData As mfxFrameData)
+    parameters:
+    - id: frame
+      type: LimeVideoSDKQuickSync.mfxFrameSurface1
+    - id: frameData
+      type: LimeVideoSDKQuickSync.mfxFrameData
+  overload: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LockFrame*
+  nameWithType.vb: LowLevelEncoderCSharp.LockFrame(ByRef mfxFrameSurface1, ByRef mfxFrameData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LockFrame(ByRef LimeVideoSDKQuickSync.mfxFrameSurface1, ByRef LimeVideoSDKQuickSync.mfxFrameData)
+  name.vb: LockFrame(ByRef mfxFrameSurface1, ByRef mfxFrameData)
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.UnlockFrame(LimeVideoSDKQuickSync.mfxFrameSurface1@,LimeVideoSDKQuickSync.mfxFrameData@)
+  commentId: M:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.UnlockFrame(LimeVideoSDKQuickSync.mfxFrameSurface1@,LimeVideoSDKQuickSync.mfxFrameData@)
+  id: UnlockFrame(LimeVideoSDKQuickSync.mfxFrameSurface1@,LimeVideoSDKQuickSync.mfxFrameData@)
+  parent: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  langs:
+  - csharp
+  - vb
+  name: UnlockFrame(ref mfxFrameSurface1, ref mfxFrameData)
+  nameWithType: LowLevelEncoderCSharp.UnlockFrame(ref mfxFrameSurface1, ref mfxFrameData)
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.UnlockFrame(ref LimeVideoSDKQuickSync.mfxFrameSurface1, ref LimeVideoSDKQuickSync.mfxFrameData)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: UnlockFrame
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 541
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public void UnlockFrame(ref mfxFrameSurface1 frame, ref mfxFrameData frameData)
+    content.vb: Public Sub UnlockFrame(ByRef frame As mfxFrameSurface1, ByRef frameData As mfxFrameData)
+    parameters:
+    - id: frame
+      type: LimeVideoSDKQuickSync.mfxFrameSurface1
+    - id: frameData
+      type: LimeVideoSDKQuickSync.mfxFrameData
+  overload: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.UnlockFrame*
+  nameWithType.vb: LowLevelEncoderCSharp.UnlockFrame(ByRef mfxFrameSurface1, ByRef mfxFrameData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.UnlockFrame(ByRef LimeVideoSDKQuickSync.mfxFrameSurface1, ByRef LimeVideoSDKQuickSync.mfxFrameData)
+  name.vb: UnlockFrame(ByRef mfxFrameSurface1, ByRef mfxFrameData)
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LockFrame(System.IntPtr)
+  commentId: M:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LockFrame(System.IntPtr)
+  id: LockFrame(System.IntPtr)
+  parent: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  langs:
+  - csharp
+  - vb
+  name: LockFrame(IntPtr)
+  nameWithType: LowLevelEncoderCSharp.LockFrame(IntPtr)
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LockFrame(System.IntPtr)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: LockFrame
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 546
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public void LockFrame(IntPtr frame)
+    content.vb: Public Sub LockFrame(frame As IntPtr)
+    parameters:
+    - id: frame
+      type: System.IntPtr
+  overload: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LockFrame*
+  implements:
+  - LimeVideoSDKQuickSync.ILowLevelEncoder.LockFrame(System.IntPtr)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.UnlockFrame(System.IntPtr)
+  commentId: M:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.UnlockFrame(System.IntPtr)
+  id: UnlockFrame(System.IntPtr)
+  parent: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  langs:
+  - csharp
+  - vb
+  name: UnlockFrame(IntPtr)
+  nameWithType: LowLevelEncoderCSharp.UnlockFrame(IntPtr)
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.UnlockFrame(System.IntPtr)
+  type: Method
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: UnlockFrame
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/LowLevelEncoderCSharp.cs
+    startLine: 551
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public void UnlockFrame(IntPtr frame)
+    content.vb: Public Sub UnlockFrame(frame As IntPtr)
+    parameters:
+    - id: frame
+      type: System.IntPtr
+  overload: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.UnlockFrame*
+  implements:
+  - LimeVideoSDKQuickSync.ILowLevelEncoder.UnlockFrame(System.IntPtr)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: LimeVideoSDKQuickSync
+  commentId: N:LimeVideoSDKQuickSync
+  isExternal: false
+  name: LimeVideoSDKQuickSync
+  nameWithType: LimeVideoSDKQuickSync
+  fullName: LimeVideoSDKQuickSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: LimeVideoSDKQuickSync.ILowLevelEncoder
+  commentId: T:LimeVideoSDKQuickSync.ILowLevelEncoder
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: ILowLevelEncoder
+  nameWithType: ILowLevelEncoder
+  fullName: LimeVideoSDKQuickSync.ILowLevelEncoder
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LimeVideoSDKQuickSync.mfxSession
+  commentId: T:LimeVideoSDKQuickSync.mfxSession
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxSession
+  nameWithType: mfxSession
+  fullName: LimeVideoSDKQuickSync.mfxSession
+- uid: System.Collections.Generic.Dictionary{System.String,LimeVideoSDKQuickSync.mfxStatus}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,LimeVideoSDKQuickSync.mfxStatus}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, mfxStatus>
+  nameWithType: Dictionary<String, mfxStatus>
+  fullName: System.Collections.Generic.Dictionary<System.String, LimeVideoSDKQuickSync.mfxStatus>
+  nameWithType.vb: Dictionary(Of String, mfxStatus)
+  fullname.vb: System.Collections.Generic.Dictionary(Of System.String, LimeVideoSDKQuickSync.mfxStatus)
+  name.vb: Dictionary(Of String, mfxStatus)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: LimeVideoSDKQuickSync.mfxStatus
+    name: mfxStatus
+    nameWithType: mfxStatus
+    fullName: LimeVideoSDKQuickSync.mfxStatus
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: LimeVideoSDKQuickSync.mfxStatus
+    name: mfxStatus
+    nameWithType: mfxStatus
+    fullName: LimeVideoSDKQuickSync.mfxStatus
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullname.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: LimeVideoSDKQuickSync.mfxBitstream
+  commentId: T:LimeVideoSDKQuickSync.mfxBitstream
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxBitstream
+  nameWithType: mfxBitstream
+  fullName: LimeVideoSDKQuickSync.mfxBitstream
+- uid: LimeVideoSDKQuickSync.mfxFrameSurface1[]
+  name: mfxFrameSurface1[]
+  nameWithType: mfxFrameSurface1[]
+  fullName: LimeVideoSDKQuickSync.mfxFrameSurface1[]
+  nameWithType.vb: mfxFrameSurface1()
+  fullname.vb: LimeVideoSDKQuickSync.mfxFrameSurface1()
+  name.vb: mfxFrameSurface1()
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.mfxFrameSurface1
+    name: mfxFrameSurface1
+    nameWithType: mfxFrameSurface1
+    fullName: LimeVideoSDKQuickSync.mfxFrameSurface1
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.mfxFrameSurface1
+    name: mfxFrameSurface1
+    nameWithType: mfxFrameSurface1
+    fullName: LimeVideoSDKQuickSync.mfxFrameSurface1
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  commentId: T:LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+  isExternal: false
+  name: LowLevelEncoderCSharp
+  nameWithType: LowLevelEncoderCSharp
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.#ctor*
+  commentId: Overload:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.#ctor
+  isExternal: false
+  name: LowLevelEncoderCSharp
+  nameWithType: LowLevelEncoderCSharp.LowLevelEncoderCSharp
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LowLevelEncoderCSharp
+- uid: LimeVideoSDKQuickSync.mfxVideoParam
+  commentId: T:LimeVideoSDKQuickSync.mfxVideoParam
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxVideoParam
+  nameWithType: mfxVideoParam
+  fullName: LimeVideoSDKQuickSync.mfxVideoParam
+- uid: LimeVideoSDKQuickSync.mfxIMPL
+  commentId: T:LimeVideoSDKQuickSync.mfxIMPL
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxIMPL
+  nameWithType: mfxIMPL
+  fullName: LimeVideoSDKQuickSync.mfxIMPL
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.GetFreeFrameIndex*
+  commentId: Overload:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.GetFreeFrameIndex
+  isExternal: false
+  name: GetFreeFrameIndex
+  nameWithType: LowLevelEncoderCSharp.GetFreeFrameIndex
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.GetFreeFrameIndex
+- uid: LimeVideoSDKQuickSync.ILowLevelEncoder.GetFreeFrameIndex
+  commentId: M:LimeVideoSDKQuickSync.ILowLevelEncoder.GetFreeFrameIndex
+  parent: LimeVideoSDKQuickSync.ILowLevelEncoder
+  isExternal: false
+  name: GetFreeFrameIndex()
+  nameWithType: ILowLevelEncoder.GetFreeFrameIndex()
+  fullName: LimeVideoSDKQuickSync.ILowLevelEncoder.GetFreeFrameIndex()
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.ILowLevelEncoder.GetFreeFrameIndex
+    name: GetFreeFrameIndex
+    nameWithType: ILowLevelEncoder.GetFreeFrameIndex
+    fullName: LimeVideoSDKQuickSync.ILowLevelEncoder.GetFreeFrameIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.ILowLevelEncoder.GetFreeFrameIndex
+    name: GetFreeFrameIndex
+    nameWithType: ILowLevelEncoder.GetFreeFrameIndex
+    fullName: LimeVideoSDKQuickSync.ILowLevelEncoder.GetFreeFrameIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.EncodeFrame*
+  commentId: Overload:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.EncodeFrame
+  isExternal: false
+  name: EncodeFrame
+  nameWithType: LowLevelEncoderCSharp.EncodeFrame
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.EncodeFrame
+- uid: LimeVideoSDKQuickSync.ILowLevelEncoder.EncodeFrame(System.Int32,LimeVideoSDKQuickSync.BitStreamChunk@)
+  commentId: M:LimeVideoSDKQuickSync.ILowLevelEncoder.EncodeFrame(System.Int32,LimeVideoSDKQuickSync.BitStreamChunk@)
+  parent: LimeVideoSDKQuickSync.ILowLevelEncoder
+  isExternal: true
+  name: EncodeFrame(Int32, BitStreamChunk)
+  nameWithType: ILowLevelEncoder.EncodeFrame(Int32, BitStreamChunk)
+  fullName: LimeVideoSDKQuickSync.ILowLevelEncoder.EncodeFrame(System.Int32, LimeVideoSDKQuickSync.BitStreamChunk)
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.ILowLevelEncoder.EncodeFrame(System.Int32,LimeVideoSDKQuickSync.BitStreamChunk@)
+    name: EncodeFrame
+    nameWithType: ILowLevelEncoder.EncodeFrame
+    fullName: LimeVideoSDKQuickSync.ILowLevelEncoder.EncodeFrame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: LimeVideoSDKQuickSync.BitStreamChunk
+    name: BitStreamChunk
+    nameWithType: BitStreamChunk
+    fullName: LimeVideoSDKQuickSync.BitStreamChunk
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.ILowLevelEncoder.EncodeFrame(System.Int32,LimeVideoSDKQuickSync.BitStreamChunk@)
+    name: EncodeFrame
+    nameWithType: ILowLevelEncoder.EncodeFrame
+    fullName: LimeVideoSDKQuickSync.ILowLevelEncoder.EncodeFrame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: LimeVideoSDKQuickSync.BitStreamChunk
+    name: BitStreamChunk
+    nameWithType: BitStreamChunk
+    fullName: LimeVideoSDKQuickSync.BitStreamChunk
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LimeVideoSDKQuickSync.BitStreamChunk
+  commentId: T:LimeVideoSDKQuickSync.BitStreamChunk
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: BitStreamChunk
+  nameWithType: BitStreamChunk
+  fullName: LimeVideoSDKQuickSync.BitStreamChunk
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LimeVideoSDKQuickSync#ILowLevelEncoder#session*
+  commentId: Overload:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LimeVideoSDKQuickSync#ILowLevelEncoder#session
+  isExternal: false
+  name: ILowLevelEncoder.session
+  nameWithType: LowLevelEncoderCSharp.ILowLevelEncoder.session
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LimeVideoSDKQuickSync.ILowLevelEncoder.session
+  nameWithType.vb: LowLevelEncoderCSharp.LimeVideoSDKQuickSync.ILowLevelEncoder.session
+  name.vb: LimeVideoSDKQuickSync.ILowLevelEncoder.session
+- uid: LimeVideoSDKQuickSync.ILowLevelEncoder.session
+  commentId: P:LimeVideoSDKQuickSync.ILowLevelEncoder.session
+  parent: LimeVideoSDKQuickSync.ILowLevelEncoder
+  isExternal: false
+  name: session
+  nameWithType: ILowLevelEncoder.session
+  fullName: LimeVideoSDKQuickSync.ILowLevelEncoder.session
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LimeVideoSDKQuickSync#ILowLevelEncoder#Frames*
+  commentId: Overload:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LimeVideoSDKQuickSync#ILowLevelEncoder#Frames
+  isExternal: false
+  name: ILowLevelEncoder.Frames
+  nameWithType: LowLevelEncoderCSharp.ILowLevelEncoder.Frames
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LimeVideoSDKQuickSync.ILowLevelEncoder.Frames
+  nameWithType.vb: LowLevelEncoderCSharp.LimeVideoSDKQuickSync.ILowLevelEncoder.Frames
+  name.vb: LimeVideoSDKQuickSync.ILowLevelEncoder.Frames
+- uid: LimeVideoSDKQuickSync.ILowLevelEncoder.Frames
+  commentId: P:LimeVideoSDKQuickSync.ILowLevelEncoder.Frames
+  parent: LimeVideoSDKQuickSync.ILowLevelEncoder
+  isExternal: false
+  name: Frames
+  nameWithType: ILowLevelEncoder.Frames
+  fullName: LimeVideoSDKQuickSync.ILowLevelEncoder.Frames
+- uid: System.IntPtr[]
+  name: IntPtr[]
+  nameWithType: IntPtr[]
+  fullName: System.IntPtr[]
+  nameWithType.vb: IntPtr()
+  fullname.vb: System.IntPtr()
+  name.vb: IntPtr()
+  spec.csharp:
+  - uid: System.IntPtr
+    name: IntPtr
+    nameWithType: IntPtr
+    fullName: System.IntPtr
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.IntPtr
+    name: IntPtr
+    nameWithType: IntPtr
+    fullName: System.IntPtr
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Flush*
+  commentId: Overload:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Flush
+  isExternal: false
+  name: Flush
+  nameWithType: LowLevelEncoderCSharp.Flush
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Flush
+- uid: LimeVideoSDKQuickSync.ILowLevelEncoder.Flush(LimeVideoSDKQuickSync.BitStreamChunk@)
+  commentId: M:LimeVideoSDKQuickSync.ILowLevelEncoder.Flush(LimeVideoSDKQuickSync.BitStreamChunk@)
+  parent: LimeVideoSDKQuickSync.ILowLevelEncoder
+  isExternal: false
+  name: Flush(BitStreamChunk)
+  nameWithType: ILowLevelEncoder.Flush(BitStreamChunk)
+  fullName: LimeVideoSDKQuickSync.ILowLevelEncoder.Flush(LimeVideoSDKQuickSync.BitStreamChunk)
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.ILowLevelEncoder.Flush(LimeVideoSDKQuickSync.BitStreamChunk@)
+    name: Flush
+    nameWithType: ILowLevelEncoder.Flush
+    fullName: LimeVideoSDKQuickSync.ILowLevelEncoder.Flush
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: LimeVideoSDKQuickSync.BitStreamChunk
+    name: BitStreamChunk
+    nameWithType: BitStreamChunk
+    fullName: LimeVideoSDKQuickSync.BitStreamChunk
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.ILowLevelEncoder.Flush(LimeVideoSDKQuickSync.BitStreamChunk@)
+    name: Flush
+    nameWithType: ILowLevelEncoder.Flush
+    fullName: LimeVideoSDKQuickSync.ILowLevelEncoder.Flush
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: LimeVideoSDKQuickSync.BitStreamChunk
+    name: BitStreamChunk
+    nameWithType: BitStreamChunk
+    fullName: LimeVideoSDKQuickSync.BitStreamChunk
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Dispose*
+  commentId: Overload:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Dispose
+  isExternal: false
+  name: Dispose
+  nameWithType: LowLevelEncoderCSharp.Dispose
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Finalize*
+  commentId: Overload:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Finalize
+  isExternal: false
+  name: Finalize
+  nameWithType: LowLevelEncoderCSharp.Finalize
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.Finalize
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LockFrame*
+  commentId: Overload:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LockFrame
+  isExternal: false
+  name: LockFrame
+  nameWithType: LowLevelEncoderCSharp.LockFrame
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.LockFrame
+- uid: LimeVideoSDKQuickSync.mfxFrameSurface1
+  commentId: T:LimeVideoSDKQuickSync.mfxFrameSurface1
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxFrameSurface1
+  nameWithType: mfxFrameSurface1
+  fullName: LimeVideoSDKQuickSync.mfxFrameSurface1
+- uid: LimeVideoSDKQuickSync.mfxFrameData
+  commentId: T:LimeVideoSDKQuickSync.mfxFrameData
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxFrameData
+  nameWithType: mfxFrameData
+  fullName: LimeVideoSDKQuickSync.mfxFrameData
+- uid: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.UnlockFrame*
+  commentId: Overload:LimeVideoSDKQuickSync.LowLevelEncoderCSharp.UnlockFrame
+  isExternal: false
+  name: UnlockFrame
+  nameWithType: LowLevelEncoderCSharp.UnlockFrame
+  fullName: LimeVideoSDKQuickSync.LowLevelEncoderCSharp.UnlockFrame
+- uid: LimeVideoSDKQuickSync.ILowLevelEncoder.LockFrame(System.IntPtr)
+  commentId: M:LimeVideoSDKQuickSync.ILowLevelEncoder.LockFrame(System.IntPtr)
+  parent: LimeVideoSDKQuickSync.ILowLevelEncoder
+  isExternal: true
+  name: LockFrame(IntPtr)
+  nameWithType: ILowLevelEncoder.LockFrame(IntPtr)
+  fullName: LimeVideoSDKQuickSync.ILowLevelEncoder.LockFrame(System.IntPtr)
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.ILowLevelEncoder.LockFrame(System.IntPtr)
+    name: LockFrame
+    nameWithType: ILowLevelEncoder.LockFrame
+    fullName: LimeVideoSDKQuickSync.ILowLevelEncoder.LockFrame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IntPtr
+    name: IntPtr
+    nameWithType: IntPtr
+    fullName: System.IntPtr
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.ILowLevelEncoder.LockFrame(System.IntPtr)
+    name: LockFrame
+    nameWithType: ILowLevelEncoder.LockFrame
+    fullName: LimeVideoSDKQuickSync.ILowLevelEncoder.LockFrame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IntPtr
+    name: IntPtr
+    nameWithType: IntPtr
+    fullName: System.IntPtr
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: LimeVideoSDKQuickSync.ILowLevelEncoder.UnlockFrame(System.IntPtr)
+  commentId: M:LimeVideoSDKQuickSync.ILowLevelEncoder.UnlockFrame(System.IntPtr)
+  parent: LimeVideoSDKQuickSync.ILowLevelEncoder
+  isExternal: true
+  name: UnlockFrame(IntPtr)
+  nameWithType: ILowLevelEncoder.UnlockFrame(IntPtr)
+  fullName: LimeVideoSDKQuickSync.ILowLevelEncoder.UnlockFrame(System.IntPtr)
+  spec.csharp:
+  - uid: LimeVideoSDKQuickSync.ILowLevelEncoder.UnlockFrame(System.IntPtr)
+    name: UnlockFrame
+    nameWithType: ILowLevelEncoder.UnlockFrame
+    fullName: LimeVideoSDKQuickSync.ILowLevelEncoder.UnlockFrame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IntPtr
+    name: IntPtr
+    nameWithType: IntPtr
+    fullName: System.IntPtr
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LimeVideoSDKQuickSync.ILowLevelEncoder.UnlockFrame(System.IntPtr)
+    name: UnlockFrame
+    nameWithType: ILowLevelEncoder.UnlockFrame
+    fullName: LimeVideoSDKQuickSync.ILowLevelEncoder.UnlockFrame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IntPtr
+    name: IntPtr
+    nameWithType: IntPtr
+    fullName: System.IntPtr
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

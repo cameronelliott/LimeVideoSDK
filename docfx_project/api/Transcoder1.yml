@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Transcoder1
+  commentId: N:Transcoder1
+  id: Transcoder1
+  children:
+  - Transcoder1.Program
+  langs:
+  - csharp
+  - vb
+  name: Transcoder1
+  nameWithType: Transcoder1
+  fullName: Transcoder1
+  type: Namespace
+  assemblies:
+  - Transcoder1
+references:
+- uid: Transcoder1.Program
+  commentId: T:Transcoder1.Program
+  isExternal: false
+  name: Program
+  nameWithType: Program
+  fullName: Transcoder1.Program

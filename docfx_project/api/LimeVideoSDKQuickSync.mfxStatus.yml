@@ -1,0 +1,1137 @@
+### YamlMime:ManagedReference
+items:
+- uid: LimeVideoSDKQuickSync.mfxStatus
+  commentId: T:LimeVideoSDKQuickSync.mfxStatus
+  id: mfxStatus
+  parent: LimeVideoSDKQuickSync
+  children:
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_ABORTED
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_DEVICE_FAILED
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_DEVICE_LOST
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INCOMPATIBLE_AUDIO_PARAM
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INCOMPATIBLE_VIDEO_PARAM
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INVALID_AUDIO_PARAM
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INVALID_HANDLE
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INVALID_VIDEO_PARAM
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_LOCK_MEMORY
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_MEMORY_ALLOC
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_MORE_BITSTREAM
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_MORE_DATA
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_MORE_SURFACE
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NONE
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NOT_ENOUGH_BUFFER
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NOT_FOUND
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NOT_INITIALIZED
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NULL_PTR
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_UNDEFINED_BEHAVIOR
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_UNKNOWN
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_UNSUPPORTED
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_TASK_BUSY
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_TASK_DONE
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_TASK_WORKING
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_DEVICE_BUSY
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_FILTER_SKIPPED
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_IN_EXECUTION
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_INCOMPATIBLE_AUDIO_PARAM
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_INCOMPATIBLE_VIDEO_PARAM
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_OUT_OF_RANGE
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_PARTIAL_ACCELERATION
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_VALUE_NOT_CHANGED
+  - LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_VIDEO_PARAM_CHANGED
+  langs:
+  - csharp
+  - vb
+  name: mfxStatus
+  nameWithType: mfxStatus
+  fullName: LimeVideoSDKQuickSync.mfxStatus
+  type: Enum
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: mfxStatus
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 73
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public enum mfxStatus
+    content.vb: Public Enum mfxStatus
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NONE
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NONE
+  id: MFX_ERR_NONE
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_NONE
+  nameWithType: mfxStatus.MFX_ERR_NONE
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NONE
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_NONE
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 75
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_NONE = 0
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_UNKNOWN
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_UNKNOWN
+  id: MFX_ERR_UNKNOWN
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_UNKNOWN
+  nameWithType: mfxStatus.MFX_ERR_UNKNOWN
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_UNKNOWN
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 76
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_UNKNOWN = -1
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NULL_PTR
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NULL_PTR
+  id: MFX_ERR_NULL_PTR
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_NULL_PTR
+  nameWithType: mfxStatus.MFX_ERR_NULL_PTR
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NULL_PTR
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_NULL_PTR
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 77
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_NULL_PTR = -2
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_UNSUPPORTED
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_UNSUPPORTED
+  id: MFX_ERR_UNSUPPORTED
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_UNSUPPORTED
+  nameWithType: mfxStatus.MFX_ERR_UNSUPPORTED
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_UNSUPPORTED
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_UNSUPPORTED
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 78
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_UNSUPPORTED = -3
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_MEMORY_ALLOC
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_MEMORY_ALLOC
+  id: MFX_ERR_MEMORY_ALLOC
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_MEMORY_ALLOC
+  nameWithType: mfxStatus.MFX_ERR_MEMORY_ALLOC
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_MEMORY_ALLOC
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_MEMORY_ALLOC
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 79
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_MEMORY_ALLOC = -4
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NOT_ENOUGH_BUFFER
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NOT_ENOUGH_BUFFER
+  id: MFX_ERR_NOT_ENOUGH_BUFFER
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_NOT_ENOUGH_BUFFER
+  nameWithType: mfxStatus.MFX_ERR_NOT_ENOUGH_BUFFER
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NOT_ENOUGH_BUFFER
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_NOT_ENOUGH_BUFFER
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 80
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_NOT_ENOUGH_BUFFER = -5
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INVALID_HANDLE
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INVALID_HANDLE
+  id: MFX_ERR_INVALID_HANDLE
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_INVALID_HANDLE
+  nameWithType: mfxStatus.MFX_ERR_INVALID_HANDLE
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INVALID_HANDLE
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_INVALID_HANDLE
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 81
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_INVALID_HANDLE = -6
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_LOCK_MEMORY
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_LOCK_MEMORY
+  id: MFX_ERR_LOCK_MEMORY
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_LOCK_MEMORY
+  nameWithType: mfxStatus.MFX_ERR_LOCK_MEMORY
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_LOCK_MEMORY
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_LOCK_MEMORY
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 82
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_LOCK_MEMORY = -7
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NOT_INITIALIZED
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NOT_INITIALIZED
+  id: MFX_ERR_NOT_INITIALIZED
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_NOT_INITIALIZED
+  nameWithType: mfxStatus.MFX_ERR_NOT_INITIALIZED
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NOT_INITIALIZED
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_NOT_INITIALIZED
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 83
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_NOT_INITIALIZED = -8
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NOT_FOUND
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NOT_FOUND
+  id: MFX_ERR_NOT_FOUND
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_NOT_FOUND
+  nameWithType: mfxStatus.MFX_ERR_NOT_FOUND
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_NOT_FOUND
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 84
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_NOT_FOUND = -9
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_MORE_DATA
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_MORE_DATA
+  id: MFX_ERR_MORE_DATA
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_MORE_DATA
+  nameWithType: mfxStatus.MFX_ERR_MORE_DATA
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_MORE_DATA
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_MORE_DATA
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 85
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_MORE_DATA = -10
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_MORE_SURFACE
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_MORE_SURFACE
+  id: MFX_ERR_MORE_SURFACE
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_MORE_SURFACE
+  nameWithType: mfxStatus.MFX_ERR_MORE_SURFACE
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_MORE_SURFACE
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_MORE_SURFACE
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 86
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_MORE_SURFACE = -11
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_ABORTED
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_ABORTED
+  id: MFX_ERR_ABORTED
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_ABORTED
+  nameWithType: mfxStatus.MFX_ERR_ABORTED
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_ABORTED
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_ABORTED
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 87
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_ABORTED = -12
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_DEVICE_LOST
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_DEVICE_LOST
+  id: MFX_ERR_DEVICE_LOST
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_DEVICE_LOST
+  nameWithType: mfxStatus.MFX_ERR_DEVICE_LOST
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_DEVICE_LOST
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_DEVICE_LOST
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 88
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_DEVICE_LOST = -13
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INCOMPATIBLE_VIDEO_PARAM
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INCOMPATIBLE_VIDEO_PARAM
+  id: MFX_ERR_INCOMPATIBLE_VIDEO_PARAM
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_INCOMPATIBLE_VIDEO_PARAM
+  nameWithType: mfxStatus.MFX_ERR_INCOMPATIBLE_VIDEO_PARAM
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INCOMPATIBLE_VIDEO_PARAM
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_INCOMPATIBLE_VIDEO_PARAM
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 89
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_INCOMPATIBLE_VIDEO_PARAM = -14
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INVALID_VIDEO_PARAM
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INVALID_VIDEO_PARAM
+  id: MFX_ERR_INVALID_VIDEO_PARAM
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_INVALID_VIDEO_PARAM
+  nameWithType: mfxStatus.MFX_ERR_INVALID_VIDEO_PARAM
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INVALID_VIDEO_PARAM
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_INVALID_VIDEO_PARAM
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 90
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_INVALID_VIDEO_PARAM = -15
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_UNDEFINED_BEHAVIOR
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_UNDEFINED_BEHAVIOR
+  id: MFX_ERR_UNDEFINED_BEHAVIOR
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_UNDEFINED_BEHAVIOR
+  nameWithType: mfxStatus.MFX_ERR_UNDEFINED_BEHAVIOR
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_UNDEFINED_BEHAVIOR
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_UNDEFINED_BEHAVIOR
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 91
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_UNDEFINED_BEHAVIOR = -16
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_DEVICE_FAILED
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_DEVICE_FAILED
+  id: MFX_ERR_DEVICE_FAILED
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_DEVICE_FAILED
+  nameWithType: mfxStatus.MFX_ERR_DEVICE_FAILED
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_DEVICE_FAILED
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_DEVICE_FAILED
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 92
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_DEVICE_FAILED = -17
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_MORE_BITSTREAM
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_MORE_BITSTREAM
+  id: MFX_ERR_MORE_BITSTREAM
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_MORE_BITSTREAM
+  nameWithType: mfxStatus.MFX_ERR_MORE_BITSTREAM
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_MORE_BITSTREAM
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_MORE_BITSTREAM
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 93
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_MORE_BITSTREAM = -18
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INCOMPATIBLE_AUDIO_PARAM
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INCOMPATIBLE_AUDIO_PARAM
+  id: MFX_ERR_INCOMPATIBLE_AUDIO_PARAM
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_INCOMPATIBLE_AUDIO_PARAM
+  nameWithType: mfxStatus.MFX_ERR_INCOMPATIBLE_AUDIO_PARAM
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INCOMPATIBLE_AUDIO_PARAM
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_INCOMPATIBLE_AUDIO_PARAM
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 94
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_INCOMPATIBLE_AUDIO_PARAM = -19
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INVALID_AUDIO_PARAM
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INVALID_AUDIO_PARAM
+  id: MFX_ERR_INVALID_AUDIO_PARAM
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_ERR_INVALID_AUDIO_PARAM
+  nameWithType: mfxStatus.MFX_ERR_INVALID_AUDIO_PARAM
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_ERR_INVALID_AUDIO_PARAM
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_ERR_INVALID_AUDIO_PARAM
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 95
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_ERR_INVALID_AUDIO_PARAM = -20
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_IN_EXECUTION
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_IN_EXECUTION
+  id: MFX_WRN_IN_EXECUTION
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_WRN_IN_EXECUTION
+  nameWithType: mfxStatus.MFX_WRN_IN_EXECUTION
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_IN_EXECUTION
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_WRN_IN_EXECUTION
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 96
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_WRN_IN_EXECUTION = 1
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_DEVICE_BUSY
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_DEVICE_BUSY
+  id: MFX_WRN_DEVICE_BUSY
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_WRN_DEVICE_BUSY
+  nameWithType: mfxStatus.MFX_WRN_DEVICE_BUSY
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_DEVICE_BUSY
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_WRN_DEVICE_BUSY
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 97
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_WRN_DEVICE_BUSY = 2
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_VIDEO_PARAM_CHANGED
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_VIDEO_PARAM_CHANGED
+  id: MFX_WRN_VIDEO_PARAM_CHANGED
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_WRN_VIDEO_PARAM_CHANGED
+  nameWithType: mfxStatus.MFX_WRN_VIDEO_PARAM_CHANGED
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_VIDEO_PARAM_CHANGED
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_WRN_VIDEO_PARAM_CHANGED
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 98
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_WRN_VIDEO_PARAM_CHANGED = 3
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_PARTIAL_ACCELERATION
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_PARTIAL_ACCELERATION
+  id: MFX_WRN_PARTIAL_ACCELERATION
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_WRN_PARTIAL_ACCELERATION
+  nameWithType: mfxStatus.MFX_WRN_PARTIAL_ACCELERATION
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_PARTIAL_ACCELERATION
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_WRN_PARTIAL_ACCELERATION
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 99
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_WRN_PARTIAL_ACCELERATION = 4
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_INCOMPATIBLE_VIDEO_PARAM
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_INCOMPATIBLE_VIDEO_PARAM
+  id: MFX_WRN_INCOMPATIBLE_VIDEO_PARAM
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_WRN_INCOMPATIBLE_VIDEO_PARAM
+  nameWithType: mfxStatus.MFX_WRN_INCOMPATIBLE_VIDEO_PARAM
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_INCOMPATIBLE_VIDEO_PARAM
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_WRN_INCOMPATIBLE_VIDEO_PARAM
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 100
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_WRN_INCOMPATIBLE_VIDEO_PARAM = 5
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_VALUE_NOT_CHANGED
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_VALUE_NOT_CHANGED
+  id: MFX_WRN_VALUE_NOT_CHANGED
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_WRN_VALUE_NOT_CHANGED
+  nameWithType: mfxStatus.MFX_WRN_VALUE_NOT_CHANGED
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_VALUE_NOT_CHANGED
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_WRN_VALUE_NOT_CHANGED
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 101
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_WRN_VALUE_NOT_CHANGED = 6
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_OUT_OF_RANGE
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_OUT_OF_RANGE
+  id: MFX_WRN_OUT_OF_RANGE
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_WRN_OUT_OF_RANGE
+  nameWithType: mfxStatus.MFX_WRN_OUT_OF_RANGE
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_OUT_OF_RANGE
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_WRN_OUT_OF_RANGE
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 102
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_WRN_OUT_OF_RANGE = 7
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_FILTER_SKIPPED
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_FILTER_SKIPPED
+  id: MFX_WRN_FILTER_SKIPPED
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_WRN_FILTER_SKIPPED
+  nameWithType: mfxStatus.MFX_WRN_FILTER_SKIPPED
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_FILTER_SKIPPED
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_WRN_FILTER_SKIPPED
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 103
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_WRN_FILTER_SKIPPED = 10
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_INCOMPATIBLE_AUDIO_PARAM
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_INCOMPATIBLE_AUDIO_PARAM
+  id: MFX_WRN_INCOMPATIBLE_AUDIO_PARAM
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_WRN_INCOMPATIBLE_AUDIO_PARAM
+  nameWithType: mfxStatus.MFX_WRN_INCOMPATIBLE_AUDIO_PARAM
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_WRN_INCOMPATIBLE_AUDIO_PARAM
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_WRN_INCOMPATIBLE_AUDIO_PARAM
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 104
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_WRN_INCOMPATIBLE_AUDIO_PARAM = 11
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_TASK_DONE
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_TASK_DONE
+  id: MFX_TASK_DONE
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_TASK_DONE
+  nameWithType: mfxStatus.MFX_TASK_DONE
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_TASK_DONE
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_TASK_DONE
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 105
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_TASK_DONE = 0
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_TASK_WORKING
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_TASK_WORKING
+  id: MFX_TASK_WORKING
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_TASK_WORKING
+  nameWithType: mfxStatus.MFX_TASK_WORKING
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_TASK_WORKING
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_TASK_WORKING
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 106
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_TASK_WORKING = 8
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.mfxStatus.MFX_TASK_BUSY
+  commentId: F:LimeVideoSDKQuickSync.mfxStatus.MFX_TASK_BUSY
+  id: MFX_TASK_BUSY
+  parent: LimeVideoSDKQuickSync.mfxStatus
+  langs:
+  - csharp
+  - vb
+  name: MFX_TASK_BUSY
+  nameWithType: mfxStatus.MFX_TASK_BUSY
+  fullName: LimeVideoSDKQuickSync.mfxStatus.MFX_TASK_BUSY
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_TASK_BUSY
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 107
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_TASK_BUSY = 9
+    return:
+      type: LimeVideoSDKQuickSync.mfxStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: LimeVideoSDKQuickSync
+  commentId: N:LimeVideoSDKQuickSync
+  isExternal: false
+  name: LimeVideoSDKQuickSync
+  nameWithType: LimeVideoSDKQuickSync
+  fullName: LimeVideoSDKQuickSync
+- uid: LimeVideoSDKQuickSync.mfxStatus
+  commentId: T:LimeVideoSDKQuickSync.mfxStatus
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxStatus
+  nameWithType: mfxStatus
+  fullName: LimeVideoSDKQuickSync.mfxStatus

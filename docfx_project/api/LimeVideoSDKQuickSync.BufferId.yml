@@ -1,0 +1,1306 @@
+### YamlMime:ManagedReference
+items:
+- uid: LimeVideoSDKQuickSync.BufferId
+  commentId: T:LimeVideoSDKQuickSync.BufferId
+  id: BufferId
+  parent: LimeVideoSDKQuickSync
+  children:
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_AVC_REFLIST_CTRL
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_AVC_REFLISTS
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_AVC_TEMPORAL_LAYERS
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CHROMA_LOC_INFO
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CODING_OPTION
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CODING_OPTION_SPSPPS
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CODING_OPTION2
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CODING_OPTION3
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_DECODED_FRAME_INFO
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_ENCODED_FRAME_INFO
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_ENCODER_CAPABILITY
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_ENCODER_RESET_OPTION
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_ENCODER_ROI
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_HEVC_PARAM
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_HEVC_REGION
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_HEVC_TILES
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_MB_DISABLE_SKIP_MAP
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_MBQP
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_OPAQUE_SURFACE_ALLOCATION
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_PICTURE_TIMING_SEI
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_TIME_CODE
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VIDEO_SIGNAL_INFO
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_AUXDATA
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_COMPOSITE
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DEINTERLACING
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DENOISE
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DETAIL
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DONOTUSE
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DOUSE
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_FIELD_PROCESSING
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_FRAME_RATE_CONVERSION
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_IMAGE_STABILIZATION
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_PICSTRUCT_DETECTION
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_PROCAMP
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_SCENE_ANALYSIS
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_SCENE_CHANGE
+  - LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_VIDEO_SIGNAL_INFO
+  langs:
+  - csharp
+  - vb
+  name: BufferId
+  nameWithType: BufferId
+  fullName: LimeVideoSDKQuickSync.BufferId
+  type: Enum
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: BufferId
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 149
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: 'public enum BufferId : uint'
+    content.vb: Public Enum BufferId As UInteger
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CODING_OPTION
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CODING_OPTION
+  id: MFX_EXTBUFF_CODING_OPTION
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_CODING_OPTION
+  nameWithType: BufferId.MFX_EXTBUFF_CODING_OPTION
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CODING_OPTION
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_CODING_OPTION
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 151
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_CODING_OPTION = 1347372099U
+    content.vb: MFX_EXTBUFF_CODING_OPTION = 1347372099UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CODING_OPTION_SPSPPS
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CODING_OPTION_SPSPPS
+  id: MFX_EXTBUFF_CODING_OPTION_SPSPPS
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_CODING_OPTION_SPSPPS
+  nameWithType: BufferId.MFX_EXTBUFF_CODING_OPTION_SPSPPS
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CODING_OPTION_SPSPPS
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_CODING_OPTION_SPSPPS
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 152
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_CODING_OPTION_SPSPPS = 1347637059U
+    content.vb: MFX_EXTBUFF_CODING_OPTION_SPSPPS = 1347637059UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DONOTUSE
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DONOTUSE
+  id: MFX_EXTBUFF_VPP_DONOTUSE
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_VPP_DONOTUSE
+  nameWithType: BufferId.MFX_EXTBUFF_VPP_DONOTUSE
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DONOTUSE
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_VPP_DONOTUSE
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 153
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_VPP_DONOTUSE = 1163089230U
+    content.vb: MFX_EXTBUFF_VPP_DONOTUSE = 1163089230UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_AUXDATA
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_AUXDATA
+  id: MFX_EXTBUFF_VPP_AUXDATA
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_VPP_AUXDATA
+  nameWithType: BufferId.MFX_EXTBUFF_VPP_AUXDATA
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_AUXDATA
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_VPP_AUXDATA
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 154
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_VPP_AUXDATA = 1146639681U
+    content.vb: MFX_EXTBUFF_VPP_AUXDATA = 1146639681UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DENOISE
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DENOISE
+  id: MFX_EXTBUFF_VPP_DENOISE
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_VPP_DENOISE
+  nameWithType: BufferId.MFX_EXTBUFF_VPP_DENOISE
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DENOISE
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_VPP_DENOISE
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 155
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_VPP_DENOISE = 1397313092U
+    content.vb: MFX_EXTBUFF_VPP_DENOISE = 1397313092UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_SCENE_ANALYSIS
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_SCENE_ANALYSIS
+  id: MFX_EXTBUFF_VPP_SCENE_ANALYSIS
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_VPP_SCENE_ANALYSIS
+  nameWithType: BufferId.MFX_EXTBUFF_VPP_SCENE_ANALYSIS
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_SCENE_ANALYSIS
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_VPP_SCENE_ANALYSIS
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 156
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_VPP_SCENE_ANALYSIS = 1498170195U
+    content.vb: MFX_EXTBUFF_VPP_SCENE_ANALYSIS = 1498170195UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_SCENE_CHANGE
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_SCENE_CHANGE
+  id: MFX_EXTBUFF_VPP_SCENE_CHANGE
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_VPP_SCENE_CHANGE
+  nameWithType: BufferId.MFX_EXTBUFF_VPP_SCENE_CHANGE
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_SCENE_CHANGE
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_VPP_SCENE_CHANGE
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 157
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_VPP_SCENE_CHANGE = 1498170195U
+    content.vb: MFX_EXTBUFF_VPP_SCENE_CHANGE = 1498170195UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_PROCAMP
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_PROCAMP
+  id: MFX_EXTBUFF_VPP_PROCAMP
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_VPP_PROCAMP
+  nameWithType: BufferId.MFX_EXTBUFF_VPP_PROCAMP
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_PROCAMP
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_VPP_PROCAMP
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 158
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_VPP_PROCAMP = 1347240272U
+    content.vb: MFX_EXTBUFF_VPP_PROCAMP = 1347240272UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DETAIL
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DETAIL
+  id: MFX_EXTBUFF_VPP_DETAIL
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_VPP_DETAIL
+  nameWithType: BufferId.MFX_EXTBUFF_VPP_DETAIL
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DETAIL
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_VPP_DETAIL
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 159
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_VPP_DETAIL = 542393668U
+    content.vb: MFX_EXTBUFF_VPP_DETAIL = 542393668UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VIDEO_SIGNAL_INFO
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VIDEO_SIGNAL_INFO
+  id: MFX_EXTBUFF_VIDEO_SIGNAL_INFO
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_VIDEO_SIGNAL_INFO
+  nameWithType: BufferId.MFX_EXTBUFF_VIDEO_SIGNAL_INFO
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VIDEO_SIGNAL_INFO
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_VIDEO_SIGNAL_INFO
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 160
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_VIDEO_SIGNAL_INFO = 1313428310U
+    content.vb: MFX_EXTBUFF_VIDEO_SIGNAL_INFO = 1313428310UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DOUSE
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DOUSE
+  id: MFX_EXTBUFF_VPP_DOUSE
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_VPP_DOUSE
+  nameWithType: BufferId.MFX_EXTBUFF_VPP_DOUSE
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DOUSE
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_VPP_DOUSE
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 161
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_VPP_DOUSE = 1163089220U
+    content.vb: MFX_EXTBUFF_VPP_DOUSE = 1163089220UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_OPAQUE_SURFACE_ALLOCATION
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_OPAQUE_SURFACE_ALLOCATION
+  id: MFX_EXTBUFF_OPAQUE_SURFACE_ALLOCATION
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_OPAQUE_SURFACE_ALLOCATION
+  nameWithType: BufferId.MFX_EXTBUFF_OPAQUE_SURFACE_ALLOCATION
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_OPAQUE_SURFACE_ALLOCATION
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_OPAQUE_SURFACE_ALLOCATION
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 162
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_OPAQUE_SURFACE_ALLOCATION = 1397837903U
+    content.vb: MFX_EXTBUFF_OPAQUE_SURFACE_ALLOCATION = 1397837903UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_AVC_REFLIST_CTRL
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_AVC_REFLIST_CTRL
+  id: MFX_EXTBUFF_AVC_REFLIST_CTRL
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_AVC_REFLIST_CTRL
+  nameWithType: BufferId.MFX_EXTBUFF_AVC_REFLIST_CTRL
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_AVC_REFLIST_CTRL
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_AVC_REFLIST_CTRL
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 163
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_AVC_REFLIST_CTRL = 1414745170U
+    content.vb: MFX_EXTBUFF_AVC_REFLIST_CTRL = 1414745170UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_FRAME_RATE_CONVERSION
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_FRAME_RATE_CONVERSION
+  id: MFX_EXTBUFF_VPP_FRAME_RATE_CONVERSION
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_VPP_FRAME_RATE_CONVERSION
+  nameWithType: BufferId.MFX_EXTBUFF_VPP_FRAME_RATE_CONVERSION
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_FRAME_RATE_CONVERSION
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_VPP_FRAME_RATE_CONVERSION
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 164
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_VPP_FRAME_RATE_CONVERSION = 541282886U
+    content.vb: MFX_EXTBUFF_VPP_FRAME_RATE_CONVERSION = 541282886UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_PICTURE_TIMING_SEI
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_PICTURE_TIMING_SEI
+  id: MFX_EXTBUFF_PICTURE_TIMING_SEI
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_PICTURE_TIMING_SEI
+  nameWithType: BufferId.MFX_EXTBUFF_PICTURE_TIMING_SEI
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_PICTURE_TIMING_SEI
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_PICTURE_TIMING_SEI
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 165
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_PICTURE_TIMING_SEI = 1163088976U
+    content.vb: MFX_EXTBUFF_PICTURE_TIMING_SEI = 1163088976UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_AVC_TEMPORAL_LAYERS
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_AVC_TEMPORAL_LAYERS
+  id: MFX_EXTBUFF_AVC_TEMPORAL_LAYERS
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_AVC_TEMPORAL_LAYERS
+  nameWithType: BufferId.MFX_EXTBUFF_AVC_TEMPORAL_LAYERS
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_AVC_TEMPORAL_LAYERS
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_AVC_TEMPORAL_LAYERS
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 166
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_AVC_TEMPORAL_LAYERS = 1280136257U
+    content.vb: MFX_EXTBUFF_AVC_TEMPORAL_LAYERS = 1280136257UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CODING_OPTION2
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CODING_OPTION2
+  id: MFX_EXTBUFF_CODING_OPTION2
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_CODING_OPTION2
+  nameWithType: BufferId.MFX_EXTBUFF_CODING_OPTION2
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CODING_OPTION2
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_CODING_OPTION2
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 167
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_CODING_OPTION2 = 844055619U
+    content.vb: MFX_EXTBUFF_CODING_OPTION2 = 844055619UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_IMAGE_STABILIZATION
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_IMAGE_STABILIZATION
+  id: MFX_EXTBUFF_VPP_IMAGE_STABILIZATION
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_VPP_IMAGE_STABILIZATION
+  nameWithType: BufferId.MFX_EXTBUFF_VPP_IMAGE_STABILIZATION
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_IMAGE_STABILIZATION
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_VPP_IMAGE_STABILIZATION
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 168
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_VPP_IMAGE_STABILIZATION = 1112822601U
+    content.vb: MFX_EXTBUFF_VPP_IMAGE_STABILIZATION = 1112822601UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_PICSTRUCT_DETECTION
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_PICSTRUCT_DETECTION
+  id: MFX_EXTBUFF_VPP_PICSTRUCT_DETECTION
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_VPP_PICSTRUCT_DETECTION
+  nameWithType: BufferId.MFX_EXTBUFF_VPP_PICSTRUCT_DETECTION
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_PICSTRUCT_DETECTION
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_VPP_PICSTRUCT_DETECTION
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 169
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_VPP_PICSTRUCT_DETECTION = 1413825609U
+    content.vb: MFX_EXTBUFF_VPP_PICSTRUCT_DETECTION = 1413825609UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_ENCODER_CAPABILITY
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_ENCODER_CAPABILITY
+  id: MFX_EXTBUFF_ENCODER_CAPABILITY
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_ENCODER_CAPABILITY
+  nameWithType: BufferId.MFX_EXTBUFF_ENCODER_CAPABILITY
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_ENCODER_CAPABILITY
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_ENCODER_CAPABILITY
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 170
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_ENCODER_CAPABILITY = 1346588229U
+    content.vb: MFX_EXTBUFF_ENCODER_CAPABILITY = 1346588229UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_ENCODER_RESET_OPTION
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_ENCODER_RESET_OPTION
+  id: MFX_EXTBUFF_ENCODER_RESET_OPTION
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_ENCODER_RESET_OPTION
+  nameWithType: BufferId.MFX_EXTBUFF_ENCODER_RESET_OPTION
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_ENCODER_RESET_OPTION
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_ENCODER_RESET_OPTION
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 171
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_ENCODER_RESET_OPTION = 1330794053U
+    content.vb: MFX_EXTBUFF_ENCODER_RESET_OPTION = 1330794053UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_ENCODED_FRAME_INFO
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_ENCODED_FRAME_INFO
+  id: MFX_EXTBUFF_ENCODED_FRAME_INFO
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_ENCODED_FRAME_INFO
+  nameWithType: BufferId.MFX_EXTBUFF_ENCODED_FRAME_INFO
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_ENCODED_FRAME_INFO
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_ENCODED_FRAME_INFO
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 172
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_ENCODED_FRAME_INFO = 1229344325U
+    content.vb: MFX_EXTBUFF_ENCODED_FRAME_INFO = 1229344325UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_COMPOSITE
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_COMPOSITE
+  id: MFX_EXTBUFF_VPP_COMPOSITE
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_VPP_COMPOSITE
+  nameWithType: BufferId.MFX_EXTBUFF_VPP_COMPOSITE
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_COMPOSITE
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_VPP_COMPOSITE
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 173
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_VPP_COMPOSITE = 1347240790U
+    content.vb: MFX_EXTBUFF_VPP_COMPOSITE = 1347240790UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_VIDEO_SIGNAL_INFO
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_VIDEO_SIGNAL_INFO
+  id: MFX_EXTBUFF_VPP_VIDEO_SIGNAL_INFO
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_VPP_VIDEO_SIGNAL_INFO
+  nameWithType: BufferId.MFX_EXTBUFF_VPP_VIDEO_SIGNAL_INFO
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_VIDEO_SIGNAL_INFO
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_VPP_VIDEO_SIGNAL_INFO
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 174
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_VPP_VIDEO_SIGNAL_INFO = 1230198358U
+    content.vb: MFX_EXTBUFF_VPP_VIDEO_SIGNAL_INFO = 1230198358UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_ENCODER_ROI
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_ENCODER_ROI
+  id: MFX_EXTBUFF_ENCODER_ROI
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_ENCODER_ROI
+  nameWithType: BufferId.MFX_EXTBUFF_ENCODER_ROI
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_ENCODER_ROI
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_ENCODER_ROI
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 175
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_ENCODER_ROI = 1229935173U
+    content.vb: MFX_EXTBUFF_ENCODER_ROI = 1229935173UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DEINTERLACING
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DEINTERLACING
+  id: MFX_EXTBUFF_VPP_DEINTERLACING
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_VPP_DEINTERLACING
+  nameWithType: BufferId.MFX_EXTBUFF_VPP_DEINTERLACING
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_DEINTERLACING
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_VPP_DEINTERLACING
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 176
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_VPP_DEINTERLACING = 1229213782U
+    content.vb: MFX_EXTBUFF_VPP_DEINTERLACING = 1229213782UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_AVC_REFLISTS
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_AVC_REFLISTS
+  id: MFX_EXTBUFF_AVC_REFLISTS
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_AVC_REFLISTS
+  nameWithType: BufferId.MFX_EXTBUFF_AVC_REFLISTS
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_AVC_REFLISTS
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_AVC_REFLISTS
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 177
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_AVC_REFLISTS = 1398033490U
+    content.vb: MFX_EXTBUFF_AVC_REFLISTS = 1398033490UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_FIELD_PROCESSING
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_FIELD_PROCESSING
+  id: MFX_EXTBUFF_VPP_FIELD_PROCESSING
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_VPP_FIELD_PROCESSING
+  nameWithType: BufferId.MFX_EXTBUFF_VPP_FIELD_PROCESSING
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_VPP_FIELD_PROCESSING
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_VPP_FIELD_PROCESSING
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 178
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_VPP_FIELD_PROCESSING = 1330794566U
+    content.vb: MFX_EXTBUFF_VPP_FIELD_PROCESSING = 1330794566UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CODING_OPTION3
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CODING_OPTION3
+  id: MFX_EXTBUFF_CODING_OPTION3
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_CODING_OPTION3
+  nameWithType: BufferId.MFX_EXTBUFF_CODING_OPTION3
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CODING_OPTION3
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_CODING_OPTION3
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 179
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_CODING_OPTION3 = 860832835U
+    content.vb: MFX_EXTBUFF_CODING_OPTION3 = 860832835UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CHROMA_LOC_INFO
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CHROMA_LOC_INFO
+  id: MFX_EXTBUFF_CHROMA_LOC_INFO
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_CHROMA_LOC_INFO
+  nameWithType: BufferId.MFX_EXTBUFF_CHROMA_LOC_INFO
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_CHROMA_LOC_INFO
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_CHROMA_LOC_INFO
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 180
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_CHROMA_LOC_INFO = 1313426499U
+    content.vb: MFX_EXTBUFF_CHROMA_LOC_INFO = 1313426499UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_MBQP
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_MBQP
+  id: MFX_EXTBUFF_MBQP
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_MBQP
+  nameWithType: BufferId.MFX_EXTBUFF_MBQP
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_MBQP
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_MBQP
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 181
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_MBQP = 1347502669U
+    content.vb: MFX_EXTBUFF_MBQP = 1347502669UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_HEVC_TILES
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_HEVC_TILES
+  id: MFX_EXTBUFF_HEVC_TILES
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_HEVC_TILES
+  nameWithType: BufferId.MFX_EXTBUFF_HEVC_TILES
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_HEVC_TILES
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_HEVC_TILES
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 182
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_HEVC_TILES = 1412773426U
+    content.vb: MFX_EXTBUFF_HEVC_TILES = 1412773426UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_MB_DISABLE_SKIP_MAP
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_MB_DISABLE_SKIP_MAP
+  id: MFX_EXTBUFF_MB_DISABLE_SKIP_MAP
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_MB_DISABLE_SKIP_MAP
+  nameWithType: BufferId.MFX_EXTBUFF_MB_DISABLE_SKIP_MAP
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_MB_DISABLE_SKIP_MAP
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_MB_DISABLE_SKIP_MAP
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 183
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_MB_DISABLE_SKIP_MAP = 1297302605U
+    content.vb: MFX_EXTBUFF_MB_DISABLE_SKIP_MAP = 1297302605UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_HEVC_PARAM
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_HEVC_PARAM
+  id: MFX_EXTBUFF_HEVC_PARAM
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_HEVC_PARAM
+  nameWithType: BufferId.MFX_EXTBUFF_HEVC_PARAM
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_HEVC_PARAM
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_HEVC_PARAM
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 184
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_HEVC_PARAM = 1345664562U
+    content.vb: MFX_EXTBUFF_HEVC_PARAM = 1345664562UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_DECODED_FRAME_INFO
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_DECODED_FRAME_INFO
+  id: MFX_EXTBUFF_DECODED_FRAME_INFO
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_DECODED_FRAME_INFO
+  nameWithType: BufferId.MFX_EXTBUFF_DECODED_FRAME_INFO
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_DECODED_FRAME_INFO
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_DECODED_FRAME_INFO
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 185
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_DECODED_FRAME_INFO = 1229342020U
+    content.vb: MFX_EXTBUFF_DECODED_FRAME_INFO = 1229342020UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_TIME_CODE
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_TIME_CODE
+  id: MFX_EXTBUFF_TIME_CODE
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_TIME_CODE
+  nameWithType: BufferId.MFX_EXTBUFF_TIME_CODE
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_TIME_CODE
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_TIME_CODE
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 186
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_TIME_CODE = 1145261396U
+    content.vb: MFX_EXTBUFF_TIME_CODE = 1145261396UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_HEVC_REGION
+  commentId: F:LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_HEVC_REGION
+  id: MFX_EXTBUFF_HEVC_REGION
+  parent: LimeVideoSDKQuickSync.BufferId
+  langs:
+  - csharp
+  - vb
+  name: MFX_EXTBUFF_HEVC_REGION
+  nameWithType: BufferId.MFX_EXTBUFF_HEVC_REGION
+  fullName: LimeVideoSDKQuickSync.BufferId.MFX_EXTBUFF_HEVC_REGION
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MFX_EXTBUFF_HEVC_REGION
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 187
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: MFX_EXTBUFF_HEVC_REGION = 1379218994U
+    content.vb: MFX_EXTBUFF_HEVC_REGION = 1379218994UI
+    return:
+      type: LimeVideoSDKQuickSync.BufferId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: LimeVideoSDKQuickSync
+  commentId: N:LimeVideoSDKQuickSync
+  isExternal: false
+  name: LimeVideoSDKQuickSync
+  nameWithType: LimeVideoSDKQuickSync
+  fullName: LimeVideoSDKQuickSync
+- uid: LimeVideoSDKQuickSync.BufferId
+  commentId: T:LimeVideoSDKQuickSync.BufferId
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: BufferId
+  nameWithType: BufferId
+  fullName: LimeVideoSDKQuickSync.BufferId

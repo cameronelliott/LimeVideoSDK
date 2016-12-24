@@ -1,0 +1,1535 @@
+### YamlMime:ManagedReference
+items:
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX
+  commentId: T:LimeVideoSDKQuickSync.mfxInfoMFX
+  id: mfxInfoMFX
+  parent: LimeVideoSDKQuickSync
+  children:
+  - LimeVideoSDKQuickSync.mfxInfoMFX.Accuracy
+  - LimeVideoSDKQuickSync.mfxInfoMFX.BRCParamMultiplier
+  - LimeVideoSDKQuickSync.mfxInfoMFX.BufferSizeInKB
+  - LimeVideoSDKQuickSync.mfxInfoMFX.CodecId
+  - LimeVideoSDKQuickSync.mfxInfoMFX.CodecLevel
+  - LimeVideoSDKQuickSync.mfxInfoMFX.CodecProfile
+  - LimeVideoSDKQuickSync.mfxInfoMFX.Convergence
+  - LimeVideoSDKQuickSync.mfxInfoMFX.DecodedOrder
+  - LimeVideoSDKQuickSync.mfxInfoMFX.EncodedOrder
+  - LimeVideoSDKQuickSync.mfxInfoMFX.ExtendedPicStruct
+  - LimeVideoSDKQuickSync.mfxInfoMFX.FrameInfo
+  - LimeVideoSDKQuickSync.mfxInfoMFX.GopOptFlag
+  - LimeVideoSDKQuickSync.mfxInfoMFX.GopPicSize
+  - LimeVideoSDKQuickSync.mfxInfoMFX.GopRefDist
+  - LimeVideoSDKQuickSync.mfxInfoMFX.ICQQuality
+  - LimeVideoSDKQuickSync.mfxInfoMFX.IdrInterval
+  - LimeVideoSDKQuickSync.mfxInfoMFX.InitialDelayInKB
+  - LimeVideoSDKQuickSync.mfxInfoMFX.Interleaved
+  - LimeVideoSDKQuickSync.mfxInfoMFX.InterleavedDec
+  - LimeVideoSDKQuickSync.mfxInfoMFX.JPEGChromaFormat
+  - LimeVideoSDKQuickSync.mfxInfoMFX.JPEGColorFormat
+  - LimeVideoSDKQuickSync.mfxInfoMFX.LowPower
+  - LimeVideoSDKQuickSync.mfxInfoMFX.MaxKbps
+  - LimeVideoSDKQuickSync.mfxInfoMFX.NumRefFrame
+  - LimeVideoSDKQuickSync.mfxInfoMFX.NumSlice
+  - LimeVideoSDKQuickSync.mfxInfoMFX.NumThread
+  - LimeVideoSDKQuickSync.mfxInfoMFX.QPB
+  - LimeVideoSDKQuickSync.mfxInfoMFX.QPI
+  - LimeVideoSDKQuickSync.mfxInfoMFX.QPP
+  - LimeVideoSDKQuickSync.mfxInfoMFX.Quality
+  - LimeVideoSDKQuickSync.mfxInfoMFX.RateControlMethod
+  - LimeVideoSDKQuickSync.mfxInfoMFX.RestartInterval
+  - LimeVideoSDKQuickSync.mfxInfoMFX.Rotation
+  - LimeVideoSDKQuickSync.mfxInfoMFX.SliceGroupsPresent
+  - LimeVideoSDKQuickSync.mfxInfoMFX.TargetKbps
+  - LimeVideoSDKQuickSync.mfxInfoMFX.TargetUsage
+  - LimeVideoSDKQuickSync.mfxInfoMFX.TimeStampCalc
+  langs:
+  - csharp
+  - vb
+  name: mfxInfoMFX
+  nameWithType: mfxInfoMFX
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX
+  type: Struct
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: mfxInfoMFX
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 469
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public struct mfxInfoMFX
+    content.vb: Public Structure mfxInfoMFX
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.LowPower
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.LowPower
+  id: LowPower
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: LowPower
+  nameWithType: mfxInfoMFX.LowPower
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.LowPower
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: LowPower
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 474
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort LowPower
+    content.vb: Public LowPower As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.BRCParamMultiplier
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.BRCParamMultiplier
+  id: BRCParamMultiplier
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: BRCParamMultiplier
+  nameWithType: mfxInfoMFX.BRCParamMultiplier
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.BRCParamMultiplier
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: BRCParamMultiplier
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 476
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort BRCParamMultiplier
+    content.vb: Public BRCParamMultiplier As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.FrameInfo
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.FrameInfo
+  id: FrameInfo
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: FrameInfo
+  nameWithType: mfxInfoMFX.FrameInfo
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.FrameInfo
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: FrameInfo
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 478
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public mfxFrameInfo FrameInfo
+    content.vb: Public FrameInfo As mfxFrameInfo
+    return:
+      type: LimeVideoSDKQuickSync.mfxFrameInfo
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.CodecId
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.CodecId
+  id: CodecId
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: CodecId
+  nameWithType: mfxInfoMFX.CodecId
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.CodecId
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: CodecId
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 480
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public CodecId CodecId
+    content.vb: Public CodecId As CodecId
+    return:
+      type: LimeVideoSDKQuickSync.CodecId
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.CodecProfile
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.CodecProfile
+  id: CodecProfile
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: CodecProfile
+  nameWithType: mfxInfoMFX.CodecProfile
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.CodecProfile
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: CodecProfile
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 482
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort CodecProfile
+    content.vb: Public CodecProfile As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.CodecLevel
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.CodecLevel
+  id: CodecLevel
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: CodecLevel
+  nameWithType: mfxInfoMFX.CodecLevel
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.CodecLevel
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: CodecLevel
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 484
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort CodecLevel
+    content.vb: Public CodecLevel As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.NumThread
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.NumThread
+  id: NumThread
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: NumThread
+  nameWithType: mfxInfoMFX.NumThread
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.NumThread
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: NumThread
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 486
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort NumThread
+    content.vb: Public NumThread As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.TargetUsage
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.TargetUsage
+  id: TargetUsage
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: TargetUsage
+  nameWithType: mfxInfoMFX.TargetUsage
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.TargetUsage
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: TargetUsage
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 488
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public TargetUsage TargetUsage
+    content.vb: Public TargetUsage As TargetUsage
+    return:
+      type: LimeVideoSDKQuickSync.TargetUsage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.GopPicSize
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.GopPicSize
+  id: GopPicSize
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: GopPicSize
+  nameWithType: mfxInfoMFX.GopPicSize
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.GopPicSize
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: GopPicSize
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 490
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort GopPicSize
+    content.vb: Public GopPicSize As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.GopRefDist
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.GopRefDist
+  id: GopRefDist
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: GopRefDist
+  nameWithType: mfxInfoMFX.GopRefDist
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.GopRefDist
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: GopRefDist
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 492
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort GopRefDist
+    content.vb: Public GopRefDist As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.GopOptFlag
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.GopOptFlag
+  id: GopOptFlag
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: GopOptFlag
+  nameWithType: mfxInfoMFX.GopOptFlag
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.GopOptFlag
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: GopOptFlag
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 494
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort GopOptFlag
+    content.vb: Public GopOptFlag As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.IdrInterval
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.IdrInterval
+  id: IdrInterval
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: IdrInterval
+  nameWithType: mfxInfoMFX.IdrInterval
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.IdrInterval
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: IdrInterval
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 496
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort IdrInterval
+    content.vb: Public IdrInterval As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.RateControlMethod
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.RateControlMethod
+  id: RateControlMethod
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: RateControlMethod
+  nameWithType: mfxInfoMFX.RateControlMethod
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.RateControlMethod
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: RateControlMethod
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 498
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public RateControlMethod RateControlMethod
+    content.vb: Public RateControlMethod As RateControlMethod
+    return:
+      type: LimeVideoSDKQuickSync.RateControlMethod
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.InitialDelayInKB
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.InitialDelayInKB
+  id: InitialDelayInKB
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: InitialDelayInKB
+  nameWithType: mfxInfoMFX.InitialDelayInKB
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.InitialDelayInKB
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: InitialDelayInKB
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 500
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort InitialDelayInKB
+    content.vb: Public InitialDelayInKB As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.QPI
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.QPI
+  id: QPI
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: QPI
+  nameWithType: mfxInfoMFX.QPI
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.QPI
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: QPI
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 502
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort QPI
+    content.vb: Public QPI As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.Accuracy
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.Accuracy
+  id: Accuracy
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: Accuracy
+  nameWithType: mfxInfoMFX.Accuracy
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.Accuracy
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Accuracy
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 504
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort Accuracy
+    content.vb: Public Accuracy As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.BufferSizeInKB
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.BufferSizeInKB
+  id: BufferSizeInKB
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: BufferSizeInKB
+  nameWithType: mfxInfoMFX.BufferSizeInKB
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.BufferSizeInKB
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: BufferSizeInKB
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 506
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort BufferSizeInKB
+    content.vb: Public BufferSizeInKB As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.TargetKbps
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.TargetKbps
+  id: TargetKbps
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: TargetKbps
+  nameWithType: mfxInfoMFX.TargetKbps
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.TargetKbps
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: TargetKbps
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 508
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort TargetKbps
+    content.vb: Public TargetKbps As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.QPP
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.QPP
+  id: QPP
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: QPP
+  nameWithType: mfxInfoMFX.QPP
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.QPP
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: QPP
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 510
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort QPP
+    content.vb: Public QPP As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.ICQQuality
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.ICQQuality
+  id: ICQQuality
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: ICQQuality
+  nameWithType: mfxInfoMFX.ICQQuality
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.ICQQuality
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: ICQQuality
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 512
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort ICQQuality
+    content.vb: Public ICQQuality As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.MaxKbps
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.MaxKbps
+  id: MaxKbps
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: MaxKbps
+  nameWithType: mfxInfoMFX.MaxKbps
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.MaxKbps
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: MaxKbps
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 514
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort MaxKbps
+    content.vb: Public MaxKbps As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.QPB
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.QPB
+  id: QPB
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: QPB
+  nameWithType: mfxInfoMFX.QPB
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.QPB
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: QPB
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 516
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort QPB
+    content.vb: Public QPB As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.Convergence
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.Convergence
+  id: Convergence
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: Convergence
+  nameWithType: mfxInfoMFX.Convergence
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.Convergence
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Convergence
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 518
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort Convergence
+    content.vb: Public Convergence As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.NumSlice
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.NumSlice
+  id: NumSlice
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: NumSlice
+  nameWithType: mfxInfoMFX.NumSlice
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.NumSlice
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: NumSlice
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 520
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort NumSlice
+    content.vb: Public NumSlice As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.NumRefFrame
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.NumRefFrame
+  id: NumRefFrame
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: NumRefFrame
+  nameWithType: mfxInfoMFX.NumRefFrame
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.NumRefFrame
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: NumRefFrame
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 522
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort NumRefFrame
+    content.vb: Public NumRefFrame As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.EncodedOrder
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.EncodedOrder
+  id: EncodedOrder
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: EncodedOrder
+  nameWithType: mfxInfoMFX.EncodedOrder
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.EncodedOrder
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: EncodedOrder
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 524
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort EncodedOrder
+    content.vb: Public EncodedOrder As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.DecodedOrder
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.DecodedOrder
+  id: DecodedOrder
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: DecodedOrder
+  nameWithType: mfxInfoMFX.DecodedOrder
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.DecodedOrder
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: DecodedOrder
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 526
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort DecodedOrder
+    content.vb: Public DecodedOrder As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.ExtendedPicStruct
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.ExtendedPicStruct
+  id: ExtendedPicStruct
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: ExtendedPicStruct
+  nameWithType: mfxInfoMFX.ExtendedPicStruct
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.ExtendedPicStruct
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: ExtendedPicStruct
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 528
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort ExtendedPicStruct
+    content.vb: Public ExtendedPicStruct As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.TimeStampCalc
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.TimeStampCalc
+  id: TimeStampCalc
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: TimeStampCalc
+  nameWithType: mfxInfoMFX.TimeStampCalc
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.TimeStampCalc
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: TimeStampCalc
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 530
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort TimeStampCalc
+    content.vb: Public TimeStampCalc As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.SliceGroupsPresent
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.SliceGroupsPresent
+  id: SliceGroupsPresent
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: SliceGroupsPresent
+  nameWithType: mfxInfoMFX.SliceGroupsPresent
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.SliceGroupsPresent
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: SliceGroupsPresent
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 532
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort SliceGroupsPresent
+    content.vb: Public SliceGroupsPresent As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.JPEGChromaFormat
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.JPEGChromaFormat
+  id: JPEGChromaFormat
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: JPEGChromaFormat
+  nameWithType: mfxInfoMFX.JPEGChromaFormat
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.JPEGChromaFormat
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: JPEGChromaFormat
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 535
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort JPEGChromaFormat
+    content.vb: Public JPEGChromaFormat As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.Rotation
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.Rotation
+  id: Rotation
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: Rotation
+  nameWithType: mfxInfoMFX.Rotation
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.Rotation
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Rotation
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 537
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort Rotation
+    content.vb: Public Rotation As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.JPEGColorFormat
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.JPEGColorFormat
+  id: JPEGColorFormat
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: JPEGColorFormat
+  nameWithType: mfxInfoMFX.JPEGColorFormat
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.JPEGColorFormat
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: JPEGColorFormat
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 539
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort JPEGColorFormat
+    content.vb: Public JPEGColorFormat As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.InterleavedDec
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.InterleavedDec
+  id: InterleavedDec
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: InterleavedDec
+  nameWithType: mfxInfoMFX.InterleavedDec
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.InterleavedDec
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: InterleavedDec
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 541
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort InterleavedDec
+    content.vb: Public InterleavedDec As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.Interleaved
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.Interleaved
+  id: Interleaved
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: Interleaved
+  nameWithType: mfxInfoMFX.Interleaved
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.Interleaved
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Interleaved
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 544
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort Interleaved
+    content.vb: Public Interleaved As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.Quality
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.Quality
+  id: Quality
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: Quality
+  nameWithType: mfxInfoMFX.Quality
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.Quality
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: Quality
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 546
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort Quality
+    content.vb: Public Quality As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LimeVideoSDKQuickSync.mfxInfoMFX.RestartInterval
+  commentId: F:LimeVideoSDKQuickSync.mfxInfoMFX.RestartInterval
+  id: RestartInterval
+  parent: LimeVideoSDKQuickSync.mfxInfoMFX
+  langs:
+  - csharp
+  - vb
+  name: RestartInterval
+  nameWithType: mfxInfoMFX.RestartInterval
+  fullName: LimeVideoSDKQuickSync.mfxInfoMFX.RestartInterval
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: RestartInterval
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/mfxvideo.generated.cs
+    startLine: 548
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: public ushort RestartInterval
+    content.vb: Public RestartInterval As UShort
+    return:
+      type: System.UInt16
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: LimeVideoSDKQuickSync
+  commentId: N:LimeVideoSDKQuickSync
+  isExternal: false
+  name: LimeVideoSDKQuickSync
+  nameWithType: LimeVideoSDKQuickSync
+  fullName: LimeVideoSDKQuickSync
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: LimeVideoSDKQuickSync.mfxFrameInfo
+  commentId: T:LimeVideoSDKQuickSync.mfxFrameInfo
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: mfxFrameInfo
+  nameWithType: mfxFrameInfo
+  fullName: LimeVideoSDKQuickSync.mfxFrameInfo
+- uid: LimeVideoSDKQuickSync.CodecId
+  commentId: T:LimeVideoSDKQuickSync.CodecId
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: CodecId
+  nameWithType: CodecId
+  fullName: LimeVideoSDKQuickSync.CodecId
+- uid: LimeVideoSDKQuickSync.TargetUsage
+  commentId: T:LimeVideoSDKQuickSync.TargetUsage
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: TargetUsage
+  nameWithType: TargetUsage
+  fullName: LimeVideoSDKQuickSync.TargetUsage
+- uid: LimeVideoSDKQuickSync.RateControlMethod
+  commentId: T:LimeVideoSDKQuickSync.RateControlMethod
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: RateControlMethod
+  nameWithType: RateControlMethod
+  fullName: LimeVideoSDKQuickSync.RateControlMethod

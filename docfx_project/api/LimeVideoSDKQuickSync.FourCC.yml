@@ -1,0 +1,492 @@
+### YamlMime:ManagedReference
+items:
+- uid: LimeVideoSDKQuickSync.FourCC
+  commentId: T:LimeVideoSDKQuickSync.FourCC
+  id: FourCC
+  parent: LimeVideoSDKQuickSync
+  children:
+  - LimeVideoSDKQuickSync.FourCC.BGR3
+  - LimeVideoSDKQuickSync.FourCC.BGR4
+  - LimeVideoSDKQuickSync.FourCC.I420
+  - LimeVideoSDKQuickSync.FourCC.I420_IYUV
+  - LimeVideoSDKQuickSync.FourCC.IYUV
+  - LimeVideoSDKQuickSync.FourCC.NV12
+  - LimeVideoSDKQuickSync.FourCC.P411
+  - LimeVideoSDKQuickSync.FourCC.P422
+  - LimeVideoSDKQuickSync.FourCC.RGB3
+  - LimeVideoSDKQuickSync.FourCC.RGB4
+  - LimeVideoSDKQuickSync.FourCC.UYVY
+  - LimeVideoSDKQuickSync.FourCC.YUY2
+  - LimeVideoSDKQuickSync.FourCC.YV12
+  langs:
+  - csharp
+  - vb
+  name: FourCC
+  nameWithType: FourCC
+  fullName: LimeVideoSDKQuickSync.FourCC
+  type: Enum
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: FourCC
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+    startLine: 18
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  summary: "\nThese define a number of four byte codes that define video frame color space and\nmemory layout characteristics. Otherwise know as FOURCC codes.\n"
+  example: []
+  syntax:
+    content: 'public enum FourCC : uint'
+    content.vb: Public Enum FourCC As UInteger
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: LimeVideoSDKQuickSync.FourCC.NV12
+  commentId: F:LimeVideoSDKQuickSync.FourCC.NV12
+  id: NV12
+  parent: LimeVideoSDKQuickSync.FourCC
+  langs:
+  - csharp
+  - vb
+  name: NV12
+  nameWithType: FourCC.NV12
+  fullName: LimeVideoSDKQuickSync.FourCC.NV12
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: NV12
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+    startLine: 20
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: NV12 = 842094158U
+    content.vb: NV12 = 842094158UI
+    return:
+      type: LimeVideoSDKQuickSync.FourCC
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.FourCC.UYVY
+  commentId: F:LimeVideoSDKQuickSync.FourCC.UYVY
+  id: UYVY
+  parent: LimeVideoSDKQuickSync.FourCC
+  langs:
+  - csharp
+  - vb
+  name: UYVY
+  nameWithType: FourCC.UYVY
+  fullName: LimeVideoSDKQuickSync.FourCC.UYVY
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: UYVY
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+    startLine: 21
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: UYVY = 1498831189U
+    content.vb: UYVY = 1498831189UI
+    return:
+      type: LimeVideoSDKQuickSync.FourCC
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.FourCC.YV12
+  commentId: F:LimeVideoSDKQuickSync.FourCC.YV12
+  id: YV12
+  parent: LimeVideoSDKQuickSync.FourCC
+  langs:
+  - csharp
+  - vb
+  name: YV12
+  nameWithType: FourCC.YV12
+  fullName: LimeVideoSDKQuickSync.FourCC.YV12
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: YV12
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+    startLine: 22
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: YV12 = 842094169U
+    content.vb: YV12 = 842094169UI
+    return:
+      type: LimeVideoSDKQuickSync.FourCC
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.FourCC.P411
+  commentId: F:LimeVideoSDKQuickSync.FourCC.P411
+  id: P411
+  parent: LimeVideoSDKQuickSync.FourCC
+  langs:
+  - csharp
+  - vb
+  name: P411
+  nameWithType: FourCC.P411
+  fullName: LimeVideoSDKQuickSync.FourCC.P411
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: P411
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+    startLine: 23
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: P411 = 842150992U
+    content.vb: P411 = 842150992UI
+    return:
+      type: LimeVideoSDKQuickSync.FourCC
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.FourCC.P422
+  commentId: F:LimeVideoSDKQuickSync.FourCC.P422
+  id: P422
+  parent: LimeVideoSDKQuickSync.FourCC
+  langs:
+  - csharp
+  - vb
+  name: P422
+  nameWithType: FourCC.P422
+  fullName: LimeVideoSDKQuickSync.FourCC.P422
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: P422
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+    startLine: 24
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: P422 = 825308240U
+    content.vb: P422 = 825308240UI
+    return:
+      type: LimeVideoSDKQuickSync.FourCC
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.FourCC.I420_IYUV
+  commentId: F:LimeVideoSDKQuickSync.FourCC.I420_IYUV
+  id: I420_IYUV
+  parent: LimeVideoSDKQuickSync.FourCC
+  langs:
+  - csharp
+  - vb
+  name: I420_IYUV
+  nameWithType: FourCC.I420_IYUV
+  fullName: LimeVideoSDKQuickSync.FourCC.I420_IYUV
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: I420_IYUV
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+    startLine: 25
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: I420_IYUV = 808596553U
+    content.vb: I420_IYUV = 808596553UI
+    return:
+      type: LimeVideoSDKQuickSync.FourCC
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.FourCC.I420
+  commentId: F:LimeVideoSDKQuickSync.FourCC.I420
+  id: I420
+  parent: LimeVideoSDKQuickSync.FourCC
+  langs:
+  - csharp
+  - vb
+  name: I420
+  nameWithType: FourCC.I420
+  fullName: LimeVideoSDKQuickSync.FourCC.I420
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: I420
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+    startLine: 26
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: I420 = 808596553U
+    content.vb: I420 = 808596553UI
+    return:
+      type: LimeVideoSDKQuickSync.FourCC
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.FourCC.IYUV
+  commentId: F:LimeVideoSDKQuickSync.FourCC.IYUV
+  id: IYUV
+  parent: LimeVideoSDKQuickSync.FourCC
+  langs:
+  - csharp
+  - vb
+  name: IYUV
+  nameWithType: FourCC.IYUV
+  fullName: LimeVideoSDKQuickSync.FourCC.IYUV
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: IYUV
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+    startLine: 27
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: IYUV = 808596553U
+    content.vb: IYUV = 808596553UI
+    return:
+      type: LimeVideoSDKQuickSync.FourCC
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.FourCC.YUY2
+  commentId: F:LimeVideoSDKQuickSync.FourCC.YUY2
+  id: YUY2
+  parent: LimeVideoSDKQuickSync.FourCC
+  langs:
+  - csharp
+  - vb
+  name: YUY2
+  nameWithType: FourCC.YUY2
+  fullName: LimeVideoSDKQuickSync.FourCC.YUY2
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: YUY2
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+    startLine: 28
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: YUY2 = 844715353U
+    content.vb: YUY2 = 844715353UI
+    return:
+      type: LimeVideoSDKQuickSync.FourCC
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.FourCC.RGB3
+  commentId: F:LimeVideoSDKQuickSync.FourCC.RGB3
+  id: RGB3
+  parent: LimeVideoSDKQuickSync.FourCC
+  langs:
+  - csharp
+  - vb
+  name: RGB3
+  nameWithType: FourCC.RGB3
+  fullName: LimeVideoSDKQuickSync.FourCC.RGB3
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: RGB3
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+    startLine: 29
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: RGB3 = 859981650U
+    content.vb: RGB3 = 859981650UI
+    return:
+      type: LimeVideoSDKQuickSync.FourCC
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.FourCC.RGB4
+  commentId: F:LimeVideoSDKQuickSync.FourCC.RGB4
+  id: RGB4
+  parent: LimeVideoSDKQuickSync.FourCC
+  langs:
+  - csharp
+  - vb
+  name: RGB4
+  nameWithType: FourCC.RGB4
+  fullName: LimeVideoSDKQuickSync.FourCC.RGB4
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: RGB4
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+    startLine: 30
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: RGB4 = 876758866U
+    content.vb: RGB4 = 876758866UI
+    return:
+      type: LimeVideoSDKQuickSync.FourCC
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.FourCC.BGR4
+  commentId: F:LimeVideoSDKQuickSync.FourCC.BGR4
+  id: BGR4
+  parent: LimeVideoSDKQuickSync.FourCC
+  langs:
+  - csharp
+  - vb
+  name: BGR4
+  nameWithType: FourCC.BGR4
+  fullName: LimeVideoSDKQuickSync.FourCC.BGR4
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: BGR4
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+    startLine: 31
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: BGR4 = 877807426U
+    content.vb: BGR4 = 877807426UI
+    return:
+      type: LimeVideoSDKQuickSync.FourCC
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LimeVideoSDKQuickSync.FourCC.BGR3
+  commentId: F:LimeVideoSDKQuickSync.FourCC.BGR3
+  id: BGR3
+  parent: LimeVideoSDKQuickSync.FourCC
+  langs:
+  - csharp
+  - vb
+  name: BGR3
+  nameWithType: FourCC.BGR3
+  fullName: LimeVideoSDKQuickSync.FourCC.BGR3
+  type: Field
+  source:
+    remote:
+      path: dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+      branch: master
+      repo: https://github.com/cameron-elliott/LimeVideoSDK.git
+    id: BGR3
+    path: ../dotnet/Class Libraries/LimeVideoSDKQuickSync/FourCC.cs
+    startLine: 32
+  assemblies:
+  - LimeVideoSDKQuickSync
+  namespace: LimeVideoSDKQuickSync
+  syntax:
+    content: BGR3 = 861030210U
+    content.vb: BGR3 = 861030210UI
+    return:
+      type: LimeVideoSDKQuickSync.FourCC
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: LimeVideoSDKQuickSync
+  commentId: N:LimeVideoSDKQuickSync
+  isExternal: false
+  name: LimeVideoSDKQuickSync
+  nameWithType: LimeVideoSDKQuickSync
+  fullName: LimeVideoSDKQuickSync
+- uid: LimeVideoSDKQuickSync.FourCC
+  commentId: T:LimeVideoSDKQuickSync.FourCC
+  parent: LimeVideoSDKQuickSync
+  isExternal: false
+  name: FourCC
+  nameWithType: FourCC
+  fullName: LimeVideoSDKQuickSync.FourCC
