@@ -41,10 +41,13 @@ on_success:
   #- xcopy temp\html docs\ /e
     #  docfx build --logLevel Verbose docfx.json
   - cd "%APPVEYOR_BUILD_FOLDER%\docfx_project"
-  - docfx
+  - docfx "%APPVEYOR_BUILD_FOLDER%\docfx_project" -o "%APPVEYOR_BUILD_FOLDER%\..\docout"
+  - cd "%APPVEYOR_BUILD_FOLDER%"
   - git checkout gh-pages
-  - git add -f -A  "%APPVEYOR_BUILD_FOLDER%\docs"
-  - git commit -a -m "Commit from AppVeyor gh-pages"
+  - git rm -rf .
+  - xcopy "%APPVEYOR_BUILD_FOLDER%\..\docout" . /E
+  - git add -A
+  - git commit -a -m "Commit from AppVeyor"
   - git push
  
 
