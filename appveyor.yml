@@ -45,7 +45,6 @@ on_success:
   - docfx
   - cd "%APPVEYOR_BUILD_FOLDER%"
   - git checkout gh-pages
-  - git rm -rf .
   - xcopy docs . /E
   - rmdir /s/q docs
   - git add -A
