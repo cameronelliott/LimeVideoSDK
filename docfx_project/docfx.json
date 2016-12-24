@@ -63,7 +63,15 @@
     "dest": "../docs",
     "globalMetadataFiles": [],
       "globalMetadata": {
-      "_disableContribution": "false"
+      "_disableContribution": "false",
+      "_appTitle": "Lime Video SDK",
+      "_enableSearch": true,
+       "_disableAffix":  "false",
+      "_gitContribute": {
+        "repo": "https://github.com/cameron-elliott/LimeVideoSDK",
+        "branch": "master"
+      },
+      "_gitUrlPattern": "github"
     },
     "fileMetadataFiles": [],
     "template": [
