@@ -63,7 +63,7 @@
     "dest": "../docs",
     "globalMetadataFiles": [],
       "globalMetadata": {
-      "_disableContribution": "true"
+      "_disableContribution": "false"
     },
     "fileMetadataFiles": [],
     "template": [
