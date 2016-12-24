@@ -1,0 +1,10 @@
+id: Encoder1
+language: CSharp
+name:
+  Default: Encoder1
+qualifiedName:
+  Default: Encoder1
+type: Assembly
+modifiers: {}
+items: []
+references: {}
