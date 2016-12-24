@@ -5,8 +5,8 @@ ResizeYUV420GetSize
 ResizeYUVGetBufferSize
 ResizeYUV420GetBufferSize
 ResizeYUV420LanczosInit
-ResizeYUV420Lanczos
 
+ResizeYUV420Lanczos_8u_P2R=ResizeYUV420Lanczos
 
 
 NV12ToBGR3

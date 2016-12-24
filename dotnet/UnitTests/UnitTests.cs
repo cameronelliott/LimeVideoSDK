@@ -33,16 +33,16 @@ namespace UnitTests
         [TestCategory("Sample Programs - Slow"), TestMethod()]
         public void Decoder1ProgramTest()
         {
-            var o = "BigBuckBunny_320x180.NV12.yuv";
-            File.Delete(o);
-            Decoder1.Program.Main();
-            Console.WriteLine(Environment.CurrentDirectory);
-            Assert.IsTrue(File.Exists(o));
+            //var o = "BigBuckBunny_320x180.NV12.yuv";
+            //File.Delete(o);
+            //Decoder1.Program.Main();
+            //Console.WriteLine(Environment.CurrentDirectory);
+            //Assert.IsTrue(File.Exists(o));
 
             var a = new NV12Resizer(320, 180, 8, 8);
 
-
-           // QualityMeasure.NV12FilesSame("")
+           a.Convert(new byte[320 * 180 * 3 / 2]);
+            QualityMeasure.NV12FilesSame("")
         }
     }
 }
