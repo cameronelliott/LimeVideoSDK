@@ -45,7 +45,7 @@ on_success:
   - docfx
   - cd "%APPVEYOR_BUILD_FOLDER%"
   - git checkout gh-pages
-  - xcopy docs . /E
+  - xcopy docs . /E/Y
   - rmdir /s/q docs
   - git add -A
   - git commit -a -m "Commit from AppVeyor"
