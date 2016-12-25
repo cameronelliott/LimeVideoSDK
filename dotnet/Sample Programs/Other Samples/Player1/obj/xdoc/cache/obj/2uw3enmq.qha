@@ -1,0 +1,10 @@
+id: Player1
+language: CSharp
+name:
+  Default: Player1
+qualifiedName:
+  Default: Player1
+type: Assembly
+modifiers: {}
+items: []
+references: {}
