@@ -45,9 +45,9 @@ on_success:
   - docfx --logLevel Verbose
   - cd "%APPVEYOR_BUILD_FOLDER%"
   # save updated docfx manifest
-   - git checkout master
-   - git add -f -A  "%APPVEYOR_BUILD_FOLDER%\docfx_project"  
-   - git commit -a -m "Commit from AppVeyor master"
+  - git checkout master
+  - git add -f -A  "%APPVEYOR_BUILD_FOLDER%\docfx_project"  
+  - git commit -a -m "Commit from AppVeyor master"
   
    # XXX SHOULD BE LAST STEP BECAUSE OF 'git checkout gh-pages'
   - git checkout gh-pages
