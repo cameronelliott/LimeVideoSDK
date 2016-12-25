@@ -42,7 +42,7 @@ on_success:
     #  docfx build --logLevel Verbose docfx.json
     # XXX SHOULD BE LAST STEP BECAUSE OF 'git checkout gh-pages'
   - cd "%APPVEYOR_BUILD_FOLDER%\docfx_project"
-  - docfx
+  - docfx --logLevel Verbose
   - cd "%APPVEYOR_BUILD_FOLDER%"
   - git checkout gh-pages
   - xcopy docs . /E/Y
