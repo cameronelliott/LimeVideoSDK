@@ -40,10 +40,16 @@ on_success:
   #- rmdir /s/q docs
   #- xcopy temp\html docs\ /e
     #  docfx build --logLevel Verbose docfx.json
-    # XXX SHOULD BE LAST STEP BECAUSE OF 'git checkout gh-pages'
+    
   - cd "%APPVEYOR_BUILD_FOLDER%\docfx_project"
   - docfx --logLevel Verbose
   - cd "%APPVEYOR_BUILD_FOLDER%"
+  # save updated docfx manifest
+   - git checkout master
+   - git add -f -A  "%APPVEYOR_BUILD_FOLDER%\docfx_project"  
+   - git commit -a -m "Commit from AppVeyor master"
+  
+   # XXX SHOULD BE LAST STEP BECAUSE OF 'git checkout gh-pages'
   - git checkout gh-pages
   - xcopy docs . /E/Y
   - rmdir /s/q docs
