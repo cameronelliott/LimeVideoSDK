@@ -41,7 +41,7 @@ Please seek the @samples page to get started with the samples.
 
 ## Future Work
 Currently the SDK provides only the codec building blocks of typical video and media handling systems.
-We hope one day to includes functions such as MP4, RTMP, RTSP/RTP, and possible others.
+We hope one day to includes functions such as MP4, RTMP, RTSP/RTP, and possible others. Contact us if your company is looking to sponsor projects like these @contact
 
 
 
