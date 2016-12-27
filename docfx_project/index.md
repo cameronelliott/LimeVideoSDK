@@ -7,12 +7,32 @@ The primary function of the Lime Video SDK [LVSDK] is to support video and MJPEG
 The LVSDK supports Intel CPU+GPU based acceleration on Intel CPUs supporting HD Graphics. By using the hardware GPU features encode/decode/transcode can run much faster than it does on the CPU. The SDK utilizes the feature known as Quick Sync quick sync [Wiki Intel Quick Sync Video](https://en.wikipedia.org/wiki/Intel_Quick_Sync_Video)
 
 ### CPU based coding
-For non-Intel CPUs, and Intel CPUs not supporting HD Graphics, software fallback is available. 
+For non-Intel CPUs, and Intel CPUs not supporting HD Graphics, software fallback is available. Please see @software_fallback for more information about enabling software fallback.
 
-### Transcoding Video 
+### Transcoding Video
+Transcoding converts compressed bitstreams to compressed bitstreams
+
+Input formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG<br>
+Output formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG<br>
+
 ### Encoding Video
+Encoding converts uncompressed frames to compressed bitstreams or elementary streams.
+
+Input formats: RGB3, RGB4, BGR4, BGR3, NV12, I420, IYUV, YUY2, UYVY, YV12, P411, P422<br>
+Output formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG<br>
+
 ### Decoding Video
+Decoding converts compressed bitstreams to uncompressed frames.
+
+Input formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG<br>
+Output formats: RGB3, RGB4, BGR4, BGR3, NV12, I420, IYUV, YUY2, UYVY, YV12, P411, P422<br>
+
+Some redundant terms have been repeated such as HEVC for H.265 to make help searching easier.
+
 ### Playing Video
+Playing of video is currently supported on Windows, and may be in Linux at some point. [contact us for more info]
+
+Input formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG<br>
 
 
 
@@ -21,64 +41,5 @@ For non-Intel CPUs, and Intel CPUs not supporting HD Graphics, software fallback
 
 ## Getting Started With Samples
 
-# About the Elliott Media SDK {#about}
-
-The main features and functions available from the SDK at this time are:
-
-# Intel Quick Sync GPU Acceleration or CPU fallback
-The transcoding, encoding, and decoding engines can use very fast, low-CPU GPU based coding functions when an appropriate CPU is installed. When GPU accelerated coding is not available, CPU coding can take its place.
-
-# Video Transcoding {#about_transcoding}
-Transcoding converts compressed bitstreams to compressed bitstreams
-
-Input formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG<br>
-Output formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG<br>
-
-# Video Encoding {#about_encoding}
-Encoding converts uncompressed frames to compressed bitstreams or elementary streams.
-
-Input formats: RGB3, RGB4, BGR4, BGR3, NV12, I420, IYUV, YUY2, UYVY, YV12, P411, P422<br>
-Output formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG<br>
-
-# Video Decoding {#about_decoding}
-Decoding converts compressed bitstreams to uncompressed frames.
-
-Input formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG<br>
-Output formats: RGB3, RGB4, BGR4, BGR3, NV12, I420, IYUV, YUY2, UYVY, YV12, P411, P422<br>
-
-Some redundant terms have been repeated such as HEVC for H.265 to make help searching easier.
 
 
-
-updated 11-15 21.15
-
-
-
-
-
-## Description
-This is a sample docfx documentation project. It contains .NET source code and markdown files.
-`docfx.json` is the configuration file for running `docfx`.
-`docfx` will generate a static website as similar to [http://docascode.github.io/docfx-seed](http://docascode.github.io/docfx-seed/index.html).
-
-## How to run
-### Under Windows
-* Download and unzip [docfx.zip](https://github.com/dotnet/docfx/releases/latest) to run `docfx.exe` directly!
-* Run `docfx` under current repo! Website will be generated under `_site` folder.
-* Run any web hosting tool to host `_site` folder, e.g. `docfx serve _site`.
-
-### Cross platform and use `dnx`
-As a prerequisite, you will need to install [DNVM](http://docs.asp.net/en/latest/getting-started/installing-on-windows.html#install-the-net-version-manager-dnvm) and [DNX](http://docs.asp.net/en/latest/getting-started/installing-on-windows.html#install-the-net-execution-environment-dnx).
-###Quick Start
-* `dnvm upgrade` to get the latest dnvm.
-* Add feed https://www.myget.org/F/aspnetrelease/api/v2/ to Nuget.config
-  > For Windows, the nuget config file is  **%AppData%\NuGet\NuGet.config**.
-
-  > For Linux/OSX, the nuget config file is **~/.config/NuGet/NuGet.config**.
-  ```
-* `dnu commands install docfx` to install `docfx` as a command
-* Run `docfx` under current repo! Website will be generated under `_site` folder.
-* Run any web hosting tool to host `_site` folder, e.g. `docfx serve _site`.
-
-## Further information about `docfx`
-`docfx` is a tool to generate documentation towards .NET source code and markdown files. Please refer to [docfx](http://dotnet.github.io/docfx/tutorial/docfx_getting_started.html) to get start. The `docfx` website itself is generated by `docfx`!
