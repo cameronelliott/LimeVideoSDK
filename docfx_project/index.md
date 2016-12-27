@@ -1,4 +1,61 @@
 # Introduction to the Lime Video SDK 
+## What is the Lime Video SDK
+The primary function of the Lime Video SDK [LVSDK] is to support video and MJPEG encoding, decoding and transcoding.
+
+## Major Features
+### GPU based coding
+The LVSDK supports Intel CPU+GPU based acceleration on Intel CPUs supporting HD Graphics. By using the hardware GPU features encode/decode/transcode can run much faster than it does on the CPU. The SDK utilizes the feature known as Quick Sync quick sync [Wiki Intel Quick Sync Video](https://en.wikipedia.org/wiki/Intel_Quick_Sync_Video)
+
+### CPU based coding
+For non-Intel CPUs, and Intel CPUs not supporting HD Graphics, software fallback is available. 
+
+### Transcoding Video 
+### Encoding Video
+### Decoding Video
+### Playing Video
+
+
+
+
+## Future Work
+
+## Getting Started With Samples
+
+# About the Elliott Media SDK {#about}
+
+The main features and functions available from the SDK at this time are:
+
+# Intel Quick Sync GPU Acceleration or CPU fallback
+The transcoding, encoding, and decoding engines can use very fast, low-CPU GPU based coding functions when an appropriate CPU is installed. When GPU accelerated coding is not available, CPU coding can take its place.
+
+# Video Transcoding {#about_transcoding}
+Transcoding converts compressed bitstreams to compressed bitstreams
+
+Input formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG<br>
+Output formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG<br>
+
+# Video Encoding {#about_encoding}
+Encoding converts uncompressed frames to compressed bitstreams or elementary streams.
+
+Input formats: RGB3, RGB4, BGR4, BGR3, NV12, I420, IYUV, YUY2, UYVY, YV12, P411, P422<br>
+Output formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG<br>
+
+# Video Decoding {#about_decoding}
+Decoding converts compressed bitstreams to uncompressed frames.
+
+Input formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG<br>
+Output formats: RGB3, RGB4, BGR4, BGR3, NV12, I420, IYUV, YUY2, UYVY, YV12, P411, P422<br>
+
+Some redundant terms have been repeated such as HEVC for H.265 to make help searching easier.
+
+
+
+updated 11-15 21.15
+
+
+
+
+
 ## Description
 This is a sample docfx documentation project. It contains .NET source code and markdown files.
 `docfx.json` is the configuration file for running `docfx`.
