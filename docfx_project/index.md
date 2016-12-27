@@ -35,11 +35,14 @@ Playing of video is currently supported on Windows, and may be in Linux at some 
 Input formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG<br>
 
 
-
+## Getting Started With Samples
+There are samples for transcoding, encoding, decoding, and playing back of video, among other things.
+Please seek the @samples page to get started with the samples.
 
 ## Future Work
+Currently the SDK provides only the codec building blocks of typical video and media handling systems.
+We hope one day to includes functions such as MP4, RTMP, RTSP/RTP, and possible others.
 
-## Getting Started With Samples
 
 
 
