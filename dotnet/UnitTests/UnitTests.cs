@@ -41,8 +41,8 @@ namespace UnitTests
 
             var a = new NV12Resizer(320, 180, 8, 8);
 
-           a.Convert(new byte[320 * 180 * 3 / 2]);
-            QualityMeasure.NV12FilesSame("")
+           //a.Convert(new byte[320 * 180 * 3 / 2]);
+           // QualityMeasure.NV12FilesSame("")
         }
     }
 }
