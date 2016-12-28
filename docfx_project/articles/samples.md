@@ -1,3 +1,8 @@
+---
+uid: samples
+title: Samples
+---
+
 # Sample C# Projects
 
 ## Preparing your system
