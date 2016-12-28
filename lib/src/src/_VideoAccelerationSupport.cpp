@@ -51,7 +51,7 @@ Both CDecodingPipeline::CreateHWDevice() and CEncodingPipeline::CreateHWDevice()
 */
 
 
-#if 0
+#if 1
 
 EXTERN_DLL_EXPORT
 VideoAccelerationSupport* VideoAccelerationSupport_New()
