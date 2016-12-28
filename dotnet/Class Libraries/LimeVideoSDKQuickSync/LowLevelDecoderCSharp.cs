@@ -24,7 +24,7 @@ namespace LimeVideoSDKQuickSync
         public mfxSession session;
         mfxBitstream bitstream;
         //public DeviceSetup deviceSetup;
-        VideoAccelerationSupport videoAccelerationSupport;
+      public  VideoAccelerationSupport videoAccelerationSupport;
 
 
         /// <summary>The default bitstream buffer size</summary>
@@ -48,6 +48,13 @@ namespace LimeVideoSDKQuickSync
             get
             {
                 return session;
+            }
+        }
+        VideoAccelerationSupport ILowLevelDecoder.videoAccelerationSupport
+        {
+            get
+            {
+                return videoAccelerationSupport;
             }
         }
 

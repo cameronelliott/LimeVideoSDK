@@ -27,6 +27,8 @@ namespace LimeVideoSDKQuickSync
         void UnlockFrame(IntPtr memId);
 
          mfxSession session { get; }
+
+        VideoAccelerationSupport videoAccelerationSupport { get; }
     }
 
 }

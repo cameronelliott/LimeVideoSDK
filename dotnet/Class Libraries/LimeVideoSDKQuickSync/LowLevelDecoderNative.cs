@@ -44,6 +44,16 @@ namespace LimeVideoSDKQuickSync
 
         DecoderShared* shared;
 
+        VideoAccelerationSupport ILowLevelDecoder.videoAccelerationSupport
+        {
+            get
+            {
+                Trace.Assert(false);//XXX fixme
+                return null;
+                //return videoAccelerationSupport;
+            }
+        }
+
 
         public LowLevelDecoderNative(mfxVideoParam mfxDecParamsX,
           mfxVideoParam? VPPParamsX = null,
