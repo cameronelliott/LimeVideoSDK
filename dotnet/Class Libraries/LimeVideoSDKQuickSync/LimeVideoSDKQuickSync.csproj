@@ -74,6 +74,7 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfirmQuickSyncReadiness.cs" />
     <Compile Include="ILowLevelDecoder.cs" />
     <Compile Include="ILowLevelEncoder.cs" />
     <Compile Include="LowLevelDecoderCSharp.cs" />
