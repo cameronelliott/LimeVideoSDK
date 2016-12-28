@@ -3,6 +3,7 @@
 // See file LICENSE.txt in the top-level directory
 
 using LimeVideoSDKQuickSync;
+using SharpDX.Direct3D;
 using SharpDX.Direct3D11;
 using SharpDX.DXGI;
 using SharpDX.Windows;
@@ -56,6 +57,13 @@ namespace Player1
 
     class Program
     {
+
+        // XXX IMPORTANT FLAGS
+        static bool useSystemMemoryNotVideoMemory = false;
+
+
+
+
         private static SharpDX.Direct3D11.Device device;
         private static SwapChain swapChain;
 
@@ -69,6 +77,8 @@ namespace Player1
         [STAThread]
         unsafe static void Main(string[] args)
         {
+            ConfirmQuickSyncReadiness.HaltIfNotReady();
+
             if (Environment.OSVersion.Platform != PlatformID.Win32NT)
                 throw new Exception("DirectX sample only works on Windows");
 
@@ -80,9 +90,9 @@ namespace Player1
             Directory.SetCurrentDirectory("Media");
 
             string fn;
-            //fn = @"BigBuckBunny_320x180.264";
+            fn = @"BigBuckBunny_320x180.264";
             //fn = @"C:\w\BigBuckBunny_1920x1080.264";
-            fn = @"C:\w\bbb_sunflower_2160p_30fps_normal_track1.h264";
+            //fn = @"C:\w\bbb_sunflower_2160p_30fps_normal_track1.h264";
 
 
             var s = File.Open(fn, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
@@ -100,7 +110,10 @@ namespace Player1
             vppVideoParam.vpp.Out = decVideoParam.mfx.FrameInfo;
 
             decVideoParam.IOPattern = IOPattern.MFX_IOPATTERN_OUT_SYSTEM_MEMORY;
-            vppVideoParam.IOPattern = IOPattern.MFX_IOPATTERN_IN_SYSTEM_MEMORY | IOPattern.MFX_IOPATTERN_OUT_SYSTEM_MEMORY;
+            vppVideoParam.IOPattern = IOPattern.MFX_IOPATTERN_IN_SYSTEM_MEMORY;
+
+            vppVideoParam.IOPattern |= useSystemMemoryNotVideoMemory ?
+            IOPattern.MFX_IOPATTERN_OUT_SYSTEM_MEMORY : IOPattern.MFX_IOPATTERN_OUT_VIDEO_MEMORY;
 
             int vppOutWidth;
             int vppOutHeight;
@@ -112,8 +125,7 @@ namespace Player1
             vppVideoParam.vpp.Out.FourCC = FourCC.RGB4;
             vppVideoParam.vpp.Out.CropW = (ushort)(vppOutWidth);
             vppVideoParam.vpp.Out.CropH = (ushort)(vppOutHeight);
-            Console.WriteLine(vppVideoParam.vpp.Out.CropW);
-            Console.WriteLine(vppVideoParam.vpp.Out.CropH);
+            
 
 
 
@@ -121,17 +133,29 @@ namespace Player1
             var impl = mfxIMPL.MFX_IMPL_VIA_D3D11 | mfxIMPL.MFX_IMPL_HARDWARE;
 
             var decoder = new StreamDecoder(s, decVideoParam, vppVideoParam, impl);
-
-            IntPtr dx11device = IntPtr.Zero;
-                //decoder.lowLevelDecoder.deviceSetup.DeviceGetHandle(mfxHandleType.MFX_HANDLE_D3D11_DEVICE);
-
             //string impltext = QuickSyncStatic.ImplementationString(decoder.lowLevelDecoder.session);
             //Console.WriteLine("Implementation = {0}", impltext);
             //string memtext = QuickSyncStatic.ImplementationString(decoder.lowLevelDecoder.deviceSetup.memType);
             //Console.WriteLine("Memory type = {0}", memtext);
 
+
+            if (useSystemMemoryNotVideoMemory)
+            {
+                device = new SharpDX.Direct3D11.Device(DriverType.Hardware);
+            }
+            else
+            {
+                IntPtr dx11device = decoder.lowLevelDecoder.videoAccelerationSupport.DeviceGetHandle(mfxHandleType.MFX_HANDLE_D3D11_DEVICE);
+                device = new SharpDX.Direct3D11.Device(dx11device);
+            }
+
+
+
+
+
+
             var fps = new FPSCounter();
-            device = new SharpDX.Direct3D11.Device(dx11device);
+
 
             var form = new SharpDX.Windows.RenderForm()
             {
@@ -139,8 +163,8 @@ namespace Player1
                 Height = vppOutHeight
             };
 
-            Console.WriteLine($"{vppOutWidth} {vppOutHeight}");
-            Console.WriteLine($"{form.Width} {form.Height}");
+            Console.WriteLine($"vppOutWidth {vppOutWidth}  vppOutHeight {vppOutHeight}");
+            Console.WriteLine($"form.Width {form.Width}  form.Height {form.Height}");
 
 
             var sd = new SwapChainDescription()
@@ -184,12 +208,25 @@ namespace Player1
         {
             var m_pDXGIBackBuffer = swapChain.GetBackBuffer<Texture2D>(0);
 
-            Trace.Assert(surf.Data.B != IntPtr.Zero);
+            if (useSystemMemoryNotVideoMemory)
             {
+                Trace.Assert(surf.Data.B != IntPtr.Zero);
+
                 //ResourceRegion? rr = new ResourceRegion(0, 0, 0, 1920, 1080, 1);
                 ResourceRegion? rr = null;
                 device.ImmediateContext.UpdateSubresource(m_pDXGIBackBuffer, 0, rr, surf.Data.B, surf.Data.Pitch, 0);
-            }         
+
+            }
+            else
+            {
+                Trace.Assert(surf.Data.MemId != IntPtr.Zero);
+
+                IntPtr dx11frameHandle = d.lowLevelDecoder.videoAccelerationSupport.FrameGetHandle(surf.Data.MemId);
+                //  CustomMemId* cm = (CustomMemId*)
+                var texture2d = new Texture2D(dx11frameHandle);
+                device.ImmediateContext.CopySubresourceRegion(texture2d, 0, null, m_pDXGIBackBuffer, 0);
+            }
+
             swapChain.Present(2, PresentFlags.None);
         }
     }
