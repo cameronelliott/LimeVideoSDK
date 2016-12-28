@@ -1,10 +1,11 @@
-# Introduction to the Lime Video SDK 
+# Introduction to the Lime Video SDK  [UNDER CONSTRUCTION 12.27.2016]
 ## What is the Lime Video SDK
-The primary function of the Lime Video SDK [LVSDK] is to support video and MJPEG encoding, decoding and transcoding.
+The primary function of the Lime Video SDK [LVSDK] is to support video transcoding, video encoding, and video decoding.
 
 ## Major Features
 ### GPU based coding
-The LVSDK supports Intel CPU+GPU based acceleration on Intel CPUs supporting HD Graphics. By using the hardware GPU features encode/decode/transcode can run much faster than it does on the CPU. The SDK utilizes the feature known as Quick Sync quick sync [Wiki Intel Quick Sync Video](https://en.wikipedia.org/wiki/Intel_Quick_Sync_Video)
+The LVSDK supports Intel CPU+GPU based acceleration on Intel CPUs supporting HD Graphics. By using the hardware GPU features encode/decode/transcode can run much faster than it does on the CPU. The SDK utilizes the feature known as Quick Sync quick sync.  
+ [Wiki Intel Quick Sync Video](https://en.wikipedia.org/wiki/Intel_Quick_Sync_Video)
 
 ### CPU based coding
 For non-Intel CPUs, and Intel CPUs not supporting HD Graphics, software fallback is available. Please see @software_fallback for more information about enabling software fallback.
