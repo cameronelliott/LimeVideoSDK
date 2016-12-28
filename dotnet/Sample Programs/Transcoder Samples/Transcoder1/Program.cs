@@ -24,6 +24,8 @@ namespace Transcoder1
     {
         static public void Main(string[] args)
         {
+            ConfirmQuickSyncReadiness.HaltIfNotReady();
+
             Environment.CurrentDirectory = AppDomain.CurrentDomain.BaseDirectory;
             // keep ascending directories until 'media' folder is found
             for (int i = 0; i < 10 && !Directory.Exists("Media"); i++)
