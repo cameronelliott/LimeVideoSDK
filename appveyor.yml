@@ -51,7 +51,7 @@ on_success:
   
    # XXX SHOULD BE LAST STEP BECAUSE OF 'git checkout gh-pages'
   - git checkout gh-pages
-  - dir docxfx_project
+  - dir docfx_project
   - xcopy docfx_project\_site . /E/Y
   - rmdir /s/q docfx_project
   - git add -A
