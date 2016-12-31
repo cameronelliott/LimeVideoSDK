@@ -7,9 +7,29 @@ $(function () {
   var show = 'show';
   var hide = 'hide';
 
+  // Styling for tables in conceptual documents using Bootstrap.
+  // See http://getbootstrap.com/css/#tables
+  (function () {
+    $('table').addClass('table table-bordered table-striped table-condensed');
+  })();
+
+  // Styling for alerts.
+  (function () {
+    $('.NOTE, .TIP').addClass('alert alert-info');
+    $('.WARNING').addClass('alert alert-warning');
+    $('.IMPORTANT, .CAUTION').addClass('alert alert-danger');
+  })();  
+
+  // Enable highlight.js
+  (function () {
+    $('pre code').each(function(i, block) {
+      hljs.highlightBlock(block);
+    });
+  })();
+
   // Line highlight for code snippet
   (function () {
-    $('pre code[highlight-lines]').each(function(i, block) {
+    $('pre code[highlight-lines]').each(function (i, block) {
       if (block.innerHTML === "") return;
       var lines = block.innerHTML.split('\n');
 
@@ -69,8 +89,7 @@ $(function () {
   // Support full-text-search
   (function () {
     var query;
-    var relHref = $("meta[property='docfx\\:rel']").attr("content");
-    if (!relHref) return;
+    var relHref = $("meta[property='docfx\\:rel']").attr("content") || "";
     var search = searchFactory();
     search();
     highlightKeywords();
@@ -147,8 +166,8 @@ $(function () {
         var keywords = q.split("%20");
         keywords.forEach(function (keyword) {
           if (keyword !== "") {
-            highlight($('.data-searchable *'), keyword, "<mark>");
-            highlight($('article *'), keyword, "<mark>");
+            $('.data-searchable *').mark(keyword);
+            $('article *').mark(keyword);
           }
         });
       }
@@ -181,19 +200,6 @@ $(function () {
         $('.hide-when-search').hide();
         $('#search-results').show();
       }
-    }
-
-    function highlight(nodes, rgxStr, tag) {
-      var rgx = new RegExp(rgxStr, "gi");
-      nodes.each(function () {
-        $(this).contents().filter(function () {
-          return this.nodeType == 3 && rgx.test(this.nodeValue);
-        }).replaceWith(function () {
-          return (this.nodeValue || "").replace(rgx, function (match) {
-            return $(tag).text(match)[0].outerHTML;
-          });
-        });
-      });
     }
 
     function relativeUrlToAbsoluteUrl(currentUrl, relativeUrl) {
@@ -251,10 +257,10 @@ $(function () {
                 itemNode.append(itemTitleNode).append(itemHrefNode).append(itemBriefNode);
                 return itemNode;
               })
-              );
+            );
             query.split(/\s+/).forEach(function (word) {
               if (word !== '') {
-                highlight($('#search-results>.sr-items *'), word, "<strong>");
+                $('#search-results>.sr-items *').mark(word);
               }
             });
           }
@@ -267,53 +273,120 @@ $(function () {
   (function () {
     var toc = $('#sidetoc');
     var breadcrumb = new Breadcrumb();
-    initNavbar();
-    initToc();
+    loadNavbar();
+    loadToc();
+    function loadNavbar() {
+      var navbarPath = $("meta[property='docfx\\:navrel']").attr("content");
+      var tocPath = $("meta[property='docfx\\:tocrel']").attr("content");
+      if (tocPath) tocPath = tocPath.replace(/\\/g, '/');
+      if (navbarPath) navbarPath = navbarPath.replace(/\\/g, '/');
+      $.get(navbarPath, function (data) {
+        $(data).find("#toc>ul").appendTo("#navbar");
+        if ($('#search-results').length !== 0) {
+          $('#search').show();
+          $('body').trigger("searchEvent");
+        }
+        var index = navbarPath.lastIndexOf('/');
+        var navrel = '';
+        if (index > -1) {
+          navrel = navbarPath.substr(0, index + 1);
+        }
+        $('#navbar>ul').addClass('navbar-nav');
+        var currentAbsPath = getAbsolutePath(window.location.pathname);
+        // set active item
+        $('#navbar').find('a[href]').each(function (i, e) {
+          var href = $(e).attr("href");
+          if (isRelativePath(href)) {
+            href = navrel + href;
+            $(e).attr("href", href);
 
-    function initNavbar() {
-      if ($('#search-results').length !== 0) {
-        $('#search').show();
-        $('body').trigger("searchEvent");
-      }
-      var activeItems = $('#navbar').find('li.active>a[href]');
-      if (activeItems.length > 0) {
-        var e = activeItems[0];
-        breadcrumb.insert({
-                href: e.href,
-                name: e.innerHTML
-              }, 0);
-      }
+            // TODO: currently only support one level navbar
+            var isActive = false;
+            var originalHref = e.name;
+            if (originalHref) {
+              originalHref = navrel + originalHref;
+              if (getDirectory(getAbsolutePath(originalHref)) === getDirectory(getAbsolutePath(tocPath))) {
+                isActive = true;
+              }
+            } else {
+              if (getAbsolutePath(href) === currentAbsPath) {
+                isActive = true;
+              }
+            }
+            if (isActive) {
+              $(e).parent().addClass(active);
+              if (!breadcrumb.isNavPartLoaded) {
+                breadcrumb.insert({
+                  href: e.href,
+                  name: e.innerHTML
+                }, 0);
+                breadcrumb.isNavPartLoaded = true;
+              }
+            } else {
+              $(e).parent().removeClass(active)
+            }
+          }
+        });
+      });
     }
 
-    function initToc(){
-      registerTocEvents();
-      console.log("hello");
-      var activeItems = $('.sidetoc').find('li.active>a[href]');
-      if (activeItems.length > 0) {
-        var e = activeItems[0];
-        var parent = $(e).parent().parents('li').children('a');
-        if (parent.length > 0) {
-          parent.addClass(active);
-          breadcrumb.push({
-            href: parent[0].href,
-            name: parent[0].innerHTML
-          });
-        }
-        // for active li, expand it
-        $(e).parents('ul.nav>li').addClass(expanded);
+    function loadToc() {
+      var tocPath = $("meta[property='docfx\\:tocrel']").attr("content");
+      if (tocPath) tocPath = tocPath.replace(/\\/g, '/');
+      $('#sidetoc').load(tocPath + " #sidetoggle > div", function () {
+        registerTocEvents();
 
-        breadcrumb.push({
-          href: e.href,
-          name: e.innerHTML
+        var index = tocPath.lastIndexOf('/');
+        var tocrel = '';
+        if (index > -1) {
+          tocrel = tocPath.substr(0, index + 1);
+        }
+        var currentHref = getAbsolutePath(window.location.pathname);
+        $('#sidetoc').find('a[href]').each(function (i, e) {
+          var href = $(e).attr("href");
+          if (isRelativePath(href)) {
+            href = tocrel + href;
+            $(e).attr("href", href);
+          }
+
+          if (getAbsolutePath(e.href) === currentHref) {
+            $(e).parent().addClass(active);
+            var parent = $(e).parent().parents('li').children('a');
+            if (!breadcrumb.isTocPartLoaded) {
+              for (var i = parent.length - 1; i >= 0; i--) {
+                breadcrumb.push({
+                  href: parent[i].href,
+                  name: parent[i].innerHTML
+                });
+              }
+              breadcrumb.push({
+                href: e.href,
+                name: e.innerHTML
+              });
+              breadcrumb.isTocPartLoaded = true;
+            }
+            if (parent.length > 0) {
+              parent.addClass(active);
+            }
+            // for active li, expand it
+            $(e).parents('ul.nav>li').addClass(expanded);
+
+            // Scroll to active item
+            var top = 0;
+            $(e).parents('li').each(function (i, e) {
+              top += $(e).position().top;
+            });
+            // 50 is the size of the filter box
+            $('.sidetoc').scrollTop(top - 50);
+            if ($('footer').is(':visible')) {
+              $(".sidetoc").css("bottom", "70px");
+            }
+          } else {
+            $(e).parent().removeClass(active);
+            $(e).parents('li').children('a').removeClass(active);
+          }
         });
-        // Scroll to active item
-        var top = 0;
-        $(e).parents('li').each(function (i, e) {
-          top += $(e).position().top;
-        });
-        // 50 is the size of the filter box
-        $('.sidetoc').scrollTop(top - 50);
-      }
+      });
     }
 
     function registerTocEvents() {
@@ -375,6 +448,8 @@ $(function () {
 
     function Breadcrumb() {
       var breadcrumb = [];
+      var isNavPartLoaded = false;
+      var isTocPartLoaded = false;
       this.push = pushBreadcrumb;
       this.insert = insertBreadcrumb;
 
@@ -426,6 +501,23 @@ $(function () {
       var html = '<h5 class="title">In This Article</h5>'
       html += formList(hierarchy, ['nav', 'bs-docs-sidenav']);
       $("#affix").append(html);
+      if ($('footer').is(':visible')) {
+        $(".sideaffix").css("bottom", "70px");
+      }
+      $('#affix').on('activate.bs.scrollspy', function (e) {
+        if (e.target) {
+          if ($(e.target).find('li.active').length > 0) {
+            return;
+          }
+          var top = $(e.target).position().top;
+          $(e.target).parents('li').each(function (i, e) {
+            top += $(e).position().top;
+          });
+          var container = $('#affix > ul');
+          var height = container.height();
+          container.scrollTop(container.scrollTop() + top - height/2);
+        }
+      })
     }
 
     function getHierarchy() {
@@ -532,6 +624,48 @@ $(function () {
       return html;
     }
   }
+
+  // Show footer
+  (function () {
+    initFooter();
+    $(window).on("scroll", showFooter);
+
+    function initFooter() {
+      if (needFooter()) {
+        shiftUpBottomCss();
+        $("footer").show();
+      } else {
+        resetBottomCss();
+        $("footer").hide();
+      }
+    }
+
+    function showFooter() {
+      if (needFooter()) {
+        shiftUpBottomCss();
+        $("footer").fadeIn();
+      } else {
+        resetBottomCss();
+        $("footer").fadeOut();
+      }
+    }
+
+    function needFooter() {
+      var scrollHeight = $(document).height();
+      var scrollPosition = $(window).height() + $(window).scrollTop();
+      return (scrollHeight - scrollPosition) < 1;
+    }
+
+    function resetBottomCss() {
+      $(".sidetoc").css("bottom", "0");
+      $(".sideaffix").css("bottom", "10px");
+    }
+
+    function shiftUpBottomCss() {
+      $(".sidetoc").css("bottom", "70px");
+      $(".sideaffix").css("bottom", "70px");
+    }
+  })();
 
   // For LOGO SVG
   // Replace SVG with inline SVG
