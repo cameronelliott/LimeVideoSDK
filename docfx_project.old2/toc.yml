@@ -3,8 +3,8 @@
 - name: Samples
   href: samples/
 - name: API Documentation
-  href: api/
+  href: obj/api/
 - name: Reference
   href: reference/
-- name: REST API
+- name: REST API - xyzzy
   href: restapi/

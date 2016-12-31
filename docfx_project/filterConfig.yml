@@ -1,0 +1,7 @@
+apiRules:
+
+- include:
+    uidRegex: ^LimeVideoSDK
+- exclude:
+    type: Namespace
+    uidRegex: .
