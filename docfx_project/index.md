@@ -1,7 +1,7 @@
 # Introduction to the Lime Video SDK  
 ###[UNDER CONSTRUCTION 12.28.2016]
 ## What is the Lime Video SDK
-The primary function of the Lime Video SDK [LVSDK] is to support video transcoding, video encoding, and video decoding.
+The primary function of the Lime Video SDK [LVSDK] is to support transcoding, encoding, and decoding of video elementary streams.
 
 ## Major Features
 ### GPU based coding
