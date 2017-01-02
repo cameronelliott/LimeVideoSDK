@@ -3,7 +3,7 @@
 // See file LICENSE.txt in the top-level directory
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 
-
+using LimeVideoSDK.QuickSyncTypes;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -13,7 +13,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.QuickSync
 {
     static public class ExtensionMethods
     {

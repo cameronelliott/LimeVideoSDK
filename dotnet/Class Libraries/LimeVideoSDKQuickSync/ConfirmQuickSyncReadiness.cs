@@ -2,7 +2,9 @@
 // BSD License terms
 // See file LICENSE.txt in the top-level directory
 
-using LimeVideoSDKQuickSync;
+
+using LimeVideoSDK.QuickSync;
+using LimeVideoSDK.QuickSyncTypes;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -10,7 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.QuickSync
 {
     /// <summary>
     /// This class is a static class simply to provice a single static helper method

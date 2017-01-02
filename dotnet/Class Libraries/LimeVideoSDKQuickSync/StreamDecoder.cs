@@ -2,6 +2,7 @@
 // BSD License terms
 // See file LICENSE.txt in the top-level directory
 
+using LimeVideoSDK.QuickSyncTypes;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -10,11 +11,11 @@ using System.Linq;
 using System.Text;
 
 // see the docs about the two decoder types
-using LowLevelDecoder = LimeVideoSDKQuickSync.LowLevelDecoderCSharp;
-//using LowLevelDecoder = LimeVideoSDKQuickSync.LowLevelDecoderNative;
+using LowLevelDecoder = LimeVideoSDK.QuickSync.LowLevelDecoderCSharp;
+//using LowLevelDecoder = LimeVideoSDK.QuickSync.LowLevelDecoderNative;
 
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.QuickSync
 {
     /// <summary>
     /// Stream based decoder

@@ -2,6 +2,7 @@
 // BSD License terms
 // See file LICENSE.txt in the top-level directory
 
+using LimeVideoSDK.Benchmark;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -9,7 +10,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.QuickSync
 {
 
 

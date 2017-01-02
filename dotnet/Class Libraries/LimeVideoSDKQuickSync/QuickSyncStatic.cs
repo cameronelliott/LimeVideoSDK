@@ -2,14 +2,14 @@
 // BSD License terms
 // See file LICENSE.txt in the top-level directory
 
-
+using LimeVideoSDK.QuickSyncTypes;
 using System;
 using System.Diagnostics;
 using System.IO;
 using System.Runtime.InteropServices;
 
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.QuickSync
 {
     /// <summary>
     /// Static methods for Quick Sync operations
@@ -37,11 +37,11 @@ namespace LimeVideoSDKQuickSync
         /// <summary>Helper method that throws an exception when a status code reflects an error.</summary>
         /// <param name="sts">The STS.</param>
         /// <param name="msg">The MSG.</param>
-        /// <exception cref="LimeVideoSDKQuickSyncException"></exception>
+        /// <exception cref="QuickSyncException"></exception>
         public static void ThrowOnBadStatus(mfxStatus sts, string msg)
         {
             if (sts < 0)
-                throw new LimeVideoSDKQuickSyncException(msg, sts);
+                throw new QuickSyncException(msg, sts);
         }
 
         /// <summary>Attempts to decode a stream using codecId as the format indicator.

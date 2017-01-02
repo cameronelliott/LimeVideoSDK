@@ -2,7 +2,8 @@
 // BSD License terms
 // See file LICENSE.txt in the top-level directory
 
-using LimeVideoSDKQuickSync;
+using LimeVideoSDK.QuickSyncTypes;
+using LimeVideoSDK.QuickSync;
 using SharpDX.Direct3D;
 using SharpDX.Direct3D11;
 using SharpDX.DXGI;
@@ -117,15 +118,43 @@ namespace Player1
 
             int vppOutWidth;
             int vppOutHeight;
+
+            Console.WriteLine($"Bitstream -- width {0} height {1}",
+                 decVideoParam.mfx.FrameInfo.CropW,
+                 decVideoParam.mfx.FrameInfo.CropH);
+
             // vppOutWidth = 1920;
             //  vppOutHeight = 1080;
-            vppOutWidth = decVideoParam.mfx.FrameInfo.CropW;
+            bool doResize = true;
+            if (doResize)
+            {
+            }else
+            {
+
+            }
+            vppOutWidth = decVideoParam.mfx.FrameInfo.CropW;  // HxW of actual bitstream
             vppOutHeight = decVideoParam.mfx.FrameInfo.CropH;
+
+            //resizing setup
+            vppOutWidth = decVideoParam.mfx.FrameInfo.CropW / 4;
+            vppOutHeight = decVideoParam.mfx.FrameInfo.CropH / 4;
+
+            Console.WriteLine($"VPP output -- width {0} height {1}",
+            vppOutWidth,
+             vppOutHeight);
 
             vppVideoParam.vpp.Out.FourCC = FourCC.RGB4;
             vppVideoParam.vpp.Out.CropW = (ushort)(vppOutWidth);
             vppVideoParam.vpp.Out.CropH = (ushort)(vppOutHeight);
-            
+
+            var form = new SharpDX.Windows.RenderForm();
+
+
+            form.Width = vppOutWidth; form.Height = vppOutHeight;  // use resized HxW
+            form.Width = decVideoParam.mfx.FrameInfo.CropW; form.Height = decVideoParam.mfx.FrameInfo.CropH;  // use original HxW
+
+            Console.WriteLine($"vppOutWidth {vppOutWidth}  vppOutHeight {vppOutHeight}");
+            Console.WriteLine($"form.Width {form.Width}  form.Height {form.Height}");
 
 
 
@@ -157,14 +186,8 @@ namespace Player1
             var fps = new FPSCounter();
 
 
-            var form = new SharpDX.Windows.RenderForm()
-            {
-                Width = vppOutWidth,
-                Height = vppOutHeight
-            };
 
-            Console.WriteLine($"vppOutWidth {vppOutWidth}  vppOutHeight {vppOutHeight}");
-            Console.WriteLine($"form.Width {form.Width}  form.Height {form.Height}");
+
 
 
             var sd = new SwapChainDescription()

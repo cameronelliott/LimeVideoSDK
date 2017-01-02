@@ -4,7 +4,7 @@
 
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 
-
+using LimeVideoSDK.QuickSyncTypes;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -14,7 +14,7 @@ using System.Threading;
 
 
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.QuickSync
 {
 
     /// <summary>
@@ -366,7 +366,7 @@ namespace LimeVideoSDKQuickSync
         /// <param name="inbuf">The inbuf.</param>
         /// <param name="offset">The offset.</param>
         /// <param name="length">The length.</param>
-        /// <exception cref="LimeVideoSDKQuickSyncException">insufficient space in buffer</exception>
+        /// <exception cref="QuickSyncException">insufficient space in buffer</exception>
         public void PutBitstream(byte[] inbuf, int offset, int length)
         {
             FastMemcpyMemmove.memmove(mfxBS->Data, mfxBS->Data + (int)mfxBS->DataOffset, (int)mfxBS->DataLength);
@@ -377,7 +377,7 @@ namespace LimeVideoSDKQuickSync
             int free = (int)(mfxBS->MaxLength - mfxBS->DataLength);
             //Trace.Assert(length <= free);
             if (free < length)
-                throw new LimeVideoSDKQuickSyncException("insufficient space in buffer");
+                throw new QuickSyncException("insufficient space in buffer");
 
             Marshal.Copy(inbuf, offset, mfxBS->Data + (int)mfxBS->DataLength, length);
 

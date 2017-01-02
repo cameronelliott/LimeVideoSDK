@@ -2,6 +2,7 @@
 // BSD License terms
 // See file LICENSE.txt in the top-level directory
 
+using LimeVideoSDK.QuickSyncTypes;
 using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
@@ -10,7 +11,7 @@ using System.Collections.Generic;
 
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.QuickSync
 {
 
 

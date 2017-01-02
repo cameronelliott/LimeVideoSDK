@@ -4,7 +4,7 @@
 
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 
-
+using LimeVideoSDK.QuickSyncTypes;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -13,7 +13,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.QuickSync
 {
     /// <summary>
     /// Turns compressed video bitstreams into uncompressed frames.
@@ -512,7 +512,7 @@ namespace LimeVideoSDKQuickSync
             if (sts == mfxStatus.MFX_ERR_MORE_DATA)
                 return false;
             if (sts < 0)
-                throw new LimeVideoSDKQuickSyncException("DecodeFrame fail", sts);
+                throw new QuickSyncException("DecodeFrame fail", sts);
 
 
 
@@ -559,7 +559,7 @@ namespace LimeVideoSDKQuickSync
                         return true;
                     }
                     else if (sts < 0)
-                        throw new LimeVideoSDKQuickSyncException("RunFrameVPPAsync fail", sts);
+                        throw new QuickSyncException("RunFrameVPPAsync fail", sts);
                     // MSDK_CHECK_RESULT(sts, MFX_ERR_NONE, sts); //MSDK_BREAK_ON_ERROR(sts);
                     else if (mfxStatus.MFX_ERR_NONE == sts && syncpV.sync != IntPtr.Zero)
                     {
@@ -588,7 +588,7 @@ namespace LimeVideoSDKQuickSync
             bitstream.DataOffset = 0;
             mfxStatus sts = UnsafeNativeMethods.MFXVideoDECODE_Reset(session, &p);
             if (sts < 0)
-                throw new LimeVideoSDKQuickSyncException("Reset fail", sts);
+                throw new QuickSyncException("Reset fail", sts);
         }
 
 
@@ -722,7 +722,7 @@ namespace LimeVideoSDKQuickSync
             if (sts == mfxStatus.MFX_ERR_MORE_DATA)
                 return false;
             if (sts < 0)
-                throw new LimeVideoSDKQuickSyncException("Flush1 fail", sts);
+                throw new QuickSyncException("Flush1 fail", sts);
 
 
 
@@ -772,7 +772,7 @@ namespace LimeVideoSDKQuickSync
                         }
                         else
                             if (sts < 0)
-                            throw new LimeVideoSDKQuickSyncException("RunFrameVPPAsync fail", sts);
+                            throw new QuickSyncException("RunFrameVPPAsync fail", sts);
                         // MSDK_CHECK_RESULT(sts, MFX_ERR_NONE, sts); //MSDK_BREAK_ON_ERROR(sts);
                     }
 
@@ -925,7 +925,7 @@ namespace LimeVideoSDKQuickSync
         /// <param name="inbuf">The inbuf.</param>
         /// <param name="offset">The offset.</param>
         /// <param name="length">The length.</param>
-        /// <exception cref="LimeVideoSDKQuickSyncException">insufficient space in buffer</exception>
+        /// <exception cref="QuickSyncException">insufficient space in buffer</exception>
         public void PutBitstream(byte[] inbuf, int offset, int length)
         {
             FastMemcpyMemmove.memmove(bitstream.Data, bitstream.Data + (int)bitstream.DataOffset, (int)bitstream.DataLength);
@@ -934,7 +934,7 @@ namespace LimeVideoSDKQuickSync
             int free = (int)(bitstream.MaxLength - bitstream.DataLength);
             //Trace.Assert(length <= free);
             if (free < length)
-                throw new LimeVideoSDKQuickSyncException("insufficient space in buffer");
+                throw new QuickSyncException("insufficient space in buffer");
 
             Marshal.Copy(inbuf, offset, bitstream.Data + (int)bitstream.DataLength, length);
 

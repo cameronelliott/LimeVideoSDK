@@ -14,7 +14,7 @@ using System.Runtime.InteropServices;
 using System.Diagnostics;
 
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.QuickSyncTypes
 {
     public enum FrameMemoryType : UInt16
     {

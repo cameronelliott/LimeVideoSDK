@@ -7,9 +7,9 @@
 // uncommented -  no disk output, and display benchmark measurements
 #define ENABLE_BENCHMARK
 
-
-
-using LimeVideoSDKQuickSync;
+using LimeVideoSDK.QuickSyncTypes;
+using LimeVideoSDK.Benchmark;
+using LimeVideoSDK.QuickSync;
 using System;
 using System.Diagnostics;
 using System.IO;

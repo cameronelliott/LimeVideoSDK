@@ -8,7 +8,7 @@ using System;
 using System.Runtime.InteropServices;
 
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.QuickSyncTypes
 {
     /// <summary>
     /// This describes the tradeoff between speed and quality to select.

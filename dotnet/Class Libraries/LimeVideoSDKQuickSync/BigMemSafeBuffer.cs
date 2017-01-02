@@ -10,7 +10,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.Benchmark
 {
     /// <summary>
     /// This is a helper class to enable <see cref="System.IO.UnmanagedMemoryStream"/>  to read from 

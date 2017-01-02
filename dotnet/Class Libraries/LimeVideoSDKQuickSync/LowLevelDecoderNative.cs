@@ -6,6 +6,7 @@
 
 
 //using Newtonsoft.Json;
+using LimeVideoSDK.QuickSyncTypes;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -15,7 +16,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.QuickSync
 {
     [StructLayout(LayoutKind.Explicit)]
     public unsafe struct DecoderShared
@@ -227,7 +228,7 @@ namespace LimeVideoSDKQuickSync
             int free = (int)(shared->mfxBS.MaxLength - shared->mfxBS.DataLength);
             //Trace.Assert(length <= free);
             if (free < length)
-                throw new LimeVideoSDKQuickSyncException("insufficient space in buffer");
+                throw new QuickSyncException("insufficient space in buffer");
 
             Marshal.Copy(inbuf, offset, shared->mfxBS.Data + (int)shared->mfxBS.DataLength, length);
 

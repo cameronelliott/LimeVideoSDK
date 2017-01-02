@@ -13,7 +13,7 @@ using System.Drawing.Imaging;
 
 
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.QuickSyncTypes
 {
     /// <summary>
     /// A low level structure for managing frames or surfaces.

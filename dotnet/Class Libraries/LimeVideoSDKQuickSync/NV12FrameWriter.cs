@@ -2,7 +2,7 @@
 // BSD License terms
 // See file LICENSE.txt in the top-level directory
 
-
+using LimeVideoSDK.QuickSyncTypes;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.QuickSync
 {
     /// <summary>
     /// This can be used to write mfxFrameSurface1 in NV12 format to disk.

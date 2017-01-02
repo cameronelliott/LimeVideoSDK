@@ -4,9 +4,10 @@
 
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 
+using LimeVideoSDK.QuickSyncTypes;
 using System;
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.QuickSync
 {
     public interface ILowLevelEncoder : IDisposable
     {

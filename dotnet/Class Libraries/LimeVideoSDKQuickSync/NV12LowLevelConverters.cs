@@ -2,7 +2,7 @@
 // BSD License terms
 // See file LICENSE.txt in the top-level directory
 
-
+using LimeVideoSDK.QuickSyncTypes;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -15,8 +15,9 @@ using System.Text;
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.CPUConvertResize
 {
+    using QuickSync;
     using NV12Convert = NV12UnsafeNativeMethods;
 
     /// <summary>

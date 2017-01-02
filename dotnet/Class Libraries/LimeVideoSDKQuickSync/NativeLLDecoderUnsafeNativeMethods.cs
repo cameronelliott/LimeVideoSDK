@@ -4,7 +4,7 @@
 
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 
-
+using LimeVideoSDK.QuickSyncTypes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.QuickSync
 {
     [SuppressUnmanagedCodeSecurity]
     public unsafe static class NativeLLDecoderUnsafeNativeMethods

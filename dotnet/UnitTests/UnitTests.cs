@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Diagnostics;
 using System.IO;
-using LimeVideoSDKQuickSync;
+using LimeVideoSDK.QuickSync;
+using LimeVideoSDK.CPUConvertResize;
 
 namespace UnitTests
 {

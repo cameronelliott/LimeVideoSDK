@@ -2,6 +2,8 @@
 // BSD License terms
 // See file LICENSE.txt in the top-level directory
 
+using LimeVideoSDK.QuickSync;
+using LimeVideoSDK.QuickSyncTypes;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -11,7 +13,7 @@ using System.Text;
 
 
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.CPUConvertResize
 {
 
     /// <summary>

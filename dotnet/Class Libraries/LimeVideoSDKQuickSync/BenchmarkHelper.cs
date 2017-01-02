@@ -14,7 +14,7 @@ using System.Text;
 
 
 
-namespace LimeVideoSDKQuickSync
+namespace LimeVideoSDK.Benchmark
 {
     /// <summary>
     /// For benchmarking. Contains a timer, and prints metrics after stopping.
