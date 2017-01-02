@@ -236,3 +236,5 @@ log.txt
 lib/src/build.windows
 
 docs/
+docfx_project/api
+!docfx_project/api/index.md

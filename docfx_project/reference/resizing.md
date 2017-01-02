@@ -1,3 +1,5 @@
+[!include[links](../linksinc.md)]
+
 # Resizing Frames
 There are two ways frames may be resized, by the GPU or by the CPU.
 
@@ -15,16 +17,15 @@ We recommend starting with the simple CPUs methods, and switching to GPU methods
 
 The GPU resizing methods can be used by using the these classes: [StreamDecoder],[StreamTranscoder]
 The trick is to properly configure the inputs to the constructors.
+The encoder does not do resizing at the time.
 
 
 To get GPU resizing to occur in the [StreamDecoder], the constructor containing two [mfxVideoParam]s must be used.  The second [mfxVideoParam] named: mfxVPPParams controls resizing.
+
+You can use the 
 
 To get GPU resizing to occur in the StreamTranscoder, the TranscoderConfig must have the [mfxVideoParam] element,  [vppParams] setup properly.
 
 
 
 
-[StreamTranscoder]: xref:LimeVideoSDKQuickSync.StreamTranscoder
-[StreamDecoder]: xref:LimeVideoSDKQuickSync.StreamDecoder 
-[mfxVideoParam]: xref:LimeVideoSDKQuickSync.mfxVideoParam 
-[vppParams]: xref:LimeVideoSDKQuickSync.TranscoderConfiguration.vppParams

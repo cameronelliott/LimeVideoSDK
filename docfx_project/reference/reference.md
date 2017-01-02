@@ -1,3 +1,10 @@
+[StreamTranscoder]: xref:LimeVideoSDK.QuickSync.StreamTranscoder
+[StreamDecoder]: xref:LimeVideoSDK.QuickSync.StreamDecoder  
+[LowLevelEncoderCSharp]: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp
+[mfxVideoParam]: xref:LimeVideoSDK.QuickSyncTypes.mfxVideoParam
+[Player1]: xref:samples
+
+
 # Reference Help Topics
 
 ## Intel Quick Sync Video
@@ -17,12 +24,12 @@ https://en.wikipedia.org/wiki/List_of_Intel_graphics_processing_units
 
 
 ## Linux Support [as of 12.29.2016]
-We have had all the samples except the Windows/DirectX specific 'Player1' sample running on Linux under Mono. The current state of Linux support at the time of writing this is poor, as the samples should be re-tested, and included in a sample-level unit tests.
+We have had all the samples except the Windows/DirectX specific [Player1] sample running on Linux under Mono. The current state of Linux support at the time of writing this is poor, as the samples should be re-tested, and included in a sample-level unit tests.
 If you need Linux support, please contact me, as I would invest some time getting stuff ship-shape [in good condition] with an active end-user providing feedback. 
 
 ##Compressed Bitstream Formats
 The Quick Sync hardware, and the SDK we use to access it, obstensibly provide support fort he following bitstream/elementary stream formats:
-- HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG<br>
+- HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG
 
 But hardware bitstream support really depends upon which generation of Intel HD/Iris Graphics you are running on. If you are running on 9th, or 9.5th generation graphics you can fairly well expect to get hardware support for most formats in the above list. [9th and 9.5th Gen are found in Skylake and Kaby Lake CPUs]
 As you go farther back in time you lose some levels of support, for example, Haswell has excellent support for H.264, but there is no or little support for H.265.
@@ -58,7 +65,7 @@ GPU based format conversion can have the advantage of higher performance, and li
 The primary FourCC used by the GPU is NV12, the GPU can also convert NV12 to and from a number of other formats
 Other FourCC formats, such as UYVY, RGB4, YUY2 are sometimes available for Quick Sync functions. Some of this may depend on your CPU/graphics-generation. Your ability to use this from the LVSDK will depend on the functions you use, and what has been supported.
 
-You can use the [Player1 Sample](xref:samples#player1) to see how the sample configures the [StreamDecoder class](xref:LimeVideoSDKQuickSync.StreamDecoder) class to do GPU based conversion from the internal NV12 format to RGB4 format. This con
+You can use the [Player1 Sample] to see how the sample configures the [StreamDecoder] class to do GPU based conversion from the internal NV12 format to RGB4 format. This con
 The @ provides 
 
 
@@ -71,4 +78,10 @@ Our preferred method for viewing the documentation is to download the latest ver
 
 You might also find this link useful: https://software.intel.com/en-us/media-sdk/documentation
 But our experience is that the online-reference documentation is incomplete, and we believe you will have a better experience with the PDF files from the SDK downloads.
+
+
+
+
+
+
 

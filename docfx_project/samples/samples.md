@@ -1,6 +1,13 @@
 ---
 uid: samples
 ---
+[StreamTranscoder]: xref:LimeVideoSDK.QuickSync.StreamTranscoder
+[StreamDecoder]: xref:LimeVideoSDK.QuickSync.StreamDecoder  
+[LowLevelEncoderCSharp]: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp
+[mfxVideoParam]: xref:LimeVideoSDK.QuickSyncTypes.mfxVideoParam
+[Player1]: xref:samples
+
+
 
 # Sample C# Projects
 
@@ -20,7 +27,7 @@ The class StreamTranscoder is passed a stream and frames are read back one by on
 This sample shows decoding of compressed video bitstreams.
 By default it takes H.264 input, and writes NV12 output.
 It decodes Big Buck Bunny to uncompressed frames.
-The class @LimeVideoSDKQuickSync.StreamDecoder is passed a stream and frames are read back one by one and written to disk.
+The class [StreamDecoder] is passed a stream and frames are read back one by one and written to disk.
 
 <a name="encoder1"></a>
 ### Encoder1
@@ -58,3 +65,8 @@ This sample is the counterpart to Decoder50, which is for MJPEG to/from UYVY
 
 ### Transcoder3 C# Sample
 This shows how to directly use the LowLevelTranscoderCSharp class without streams, but instead byte arrays.
+
+
+
+
+[!include[links](../linksinc.md)]
