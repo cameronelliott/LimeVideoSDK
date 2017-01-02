@@ -1,5 +1,7 @@
 - name: Reference
   href: reference.md
+- name: Bitstream and Elementary Stream Formats
+  href: Bitstreams.md
 - name: Resizing Frames
   href: resizing.md
 

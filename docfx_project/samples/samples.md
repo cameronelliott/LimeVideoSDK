@@ -1,12 +1,6 @@
 ---
 uid: samples
 ---
-[StreamTranscoder]: xref:LimeVideoSDK.QuickSync.StreamTranscoder
-[StreamDecoder]: xref:LimeVideoSDK.QuickSync.StreamDecoder  
-[LowLevelEncoderCSharp]: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp
-[mfxVideoParam]: xref:LimeVideoSDK.QuickSyncTypes.mfxVideoParam
-[Player1]: xref:samples
-
 
 
 # Sample C# Projects
@@ -16,26 +10,27 @@ We recommend you read the article @prepare_your_system to make sure that your mo
 
 ## Primary Samples
 
+<a name="Transcoder1"></a>
 ### Transcoder1 C# Sample
 This sample shows transcoding of video.
 By default it takes H.264 input, and writes H.264 output.
 It transcodes Big Buck Bunny to a new bitstream.
 The class StreamTranscoder is passed a stream and frames are read back one by one and written to disk.
 
-<a name="decoder1"></a>
+<a name="Decoder1"></a>
 ### Decoder1 C# Sample
 This sample shows decoding of compressed video bitstreams.
 By default it takes H.264 input, and writes NV12 output.
 It decodes Big Buck Bunny to uncompressed frames.
 The class [StreamDecoder] is passed a stream and frames are read back one by one and written to disk.
 
-<a name="encoder1"></a>
+<a name="Encoder1"></a>
 ### Encoder1
 This sample shows encoding of uncompressed frames.
 By default it takes NV12 input, and writes H.264 output.
 A class implementing ILowLevelEncoder is passed individual frames, and compressed frames are returned from the encoder engine, one by one.
 
-<a name="player1"></a>
+<a name="Player1"></a>
 ### Player1 C# Sample
 This sample shows how to decode frames to memory, and display them using Direct 3D.
 The frames can be decoded to either system-memory or video-memory, the difference is a complex topic and shall be covered in a separate article.
@@ -69,4 +64,3 @@ This shows how to directly use the LowLevelTranscoderCSharp class without stream
 
 
 
-[!include[links](../linksinc.md)]
