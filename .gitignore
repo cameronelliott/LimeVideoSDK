@@ -236,5 +236,5 @@ log.txt
 lib/src/build.windows
 
 docs/
-docfx_project/api
-!docfx_project/api/api.md
+docfx_project/api/*.yml
+
