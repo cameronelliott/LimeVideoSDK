@@ -23,6 +23,10 @@ The LVSDK supports Intel CPU+GPU based acceleration on Intel CPUs supporting HD 
 ### CPU based coding
 For non-Intel CPUs, and Intel CPUs not supporting HD Graphics, software fallback is available. Please see @software_fallback for more information about enabling software fallback.
 
+### BSD Open Source License
+All C# and C++ code in the libraries is part of the SDK, there are no hidden bits, nothing you cannot see.
+The [BSD open source] is one of the most permission, friendly, flexible open source licenses, period.
+
 ### Transcoding Video
 Transcoding converts compressed bitstreams to compressed bitstreams
 
