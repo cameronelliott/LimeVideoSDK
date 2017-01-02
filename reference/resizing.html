@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Sample C# Projects | The Lime Video SDK </title>
+    <title>Resizing Frames | The Lime Video SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Sample C# Projects | The Lime Video SDK ">
+    <meta name="title" content="Resizing Frames | The Lime Video SDK ">
     <meta name="generator" content="docfx 2.9.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -72,56 +72,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="samples">
-              <h1 id="sample-c-projects">Sample C# Projects</h1>
+            <article class="content wrap" id="_content" data-uid="">
+              <h1 id="resizing-frames">Resizing Frames</h1>
               
-<h2 id="preparing-your-system">Preparing your system</h2>
-<p>We recommend you read the article @prepare_your_system to make sure that your motherboard and CPU are capable, and that the correct Intel HD Graphics drivers are installed. @prepare_your_system</p>
-<h2 id="primary-samples">Primary Samples</h2>
-<h3 id="transcoder1-c-sample">Transcoder1 C# Sample</h3>
-<p>This sample shows transcoding of video.
-By default it takes H.264 input, and writes H.264 output.
-It transcodes Big Buck Bunny to a new bitstream.
-The class StreamTranscoder is passed a stream and frames are read back one by one and written to disk.</p>
-<p><a name="decoder1"></a></p>
-<h3 id="decoder1-c-sample">Decoder1 C# Sample</h3>
-<p>This sample shows decoding of compressed video bitstreams.
-By default it takes H.264 input, and writes NV12 output.
-It decodes Big Buck Bunny to uncompressed frames.
-The class @LimeVideoSDKQuickSync.StreamDecoder is passed a stream and frames are read back one by one and written to disk.</p>
-<p><a name="encoder1"></a></p>
-<h3 id="encoder1">Encoder1</h3>
-<p>This sample shows encoding of uncompressed frames.
-By default it takes NV12 input, and writes H.264 output.
-A class implementing ILowLevelEncoder is passed individual frames, and compressed frames are returned from the encoder engine, one by one.</p>
-<p><a name="player1"></a></p>
-<h3 id="player1-c-sample">Player1 C# Sample</h3>
-<p>This sample shows how to decode frames to memory, and display them using Direct 3D.
-The frames can be decoded to either system-memory or video-memory, the difference is a complex topic and shall be covered in a separate article.
-The system-memory or video-memory behavior is controlled by a bool at the start program. This sample only works on Windows, and with systems supporting DirectX 11. It is unclear if this example will work on Windows 7. Win7 has partial DirectX 11 support. It is known to work on Windows 8 and Windows 10.
-The StreamDecoder class is used to produce frames, and SharpDX and Direct3D11 is used display the frames one by one.</p>
-<h2 id="special-case-samples">Special Case Samples</h2>
-<h3 id="systemcapabilities-c-sample">_SystemCapabilities C# Sample</h3>
-<p>This program simply tests to see if you are ready for either:</p>
-<ol>
-<li>Hardware Quick Sync encode/decode/transcode. </li>
-<li>Software fallback encode/decode/transcode. </li>
-</ol>
-<h3 id="decoder50-c-sample">Decoder50 C# Sample</h3>
-<p>This is an advanced unusual special case sample.
-This sample is paired with Encoder50. It demonstrates UYVY to/from MJPEG.
-Newer CPUs/IGPs can do YUY2-&gt; MJPEG, and MJPEG-&gt;YUY2.
-What these two samples demonstrate is encoding UYVY as if it is YUY2.
-This means the following:  </p>
-<ol>
-<li>No color space conversion is needed to or from UYVY. [normally UYVY &lt;-&gt; NV12 or UYVY &lt;-&gt; YUY2 is needed, which can take CPU time]</li>
-<li>Because the final .jpeg output has color planes reverse, you cannot display the Jpeg normally.
-This sample is suitable for showing do to send/receive to Blackmagic Design UYVY cards and products such as the Decklink series.</li>
-</ol>
-<h3 id="encoder50-c-sample">Encoder50 C# Sample</h3>
-<p>This sample is the counterpart to Decoder50, which is for MJPEG to/from UYVY</p>
-<h3 id="transcoder3-c-sample">Transcoder3 C# Sample</h3>
-<p>This shows how to directly use the LowLevelTranscoderCSharp class without streams, but instead byte arrays.</p>
+<p>There are two ways frames may be resized, by the GPU or by the CPU.</p>
+<p>The CPU methods are simple to use, and are based around NV12 frame resizing.</p>
+<p>We recommend starting with the simple CPUs methods, and switching to GPU methods as your project gets mature and need optimization. </p>
+<h3 id="cpu-based-resizing-method">CPU based resizing method</h3>
+<h3 id="gpu-based-resizing-method">GPU based resizing method</h3>
+<p>The GPU resizing methods can be used by using the these classes: <a href="xref:LimeVideoSDKQuickSync.StreamDecoder">StreamDecoder</a>,<a href="xref:LimeVideoSDKQuickSync.StreamTranscoder">StreamTranscoder</a>
+The trick is to properly configure the inputs to the constructors.</p>
+<p>To get GPU resizing to occur in the <a href="xref:LimeVideoSDKQuickSync.StreamDecoder">StreamDecoder</a>, the constructor containing two <a href="xref:LimeVideoSDKQuickSync.mfxVideoParam">mfxVideoParam</a>s must be used.  The second <a href="xref:LimeVideoSDKQuickSync.mfxVideoParam">mfxVideoParam</a> named: mfxVPPParams controls resizing.</p>
+<p>To get GPU resizing to occur in the StreamTranscoder, the TranscoderConfig must have the <a href="xref:LimeVideoSDKQuickSync.mfxVideoParam">mfxVideoParam</a> element,  <a href="xref:LimeVideoSDKQuickSync.TranscoderConfiguration.vppParams">vppParams</a> setup properly.</p>
 
             </article>
           </div>
@@ -131,7 +93,7 @@ This sample is suitable for showing do to send/receive to Blackmagic Design UYVY
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/cameron-elliott/LimeVideoSDK/blob/master/docfx_project/samples/samples.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/cameron-elliott/LimeVideoSDK/blob/master/docfx_project/reference/resizing.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

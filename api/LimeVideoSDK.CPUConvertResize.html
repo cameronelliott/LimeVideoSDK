@@ -5,9 +5,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Sample C# Projects | The Lime Video SDK </title>
+    <title>Namespace LimeVideoSDK.CPUConvertResize
+   | The Lime Video SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Sample C# Projects | The Lime Video SDK ">
+    <meta name="title" content="Namespace LimeVideoSDK.CPUConvertResize
+   | The Lime Video SDK ">
     <meta name="generator" content="docfx 2.9.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -54,7 +56,7 @@
           </div>
         </div>
       </header>
-      <div class="container body-content">
+      <div role="main" class="container body-content">
         
         <div id="search-results">
           <div class="search-list"></div>
@@ -72,57 +74,47 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="samples">
-              <h1 id="sample-c-projects">Sample C# Projects</h1>
+            <article class="content wrap" id="_content">
               
-<h2 id="preparing-your-system">Preparing your system</h2>
-<p>We recommend you read the article @prepare_your_system to make sure that your motherboard and CPU are capable, and that the correct Intel HD Graphics drivers are installed. @prepare_your_system</p>
-<h2 id="primary-samples">Primary Samples</h2>
-<h3 id="transcoder1-c-sample">Transcoder1 C# Sample</h3>
-<p>This sample shows transcoding of video.
-By default it takes H.264 input, and writes H.264 output.
-It transcodes Big Buck Bunny to a new bitstream.
-The class StreamTranscoder is passed a stream and frames are read back one by one and written to disk.</p>
-<p><a name="decoder1"></a></p>
-<h3 id="decoder1-c-sample">Decoder1 C# Sample</h3>
-<p>This sample shows decoding of compressed video bitstreams.
-By default it takes H.264 input, and writes NV12 output.
-It decodes Big Buck Bunny to uncompressed frames.
-The class @LimeVideoSDKQuickSync.StreamDecoder is passed a stream and frames are read back one by one and written to disk.</p>
-<p><a name="encoder1"></a></p>
-<h3 id="encoder1">Encoder1</h3>
-<p>This sample shows encoding of uncompressed frames.
-By default it takes NV12 input, and writes H.264 output.
-A class implementing ILowLevelEncoder is passed individual frames, and compressed frames are returned from the encoder engine, one by one.</p>
-<p><a name="player1"></a></p>
-<h3 id="player1-c-sample">Player1 C# Sample</h3>
-<p>This sample shows how to decode frames to memory, and display them using Direct 3D.
-The frames can be decoded to either system-memory or video-memory, the difference is a complex topic and shall be covered in a separate article.
-The system-memory or video-memory behavior is controlled by a bool at the start program. This sample only works on Windows, and with systems supporting DirectX 11. It is unclear if this example will work on Windows 7. Win7 has partial DirectX 11 support. It is known to work on Windows 8 and Windows 10.
-The StreamDecoder class is used to produce frames, and SharpDX and Direct3D11 is used display the frames one by one.</p>
-<h2 id="special-case-samples">Special Case Samples</h2>
-<h3 id="systemcapabilities-c-sample">_SystemCapabilities C# Sample</h3>
-<p>This program simply tests to see if you are ready for either:</p>
-<ol>
-<li>Hardware Quick Sync encode/decode/transcode. </li>
-<li>Software fallback encode/decode/transcode. </li>
-</ol>
-<h3 id="decoder50-c-sample">Decoder50 C# Sample</h3>
-<p>This is an advanced unusual special case sample.
-This sample is paired with Encoder50. It demonstrates UYVY to/from MJPEG.
-Newer CPUs/IGPs can do YUY2-&gt; MJPEG, and MJPEG-&gt;YUY2.
-What these two samples demonstrate is encoding UYVY as if it is YUY2.
-This means the following:  </p>
-<ol>
-<li>No color space conversion is needed to or from UYVY. [normally UYVY &lt;-&gt; NV12 or UYVY &lt;-&gt; YUY2 is needed, which can take CPU time]</li>
-<li>Because the final .jpeg output has color planes reverse, you cannot display the Jpeg normally.
-This sample is suitable for showing do to send/receive to Blackmagic Design UYVY cards and products such as the Decklink series.</li>
-</ol>
-<h3 id="encoder50-c-sample">Encoder50 C# Sample</h3>
-<p>This sample is the counterpart to Decoder50, which is for MJPEG to/from UYVY</p>
-<h3 id="transcoder3-c-sample">Transcoder3 C# Sample</h3>
-<p>This shows how to directly use the LowLevelTranscoderCSharp class without streams, but instead byte arrays.</p>
-
+              <h1 id="LimeVideoSDK_CPUConvertResize" data-uid="LimeVideoSDK.CPUConvertResize">Namespace LimeVideoSDK.CPUConvertResize
+              </h1>
+              <div class="markdown level0 summary"></div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="markdown level0 remarks"></div>
+                <h3 id="classes">Classes
+              </h3>
+                  <h4><a class="xref" href="LimeVideoSDK.CPUConvertResize.NV12FromXXXXConverter.html">NV12FromXXXXConverter</a></h4>
+                  <section><p>For converting non-NV12 raw frames to NV12
+For example to convert RGB3 or I420 to NV12
+See methods for fourcc formats supported</p>
+</section>
+                  <h4><a class="xref" href="LimeVideoSDK.CPUConvertResize.NV12FromXXXXLowLevelConverter.html">NV12FromXXXXLowLevelConverter</a></h4>
+                  <section><p>For converting non NV12 raw frames to NV12
+See members for info on supported Fourccs</p>
+</section>
+                  <h4><a class="xref" href="LimeVideoSDK.CPUConvertResize.NV12Resizer.html">NV12Resizer</a></h4>
+                  <section><p>This class is for resizing NV12 frames</p>
+</section>
+                  <h4><a class="xref" href="LimeVideoSDK.CPUConvertResize.NV12ToXXXXConverter.html">NV12ToXXXXConverter</a></h4>
+                  <section><p>Supports convertering uncompressed NV12 frames to other formats</p>
+</section>
+                  <h4><a class="xref" href="LimeVideoSDK.CPUConvertResize.NV12ToXXXXLowLevelConverter.html">NV12ToXXXXLowLevelConverter</a></h4>
+                  <section><p>Convert NV12 frames to other FourCC formats</p>
+</section>
+                  <h4><a class="xref" href="LimeVideoSDK.CPUConvertResize.NV12UnsafeNativeMethods.html">NV12UnsafeNativeMethods</a></h4>
+                  <section></section>
+                <h3 id="structs">Structs
+              </h3>
+                  <h4><a class="xref" href="LimeVideoSDK.CPUConvertResize.NativeWidthHeight.html">NativeWidthHeight</a></h4>
+                  <section><p>NativeWidthHeight is a simple X,Y point struct for interop with C++ NV12 convert/resize funcs</p>
+</section>
+                  <h4><a class="xref" href="LimeVideoSDK.CPUConvertResize.NativeXY.html">NativeXY</a></h4>
+                  <section><p>NativeXY is a simple X,Y point struct for interop with C++ NV12 convert/resize funcs</p>
+</section>
+                <h3 id="enums">Enums
+              </h3>
+                  <h4><a class="xref" href="LimeVideoSDK.CPUConvertResize.NativeResizeConvertStatus.html">NativeResizeConvertStatus</a></h4>
+                  <section></section>
             </article>
           </div>
           
@@ -131,7 +123,7 @@ This sample is suitable for showing do to send/receive to Blackmagic Design UYVY
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/cameron-elliott/LimeVideoSDK/blob/master/docfx_project/samples/samples.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/cameron-elliott/LimeVideoSDK/new/master/docfx_project/apispec/new?filename=LimeVideoSDK_CPUConvertResize.md&amp;value=---%0Auid%3A%20LimeVideoSDK.CPUConvertResize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
