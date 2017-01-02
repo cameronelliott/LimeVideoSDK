@@ -10,7 +10,7 @@
     <meta name="title" content="Reference Help Topics | The Lime Video SDK ">
     <meta name="generator" content="docfx 2.9.3.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="../limefavicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
@@ -33,7 +33,7 @@
               </button>
               
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+                <img id="logo" class="svg" src="../limelogo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -83,8 +83,8 @@
 </ul>
 <p>The Lime Video SDK bring Quick Sync Video functions to languages like C#, F#, VB.NET on platforms that .NET can run on.</p>
 <p>Throughout this documentation GPU will be used to refer to Intel&#39;s integrated GPU inside the CPU chip.</p>
-<p>These links can provide some background on Intel Quick Sync Video, and Intel&#39;s graphic architecture:
-Wiki: <a href="https://en.wikipedia.org/wiki/Intel_Quick_Sync_Video">Intel_Quick_Sync_Video</a><br>Wiki: <a href="https://en.wikipedia.org/wiki/Intel_HD_and_Iris_Graphics">Intel_HD_and_Iris_Graphics</a><br>Wiki: <a href="https://en.wikipedia.org/wiki/List_of_Intel_graphics_processing_units">List_of_Intel_graphics_processing_units</a>  </p>
+<p>These links can provide some background on Intel Quick Sync Video, and Intel&#39;s graphic architecture:</p>
+<p>Wiki: <a href="https://en.wikipedia.org/wiki/Intel_Quick_Sync_Video">Intel_Quick_Sync_Video</a><br>Wiki: <a href="https://en.wikipedia.org/wiki/Intel_HD_and_Iris_Graphics">Intel_HD_and_Iris_Graphics</a><br>Wiki: <a href="https://en.wikipedia.org/wiki/List_of_Intel_graphics_processing_units">List_of_Intel_graphics_processing_units</a>  </p>
 <h2 id="linux-support-as-of-12292016">Linux Support [as of 12.29.2016]</h2>
 <p>We have had all the samples except the Windows/DirectX specific <a class="xref" href="../samples/samples.html">Player1</a> sample running on Linux under Mono. The current state of Linux support at the time of writing this is poor, as the samples should be re-tested, and included in a sample-level unit tests.
 If you need Linux support, please contact me, as I would invest some time getting stuff ship-shape [in good condition] with an active end-user providing feedback. </p>
@@ -108,12 +108,6 @@ Other FourCC formats, such as UYVY, RGB4, YUY2 are sometimes available for Quick
 <p>You can use the [Player1 Sample] to see how the sample configures the <a class="xref" href="../api/LimeVideoSDK.QuickSync.StreamDecoder.html">StreamDecoder</a> class to do GPU based conversion from the internal NV12 format to RGB4 format. This con
 The @ provides </p>
 <p><a name="imsdk"></a></p>
-<h1 id="intel-media-sdk-reference-documentation">Intel Media SDK Reference Documentation</h1>
-<p>The Lime Video SDK uses the Intel Media SDK to get access to the Quick Sync functions inside the CPU and GPU.
-Sometimes it can be helpful to review the documentation for the low layer C++ SDK when using the Lime Video SDK.</p>
-<p>Our preferred method for viewing the documentation is to download the latest version of the Intel Media SDK, install it,  and to find this file in the distribution: <em>mediasdk-man.pdf</em></p>
-<p>You might also find this link useful: <a href="https://software.intel.com/en-us/media-sdk/documentation">https://software.intel.com/en-us/media-sdk/documentation</a>
-But our experience is that the online-reference documentation is incomplete, and we believe you will have a better experience with the PDF files from the SDK downloads.</p>
 
             </article>
           </div>

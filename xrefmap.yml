@@ -2,8 +2,11 @@
 sorted: true
 references:
 - uid: Bitstreams
-  name: Bitstreams or Elementary Strea...
+  name: Bitstreams
   href: reference/bitstreams.html
+- uid: imsdk.docs
+  name: Intel Media SDK Reference Docu...
+  href: reference/imsdk.docs.html
 - uid: LimeVideoSDK.Benchmark
   name: LimeVideoSDK.Benchmark
   href: api/LimeVideoSDK.Benchmark.html
