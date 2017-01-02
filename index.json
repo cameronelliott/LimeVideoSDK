@@ -1,4 +1,19 @@
 {
+  "api/LimeVideoSDK.QuickSync.UnitTest.html": {
+    "href": "api/LimeVideoSDK.QuickSync.UnitTest.html",
+    "title": "Class UnitTest | The Lime Video SDK",
+    "keywords": "Class UnitTest Inheritance System.Object UnitTest Namespace :LimeVideoSDK.QuickSync Assembly :LimeVideoSDKQuickSync.dll Syntax public static class UnitTest Fields | Improve this Doc View Source IsRunning Declaration public static readonly bool IsRunning Field Value Type Description System.Boolean"
+  },
+  "restapi/toc.html": {
+    "href": "restapi/toc.html",
+    "title": "Table of Content",
+    "keywords": ""
+  },
+  "samples/toc.html": {
+    "href": "samples/toc.html",
+    "title": "Table of Content",
+    "keywords": ""
+  },
   "api/LimeVideoSDK.QuickSync.UnsafeNativeMethods.html": {
     "href": "api/LimeVideoSDK.QuickSync.UnsafeNativeMethods.html",
     "title": "Class UnsafeNativeMethods | The Lime Video SDK",
@@ -458,20 +473,5 @@
     "href": "api/LimeVideoSDK.QuickSync.TranscoderConfiguration.html",
     "title": "Class TranscoderConfiguration | The Lime Video SDK",
     "keywords": "Class TranscoderConfiguration This is used fully specify a transcoder configuration Inheritance System.Object TranscoderConfiguration Namespace :LimeVideoSDK.QuickSync Assembly :LimeVideoSDKQuickSync.dll Syntax public class TranscoderConfiguration Fields | Improve this Doc View Source decParams Decoder parameters Declaration public mfxVideoParam decParams Field Value Type Description mfxVideoParam | Improve this Doc View Source encParams The encoder parameters Declaration public mfxVideoParam encParams Field Value Type Description mfxVideoParam | Improve this Doc View Source vppParams The VPP parameters Declaration public mfxVideoParam vppParams Field Value Type Description mfxVideoParam Methods | Improve this Doc View Source BuildTranscoderConfigurationFromStream(Stream, CodecId, CodecId, mfxIMPL, Boolean) Builds the transcoder configuration from stream. Declaration public static TranscoderConfiguration BuildTranscoderConfigurationFromStream(Stream inStream, CodecId inputCodecId, CodecId outputCodecId, mfxIMPL implementation = mfxIMPL.MFX_IMPL_AUTO, bool useOpaqueSurfaces = true) Parameters Type Name Description System.IO.Stream inStream The in stream. CodecId inputCodecId The input codec identifier. CodecId outputCodecId The output codec identifier. mfxIMPL implementation The implementation. System.Boolean useOpaqueSurfaces if set to true [use opaque surfaces]. Returns Type Description TranscoderConfiguration"
-  },
-  "api/LimeVideoSDK.QuickSync.UnitTest.html": {
-    "href": "api/LimeVideoSDK.QuickSync.UnitTest.html",
-    "title": "Class UnitTest | The Lime Video SDK",
-    "keywords": "Class UnitTest Inheritance System.Object UnitTest Namespace :LimeVideoSDK.QuickSync Assembly :LimeVideoSDKQuickSync.dll Syntax public static class UnitTest Fields | Improve this Doc View Source IsRunning Declaration public static readonly bool IsRunning Field Value Type Description System.Boolean"
-  },
-  "restapi/toc.html": {
-    "href": "restapi/toc.html",
-    "title": "Table of Content",
-    "keywords": ""
-  },
-  "samples/toc.html": {
-    "href": "samples/toc.html",
-    "title": "Table of Content",
-    "keywords": ""
   }
 }
