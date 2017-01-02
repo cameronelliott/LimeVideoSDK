@@ -5,18 +5,18 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Resizing Frames | The Lime Video SDK </title>
+    <title> | The Lime Video SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Resizing Frames | The Lime Video SDK ">
+    <meta name="title" content=" | The Lime Video SDK ">
     <meta name="generator" content="docfx 2.9.3.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
     <meta property="docfx:tocrel" content="toc.html">
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="">
   </head>
   <body data-spy="scroll" data-target="#affix">
     <div id="wrapper">
@@ -32,8 +32,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -63,30 +63,11 @@
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
-        </div>
-        <div class="article row grid-right">
+        <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
               
-              <!-- BEGIN INCLUDE: Include content from &quot;linksinc.md&quot; --><!--END INCLUDE --><h1 id="resizing-frames">Resizing Frames</h1>
-<p>There are two ways frames may be resized, by the GPU or by the CPU.</p>
-<p>The CPU methods are simple to use, and are based around NV12 frame resizing.</p>
-<p>We recommend starting with the simple CPUs methods, and switching to GPU methods as your project gets mature and need optimization. </p>
-<h3 id="cpu-based-resizing-method">CPU based resizing method</h3>
-<h3 id="gpu-based-resizing-method">GPU based resizing method</h3>
-<p>The GPU resizing methods can be used by using the these classes: [StreamDecoder],[StreamTranscoder]
-The trick is to properly configure the inputs to the constructors.
-The encoder does not do resizing at the time.</p>
-<p>To get GPU resizing to occur in the [StreamDecoder], the constructor containing two [mfxVideoParam]s must be used.  The second [mfxVideoParam] named: mfxVPPParams controls resizing.</p>
-<p>You can use the </p>
-<p>To get GPU resizing to occur in the StreamTranscoder, the TranscoderConfig must have the [mfxVideoParam] element,  [vppParams] setup properly.</p>
-
+              
             </article>
           </div>
           
@@ -95,7 +76,7 @@ The encoder does not do resizing at the time.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/cameron-elliott/LimeVideoSDK/blob/master/docfx_project/reference/resizing.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/cameron-elliott/LimeVideoSDK/blob/master/docfx_project/linksinc.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -121,8 +102,8 @@ The encoder does not do resizing at the time.</p>
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
   </body>
 </html>
