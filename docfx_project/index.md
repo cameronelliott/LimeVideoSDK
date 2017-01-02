@@ -1,3 +1,8 @@
+---
+uid: home
+title: Lime Video SDK
+---
+
 # Introduction to the Lime Video SDK  
 ####[UNDER CONSTRUCTION 1.1.2017]
 ## What is the Lime Video SDK?
