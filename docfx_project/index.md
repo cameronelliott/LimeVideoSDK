@@ -2,6 +2,7 @@
 uid: home
 title: Lime Video SDK
 ---
+[BSD open source]: https://en.wikipedia.org/wiki/BSD_licenses
 
 # Introduction to the Lime Video SDK  
 ####[UNDER CONSTRUCTION 1.1.2017]
@@ -9,7 +10,7 @@ title: Lime Video SDK
 - This SDK enables **transcoding**, **encoding**, and **decoding** of video bitstreams.
 - Intel CPU+GPU hardware accelerated support.
 - Software-only fallback support.
-- 100% BSD open source software without limitations or binary blobs.
+- 100% [BSD open source] software without limitations or binary blobs.
 - Compressed formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG.
 - Uncompressed formats: RGB3, RGB4, BGR4, BGR3, NV12, I420, IYUV, YUY2, UYVY, YV12, P411, P422
 
