@@ -1,6 +1,9 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: Bitstreams
+  name: Bitstreams or Elementary Strea...
+  href: reference/bitstreams.html
 - uid: LimeVideoSDK.Benchmark
   name: LimeVideoSDK.Benchmark
   href: api/LimeVideoSDK.Benchmark.html
