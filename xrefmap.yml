@@ -4,6 +4,9 @@ references:
 - uid: Bitstreams
   name: Bitstreams
   href: reference/bitstreams.html
+- uid: home
+  name: Lime Video SDK
+  href: index.html
 - uid: imsdk.docs
   name: Intel Media SDK Reference Docu...
   href: reference/imsdk.docs.html
