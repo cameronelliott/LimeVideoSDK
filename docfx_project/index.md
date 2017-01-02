@@ -7,12 +7,16 @@ title: Lime Video SDK
 # Introduction to the Lime Video SDK  
 ####[UNDER CONSTRUCTION 1.1.2017]
 ## What is the Lime Video SDK?
-- This SDK enables **transcoding**, **encoding**, and **decoding** of video bitstreams.
-- Intel CPU+GPU hardware accelerated support.
+
+- This C# & .NET SDK enables **transcoding**, **encoding**, and **decoding** of video bitstreams.
+- Intel CPU+GPU hardware acceleration support.
 - Software-only fallback support.
+- Ready to run C# samples for transcoding, encoding, decoding, and screen-playback.
+- Windows enabled now, Linux enabled soon.
 - 100% [BSD open source] software without limitations or binary blobs.
 - Compressed formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG.
 - Uncompressed formats: RGB3, RGB4, BGR4, BGR3, NV12, I420, IYUV, YUY2, UYVY, YV12, P411, P422
+- .NET assemblies enables C#, F#, VB.NET usage out of the box.
 
 
 ## Major Features
