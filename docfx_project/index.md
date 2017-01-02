@@ -1,7 +1,13 @@
 # Introduction to the Lime Video SDK  
-###[UNDER CONSTRUCTION 12.28.2016]
-## What is the Lime Video SDK
-The primary function of the Lime Video SDK [LVSDK] is to support transcoding, encoding, and decoding of video elementary streams.
+####[UNDER CONSTRUCTION 1.1.2017]
+## What is the Lime Video SDK?
+- This SDK enables **transcoding**, **encoding**, and **decoding** of video bitstreams.
+- Intel CPU+GPU hardware accelerated support.
+- Software-only fallback support.
+- 100% BSD open source software without limitations or binary blobs.
+- Compressed formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG.
+- Uncompressed formats: RGB3, RGB4, BGR4, BGR3, NV12, I420, IYUV, YUY2, UYVY, YV12, P411, P422
+
 
 ## Major Features
 ### GPU based coding

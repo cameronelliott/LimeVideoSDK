@@ -1,5 +1,6 @@
 ---
 uid: Bitstreams
+title: Bitstreams
 ---
 
 #Bitstreams or Elementary Streams

@@ -4,4 +4,8 @@
   href: Bitstreams.md
 - name: Resizing Frames
   href: resizing.md
+- href: imsdk.docs.md
+  name: Intel Media SDK Documentation
+
+
 
