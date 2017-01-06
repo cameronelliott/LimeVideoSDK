@@ -4,8 +4,14 @@
   href: Bitstreams.md
 - name: Resizing Frames
   href: resizing.md
-- href: imsdk.docs.md
-  name: Intel Media SDK Documentation
+- href: linux.md
+  name: Linux Status
+- href: imsdk.md
+  name: Intel Media SDK Info & Documentation
+- href: frame.format.conversion.md
+  name: Frame Format Conversion for Encode/Decode
+- href: software.fallback.md
+  name: Software Fallback
 
 
 
