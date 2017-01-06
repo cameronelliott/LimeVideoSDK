@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>API Introduction | The Lime Video SDK </title>
+    <title>Converting Frame Formats | The Lime Video SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="API Introduction | The Lime Video SDK ">
+    <meta name="title" content="Converting Frame Formats | The Lime Video SDK ">
     <meta name="generator" content="docfx 2.10.2.0">
     
     <link rel="shortcut icon" href="../limefavicon.ico">
@@ -73,22 +73,17 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+              <h2 id="converting-frame-formats">Converting Frame Formats</h2>
               
-              <p>Starting with the <a class="xref" href="../samples/samples.html">Sample C# Projects</a> is the recommended way to get started, with use of this API reference suggested once you have the samples running on your system. </p>
-<h1 id="api-introduction">API Introduction</h1>
-<h1 id="primary-functional-classes-of-interest">Primary Functional Classes of Interest</h1>
-<ul>
-<li><a class="xref" href="LimeVideoSDK.QuickSync.StreamTranscoder.html">StreamTranscoder</a>: Transcoder:  Consumes bitstreams, and outputs bitstreams.  </li>
-<li><a class="xref" href="LimeVideoSDK.QuickSync.StreamDecoder.html">StreamDecoder</a>: Decoder:  Consumes bitstreams, and outputs uncompressed frames.  </li>
-<li><a class="xref" href="LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.html">LowLevelEncoderCSharp</a>: Encoder:  Consumes uncompressed frames, and outputs bitstreams.  </li>
-</ul>
-<p>See <a class="xref" href="../reference/bitstreams.html">Bitstreams</a> to learn more about suitable input/output formats</p>
-<h1 id="primary-namespaces-of-interest">Primary Namespaces of Interest</h1>
-<p>The main namespace is <a class="xref" href="LimeVideoSDK.QuickSync.html">LimeVideoSDK.QuickSync</a>, and this contains the main transcoding, encoding, and decoding classes.</p>
-<h1 id="namespaces-explained">Namespaces Explained</h1>
-<ul>
-<li><a class="xref" href="LimeVideoSDK.QuickSync.html">LimeVideoSDK.QuickSync</a></li>
-</ul>
+<p><a name="fourcc.conversion.cpu"></a></p>
+<h3 id="cpu-based-fourcc-frame-format-conversion">CPU based FourCC frame format conversion</h3>
+<p>GPU based format conversion can be simpler to use than GPU format conversion, but can have the disadvantage of utilizing CPU cycles in situations where you are trying to use the CPU for other things.</p>
+<p><a name="fourcc.conversion.gpu"></a></p>
+<h3 id="gpu-based-fourcc-frame-format-conversion">GPU based FourCC frame format conversion</h3>
+<p>GPU based format conversion can have the advantage of higher performance, and little or no impact upon CPU utilization. It can be much tricker to use than CPU format conversion also.</p>
+<p>The primary FourCC used by the GPU is NV12, the GPU can also convert NV12 to and from a number of other formats
+Other FourCC formats, such as UYVY, RGB4, YUY2 are sometimes available for Quick Sync functions. Some of this may depend on your CPU/graphics-generation. Your ability to use this from the LVSDK will depend on the functions you use, and what has been supported.</p>
+<p>You can use the [Player1 Sample] to see how the sample configures the [StreamDecoder] class to do GPU based conversion from the internal NV12 format to RGB4 format.</p>
 
             </article>
           </div>
@@ -98,7 +93,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/cameron-elliott/LimeVideoSDK/blob/master/docfx_project/api/api.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/cameron-elliott/LimeVideoSDK/blob/master/docfx_project/reference/fourcc.conversion.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

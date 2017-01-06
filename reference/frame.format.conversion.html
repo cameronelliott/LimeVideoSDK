@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>API Introduction | The Lime Video SDK </title>
+    <title>Converting Frame Formats | The Lime Video SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="API Introduction | The Lime Video SDK ">
+    <meta name="title" content="Converting Frame Formats | The Lime Video SDK ">
     <meta name="generator" content="docfx 2.10.2.0">
     
     <link rel="shortcut icon" href="../limefavicon.ico">
@@ -73,21 +73,29 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+              <h1 id="converting-frame-formats">Converting Frame Formats</h1>
               
-              <p>Starting with the <a class="xref" href="../samples/samples.html">Sample C# Projects</a> is the recommended way to get started, with use of this API reference suggested once you have the samples running on your system. </p>
-<h1 id="api-introduction">API Introduction</h1>
-<h1 id="primary-functional-classes-of-interest">Primary Functional Classes of Interest</h1>
+<h2 id="comparing-cpu-and-gpu-format-conversion">Comparing CPU and GPU format conversion</h2>
+<p>The Lime Video SDK supports two types of frame format conversion: CPU-based and GPU-based. The differences are explained below.
+The primary uncompressed format used internally is NV12.</p>
+<p><a name="cpu.conversion"></a></p>
+<h2 id="cpu-based-fourcc-frame-format-conversion">CPU based FourCC frame format conversion</h2>
+<p>CPU based format conversion can be simpler to use than GPU format conversion, and provides a larger number of FourCC options, but can have the disadvantage of utilizing CPU cycles in situations where you are trying to use the CPU for other things.
+Classes for CPU based conversion are found in the <a class="xref" href="../api/LimeVideoSDK.CPUConvertResize.html">CPUConvertResize</a> namespace.
+Primary classes are: <a class="xref" href="../api/LimeVideoSDK.CPUConvertResize.NV12ToXXXXConverter.html">NV12ToXXXXConverter</a>, and <a class="xref" href="../api/LimeVideoSDK.CPUConvertResize.NV12FromXXXXConverter.html">NV12FromXXXXConverter</a>.
+We recommend you stay with CPU conversion unless you are using one of the current formats described at the end of the next section. (RGB4 or YUY2)</p>
+<p><a name="gpu.conversion"></a></p>
+<h2 id="gpu-based-fourcc-frame-format-conversion">GPU based FourCC frame format conversion</h2>
+<p>GPU based format conversion can have the advantage of higher performance, and little or no impact upon CPU utilization. It can be much tricker to setup and use than CPU format conversion, though. Also, the number of formats supported is much less than what is capable with CPU conversion.</p>
+<p>The primary FourCC used by the GPU is NV12, the GPU can also convert NV12 to and from a number of other formats.
+Other FourCC formats, such as RGB4 and YUY2 are sometimes available for Quick Sync functions. Some of this may depend on your CPU/graphics-generation. Your ability to use this from the LVSDK will depend on the functions you use, and what is supported.</p>
+<p>At this time using RGB4 for StreamDecoder output is supported, and YUY2 for MJPEG encode/decode, anything else has not been extensively tested, and may not work without improvements.</p>
+<h2 id="format-conversion-by-coding-type">Format conversion by coding type</h2>
 <ul>
-<li><a class="xref" href="LimeVideoSDK.QuickSync.StreamTranscoder.html">StreamTranscoder</a>: Transcoder:  Consumes bitstreams, and outputs bitstreams.  </li>
-<li><a class="xref" href="LimeVideoSDK.QuickSync.StreamDecoder.html">StreamDecoder</a>: Decoder:  Consumes bitstreams, and outputs uncompressed frames.  </li>
-<li><a class="xref" href="LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.html">LowLevelEncoderCSharp</a>: Encoder:  Consumes uncompressed frames, and outputs bitstreams.  </li>
-</ul>
-<p>See <a class="xref" href="../reference/bitstreams.html">Bitstreams</a> to learn more about suitable input/output formats</p>
-<h1 id="primary-namespaces-of-interest">Primary Namespaces of Interest</h1>
-<p>The main namespace is <a class="xref" href="LimeVideoSDK.QuickSync.html">LimeVideoSDK.QuickSync</a>, and this contains the main transcoding, encoding, and decoding classes.</p>
-<h1 id="namespaces-explained">Namespaces Explained</h1>
-<ul>
-<li><a class="xref" href="LimeVideoSDK.QuickSync.html">LimeVideoSDK.QuickSync</a></li>
+<li>For decoding with GPU conversion, you can use the <a class="xref" href="../samples/samples.html#Player1">Player1</a> sample to see how the sample configures the <a class="xref" href="../api/LimeVideoSDK.QuickSync.StreamDecoder.html">StreamDecoder</a> class to do GPU based conversion from the internal NV12 format to RGB4 format.</li>
+<li>For decoding with CPU conversion, you can explore the <a class="xref" href="../samples/samples.html#Decoder1">Decoder1</a> sample to set how the <a class="xref" href="../api/LimeVideoSDK.CPUConvertResize.NV12ToXXXXConverter.html">NV12ToXXXXConverter</a> class is used to convert from NV12 to a number of different outputs.</li>
+<li>For encoding, at this time, GPU conversion is not supported, but CPU conversion is. The <a class="xref" href="../samples/samples.html#Encoder1">Encoder1</a> sample shows how to use the <a class="xref" href="../api/LimeVideoSDK.CPUConvertResize.NV12FromXXXXConverter.html">NV12FromXXXXConverter</a> class to convert to NV12 when encoding. </li>
+<li>For transcoding, frames stay in NV12 format, and format conversion is not needed or useful.</li>
 </ul>
 
             </article>
@@ -98,7 +106,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/cameron-elliott/LimeVideoSDK/blob/master/docfx_project/api/api.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/cameron-elliott/LimeVideoSDK/blob/master/docfx_project/reference/frame.format.conversion.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

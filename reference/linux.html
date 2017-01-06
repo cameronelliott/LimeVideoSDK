@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>API Introduction | The Lime Video SDK </title>
+    <title>Linux Support | The Lime Video SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="API Introduction | The Lime Video SDK ">
+    <meta name="title" content="Linux Support | The Lime Video SDK ">
     <meta name="generator" content="docfx 2.10.2.0">
     
     <link rel="shortcut icon" href="../limefavicon.ico">
@@ -73,22 +73,14 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+              <h1 id="linux-support">Linux Support</h1>
               
-              <p>Starting with the <a class="xref" href="../samples/samples.html">Sample C# Projects</a> is the recommended way to get started, with use of this API reference suggested once you have the samples running on your system. </p>
-<h1 id="api-introduction">API Introduction</h1>
-<h1 id="primary-functional-classes-of-interest">Primary Functional Classes of Interest</h1>
-<ul>
-<li><a class="xref" href="LimeVideoSDK.QuickSync.StreamTranscoder.html">StreamTranscoder</a>: Transcoder:  Consumes bitstreams, and outputs bitstreams.  </li>
-<li><a class="xref" href="LimeVideoSDK.QuickSync.StreamDecoder.html">StreamDecoder</a>: Decoder:  Consumes bitstreams, and outputs uncompressed frames.  </li>
-<li><a class="xref" href="LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.html">LowLevelEncoderCSharp</a>: Encoder:  Consumes uncompressed frames, and outputs bitstreams.  </li>
-</ul>
-<p>See <a class="xref" href="../reference/bitstreams.html">Bitstreams</a> to learn more about suitable input/output formats</p>
-<h1 id="primary-namespaces-of-interest">Primary Namespaces of Interest</h1>
-<p>The main namespace is <a class="xref" href="LimeVideoSDK.QuickSync.html">LimeVideoSDK.QuickSync</a>, and this contains the main transcoding, encoding, and decoding classes.</p>
-<h1 id="namespaces-explained">Namespaces Explained</h1>
-<ul>
-<li><a class="xref" href="LimeVideoSDK.QuickSync.html">LimeVideoSDK.QuickSync</a></li>
-</ul>
+<h2 id="linux-support-as-of-12292016">Linux Support [as of 12.29.2016]</h2>
+<p>We have had all the samples running on Linux under Mono, with the exception of <a class="xref" href="../samples/samples.html#Player1">Player1</a> which requires DirectX.</p>
+<p>But, currently Linux testing and maintenance is not up to snuff.</p>
+<p>Really, the next step is to switch from Mono to .NET core, and build a set of unit tests around the samples to verify operation at build time on an appropriate system.
+[Sadly both Windows and Linux CI cloud solutions will not be able to run unit tests with hardware mode, because the CI cloud providers don&#39;t provide virtual environments capable of  Quick Sync operation. Software fallback will work on Windows, and may work on Linux too]</p>
+<p>If you need Linux support, please contact me, as I would invest some time getting stuff ship-shape [in good condition] with an active end-user providing feedback. </p>
 
             </article>
           </div>
@@ -98,7 +90,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/cameron-elliott/LimeVideoSDK/blob/master/docfx_project/api/api.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/cameron-elliott/LimeVideoSDK/blob/master/docfx_project/reference/linux.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

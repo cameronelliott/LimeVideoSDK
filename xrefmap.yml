@@ -8,8 +8,8 @@ references:
   name: Lime Video SDK
   href: index.html
 - uid: imsdk.docs
-  name: Intel Media SDK Reference Docu...
-  href: reference/imsdk.docs.html
+  name: Intel Quick Sync Video
+  href: reference/imsdk.html
 - uid: LimeVideoSDK.Benchmark
   name: LimeVideoSDK.Benchmark
   href: api/LimeVideoSDK.Benchmark.html
@@ -5906,3 +5906,6 @@ references:
 - uid: samples
   name: Sample C# Projects
   href: samples/samples.html
+- uid: software.fallback
+  name: Software Fallback
+  href: reference/software.fallback.html

@@ -8,7 +8,7 @@
     <title>Reference Help Topics | The Lime Video SDK </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Reference Help Topics | The Lime Video SDK ">
-    <meta name="generator" content="docfx 2.9.3.0">
+    <meta name="generator" content="docfx 2.10.2.0">
     
     <link rel="shortcut icon" href="../limefavicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -75,19 +75,6 @@
             <article class="content wrap" id="_content" data-uid="">
               <h1 id="reference-help-topics">Reference Help Topics</h1>
               
-<h2 id="intel-quick-sync-video">Intel Quick Sync Video</h2>
-<p>On most modern Intel consumer CPUs, and specific Xeon server CPUs, there is often an integrated GPU inside the CPU. The integrated GPU may act as a video card, and can provide video related functions.</p>
-<p>In particular Intel&#39;s Quick Sync Video provides functionality for encoding, decoding, and transcoding of video elementary streams such as: </p>
-<ul>
-<li>HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG</li>
-</ul>
-<p>The Lime Video SDK bring Quick Sync Video functions to languages like C#, F#, VB.NET on platforms that .NET can run on.</p>
-<p>Throughout this documentation GPU will be used to refer to Intel&#39;s integrated GPU inside the CPU chip.</p>
-<p>These links can provide some background on Intel Quick Sync Video, and Intel&#39;s graphic architecture:</p>
-<p>Wiki: <a href="https://en.wikipedia.org/wiki/Intel_Quick_Sync_Video">Intel_Quick_Sync_Video</a><br>Wiki: <a href="https://en.wikipedia.org/wiki/Intel_HD_and_Iris_Graphics">Intel_HD_and_Iris_Graphics</a><br>Wiki: <a href="https://en.wikipedia.org/wiki/List_of_Intel_graphics_processing_units">List_of_Intel_graphics_processing_units</a>  </p>
-<h2 id="linux-support-as-of-12292016">Linux Support [as of 12.29.2016]</h2>
-<p>We have had all the samples except the Windows/DirectX specific <a class="xref" href="../samples/samples.html">Player1</a> sample running on Linux under Mono. The current state of Linux support at the time of writing this is poor, as the samples should be re-tested, and included in a sample-level unit tests.
-If you need Linux support, please contact me, as I would invest some time getting stuff ship-shape [in good condition] with an active end-user providing feedback. </p>
 <h2 id="uncompressed-fourcc-formats">Uncompressed FOURCC Formats</h2>
 <p>FourCC formats are a system of naming and characterizing uncompressed video frame formats. Link: <a href="https://en.wikipedia.org/wiki/FourCC">Wiki-FourCC</a></p>
 <p>Normally, &quot;NV12&quot; is the primary internal native format the Quick Sync Hardware uses.</p>
@@ -96,18 +83,6 @@ If you need Linux support, please contact me, as I would invest some time gettin
 <li>CPU based FourCC frame format conversion. <a href="#fourcc.conversion.cpu">Link</a></li>
 <li>GPU frame format conversion. <a href="#fourcc.conversion.gpu">Link</a></li>
 </ul>
-<h2 id="converting-frame-formats">Converting Frame Formats</h2>
-<p><a name="fourcc.conversion.cpu"></a></p>
-<h3 id="cpu-based-fourcc-frame-format-conversion">CPU based FourCC frame format conversion</h3>
-<p>GPU based format conversion can be simpler to use than GPU format conversion, but can have the disadvantage of utilizing CPU cycles in situations where you are trying to use the CPU for other things.</p>
-<p><a name="fourcc.conversion.gpu"></a></p>
-<h3 id="gpu-based-fourcc-frame-format-conversion">GPU based FourCC frame format conversion</h3>
-<p>GPU based format conversion can have the advantage of higher performance, and little or no impact upon CPU utilization. It can be much tricker to use than CPU format conversion also.</p>
-<p>The primary FourCC used by the GPU is NV12, the GPU can also convert NV12 to and from a number of other formats
-Other FourCC formats, such as UYVY, RGB4, YUY2 are sometimes available for Quick Sync functions. Some of this may depend on your CPU/graphics-generation. Your ability to use this from the LVSDK will depend on the functions you use, and what has been supported.</p>
-<p>You can use the [Player1 Sample] to see how the sample configures the <a class="xref" href="../api/LimeVideoSDK.QuickSync.StreamDecoder.html">StreamDecoder</a> class to do GPU based conversion from the internal NV12 format to RGB4 format. This con
-The @ provides </p>
-<p><a name="imsdk"></a></p>
 
             </article>
           </div>
