@@ -8,6 +8,8 @@ Copyright(c) 2005-2014 Intel Corporation. All Rights Reserved.
 
 *****************************************************************************/
 // Copyright 2012-2016 Cameron Elliott  http://cameronelliott.com
+// Differences between the original, mediasdk-tutorials-0.0.3\simple_5_transcode_opaque_async_vppresize\src\simple_transcode_opaque_async_vppresize.cpp,
+// this file, are Copyright 2012-2016 Cameron Elliott.
 // Modifications by Cameron Elliott are distributed under open source BSD License terms:
 // Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 // 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
