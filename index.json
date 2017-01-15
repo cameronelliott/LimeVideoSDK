@@ -1,69 +1,4 @@
 {
-  "api/api.html": {
-    "href": "api/api.html",
-    "title": "API Introduction | The Lime Video SDK",
-    "keywords": "Starting with the Sample C# Projects is the recommended way to get started, with use of this API reference suggested once you have the samples running on your system. API Introduction Primary Functional Classes of Interest StreamTranscoder : Transcoder: Consumes bitstreams, and outputs bitstreams. StreamDecoder : Decoder: Consumes bitstreams, and outputs uncompressed frames. LowLevelEncoderCSharp : Encoder: Consumes uncompressed frames, and outputs bitstreams. See Bitstreams to learn more about suitable input/output formats Primary Namespaces of Interest The main namespace is LimeVideoSDK.QuickSync , and this contains the main transcoding, encoding, and decoding classes. Namespaces Explained LimeVideoSDK.QuickSync"
-  },
-  "index.html": {
-    "href": "index.html",
-    "title": "Lime Video SDK | The Lime Video SDK",
-    "keywords": "Introduction to the Lime Video SDK [UNDER CONSTRUCTION 1.5.2017] What is the Lime Video SDK? C# & .NET SDK enables transcoding, encoding, and decoding of video bitstreams. Hardware accelerated transcoding, encoding, and decoding on most Intel CPUs. 100% BSD open source software without limitations or binary blobs. Ready to run C# samples for transcoding, encoding, decoding, and screen-playback. Software-only fallback support for CPUs without hardware acceleration. Windows enabled now, Linux enabled soon. Compressed formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG. Uncompressed formats: RGB3, RGB4, BGR4, BGR3, NV12, I420, IYUV, YUY2, UYVY, YV12, P411, P422 .NET assemblies enables C#, F#, VB.NET usage out of the box. Major Features GPU based coding The LVSDK supports Intel CPU+GPU based acceleration on Intel CPUs supporting HD Graphics. By using the hardware GPU features encode/decode/transcode can run much faster than it does on the CPU. CPU utilization is lower also. The SDK utilizes the feature known as Intel Quick Sync Video. Wiki Intel Quick Sync Video CPU based coding For non-Intel CPUs, and Intel CPUs not supporting HD Graphics, software fallback is available. Please see Software Fallback for more information about enabling software fallback. BSD Open Source License All C# and C++ code in the libraries is part of the SDK, there are no hidden bits, nothing you cannot see. The BSD open source license is one of the most permission, friendly, flexible open source licenses, period. Transcoding Video Transcoding converts compressed bitstreams to compressed bitstreams Input formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG Output formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG Encoding Video Encoding converts uncompressed frames to compressed bitstreams or elementary streams. Input formats: RGB3, RGB4, BGR4, BGR3, NV12, I420, IYUV, YUY2, UYVY, YV12, P411, P422 Output formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG Decoding Video Decoding converts compressed bitstreams to uncompressed frames. Input formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG Output formats: RGB3, RGB4, BGR4, BGR3, NV12, I420, IYUV, YUY2, UYVY, YV12, P411, P422 Some redundant terms have been repeated such as HEVC for H.265 to make help searching easier. Playing Video Playing of video is currently supported on Windows, and may be in Linux at some point. [contact us for more info] Input formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG Getting Started With Samples There are samples for transcoding, encoding, decoding, and playing back of video, among other things. Please seek the Sample C# Projects page to get started with the samples. Future Work Currently the SDK provides only the codec building blocks of typical video and media handling systems. We hope one day to includes functions such as MP4, RTMP, RTSP/RTP, and possible others. Contact us if your company is looking to sponsor projects like these @contact"
-  },
-  "linksinc.html": {
-    "href": "linksinc.html",
-    "title": "| The Lime Video SDK",
-    "keywords": ""
-  },
-  "reference/bitstreams.html": {
-    "href": "reference/bitstreams.html",
-    "title": "Bitstreams | The Lime Video SDK",
-    "keywords": "Bitstreams or Elementary Streams In order to keep the documentation simple, the term 'bitstream' is used interchangeably with the term 'elementary stream'. Compressed Bitstream Formats The very latest versions of Intel CPUs have hardware support for the following bitstreams: H.265, H.264, MPEG-2, VP9, VC-1, MVC, and MJPEG H.265 is also known as HEVC, H.264 is also known as AVC, and sometimes MJPEG is referred to as JPEG What hardware bitstream support you have in your CPU really depends upon which generation of internal GPU core your CPU contains. If you are running on 9th, or 9.5th generation graphics you can fairly well expect to get hardware support for all the formats in the above list. [9th and 9.5th Gen are found in Skylake and Kaby Lake CPUs] As you go farther back in time you lose some levels of support, for example, Haswell has excellent support for H.264, but there is only partial support for H.265. If you are on Ivy Bridge or Sandy Bridge, there is H.264 support, but no H.265 support whatsoever. In the future, this section should be updated with a table showing bitstream support by Intel Core generation. This page talks about Intel Graphics Generations: https://en.wikipedia.org/wiki/Intel_HD_and_Iris_Graphics"
-  },
-  "reference/fourcc.conversion.html": {
-    "href": "reference/fourcc.conversion.html",
-    "title": "Converting Frame Formats | The Lime Video SDK",
-    "keywords": "Converting Frame Formats CPU based FourCC frame format conversion GPU based format conversion can be simpler to use than GPU format conversion, but can have the disadvantage of utilizing CPU cycles in situations where you are trying to use the CPU for other things. GPU based FourCC frame format conversion GPU based format conversion can have the advantage of higher performance, and little or no impact upon CPU utilization. It can be much tricker to use than CPU format conversion also. The primary FourCC used by the GPU is NV12, the GPU can also convert NV12 to and from a number of other formats Other FourCC formats, such as UYVY, RGB4, YUY2 are sometimes available for Quick Sync functions. Some of this may depend on your CPU/graphics-generation. Your ability to use this from the LVSDK will depend on the functions you use, and what has been supported. You can use the [Player1 Sample] to see how the sample configures the [StreamDecoder] class to do GPU based conversion from the internal NV12 format to RGB4 format."
-  },
-  "reference/frame.format.conversion.html": {
-    "href": "reference/frame.format.conversion.html",
-    "title": "Converting Frame Formats | The Lime Video SDK",
-    "keywords": "Converting Frame Formats Comparing CPU and GPU format conversion The Lime Video SDK supports two types of frame format conversion: CPU-based and GPU-based. The differences are explained below. The primary uncompressed format used internally is NV12. CPU based FourCC frame format conversion CPU based format conversion can be simpler to use than GPU format conversion, and provides a larger number of FourCC options, but can have the disadvantage of utilizing CPU cycles in situations where you are trying to use the CPU for other things. Classes for CPU based conversion are found in the CPUConvertResize namespace. Primary classes are: NV12ToXXXXConverter , and NV12FromXXXXConverter . We recommend you stay with CPU conversion unless you are using one of the current formats described at the end of the next section. (RGB4 or YUY2) GPU based FourCC frame format conversion GPU based format conversion can have the advantage of higher performance, and little or no impact upon CPU utilization. It can be much tricker to setup and use than CPU format conversion, though. Also, the number of formats supported is much less than what is capable with CPU conversion. The primary FourCC used by the GPU is NV12, the GPU can also convert NV12 to and from a number of other formats. Other FourCC formats, such as RGB4 and YUY2 are sometimes available for Quick Sync functions. Some of this may depend on your CPU/graphics-generation. Your ability to use this from the LVSDK will depend on the functions you use, and what is supported. At this time using RGB4 for StreamDecoder output is supported, and YUY2 for MJPEG encode/decode, anything else has not been extensively tested, and may not work without improvements. Format conversion by coding type For decoding with GPU conversion, you can use the Player1 sample to see how the sample configures the StreamDecoder class to do GPU based conversion from the internal NV12 format to RGB4 format. For decoding with CPU conversion, you can explore the Decoder1 sample to set how the NV12ToXXXXConverter class is used to convert from NV12 to a number of different outputs. For encoding, at this time, GPU conversion is not supported, but CPU conversion is. The Encoder1 sample shows how to use the NV12FromXXXXConverter class to convert to NV12 when encoding. For transcoding, frames stay in NV12 format, and format conversion is not needed or useful."
-  },
-  "reference/imsdk.html": {
-    "href": "reference/imsdk.html",
-    "title": "Intel Quick Sync Video | The Lime Video SDK",
-    "keywords": "Intel Quick Sync Video General background on Intel Quick Sync Video On most modern Intel consumer CPUs, and specific Xeon server CPUs, there is often an integrated GPU inside the CPU. The integrated GPU may act as a video card, and can provide video related functions. In particular Intel's Quick Sync Video provides functionality for encoding, decoding, and transcoding of video elementary streams such as: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG The Lime Video SDK bring Quick Sync Video functions to languages like C#, F#, VB.NET on platforms that .NET can run on. Throughout this documentation GPU will be used to refer to Intel's integrated GPU inside the CPU chip. These links can provide some background on Intel Quick Sync Video, and Intel's graphic architecture: Wiki: Intel_Quick_Sync_Video Wiki: Intel_HD_and_Iris_Graphics Wiki: List_of_Intel_graphics_processing_units Intel Media SDK Reference Documentation The Lime Video SDK uses the Intel Media SDK to get access to the Quick Sync functions inside the CPU and GPU. Sometimes it can be helpful to review the documentation for the low layer C++ SDK when using the Lime Video SDK. Our preferred method for viewing the documentation is to download the latest version of the Intel Media SDK, install it, and to find this file in the distribution: mediasdk-man.pdf You might also find this link useful: https://software.intel.com/en-us/media-sdk/documentation But our experience is that the online-reference documentation is incomplete, and we believe you will have a better experience with the PDF files from the SDK downloads."
-  },
-  "reference/linux.html": {
-    "href": "reference/linux.html",
-    "title": "Linux Support | The Lime Video SDK",
-    "keywords": "Linux Support Linux Support [as of 12.29.2016] We have had all the samples running on Linux under Mono, with the exception of Player1 which requires DirectX. But, currently Linux testing and maintenance is not up to snuff. Really, the next step is to switch from Mono to .NET core, and build a set of unit tests around the samples to verify operation at build time on an appropriate system. [Sadly both Windows and Linux CI cloud solutions will not be able to run unit tests with hardware mode, because the CI cloud providers don't provide virtual environments capable of Quick Sync operation. Software fallback will work on Windows, and may work on Linux too] If you need Linux support, please contact me, as I would invest some time getting stuff ship-shape [in good condition] with an active end-user providing feedback."
-  },
-  "reference/reference.html": {
-    "href": "reference/reference.html",
-    "title": "Reference Help Topics | The Lime Video SDK",
-    "keywords": "Reference Help Topics Uncompressed FOURCC Formats FourCC formats are a system of naming and characterizing uncompressed video frame formats. Link: Wiki-FourCC Normally, \"NV12\" is the primary internal native format the Quick Sync Hardware uses. There are two ways that FourCC formats may be converted: CPU based FourCC frame format conversion. Link GPU frame format conversion. Link"
-  },
-  "reference/resizing.html": {
-    "href": "reference/resizing.html",
-    "title": "Resizing Frames | The Lime Video SDK",
-    "keywords": "Resizing Frames <!-- BEGIN INCLUDE: Include content from \"linksinc.md\" --> <!--END INCLUDE --> There are two ways frames may be resized, by the GPU or by the CPU. The CPU methods are simple to use, and are based around NV12 frame resizing. We recommend starting with the simple CPUs methods, and switching to GPU methods as your project gets mature and need optimization. CPU based resizing method GPU based resizing method The GPU resizing methods can be used by using the these classes: [StreamDecoder],[StreamTranscoder] The trick is to properly configure the inputs to the constructors. The encoder does not do resizing at the time. To get GPU resizing to occur in the [StreamDecoder], the constructor containing two [mfxVideoParam]s must be used. The second [mfxVideoParam] named: mfxVPPParams controls resizing. You can use the To get GPU resizing to occur in the StreamTranscoder, the TranscoderConfig must have the [mfxVideoParam] element, [vppParams] setup properly."
-  },
-  "reference/software.fallback.html": {
-    "href": "reference/software.fallback.html",
-    "title": "Software Fallback | The Lime Video SDK",
-    "keywords": "Software Fallback What is Software Fallback? Sometimes your need to use the SDK when hardware acceleration is not possible. Reasons for this include: You computer doesn't support Quick Sync, you need to do testing in a virtual machine, etc. In these cases, you need software fallback mode. If you use the mfxIMPL.MFX_IMPL_AUTO flag inside the SDK, this can occur automatically if there is no integrated GPU, or you don't have your drivers correctly configured. If you use the flag 'mfxIMPL.MFX_IMPL_SOFTWARE' at the appropriate place, you can force the use of software mode to occur. Configuring The Availability of Software Fallback For software fallback to work, a software fallback library from Intel needs to be able on the PATH, this file is named \"libmfxsw64.dll\". This library does not currently ship with the LVSDK due to licensing concerns. It might in the future. The best way to make sure that \"libmfxsw64.dll\" is available when needed is to follow these steps: Make sure \"libmfxsw64.dll\" is not already available: Open a new Command Window Run the command: \"C:> where libmfxsw64.dll\" If there \"where\" command shows paths where the DLL can be found you are ready to go. If is not found on your, system, install the free Intel Media SDK , or the Media Server Studio SDK . Open a new Cmd.exe window Open a new Command Window Run the command: \"C:> where libmfxsw64.dll\" The output should confirm the path to the DLL, and then, you are ready to use software fallback."
-  },
-  "restapi/comingsoon.html": {
-    "href": "restapi/comingsoon.html",
-    "title": "REST API NOTES | The Lime Video SDK",
-    "keywords": "REST API NOTES Transcoder REST API A Transcoder REST API is planned, but not yet available. If this is useful to you, please contact me, as an end-user/tester would help make this a priority. Go to @contact to contact the maintainers."
-  },
-  "samples/samples.html": {
-    "href": "samples/samples.html",
-    "title": "Sample C# Projects | The Lime Video SDK",
-    "keywords": "Sample C# Projects Preparing your system We recommend you read the article @prepare_your_system to make sure that your motherboard and CPU are capable, and that the correct Intel HD Graphics drivers are installed. @prepare_your_system Primary Samples Transcoder1 C# Sample This sample shows transcoding of video. By default it takes H.264 input, and writes H.264 output. It transcodes Big Buck Bunny to a new bitstream. The class StreamTranscoder is passed a stream and frames are read back one by one and written to disk. Decoder1 C# Sample This sample shows decoding of compressed video bitstreams. By default it takes H.264 input, and writes NV12 output. It decodes Big Buck Bunny to uncompressed frames. The class [StreamDecoder] is passed a stream and frames are read back one by one and written to disk. Encoder1 This sample shows encoding of uncompressed frames. By default it takes NV12 input, and writes H.264 output. A class implementing ILowLevelEncoder is passed individual frames, and compressed frames are returned from the encoder engine, one by one. Player1 C# Sample This sample shows how to decode frames to memory, and display them using Direct 3D. The frames can be decoded to either system-memory or video-memory, the difference is a complex topic and shall be covered in a separate article. The system-memory or video-memory behavior is controlled by a bool at the start program. This sample only works on Windows, and with systems supporting DirectX 11. It is unclear if this example will work on Windows 7. Win7 has partial DirectX 11 support. It is known to work on Windows 8 and Windows 10. The StreamDecoder class is used to produce frames, and SharpDX and Direct3D11 is used display the frames one by one. Special Case Samples _SystemCapabilities C# Sample This program simply tests to see if you are ready for either: Hardware Quick Sync encode/decode/transcode. Software fallback encode/decode/transcode. Decoder50 C# Sample This is an advanced unusual special case sample. This sample is paired with Encoder50. It demonstrates UYVY to/from MJPEG. Newer CPUs/IGPs can do YUY2-> MJPEG, and MJPEG->YUY2. What these two samples demonstrate is encoding UYVY as if it is YUY2. This means the following: No color space conversion is needed to or from UYVY. [normally UYVY <-> NV12 or UYVY <-> YUY2 is needed, which can take CPU time] Because the final .jpeg output has color planes reverse, you cannot display the Jpeg normally. This sample is suitable for showing do to send/receive to Blackmagic Design UYVY cards and products such as the Decklink series. Encoder50 C# Sample This sample is the counterpart to Decoder50, which is for MJPEG to/from UYVY Transcoder3 C# Sample This shows how to directly use the LowLevelTranscoderCSharp class without streams, but instead byte arrays."
-  },
   "api/LimeVideoSDK.Benchmark.BenchmarkTimer.html": {
     "href": "api/LimeVideoSDK.Benchmark.BenchmarkTimer.html",
     "title": "Class BenchmarkTimer | The Lime Video SDK",
@@ -254,26 +189,6 @@
     "title": "Class StreamTranscoder | The Lime Video SDK",
     "keywords": "Class StreamTranscoder Stream based transcoder Inheritance System.Object StreamTranscoder Namespace :LimeVideoSDK.QuickSync Assembly :LimeVideoSDKQuickSync.dll Syntax public class StreamTranscoder : IDisposable Constructors | Improve this Doc View Source StreamTranscoder(Stream, TranscoderConfiguration, mfxIMPL, Boolean) Initializes a new instance of the StreamTranscoder class. Declaration public StreamTranscoder(Stream inStream, TranscoderConfiguration config, mfxIMPL impl = mfxIMPL.MFX_IMPL_AUTO, bool forceSystemMemory = false) Parameters Type Name Description System.IO.Stream inStream The in stream. TranscoderConfiguration config The configuration. mfxIMPL impl The implementation. System.Boolean forceSystemMemory if set to true [force system memory]. Fields | Improve this Doc View Source lowLevelTranscoder The low level transcoder Declaration public LowLevelTranscoderCSharp lowLevelTranscoder Field Value Type Description LowLevelTranscoderCSharp Methods | Improve this Doc View Source Dispose() Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. Declaration public void Dispose() | Improve this Doc View Source Dispose(Boolean) Releases unmanaged and - optionally - managed resources. Declaration protected virtual void Dispose(bool disposing) Parameters Type Name Description System.Boolean disposing true to release both managed and unmanaged resources; false to release only unmanaged resources. | Improve this Doc View Source GetFrames() Return the next frame available Declaration public IEnumerable<BitStreamChunk> GetFrames() Returns Type Description System.Collections.Generic.IEnumerable < BitStreamChunk >"
   },
-  "toc.html": {
-    "href": "toc.html",
-    "title": "Table of Content",
-    "keywords": ""
-  },
-  "reference/toc.html": {
-    "href": "reference/toc.html",
-    "title": "Table of Content",
-    "keywords": ""
-  },
-  "restapi/toc.html": {
-    "href": "restapi/toc.html",
-    "title": "Table of Content",
-    "keywords": ""
-  },
-  "samples/toc.html": {
-    "href": "samples/toc.html",
-    "title": "Table of Content",
-    "keywords": ""
-  },
   "api/LimeVideoSDK.QuickSync.TranscoderConfiguration.html": {
     "href": "api/LimeVideoSDK.QuickSync.TranscoderConfiguration.html",
     "title": "Class TranscoderConfiguration | The Lime Video SDK",
@@ -318,26 +233,6 @@
     "href": "api/LimeVideoSDK.QuickSyncTypes.ChromaFormat.html",
     "title": "Enum ChromaFormat | The Lime Video SDK",
     "keywords": "Enum ChromaFormat Namespace :LimeVideoSDK.QuickSyncTypes Assembly :LimeVideoSDKQuickSync.dll Syntax public enum ChromaFormat : ushort Fields Name Description MFX_CHROMAFORMAT_MONOCHROME MFX_CHROMAFORMAT_YUV400 MFX_CHROMAFORMAT_YUV411 MFX_CHROMAFORMAT_YUV420 MFX_CHROMAFORMAT_YUV422 MFX_CHROMAFORMAT_YUV422H MFX_CHROMAFORMAT_YUV422V MFX_CHROMAFORMAT_YUV444"
-  },
-  "api/LimeVideoSDK.QuickSyncTypes.CodecId.html": {
-    "href": "api/LimeVideoSDK.QuickSyncTypes.CodecId.html",
-    "title": "Enum CodecId | The Lime Video SDK",
-    "keywords": "Enum CodecId Namespace :LimeVideoSDK.QuickSyncTypes Assembly :LimeVideoSDKQuickSync.dll Syntax public enum CodecId : uint Fields Name Description MFX_CODEC_AVC MFX_CODEC_CAPTURE MFX_CODEC_HEVC MFX_CODEC_JPEG MFX_CODEC_MPEG2 MFX_CODEC_VC1"
-  },
-  "api/LimeVideoSDK.QuickSyncTypes.CustomMemId.html": {
-    "href": "api/LimeVideoSDK.QuickSyncTypes.CustomMemId.html",
-    "title": "Struct CustomMemId | The Lime Video SDK",
-    "keywords": "Struct CustomMemId Namespace :LimeVideoSDK.QuickSyncTypes Assembly :LimeVideoSDKQuickSync.dll Syntax public struct CustomMemId Fields | Improve this Doc View Source memId Declaration public IntPtr memId Field Value Type Description System.IntPtr | Improve this Doc View Source memIdStage Declaration public IntPtr memIdStage Field Value Type Description System.IntPtr | Improve this Doc View Source rw Declaration public ushort rw Field Value Type Description System.UInt16"
-  },
-  "api/LimeVideoSDK.QuickSyncTypes.FourCC.html": {
-    "href": "api/LimeVideoSDK.QuickSyncTypes.FourCC.html",
-    "title": "Enum FourCC | The Lime Video SDK",
-    "keywords": "Enum FourCC These define a number of four byte codes that define video frame color space and memory layout characteristics. Otherwise know as FOURCC codes. Namespace :LimeVideoSDK.QuickSyncTypes Assembly :LimeVideoSDKQuickSync.dll Syntax public enum FourCC : uint Fields Name Description BGR3 BGR4 I420 I420_IYUV IYUV NV12 P411 P422 RGB3 RGB4 UYVY YUY2 YV12"
-  },
-  "api/LimeVideoSDK.QuickSyncTypes.FrameMemoryType.html": {
-    "href": "api/LimeVideoSDK.QuickSyncTypes.FrameMemoryType.html",
-    "title": "Enum FrameMemoryType | The Lime Video SDK",
-    "keywords": "Enum FrameMemoryType Namespace :LimeVideoSDK.QuickSyncTypes Assembly :LimeVideoSDKQuickSync.dll Syntax public enum FrameMemoryType : ushort Fields Name Description MFX_MEMTYPE_DXVA2_DECODER_TARGET MFX_MEMTYPE_DXVA2_PROCESSOR_TARGET MFX_MEMTYPE_EXTERNAL_FRAME MFX_MEMTYPE_FROM_DECODE MFX_MEMTYPE_FROM_ENCODE MFX_MEMTYPE_FROM_VPPIN MFX_MEMTYPE_FROM_VPPOUT MFX_MEMTYPE_INTERNAL_FRAME MFX_MEMTYPE_OPAQUE_FRAME MFX_MEMTYPE_RESERVED1 MFX_MEMTYPE_SYSTEM_MEMORY MFX_MEMTYPE_VIDEO_MEMORY_DECODER_TARGET MFX_MEMTYPE_VIDEO_MEMORY_PROCESSOR_TARGET WILL_READ WILL_WRITE"
   },
   "api/LimeVideoSDK.QuickSyncTypes.IOPattern.html": {
     "href": "api/LimeVideoSDK.QuickSyncTypes.IOPattern.html",
@@ -494,9 +389,119 @@
     "title": "Namespace LimeVideoSDK.QuickSyncTypes | The Lime Video SDK",
     "keywords": "Namespace LimeVideoSDK.QuickSyncTypes Structs CustomMemId mfxBitstream mfxEncodeCtrl mfxExtBuffer mfxExtOpaqueSurfaceAlloc mfxExtOpaqueSurfaceAllocHelper mfxExtVppAuxData mfxExtVPPComposite mfxExtVPPDoNotUse mfxExtVPPDoUse mfxFrameAllocator mfxFrameAllocRequest mfxFrameAllocResponse mfxFrameData mfxFrameId mfxFrameInfo mfxFrameSurface1 A low level structure for managing frames or surfaces. mfxInfoMFX mfxInfoVPP mfxSession mfxSyncPoint mfxVersion mfxVideoParam mfxVPPCompInputStream Enums BufferId ChromaFormat CodecId FourCC These define a number of four byte codes that define video frame color space and memory layout characteristics. Otherwise know as FOURCC codes. FrameMemoryType IOPattern mfxHandleType mfxIMPL mfxStatus PicStruct RateControlMethod TargetUsage This describes the tradeoff between speed and quality to select. 1 = 100% quality over speed 7 = 100% speed over quality"
   },
+  "api/api.html": {
+    "href": "api/api.html",
+    "title": "API Introduction | The Lime Video SDK",
+    "keywords": "Starting with the Sample C# Projects is the recommended way to get started, with use of this API reference suggested once you have the samples running on your system. API Introduction Primary Functional Classes of Interest StreamTranscoder : Transcoder: Consumes bitstreams, and outputs bitstreams. StreamDecoder : Decoder: Consumes bitstreams, and outputs uncompressed frames. LowLevelEncoderCSharp : Encoder: Consumes uncompressed frames, and outputs bitstreams. See Bitstreams to learn more about suitable input/output formats Primary Namespaces of Interest The main namespace is LimeVideoSDK.QuickSync , and this contains the main transcoding, encoding, and decoding classes. Namespaces Explained LimeVideoSDK.QuickSync"
+  },
+  "hiddensamples.html": {
+    "href": "hiddensamples.html",
+    "title": "hidden samples md | The Lime Video SDK",
+    "keywords": "hidden samples md this file is just used to serve as a reference during authorship. Intel Quick Sync Video zzz1"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Lime Video SDK | The Lime Video SDK",
+    "keywords": "Introduction to the Lime Video SDK [UNDER CONSTRUCTION 1.5.2017] What is the Lime Video SDK? C# & .NET SDK enables transcoding, encoding, and decoding of video bitstreams. Hardware accelerated transcoding, encoding, and decoding on most Intel CPUs. 100% BSD open source software without limitations or binary blobs. Ready to run C# samples for transcoding, encoding, decoding, and screen-playback. Software-only fallback support for CPUs without hardware acceleration. Windows enabled now, Linux enabled soon. Compressed formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG. Uncompressed formats: RGB3, RGB4, BGR4, BGR3, NV12, I420, IYUV, YUY2, UYVY, YV12, P411, P422 .NET assemblies enables C#, F#, VB.NET usage out of the box. Major Features GPU based coding The LVSDK supports Intel CPU+GPU based acceleration on Intel CPUs supporting HD Graphics. By using the hardware GPU features encode/decode/transcode can run much faster than it does on the CPU. CPU utilization is lower also. The SDK utilizes the feature known as Intel Quick Sync Video. Wiki Intel Quick Sync Video CPU based coding For non-Intel CPUs, and Intel CPUs not supporting HD Graphics, software fallback is available. Please see Software Fallback for more information about enabling software fallback. BSD Open Source License All C# and C++ code in the libraries is part of the SDK, there are no hidden bits, nothing you cannot see. The BSD open source license is one of the most permission, friendly, flexible open source licenses, period. Transcoding Video Transcoding converts compressed bitstreams to compressed bitstreams Input formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG Output formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG Encoding Video Encoding converts uncompressed frames to compressed bitstreams or elementary streams. Input formats: RGB3, RGB4, BGR4, BGR3, NV12, I420, IYUV, YUY2, UYVY, YV12, P411, P422 Output formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG Decoding Video Decoding converts compressed bitstreams to uncompressed frames. Input formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG Output formats: RGB3, RGB4, BGR4, BGR3, NV12, I420, IYUV, YUY2, UYVY, YV12, P411, P422 Some redundant terms have been repeated such as HEVC for H.265 to make help searching easier. Playing Video Playing of video is currently supported on Windows, and may be in Linux at some point. [contact us for more info] Input formats: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG Getting Started With Samples There are samples for transcoding, encoding, decoding, and playing back of video, among other things. Please seek the Sample C# Projects page to get started with the samples. Future Work Currently the SDK provides only the codec building blocks of typical video and media handling systems. We hope one day to includes functions such as MP4, RTMP, RTSP/RTP, and possible others. Contact us if your company is looking to sponsor projects like these @contact"
+  },
+  "linksinc.html": {
+    "href": "linksinc.html",
+    "title": "| The Lime Video SDK",
+    "keywords": ""
+  },
+  "reference/bitstreams.html": {
+    "href": "reference/bitstreams.html",
+    "title": "Bitstreams | The Lime Video SDK",
+    "keywords": "Bitstreams or Elementary Streams In order to keep the documentation simple, the term 'bitstream' is used interchangeably with the term 'elementary stream'. Compressed Bitstream Formats The very latest versions of Intel CPUs have hardware support for the following bitstreams: H.265, H.264, MPEG-2, VP9, VC-1, MVC, and MJPEG H.265 is also known as HEVC, H.264 is also known as AVC, and sometimes MJPEG is referred to as JPEG What hardware bitstream support you have in your CPU really depends upon which generation of internal GPU core your CPU contains. If you are running on 9th, or 9.5th generation graphics you can fairly well expect to get hardware support for all the formats in the above list. [9th and 9.5th Gen are found in Skylake and Kaby Lake CPUs] As you go farther back in time you lose some levels of support, for example, Haswell has excellent support for H.264, but there is only partial support for H.265. If you are on Ivy Bridge or Sandy Bridge, there is H.264 support, but no H.265 support whatsoever. In the future, this section should be updated with a table showing bitstream support by Intel Core generation. This page talks about Intel Graphics Generations: https://en.wikipedia.org/wiki/Intel_HD_and_Iris_Graphics"
+  },
+  "reference/fourcc.conversion.html": {
+    "href": "reference/fourcc.conversion.html",
+    "title": "Converting Frame Formats | The Lime Video SDK",
+    "keywords": "Converting Frame Formats CPU based FourCC frame format conversion GPU based format conversion can be simpler to use than GPU format conversion, but can have the disadvantage of utilizing CPU cycles in situations where you are trying to use the CPU for other things. GPU based FourCC frame format conversion GPU based format conversion can have the advantage of higher performance, and little or no impact upon CPU utilization. It can be much tricker to use than CPU format conversion also. The primary FourCC used by the GPU is NV12, the GPU can also convert NV12 to and from a number of other formats Other FourCC formats, such as UYVY, RGB4, YUY2 are sometimes available for Quick Sync functions. Some of this may depend on your CPU/graphics-generation. Your ability to use this from the LVSDK will depend on the functions you use, and what has been supported. You can use the [Player1 Sample] to see how the sample configures the [StreamDecoder] class to do GPU based conversion from the internal NV12 format to RGB4 format."
+  },
+  "reference/frame.format.conversion.html": {
+    "href": "reference/frame.format.conversion.html",
+    "title": "Converting Frame Formats | The Lime Video SDK",
+    "keywords": "Converting Frame Formats Comparing CPU and GPU format conversion The Lime Video SDK supports two types of frame format conversion: CPU-based and GPU-based. The differences are explained below. The primary uncompressed format used internally is NV12. CPU based FourCC frame format conversion CPU based format conversion can be simpler to use than GPU format conversion, and provides a larger number of FourCC options, but can have the disadvantage of utilizing CPU cycles in situations where you are trying to use the CPU for other things. Classes for CPU based conversion are found in the CPUConvertResize namespace. Primary classes are: NV12ToXXXXConverter , and NV12FromXXXXConverter . We recommend you stay with CPU conversion unless you are using one of the current formats described at the end of the next section. (RGB4 or YUY2) GPU based FourCC frame format conversion GPU based format conversion can have the advantage of higher performance, and little or no impact upon CPU utilization. It can be much tricker to setup and use than CPU format conversion, though. Also, the number of formats supported is much less than what is capable with CPU conversion. The primary FourCC used by the GPU is NV12, the GPU can also convert NV12 to and from a number of other formats. Other FourCC formats, such as RGB4 and YUY2 are sometimes available for Quick Sync functions. Some of this may depend on your CPU/graphics-generation. Your ability to use this from the LVSDK will depend on the functions you use, and what is supported. At this time using RGB4 for StreamDecoder output is supported, and YUY2 for MJPEG encode/decode, anything else has not been extensively tested, and may not work without improvements. Format conversion by coding type For decoding with GPU conversion, you can use the Player1 sample to see how the sample configures the StreamDecoder class to do GPU based conversion from the internal NV12 format to RGB4 format. For decoding with CPU conversion, you can explore the Decoder1 sample to set how the NV12ToXXXXConverter class is used to convert from NV12 to a number of different outputs. For encoding, at this time, GPU conversion is not supported, but CPU conversion is. The Encoder1 sample shows how to use the NV12FromXXXXConverter class to convert to NV12 when encoding. For transcoding, frames stay in NV12 format, and format conversion is not needed or useful."
+  },
+  "reference/imsdk.html": {
+    "href": "reference/imsdk.html",
+    "title": "Intel Quick Sync Video | The Lime Video SDK",
+    "keywords": "Intel Quick Sync Video General background on Intel Quick Sync Video On most modern Intel consumer CPUs, and specific Xeon server CPUs, there is often an integrated GPU inside the CPU. The integrated GPU may act as a video card, and can provide video related functions. In particular Intel's Quick Sync Video provides functionality for encoding, decoding, and transcoding of video elementary streams such as: HEVC, H.265, AVC, H.264, MPEG-2, VP9, VC-1, MVC, JPEG, and MJPEG The Lime Video SDK bring Quick Sync Video functions to languages like C#, F#, VB.NET on platforms that .NET can run on. Throughout this documentation GPU will be used to refer to Intel's integrated GPU inside the CPU chip. These links can provide some background on Intel Quick Sync Video, and Intel's graphic architecture: Wiki: Intel_Quick_Sync_Video Wiki: Intel_HD_and_Iris_Graphics Wiki: List_of_Intel_graphics_processing_units Intel Media SDK Reference Documentation The Lime Video SDK uses the Intel Media SDK to get access to the Quick Sync functions inside the CPU and GPU. Sometimes it can be helpful to review the documentation for the low layer C++ SDK when using the Lime Video SDK. Our preferred method for viewing the documentation is to download the latest version of the Intel Media SDK, install it, and to find this file in the distribution: mediasdk-man.pdf You might also find this link useful: https://software.intel.com/en-us/media-sdk/documentation But our experience is that the online-reference documentation is incomplete, and we believe you will have a better experience with the PDF files from the SDK downloads."
+  },
+  "reference/linux.html": {
+    "href": "reference/linux.html",
+    "title": "Linux Support | The Lime Video SDK",
+    "keywords": "Linux Support Linux Support [as of 12.29.2016] We have had all the samples running on Linux under Mono, with the exception of Player1 which requires DirectX. But, currently Linux testing and maintenance is not up to snuff. Really, the next step is to switch from Mono to .NET core, and build a set of unit tests around the samples to verify operation at build time on an appropriate system. [Sadly both Windows and Linux CI cloud solutions will not be able to run unit tests with hardware mode, because the CI cloud providers don't provide virtual environments capable of Quick Sync operation. Software fallback will work on Windows, and may work on Linux too] If you need Linux support, please contact me, as I would invest some time getting stuff ship-shape [in good condition] with an active end-user providing feedback."
+  },
+  "reference/reference.html": {
+    "href": "reference/reference.html",
+    "title": "Reference Help Topics | The Lime Video SDK",
+    "keywords": "Reference Help Topics Uncompressed FOURCC Formats FourCC formats are a system of naming and characterizing uncompressed video frame formats. Link: Wiki-FourCC Normally, \"NV12\" is the primary internal native format the Quick Sync Hardware uses. There are two ways that FourCC formats may be converted: CPU based FourCC frame format conversion. Link GPU frame format conversion. Link"
+  },
+  "reference/resizing.html": {
+    "href": "reference/resizing.html",
+    "title": "Resizing Frames | The Lime Video SDK",
+    "keywords": "Resizing Frames <!-- BEGIN INCLUDE: Include content from \"linksinc.md\" --> <!--END INCLUDE --> There are two ways frames may be resized, by the GPU or by the CPU. The CPU methods are simple to use, and are based around NV12 frame resizing. We recommend starting with the simple CPUs methods, and switching to GPU methods as your project gets mature and need optimization. CPU based resizing method GPU based resizing method The GPU resizing methods can be used by using the these classes: [StreamDecoder],[StreamTranscoder] The trick is to properly configure the inputs to the constructors. The encoder does not do resizing at the time. To get GPU resizing to occur in the [StreamDecoder], the constructor containing two [mfxVideoParam]s must be used. The second [mfxVideoParam] named: mfxVPPParams controls resizing. You can use the To get GPU resizing to occur in the StreamTranscoder, the TranscoderConfig must have the [mfxVideoParam] element, [vppParams] setup properly."
+  },
+  "reference/software.fallback.html": {
+    "href": "reference/software.fallback.html",
+    "title": "Software Fallback | The Lime Video SDK",
+    "keywords": "Software Fallback What is Software Fallback? Sometimes your need to use the SDK when hardware acceleration is not possible. Reasons for this include: You computer doesn't support Quick Sync, you need to do testing in a virtual machine, etc. In these cases, you need software fallback mode. If you use the mfxIMPL.MFX_IMPL_AUTO flag inside the SDK, this can occur automatically if there is no integrated GPU, or you don't have your drivers correctly configured. If you use the flag 'mfxIMPL.MFX_IMPL_SOFTWARE' at the appropriate place, you can force the use of software mode to occur. Configuring The Availability of Software Fallback For software fallback to work, a software fallback library from Intel needs to be able on the PATH, this file is named \"libmfxsw64.dll\". This library does not currently ship with the LVSDK due to licensing concerns. It might in the future. The best way to make sure that \"libmfxsw64.dll\" is available when needed is to follow these steps: Make sure \"libmfxsw64.dll\" is not already available: Open a new Command Window Run the command: \"C:> where libmfxsw64.dll\" If there \"where\" command shows paths where the DLL can be found you are ready to go. If is not found on your, system, install the free Intel Media SDK , or the Media Server Studio SDK . Open a new Cmd.exe window Open a new Command Window Run the command: \"C:> where libmfxsw64.dll\" The output should confirm the path to the DLL, and then, you are ready to use software fallback."
+  },
+  "restapi/comingsoon.html": {
+    "href": "restapi/comingsoon.html",
+    "title": "REST API NOTES | The Lime Video SDK",
+    "keywords": "REST API NOTES Transcoder REST API A Transcoder REST API is planned, but not yet available. If this is useful to you, please contact me, as an end-user/tester would help make this a priority. Go to @contact to contact the maintainers."
+  },
+  "samples/samples.html": {
+    "href": "samples/samples.html",
+    "title": "Sample C# Projects | The Lime Video SDK",
+    "keywords": "Sample C# Projects Preparing your system We recommend you read the article @prepare_your_system to make sure that your motherboard and CPU are capable, and that the correct Intel HD Graphics drivers are installed. @prepare_your_system Primary Samples Transcoder1 C# Sample This sample shows transcoding of video. By default it takes H.264 input, and writes H.264 output. It transcodes Big Buck Bunny to a new bitstream. The class StreamTranscoder is passed a stream and frames are read back one by one and written to disk. Decoder1 C# Sample This sample shows decoding of compressed video bitstreams. By default it takes H.264 input, and writes NV12 output. It decodes Big Buck Bunny to uncompressed frames. The class [StreamDecoder] is passed a stream and frames are read back one by one and written to disk. Encoder1 This sample shows encoding of uncompressed frames. By default it takes NV12 input, and writes H.264 output. A class implementing ILowLevelEncoder is passed individual frames, and compressed frames are returned from the encoder engine, one by one. Player1 C# Sample This sample shows how to decode frames to memory, and display them using Direct 3D. The frames can be decoded to either system-memory or video-memory, the difference is a complex topic and shall be covered in a separate article. The system-memory or video-memory behavior is controlled by a bool at the start program. This sample only works on Windows, and with systems supporting DirectX 11. It is unclear if this example will work on Windows 7. Win7 has partial DirectX 11 support. It is known to work on Windows 8 and Windows 10. The StreamDecoder class is used to produce frames, and SharpDX and Direct3D11 is used display the frames one by one. Special Case Samples _SystemCapabilities C# Sample This program simply tests to see if you are ready for either: Hardware Quick Sync encode/decode/transcode. Software fallback encode/decode/transcode. Decoder50 C# Sample This is an advanced unusual special case sample. This sample is paired with Encoder50. It demonstrates UYVY to/from MJPEG. Newer CPUs/IGPs can do YUY2-> MJPEG, and MJPEG->YUY2. What these two samples demonstrate is encoding UYVY as if it is YUY2. This means the following: No color space conversion is needed to or from UYVY. [normally UYVY <-> NV12 or UYVY <-> YUY2 is needed, which can take CPU time] Because the final .jpeg output has color planes reverse, you cannot display the Jpeg normally. This sample is suitable for showing do to send/receive to Blackmagic Design UYVY cards and products such as the Decklink series. Encoder50 C# Sample This sample is the counterpart to Decoder50, which is for MJPEG to/from UYVY Transcoder3 C# Sample This shows how to directly use the LowLevelTranscoderCSharp class without streams, but instead byte arrays."
+  },
   "api/toc.html": {
     "href": "api/toc.html",
     "title": "Table of Content",
     "keywords": ""
+  },
+  "toc.html": {
+    "href": "toc.html",
+    "title": "Table of Content",
+    "keywords": ""
+  },
+  "reference/toc.html": {
+    "href": "reference/toc.html",
+    "title": "Table of Content",
+    "keywords": ""
+  },
+  "restapi/toc.html": {
+    "href": "restapi/toc.html",
+    "title": "Table of Content",
+    "keywords": ""
+  },
+  "samples/toc.html": {
+    "href": "samples/toc.html",
+    "title": "Table of Content",
+    "keywords": ""
+  },
+  "api/LimeVideoSDK.QuickSyncTypes.CodecId.html": {
+    "href": "api/LimeVideoSDK.QuickSyncTypes.CodecId.html",
+    "title": "Enum CodecId | The Lime Video SDK",
+    "keywords": "Enum CodecId Namespace :LimeVideoSDK.QuickSyncTypes Assembly :LimeVideoSDKQuickSync.dll Syntax public enum CodecId : uint Fields Name Description MFX_CODEC_AVC MFX_CODEC_CAPTURE MFX_CODEC_HEVC MFX_CODEC_JPEG MFX_CODEC_MPEG2 MFX_CODEC_VC1"
+  },
+  "api/LimeVideoSDK.QuickSyncTypes.CustomMemId.html": {
+    "href": "api/LimeVideoSDK.QuickSyncTypes.CustomMemId.html",
+    "title": "Struct CustomMemId | The Lime Video SDK",
+    "keywords": "Struct CustomMemId Namespace :LimeVideoSDK.QuickSyncTypes Assembly :LimeVideoSDKQuickSync.dll Syntax public struct CustomMemId Fields | Improve this Doc View Source memId Declaration public IntPtr memId Field Value Type Description System.IntPtr | Improve this Doc View Source memIdStage Declaration public IntPtr memIdStage Field Value Type Description System.IntPtr | Improve this Doc View Source rw Declaration public ushort rw Field Value Type Description System.UInt16"
+  },
+  "api/LimeVideoSDK.QuickSyncTypes.FourCC.html": {
+    "href": "api/LimeVideoSDK.QuickSyncTypes.FourCC.html",
+    "title": "Enum FourCC | The Lime Video SDK",
+    "keywords": "Enum FourCC These define a number of four byte codes that define video frame color space and memory layout characteristics. Otherwise know as FOURCC codes. Namespace :LimeVideoSDK.QuickSyncTypes Assembly :LimeVideoSDKQuickSync.dll Syntax public enum FourCC : uint Fields Name Description BGR3 BGR4 I420 I420_IYUV IYUV NV12 P411 P422 RGB3 RGB4 UYVY YUY2 YV12"
+  },
+  "api/LimeVideoSDK.QuickSyncTypes.FrameMemoryType.html": {
+    "href": "api/LimeVideoSDK.QuickSyncTypes.FrameMemoryType.html",
+    "title": "Enum FrameMemoryType | The Lime Video SDK",
+    "keywords": "Enum FrameMemoryType Namespace :LimeVideoSDK.QuickSyncTypes Assembly :LimeVideoSDKQuickSync.dll Syntax public enum FrameMemoryType : ushort Fields Name Description MFX_MEMTYPE_DXVA2_DECODER_TARGET MFX_MEMTYPE_DXVA2_PROCESSOR_TARGET MFX_MEMTYPE_EXTERNAL_FRAME MFX_MEMTYPE_FROM_DECODE MFX_MEMTYPE_FROM_ENCODE MFX_MEMTYPE_FROM_VPPIN MFX_MEMTYPE_FROM_VPPOUT MFX_MEMTYPE_INTERNAL_FRAME MFX_MEMTYPE_OPAQUE_FRAME MFX_MEMTYPE_RESERVED1 MFX_MEMTYPE_SYSTEM_MEMORY MFX_MEMTYPE_VIDEO_MEMORY_DECODER_TARGET MFX_MEMTYPE_VIDEO_MEMORY_PROCESSOR_TARGET WILL_READ WILL_WRITE"
   }
 }
