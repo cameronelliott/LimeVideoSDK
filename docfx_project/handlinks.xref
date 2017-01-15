@@ -1,0 +1,9 @@
+### YamlMime:XRefMap
+hrefUpdated: true
+references:
+- uid: foo1
+  name: "Intel Quick Sync Video"
+  href: https://en.wikipedia.org/wiki/Intel_Quick_Sync_Video
+- uid: Intel_HD_and_Iris_Graphics
+  name: "Intel HD and Iris Graphics"
+  href: https://en.wikipedia.org/wiki/Intel_HD_and_Iris_Graphics

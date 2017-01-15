@@ -1,6 +1,0 @@
-﻿# - name: xPet Store API
-#   href: petstore.swagger.json
-# - name: xContacts API
-#   href: contacts_swagger2.json
-- name: Coming Soon
-  href: comingsoon.md

@@ -19,7 +19,7 @@
     }
   ],
   "build": {
-   
+    "xref": ["handlinks.xref"],
     "content": [
       {
         "files": [

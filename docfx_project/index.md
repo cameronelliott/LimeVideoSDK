@@ -7,7 +7,7 @@ title: Lime Video SDK
 
 # Introduction to the Lime Video SDK  
 
-####[UNDER CONSTRUCTION 1.5.2017]
+#### [UNDER CONSTRUCTION 1.5.2017]
 ## What is the Lime Video SDK?
 
 - **C# & .NET SDK enables transcoding, encoding, and decoding of video bitstreams.**
