@@ -180,7 +180,7 @@ references:
   fullName: LimeVideoSDK.CPUConvertResize.NV12FromXXXXConverter.ConvertToNV12(System.Byte[], System.Boolean)
   fullName.vb: LimeVideoSDK.CPUConvertResize.NV12FromXXXXConverter.ConvertToNV12(System.Byte(), System.Boolean)
   nameWithType: NV12FromXXXXConverter.ConvertToNV12(Byte[], Boolean)
-  nameWithType.vb: ConvertToNV12(Byte(), Boolean)
+  nameWithType.vb: NV12FromXXXXConverter.ConvertToNV12(Byte(), Boolean)
 - uid: LimeVideoSDK.CPUConvertResize.NV12FromXXXXConverter.ConvertToNV12*
   name: ConvertToNV12
   href: api/LimeVideoSDK.CPUConvertResize.NV12FromXXXXConverter.html#LimeVideoSDK_CPUConvertResize_NV12FromXXXXConverter_ConvertToNV12_
@@ -195,7 +195,7 @@ references:
   fullName: LimeVideoSDK.CPUConvertResize.NV12FromXXXXConverter.ConvertToNV12FrameSurface(ref LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1, System.Byte[], System.Int32)
   fullName.vb: LimeVideoSDK.CPUConvertResize.NV12FromXXXXConverter.ConvertToNV12FrameSurface(ByRef LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1, System.Byte(), System.Int32)
   nameWithType: NV12FromXXXXConverter.ConvertToNV12FrameSurface(ref mfxFrameSurface1, Byte[], Int32)
-  nameWithType.vb: ConvertToNV12FrameSurface(ByRef mfxFrameSurface1, Byte(), Int32)
+  nameWithType.vb: NV12FromXXXXConverter.ConvertToNV12FrameSurface(ByRef mfxFrameSurface1, Byte(), Int32)
 - uid: LimeVideoSDK.CPUConvertResize.NV12FromXXXXConverter.ConvertToNV12FrameSurface(System.IntPtr@,System.Byte[],System.Int32)
   name: ConvertToNV12FrameSurface(ref IntPtr, Byte[], Int32)
   href: api/LimeVideoSDK.CPUConvertResize.NV12FromXXXXConverter.html#LimeVideoSDK_CPUConvertResize_NV12FromXXXXConverter_ConvertToNV12FrameSurface_System_IntPtr__System_Byte___System_Int32_
@@ -204,7 +204,7 @@ references:
   fullName: LimeVideoSDK.CPUConvertResize.NV12FromXXXXConverter.ConvertToNV12FrameSurface(ref System.IntPtr, System.Byte[], System.Int32)
   fullName.vb: LimeVideoSDK.CPUConvertResize.NV12FromXXXXConverter.ConvertToNV12FrameSurface(ByRef System.IntPtr, System.Byte(), System.Int32)
   nameWithType: NV12FromXXXXConverter.ConvertToNV12FrameSurface(ref IntPtr, Byte[], Int32)
-  nameWithType.vb: ConvertToNV12FrameSurface(ByRef IntPtr, Byte(), Int32)
+  nameWithType.vb: NV12FromXXXXConverter.ConvertToNV12FrameSurface(ByRef IntPtr, Byte(), Int32)
 - uid: LimeVideoSDK.CPUConvertResize.NV12FromXXXXConverter.ConvertToNV12FrameSurface*
   name: ConvertToNV12FrameSurface
   href: api/LimeVideoSDK.CPUConvertResize.NV12FromXXXXConverter.html#LimeVideoSDK_CPUConvertResize_NV12FromXXXXConverter_ConvertToNV12FrameSurface_
@@ -255,7 +255,7 @@ references:
   fullName: LimeVideoSDK.CPUConvertResize.NV12Resizer.Convert(System.Byte[])
   fullName.vb: LimeVideoSDK.CPUConvertResize.NV12Resizer.Convert(System.Byte())
   nameWithType: NV12Resizer.Convert(Byte[])
-  nameWithType.vb: Convert(Byte())
+  nameWithType.vb: NV12Resizer.Convert(Byte())
 - uid: LimeVideoSDK.CPUConvertResize.NV12Resizer.Convert*
   name: Convert
   href: api/LimeVideoSDK.CPUConvertResize.NV12Resizer.html#LimeVideoSDK_CPUConvertResize_NV12Resizer_Convert_
@@ -276,7 +276,7 @@ references:
   fullName: LimeVideoSDK.CPUConvertResize.NV12Resizer.ResizeNV12FrameSequence(System.Collections.Generic.IEnumerable<System.Byte[]>, System.Int32, System.Int32, System.Int32, System.Int32, System.Boolean)
   fullName.vb: LimeVideoSDK.CPUConvertResize.NV12Resizer.ResizeNV12FrameSequence(System.Collections.Generic.IEnumerable(Of System.Byte()), System.Int32, System.Int32, System.Int32, System.Int32, System.Boolean)
   nameWithType: NV12Resizer.ResizeNV12FrameSequence(IEnumerable<Byte[]>, Int32, Int32, Int32, Int32, Boolean)
-  nameWithType.vb: ResizeNV12FrameSequence(IEnumerable(Of Byte()), Int32, Int32, Int32, Int32, Boolean)
+  nameWithType.vb: NV12Resizer.ResizeNV12FrameSequence(IEnumerable(Of Byte()), Int32, Int32, Int32, Int32, Boolean)
 - uid: LimeVideoSDK.CPUConvertResize.NV12Resizer.ResizeNV12FrameSequence*
   name: ResizeNV12FrameSequence
   href: api/LimeVideoSDK.CPUConvertResize.NV12Resizer.html#LimeVideoSDK_CPUConvertResize_NV12Resizer_ResizeNV12FrameSequence_
@@ -315,7 +315,7 @@ references:
   fullName: LimeVideoSDK.CPUConvertResize.NV12ToXXXXConverter.ConvertFromNV12(System.Byte[], System.Boolean)
   fullName.vb: LimeVideoSDK.CPUConvertResize.NV12ToXXXXConverter.ConvertFromNV12(System.Byte(), System.Boolean)
   nameWithType: NV12ToXXXXConverter.ConvertFromNV12(Byte[], Boolean)
-  nameWithType.vb: ConvertFromNV12(Byte(), Boolean)
+  nameWithType.vb: NV12ToXXXXConverter.ConvertFromNV12(Byte(), Boolean)
 - uid: LimeVideoSDK.CPUConvertResize.NV12ToXXXXConverter.ConvertFromNV12*
   name: ConvertFromNV12
   href: api/LimeVideoSDK.CPUConvertResize.NV12ToXXXXConverter.html#LimeVideoSDK_CPUConvertResize_NV12ToXXXXConverter_ConvertFromNV12_
@@ -840,7 +840,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.ILowLevelDecoder.DecodeFrame(out System.Nullable<LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1>)
   fullName.vb: LimeVideoSDK.QuickSync.ILowLevelDecoder.DecodeFrame(ByRef System.Nullable(Of LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1))
   nameWithType: ILowLevelDecoder.DecodeFrame(out Nullable<mfxFrameSurface1>)
-  nameWithType.vb: DecodeFrame(ByRef Nullable(Of mfxFrameSurface1))
+  nameWithType.vb: ILowLevelDecoder.DecodeFrame(ByRef Nullable(Of mfxFrameSurface1))
 - uid: LimeVideoSDK.QuickSync.ILowLevelDecoder.DecodeFrame*
   name: DecodeFrame
   href: api/LimeVideoSDK.QuickSync.ILowLevelDecoder.html#LimeVideoSDK_QuickSync_ILowLevelDecoder_DecodeFrame_
@@ -855,7 +855,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.ILowLevelDecoder.Flush1(out System.Nullable<LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1>)
   fullName.vb: LimeVideoSDK.QuickSync.ILowLevelDecoder.Flush1(ByRef System.Nullable(Of LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1))
   nameWithType: ILowLevelDecoder.Flush1(out Nullable<mfxFrameSurface1>)
-  nameWithType.vb: Flush1(ByRef Nullable(Of mfxFrameSurface1))
+  nameWithType.vb: ILowLevelDecoder.Flush1(ByRef Nullable(Of mfxFrameSurface1))
 - uid: LimeVideoSDK.QuickSync.ILowLevelDecoder.Flush1*
   name: Flush1
   href: api/LimeVideoSDK.QuickSync.ILowLevelDecoder.html#LimeVideoSDK_QuickSync_ILowLevelDecoder_Flush1_
@@ -870,7 +870,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.ILowLevelDecoder.Flush2(out System.Nullable<LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1>)
   fullName.vb: LimeVideoSDK.QuickSync.ILowLevelDecoder.Flush2(ByRef System.Nullable(Of LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1))
   nameWithType: ILowLevelDecoder.Flush2(out Nullable<mfxFrameSurface1>)
-  nameWithType.vb: Flush2(ByRef Nullable(Of mfxFrameSurface1))
+  nameWithType.vb: ILowLevelDecoder.Flush2(ByRef Nullable(Of mfxFrameSurface1))
 - uid: LimeVideoSDK.QuickSync.ILowLevelDecoder.Flush2*
   name: Flush2
   href: api/LimeVideoSDK.QuickSync.ILowLevelDecoder.html#LimeVideoSDK_QuickSync_ILowLevelDecoder_Flush2_
@@ -909,7 +909,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.ILowLevelDecoder.PutBitstream(System.Byte[], System.Int32, System.Int32)
   fullName.vb: LimeVideoSDK.QuickSync.ILowLevelDecoder.PutBitstream(System.Byte(), System.Int32, System.Int32)
   nameWithType: ILowLevelDecoder.PutBitstream(Byte[], Int32, Int32)
-  nameWithType.vb: PutBitstream(Byte(), Int32, Int32)
+  nameWithType.vb: ILowLevelDecoder.PutBitstream(Byte(), Int32, Int32)
 - uid: LimeVideoSDK.QuickSync.ILowLevelDecoder.PutBitstream*
   name: PutBitstream
   href: api/LimeVideoSDK.QuickSync.ILowLevelDecoder.html#LimeVideoSDK_QuickSync_ILowLevelDecoder_PutBitstream_
@@ -978,7 +978,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.ILowLevelEncoder.EncodeFrame(System.Int32, ref LimeVideoSDK.QuickSync.BitStreamChunk)
   fullName.vb: LimeVideoSDK.QuickSync.ILowLevelEncoder.EncodeFrame(System.Int32, ByRef LimeVideoSDK.QuickSync.BitStreamChunk)
   nameWithType: ILowLevelEncoder.EncodeFrame(Int32, ref BitStreamChunk)
-  nameWithType.vb: EncodeFrame(Int32, ByRef BitStreamChunk)
+  nameWithType.vb: ILowLevelEncoder.EncodeFrame(Int32, ByRef BitStreamChunk)
 - uid: LimeVideoSDK.QuickSync.ILowLevelEncoder.EncodeFrame*
   name: EncodeFrame
   href: api/LimeVideoSDK.QuickSync.ILowLevelEncoder.html#LimeVideoSDK_QuickSync_ILowLevelEncoder_EncodeFrame_
@@ -993,7 +993,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.ILowLevelEncoder.Flush(ref LimeVideoSDK.QuickSync.BitStreamChunk)
   fullName.vb: LimeVideoSDK.QuickSync.ILowLevelEncoder.Flush(ByRef LimeVideoSDK.QuickSync.BitStreamChunk)
   nameWithType: ILowLevelEncoder.Flush(ref BitStreamChunk)
-  nameWithType.vb: Flush(ByRef BitStreamChunk)
+  nameWithType.vb: ILowLevelEncoder.Flush(ByRef BitStreamChunk)
 - uid: LimeVideoSDK.QuickSync.ILowLevelEncoder.Flush*
   name: Flush
   href: api/LimeVideoSDK.QuickSync.ILowLevelEncoder.html#LimeVideoSDK_QuickSync_ILowLevelEncoder_Flush_
@@ -1074,7 +1074,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.LowLevelDecoderCSharp(LimeVideoSDK.QuickSyncTypes.mfxVideoParam, System.Nullable<LimeVideoSDK.QuickSyncTypes.mfxVideoParam>, LimeVideoSDK.QuickSyncTypes.mfxIMPL)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.LowLevelDecoderCSharp(LimeVideoSDK.QuickSyncTypes.mfxVideoParam, System.Nullable(Of LimeVideoSDK.QuickSyncTypes.mfxVideoParam), LimeVideoSDK.QuickSyncTypes.mfxIMPL)
   nameWithType: LowLevelDecoderCSharp.LowLevelDecoderCSharp(mfxVideoParam, Nullable<mfxVideoParam>, mfxIMPL)
-  nameWithType.vb: LowLevelDecoderCSharp(mfxVideoParam, Nullable(Of mfxVideoParam), mfxIMPL)
+  nameWithType.vb: LowLevelDecoderCSharp.LowLevelDecoderCSharp(mfxVideoParam, Nullable(Of mfxVideoParam), mfxIMPL)
 - uid: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.#ctor*
   name: LowLevelDecoderCSharp
   href: api/LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelDecoderCSharp__ctor_
@@ -1089,7 +1089,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.DecodeFrame(out System.Nullable<LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1>)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.DecodeFrame(ByRef System.Nullable(Of LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1))
   nameWithType: LowLevelDecoderCSharp.DecodeFrame(out Nullable<mfxFrameSurface1>)
-  nameWithType.vb: DecodeFrame(ByRef Nullable(Of mfxFrameSurface1))
+  nameWithType.vb: LowLevelDecoderCSharp.DecodeFrame(ByRef Nullable(Of mfxFrameSurface1))
 - uid: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.DecodeFrame*
   name: DecodeFrame
   href: api/LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelDecoderCSharp_DecodeFrame_
@@ -1134,7 +1134,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.Flush1(out System.Nullable<LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1>)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.Flush1(ByRef System.Nullable(Of LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1))
   nameWithType: LowLevelDecoderCSharp.Flush1(out Nullable<mfxFrameSurface1>)
-  nameWithType.vb: Flush1(ByRef Nullable(Of mfxFrameSurface1))
+  nameWithType.vb: LowLevelDecoderCSharp.Flush1(ByRef Nullable(Of mfxFrameSurface1))
 - uid: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.Flush1*
   name: Flush1
   href: api/LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelDecoderCSharp_Flush1_
@@ -1149,7 +1149,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.Flush2(out System.Nullable<LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1>)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.Flush2(ByRef System.Nullable(Of LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1))
   nameWithType: LowLevelDecoderCSharp.Flush2(out Nullable<mfxFrameSurface1>)
-  nameWithType.vb: Flush2(ByRef Nullable(Of mfxFrameSurface1))
+  nameWithType.vb: LowLevelDecoderCSharp.Flush2(ByRef Nullable(Of mfxFrameSurface1))
 - uid: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.Flush2*
   name: Flush2
   href: api/LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelDecoderCSharp_Flush2_
@@ -1175,7 +1175,7 @@ references:
   name.vb: LimeVideoSDK.QuickSync.ILowLevelDecoder.ClearBitstream()
   fullName: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.LimeVideoSDK.QuickSync.ILowLevelDecoder.ClearBitstream()
   nameWithType: LowLevelDecoderCSharp.ILowLevelDecoder.ClearBitstream()
-  nameWithType.vb: LimeVideoSDK.QuickSync.ILowLevelDecoder.ClearBitstream()
+  nameWithType.vb: LowLevelDecoderCSharp.LimeVideoSDK.QuickSync.ILowLevelDecoder.ClearBitstream()
 - uid: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.LimeVideoSDK#QuickSync#ILowLevelDecoder#ClearBitstream*
   name: ILowLevelDecoder.ClearBitstream
   href: api/LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelDecoderCSharp_LimeVideoSDK_QuickSync_ILowLevelDecoder_ClearBitstream_
@@ -1191,7 +1191,7 @@ references:
   name.vb: LimeVideoSDK.QuickSync.ILowLevelDecoder.session
   fullName: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.LimeVideoSDK.QuickSync.ILowLevelDecoder.session
   nameWithType: LowLevelDecoderCSharp.ILowLevelDecoder.session
-  nameWithType.vb: LimeVideoSDK.QuickSync.ILowLevelDecoder.session
+  nameWithType.vb: LowLevelDecoderCSharp.LimeVideoSDK.QuickSync.ILowLevelDecoder.session
 - uid: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.LimeVideoSDK#QuickSync#ILowLevelDecoder#session*
   name: ILowLevelDecoder.session
   href: api/LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelDecoderCSharp_LimeVideoSDK_QuickSync_ILowLevelDecoder_session_
@@ -1207,7 +1207,7 @@ references:
   name.vb: LimeVideoSDK.QuickSync.ILowLevelDecoder.videoAccelerationSupport
   fullName: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.LimeVideoSDK.QuickSync.ILowLevelDecoder.videoAccelerationSupport
   nameWithType: LowLevelDecoderCSharp.ILowLevelDecoder.videoAccelerationSupport
-  nameWithType.vb: LimeVideoSDK.QuickSync.ILowLevelDecoder.videoAccelerationSupport
+  nameWithType.vb: LowLevelDecoderCSharp.LimeVideoSDK.QuickSync.ILowLevelDecoder.videoAccelerationSupport
 - uid: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.LimeVideoSDK#QuickSync#ILowLevelDecoder#videoAccelerationSupport*
   name: ILowLevelDecoder.videoAccelerationSupport
   href: api/LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelDecoderCSharp_LimeVideoSDK_QuickSync_ILowLevelDecoder_videoAccelerationSupport_
@@ -1236,7 +1236,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.PutBitstream(System.Byte[], System.Int32, System.Int32)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.PutBitstream(System.Byte(), System.Int32, System.Int32)
   nameWithType: LowLevelDecoderCSharp.PutBitstream(Byte[], Int32, Int32)
-  nameWithType.vb: PutBitstream(Byte(), Int32, Int32)
+  nameWithType.vb: LowLevelDecoderCSharp.PutBitstream(Byte(), Int32, Int32)
 - uid: LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.PutBitstream*
   name: PutBitstream
   href: api/LimeVideoSDK.QuickSync.LowLevelDecoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelDecoderCSharp_PutBitstream_
@@ -1293,7 +1293,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelDecoderNative.LowLevelDecoderNative(LimeVideoSDK.QuickSyncTypes.mfxVideoParam, System.Nullable<LimeVideoSDK.QuickSyncTypes.mfxVideoParam>, LimeVideoSDK.QuickSyncTypes.mfxIMPL)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelDecoderNative.LowLevelDecoderNative(LimeVideoSDK.QuickSyncTypes.mfxVideoParam, System.Nullable(Of LimeVideoSDK.QuickSyncTypes.mfxVideoParam), LimeVideoSDK.QuickSyncTypes.mfxIMPL)
   nameWithType: LowLevelDecoderNative.LowLevelDecoderNative(mfxVideoParam, Nullable<mfxVideoParam>, mfxIMPL)
-  nameWithType.vb: LowLevelDecoderNative(mfxVideoParam, Nullable(Of mfxVideoParam), mfxIMPL)
+  nameWithType.vb: LowLevelDecoderNative.LowLevelDecoderNative(mfxVideoParam, Nullable(Of mfxVideoParam), mfxIMPL)
 - uid: LimeVideoSDK.QuickSync.LowLevelDecoderNative.#ctor*
   name: LowLevelDecoderNative
   href: api/LimeVideoSDK.QuickSync.LowLevelDecoderNative.html#LimeVideoSDK_QuickSync_LowLevelDecoderNative__ctor_
@@ -1332,7 +1332,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelDecoderNative.DecodeFrame(out System.Nullable<LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1>)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelDecoderNative.DecodeFrame(ByRef System.Nullable(Of LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1))
   nameWithType: LowLevelDecoderNative.DecodeFrame(out Nullable<mfxFrameSurface1>)
-  nameWithType.vb: DecodeFrame(ByRef Nullable(Of mfxFrameSurface1))
+  nameWithType.vb: LowLevelDecoderNative.DecodeFrame(ByRef Nullable(Of mfxFrameSurface1))
 - uid: LimeVideoSDK.QuickSync.LowLevelDecoderNative.DecodeFrame*
   name: DecodeFrame
   href: api/LimeVideoSDK.QuickSync.LowLevelDecoderNative.html#LimeVideoSDK_QuickSync_LowLevelDecoderNative_DecodeFrame_
@@ -1371,7 +1371,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelDecoderNative.Flush1(out System.Nullable<LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1>)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelDecoderNative.Flush1(ByRef System.Nullable(Of LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1))
   nameWithType: LowLevelDecoderNative.Flush1(out Nullable<mfxFrameSurface1>)
-  nameWithType.vb: Flush1(ByRef Nullable(Of mfxFrameSurface1))
+  nameWithType.vb: LowLevelDecoderNative.Flush1(ByRef Nullable(Of mfxFrameSurface1))
 - uid: LimeVideoSDK.QuickSync.LowLevelDecoderNative.Flush1*
   name: Flush1
   href: api/LimeVideoSDK.QuickSync.LowLevelDecoderNative.html#LimeVideoSDK_QuickSync_LowLevelDecoderNative_Flush1_
@@ -1386,7 +1386,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelDecoderNative.Flush2(out System.Nullable<LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1>)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelDecoderNative.Flush2(ByRef System.Nullable(Of LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1))
   nameWithType: LowLevelDecoderNative.Flush2(out Nullable<mfxFrameSurface1>)
-  nameWithType.vb: Flush2(ByRef Nullable(Of mfxFrameSurface1))
+  nameWithType.vb: LowLevelDecoderNative.Flush2(ByRef Nullable(Of mfxFrameSurface1))
 - uid: LimeVideoSDK.QuickSync.LowLevelDecoderNative.Flush2*
   name: Flush2
   href: api/LimeVideoSDK.QuickSync.LowLevelDecoderNative.html#LimeVideoSDK_QuickSync_LowLevelDecoderNative_Flush2_
@@ -1412,7 +1412,7 @@ references:
   name.vb: LimeVideoSDK.QuickSync.ILowLevelDecoder.session
   fullName: LimeVideoSDK.QuickSync.LowLevelDecoderNative.LimeVideoSDK.QuickSync.ILowLevelDecoder.session
   nameWithType: LowLevelDecoderNative.ILowLevelDecoder.session
-  nameWithType.vb: LimeVideoSDK.QuickSync.ILowLevelDecoder.session
+  nameWithType.vb: LowLevelDecoderNative.LimeVideoSDK.QuickSync.ILowLevelDecoder.session
 - uid: LimeVideoSDK.QuickSync.LowLevelDecoderNative.LimeVideoSDK#QuickSync#ILowLevelDecoder#session*
   name: ILowLevelDecoder.session
   href: api/LimeVideoSDK.QuickSync.LowLevelDecoderNative.html#LimeVideoSDK_QuickSync_LowLevelDecoderNative_LimeVideoSDK_QuickSync_ILowLevelDecoder_session_
@@ -1428,7 +1428,7 @@ references:
   name.vb: LimeVideoSDK.QuickSync.ILowLevelDecoder.videoAccelerationSupport
   fullName: LimeVideoSDK.QuickSync.LowLevelDecoderNative.LimeVideoSDK.QuickSync.ILowLevelDecoder.videoAccelerationSupport
   nameWithType: LowLevelDecoderNative.ILowLevelDecoder.videoAccelerationSupport
-  nameWithType.vb: LimeVideoSDK.QuickSync.ILowLevelDecoder.videoAccelerationSupport
+  nameWithType.vb: LowLevelDecoderNative.LimeVideoSDK.QuickSync.ILowLevelDecoder.videoAccelerationSupport
 - uid: LimeVideoSDK.QuickSync.LowLevelDecoderNative.LimeVideoSDK#QuickSync#ILowLevelDecoder#videoAccelerationSupport*
   name: ILowLevelDecoder.videoAccelerationSupport
   href: api/LimeVideoSDK.QuickSync.LowLevelDecoderNative.html#LimeVideoSDK_QuickSync_LowLevelDecoderNative_LimeVideoSDK_QuickSync_ILowLevelDecoder_videoAccelerationSupport_
@@ -1457,7 +1457,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelDecoderNative.PutBitstream(System.Byte[], System.Int32, System.Int32)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelDecoderNative.PutBitstream(System.Byte(), System.Int32, System.Int32)
   nameWithType: LowLevelDecoderNative.PutBitstream(Byte[], Int32, Int32)
-  nameWithType.vb: PutBitstream(Byte(), Int32, Int32)
+  nameWithType.vb: LowLevelDecoderNative.PutBitstream(Byte(), Int32, Int32)
 - uid: LimeVideoSDK.QuickSync.LowLevelDecoderNative.PutBitstream*
   name: PutBitstream
   href: api/LimeVideoSDK.QuickSync.LowLevelDecoderNative.html#LimeVideoSDK_QuickSync_LowLevelDecoderNative_PutBitstream_
@@ -1550,7 +1550,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.EncodeFrame(System.Int32, ref LimeVideoSDK.QuickSync.BitStreamChunk)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.EncodeFrame(System.Int32, ByRef LimeVideoSDK.QuickSync.BitStreamChunk)
   nameWithType: LowLevelEncoderCSharp.EncodeFrame(Int32, ref BitStreamChunk)
-  nameWithType.vb: EncodeFrame(Int32, ByRef BitStreamChunk)
+  nameWithType.vb: LowLevelEncoderCSharp.EncodeFrame(Int32, ByRef BitStreamChunk)
 - uid: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.EncodeFrame*
   name: EncodeFrame
   href: api/LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelEncoderCSharp_EncodeFrame_
@@ -1577,7 +1577,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.Flush(ref LimeVideoSDK.QuickSync.BitStreamChunk)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.Flush(ByRef LimeVideoSDK.QuickSync.BitStreamChunk)
   nameWithType: LowLevelEncoderCSharp.Flush(ref BitStreamChunk)
-  nameWithType.vb: Flush(ByRef BitStreamChunk)
+  nameWithType.vb: LowLevelEncoderCSharp.Flush(ByRef BitStreamChunk)
 - uid: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.Flush*
   name: Flush
   href: api/LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelEncoderCSharp_Flush_
@@ -1609,7 +1609,7 @@ references:
   name.vb: LimeVideoSDK.QuickSync.ILowLevelEncoder.Frames
   fullName: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.LimeVideoSDK.QuickSync.ILowLevelEncoder.Frames
   nameWithType: LowLevelEncoderCSharp.ILowLevelEncoder.Frames
-  nameWithType.vb: LimeVideoSDK.QuickSync.ILowLevelEncoder.Frames
+  nameWithType.vb: LowLevelEncoderCSharp.LimeVideoSDK.QuickSync.ILowLevelEncoder.Frames
 - uid: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.LimeVideoSDK#QuickSync#ILowLevelEncoder#Frames*
   name: ILowLevelEncoder.Frames
   href: api/LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelEncoderCSharp_LimeVideoSDK_QuickSync_ILowLevelEncoder_Frames_
@@ -1625,7 +1625,7 @@ references:
   name.vb: LimeVideoSDK.QuickSync.ILowLevelEncoder.session
   fullName: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.LimeVideoSDK.QuickSync.ILowLevelEncoder.session
   nameWithType: LowLevelEncoderCSharp.ILowLevelEncoder.session
-  nameWithType.vb: LimeVideoSDK.QuickSync.ILowLevelEncoder.session
+  nameWithType.vb: LowLevelEncoderCSharp.LimeVideoSDK.QuickSync.ILowLevelEncoder.session
 - uid: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.LimeVideoSDK#QuickSync#ILowLevelEncoder#session*
   name: ILowLevelEncoder.session
   href: api/LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelEncoderCSharp_LimeVideoSDK_QuickSync_ILowLevelEncoder_session_
@@ -1642,7 +1642,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.LockFrame(ref LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1, ref LimeVideoSDK.QuickSyncTypes.mfxFrameData)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.LockFrame(ByRef LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1, ByRef LimeVideoSDK.QuickSyncTypes.mfxFrameData)
   nameWithType: LowLevelEncoderCSharp.LockFrame(ref mfxFrameSurface1, ref mfxFrameData)
-  nameWithType.vb: LockFrame(ByRef mfxFrameSurface1, ByRef mfxFrameData)
+  nameWithType.vb: LowLevelEncoderCSharp.LockFrame(ByRef mfxFrameSurface1, ByRef mfxFrameData)
 - uid: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.LockFrame(System.IntPtr)
   name: LockFrame(IntPtr)
   href: api/LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelEncoderCSharp_LockFrame_System_IntPtr_
@@ -1669,7 +1669,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.UnlockFrame(ref LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1, ref LimeVideoSDK.QuickSyncTypes.mfxFrameData)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.UnlockFrame(ByRef LimeVideoSDK.QuickSyncTypes.mfxFrameSurface1, ByRef LimeVideoSDK.QuickSyncTypes.mfxFrameData)
   nameWithType: LowLevelEncoderCSharp.UnlockFrame(ref mfxFrameSurface1, ref mfxFrameData)
-  nameWithType.vb: UnlockFrame(ByRef mfxFrameSurface1, ByRef mfxFrameData)
+  nameWithType.vb: LowLevelEncoderCSharp.UnlockFrame(ByRef mfxFrameSurface1, ByRef mfxFrameData)
 - uid: LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.UnlockFrame(System.IntPtr)
   name: UnlockFrame(IntPtr)
   href: api/LimeVideoSDK.QuickSync.LowLevelEncoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelEncoderCSharp_UnlockFrame_System_IntPtr_
@@ -1738,7 +1738,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelEncoderNative.EncodeFrame(System.Int32, ref LimeVideoSDK.QuickSync.BitStreamChunk)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelEncoderNative.EncodeFrame(System.Int32, ByRef LimeVideoSDK.QuickSync.BitStreamChunk)
   nameWithType: LowLevelEncoderNative.EncodeFrame(Int32, ref BitStreamChunk)
-  nameWithType.vb: EncodeFrame(Int32, ByRef BitStreamChunk)
+  nameWithType.vb: LowLevelEncoderNative.EncodeFrame(Int32, ByRef BitStreamChunk)
 - uid: LimeVideoSDK.QuickSync.LowLevelEncoderNative.EncodeFrame*
   name: EncodeFrame
   href: api/LimeVideoSDK.QuickSync.LowLevelEncoderNative.html#LimeVideoSDK_QuickSync_LowLevelEncoderNative_EncodeFrame_
@@ -1753,7 +1753,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelEncoderNative.Flush(ref LimeVideoSDK.QuickSync.BitStreamChunk)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelEncoderNative.Flush(ByRef LimeVideoSDK.QuickSync.BitStreamChunk)
   nameWithType: LowLevelEncoderNative.Flush(ref BitStreamChunk)
-  nameWithType.vb: Flush(ByRef BitStreamChunk)
+  nameWithType.vb: LowLevelEncoderNative.Flush(ByRef BitStreamChunk)
 - uid: LimeVideoSDK.QuickSync.LowLevelEncoderNative.Flush*
   name: Flush
   href: api/LimeVideoSDK.QuickSync.LowLevelEncoderNative.html#LimeVideoSDK_QuickSync_LowLevelEncoderNative_Flush_
@@ -1906,7 +1906,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.Flush1(ref LimeVideoSDK.QuickSync.BitStreamChunk)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.Flush1(ByRef LimeVideoSDK.QuickSync.BitStreamChunk)
   nameWithType: LowLevelTranscoderCSharp.Flush1(ref BitStreamChunk)
-  nameWithType.vb: Flush1(ByRef BitStreamChunk)
+  nameWithType.vb: LowLevelTranscoderCSharp.Flush1(ByRef BitStreamChunk)
 - uid: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.Flush1*
   name: Flush1
   href: api/LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelTranscoderCSharp_Flush1_
@@ -1921,7 +1921,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.Flush2(ref LimeVideoSDK.QuickSync.BitStreamChunk)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.Flush2(ByRef LimeVideoSDK.QuickSync.BitStreamChunk)
   nameWithType: LowLevelTranscoderCSharp.Flush2(ref BitStreamChunk)
-  nameWithType.vb: Flush2(ByRef BitStreamChunk)
+  nameWithType.vb: LowLevelTranscoderCSharp.Flush2(ByRef BitStreamChunk)
 - uid: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.Flush2*
   name: Flush2
   href: api/LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelTranscoderCSharp_Flush2_
@@ -1936,7 +1936,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.Flush3(ref LimeVideoSDK.QuickSync.BitStreamChunk)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.Flush3(ByRef LimeVideoSDK.QuickSync.BitStreamChunk)
   nameWithType: LowLevelTranscoderCSharp.Flush3(ref BitStreamChunk)
-  nameWithType.vb: Flush3(ByRef BitStreamChunk)
+  nameWithType.vb: LowLevelTranscoderCSharp.Flush3(ByRef BitStreamChunk)
 - uid: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.Flush3*
   name: Flush3
   href: api/LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelTranscoderCSharp_Flush3_
@@ -1951,7 +1951,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.Flush4(ref LimeVideoSDK.QuickSync.BitStreamChunk)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.Flush4(ByRef LimeVideoSDK.QuickSync.BitStreamChunk)
   nameWithType: LowLevelTranscoderCSharp.Flush4(ref BitStreamChunk)
-  nameWithType.vb: Flush4(ByRef BitStreamChunk)
+  nameWithType.vb: LowLevelTranscoderCSharp.Flush4(ByRef BitStreamChunk)
 - uid: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.Flush4*
   name: Flush4
   href: api/LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelTranscoderCSharp_Flush4_
@@ -1966,7 +1966,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.GetNextFrame(ref LimeVideoSDK.QuickSync.BitStreamChunk)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.GetNextFrame(ByRef LimeVideoSDK.QuickSync.BitStreamChunk)
   nameWithType: LowLevelTranscoderCSharp.GetNextFrame(ref BitStreamChunk)
-  nameWithType.vb: GetNextFrame(ByRef BitStreamChunk)
+  nameWithType.vb: LowLevelTranscoderCSharp.GetNextFrame(ByRef BitStreamChunk)
 - uid: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.GetNextFrame*
   name: GetNextFrame
   href: api/LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelTranscoderCSharp_GetNextFrame_
@@ -1981,7 +1981,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.PutBitstream(System.Byte[], System.Int32, System.Int32)
   fullName.vb: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.PutBitstream(System.Byte(), System.Int32, System.Int32)
   nameWithType: LowLevelTranscoderCSharp.PutBitstream(Byte[], Int32, Int32)
-  nameWithType.vb: PutBitstream(Byte(), Int32, Int32)
+  nameWithType.vb: LowLevelTranscoderCSharp.PutBitstream(Byte(), Int32, Int32)
 - uid: LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.PutBitstream*
   name: PutBitstream
   href: api/LimeVideoSDK.QuickSync.LowLevelTranscoderCSharp.html#LimeVideoSDK_QuickSync_LowLevelTranscoderCSharp_PutBitstream_
@@ -2122,7 +2122,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.NativeLLDecoderUnsafeNativeMethods.NativeDecoder_PutBitstream(System.IntPtr, System.Byte[], System.Int32, System.Int32)
   fullName.vb: LimeVideoSDK.QuickSync.NativeLLDecoderUnsafeNativeMethods.NativeDecoder_PutBitstream(System.IntPtr, System.Byte(), System.Int32, System.Int32)
   nameWithType: NativeLLDecoderUnsafeNativeMethods.NativeDecoder_PutBitstream(IntPtr, Byte[], Int32, Int32)
-  nameWithType.vb: NativeDecoder_PutBitstream(IntPtr, Byte(), Int32, Int32)
+  nameWithType.vb: NativeLLDecoderUnsafeNativeMethods.NativeDecoder_PutBitstream(IntPtr, Byte(), Int32, Int32)
 - uid: LimeVideoSDK.QuickSync.NativeLLDecoderUnsafeNativeMethods.NativeDecoder_PutBitstream*
   name: NativeDecoder_PutBitstream
   href: api/LimeVideoSDK.QuickSync.NativeLLDecoderUnsafeNativeMethods.html#LimeVideoSDK_QuickSync_NativeLLDecoderUnsafeNativeMethods_NativeDecoder_PutBitstream_
@@ -2365,7 +2365,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.NullStream.Read(System.Byte[], System.Int32, System.Int32)
   fullName.vb: LimeVideoSDK.QuickSync.NullStream.Read(System.Byte(), System.Int32, System.Int32)
   nameWithType: NullStream.Read(Byte[], Int32, Int32)
-  nameWithType.vb: Read(Byte(), Int32, Int32)
+  nameWithType.vb: NullStream.Read(Byte(), Int32, Int32)
 - uid: LimeVideoSDK.QuickSync.NullStream.Read*
   name: Read
   href: api/LimeVideoSDK.QuickSync.NullStream.html#LimeVideoSDK_QuickSync_NullStream_Read_
@@ -2404,7 +2404,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.NullStream.Write(System.Byte[], System.Int32, System.Int32)
   fullName.vb: LimeVideoSDK.QuickSync.NullStream.Write(System.Byte(), System.Int32, System.Int32)
   nameWithType: NullStream.Write(Byte[], Int32, Int32)
-  nameWithType.vb: Write(Byte(), Int32, Int32)
+  nameWithType.vb: NullStream.Write(Byte(), Int32, Int32)
 - uid: LimeVideoSDK.QuickSync.NullStream.Write*
   name: Write
   href: api/LimeVideoSDK.QuickSync.NullStream.html#LimeVideoSDK_QuickSync_NullStream_Write_
@@ -2533,7 +2533,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.QualityMeasure.NV12RawFilesAreTheSame(System.Collections.Generic.IEnumerable<System.Byte>, System.Collections.Generic.IEnumerable<System.Byte>)
   fullName.vb: LimeVideoSDK.QuickSync.QualityMeasure.NV12RawFilesAreTheSame(System.Collections.Generic.IEnumerable(Of System.Byte), System.Collections.Generic.IEnumerable(Of System.Byte))
   nameWithType: QualityMeasure.NV12RawFilesAreTheSame(IEnumerable<Byte>, IEnumerable<Byte>)
-  nameWithType.vb: NV12RawFilesAreTheSame(IEnumerable(Of Byte), IEnumerable(Of Byte))
+  nameWithType.vb: QualityMeasure.NV12RawFilesAreTheSame(IEnumerable(Of Byte), IEnumerable(Of Byte))
 - uid: LimeVideoSDK.QuickSync.QualityMeasure.NV12RawFilesAreTheSame(System.IO.Stream,System.IO.Stream)
   name: NV12RawFilesAreTheSame(Stream, Stream)
   href: api/LimeVideoSDK.QuickSync.QualityMeasure.html#LimeVideoSDK_QuickSync_QualityMeasure_NV12RawFilesAreTheSame_System_IO_Stream_System_IO_Stream_
@@ -2554,7 +2554,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.QualityMeasure.NV12RawFramesAreTheSame(System.Byte[], System.Byte[])
   fullName.vb: LimeVideoSDK.QuickSync.QualityMeasure.NV12RawFramesAreTheSame(System.Byte(), System.Byte())
   nameWithType: QualityMeasure.NV12RawFramesAreTheSame(Byte[], Byte[])
-  nameWithType.vb: NV12RawFramesAreTheSame(Byte(), Byte())
+  nameWithType.vb: QualityMeasure.NV12RawFramesAreTheSame(Byte(), Byte())
 - uid: LimeVideoSDK.QuickSync.QualityMeasure.NV12RawFramesAreTheSame*
   name: NV12RawFramesAreTheSame
   href: api/LimeVideoSDK.QuickSync.QualityMeasure.html#LimeVideoSDK_QuickSync_QualityMeasure_NV12RawFramesAreTheSame_
@@ -2569,7 +2569,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.QualityMeasure.PeakSignalNoiseRatioForNV12(System.Byte[], System.Byte[], System.Int32, System.Int32)
   fullName.vb: LimeVideoSDK.QuickSync.QualityMeasure.PeakSignalNoiseRatioForNV12(System.Byte(), System.Byte(), System.Int32, System.Int32)
   nameWithType: QualityMeasure.PeakSignalNoiseRatioForNV12(Byte[], Byte[], Int32, Int32)
-  nameWithType.vb: PeakSignalNoiseRatioForNV12(Byte(), Byte(), Int32, Int32)
+  nameWithType.vb: QualityMeasure.PeakSignalNoiseRatioForNV12(Byte(), Byte(), Int32, Int32)
 - uid: LimeVideoSDK.QuickSync.QualityMeasure.PeakSignalNoiseRatioForNV12*
   name: PeakSignalNoiseRatioForNV12
   href: api/LimeVideoSDK.QuickSync.QualityMeasure.html#LimeVideoSDK_QuickSync_QualityMeasure_PeakSignalNoiseRatioForNV12_
@@ -2584,7 +2584,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.QualityMeasure.PeakSignalNoiseRatioForNV12AreTheSame(System.Byte[], System.Byte[], System.Int32, System.Int32)
   fullName.vb: LimeVideoSDK.QuickSync.QualityMeasure.PeakSignalNoiseRatioForNV12AreTheSame(System.Byte(), System.Byte(), System.Int32, System.Int32)
   nameWithType: QualityMeasure.PeakSignalNoiseRatioForNV12AreTheSame(Byte[], Byte[], Int32, Int32)
-  nameWithType.vb: PeakSignalNoiseRatioForNV12AreTheSame(Byte(), Byte(), Int32, Int32)
+  nameWithType.vb: QualityMeasure.PeakSignalNoiseRatioForNV12AreTheSame(Byte(), Byte(), Int32, Int32)
 - uid: LimeVideoSDK.QuickSync.QualityMeasure.PeakSignalNoiseRatioForNV12AreTheSame*
   name: PeakSignalNoiseRatioForNV12AreTheSame
   href: api/LimeVideoSDK.QuickSync.QualityMeasure.html#LimeVideoSDK_QuickSync_QualityMeasure_PeakSignalNoiseRatioForNV12AreTheSame_
@@ -2671,7 +2671,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.QuickSyncStatic.DecodeHeader(System.Byte[], LimeVideoSDK.QuickSyncTypes.CodecId, LimeVideoSDK.QuickSyncTypes.mfxIMPL)
   fullName.vb: LimeVideoSDK.QuickSync.QuickSyncStatic.DecodeHeader(System.Byte(), LimeVideoSDK.QuickSyncTypes.CodecId, LimeVideoSDK.QuickSyncTypes.mfxIMPL)
   nameWithType: QuickSyncStatic.DecodeHeader(Byte[], CodecId, mfxIMPL)
-  nameWithType.vb: DecodeHeader(Byte(), CodecId, mfxIMPL)
+  nameWithType.vb: QuickSyncStatic.DecodeHeader(Byte(), CodecId, mfxIMPL)
 - uid: LimeVideoSDK.QuickSync.QuickSyncStatic.DecodeHeader(System.IO.Stream,LimeVideoSDK.QuickSyncTypes.CodecId,LimeVideoSDK.QuickSyncTypes.mfxIMPL)
   name: DecodeHeader(Stream, CodecId, mfxIMPL)
   href: api/LimeVideoSDK.QuickSync.QuickSyncStatic.html#LimeVideoSDK_QuickSync_QuickSyncStatic_DecodeHeader_System_IO_Stream_LimeVideoSDK_QuickSyncTypes_CodecId_LimeVideoSDK_QuickSyncTypes_mfxIMPL_
@@ -2752,7 +2752,7 @@ references:
   fullName: LimeVideoSDK.QuickSync.StreamDecoder.StreamDecoder(System.IO.Stream, LimeVideoSDK.QuickSyncTypes.mfxVideoParam, System.Nullable<LimeVideoSDK.QuickSyncTypes.mfxVideoParam>, LimeVideoSDK.QuickSyncTypes.mfxIMPL)
   fullName.vb: LimeVideoSDK.QuickSync.StreamDecoder.StreamDecoder(System.IO.Stream, LimeVideoSDK.QuickSyncTypes.mfxVideoParam, System.Nullable(Of LimeVideoSDK.QuickSyncTypes.mfxVideoParam), LimeVideoSDK.QuickSyncTypes.mfxIMPL)
   nameWithType: StreamDecoder.StreamDecoder(Stream, mfxVideoParam, Nullable<mfxVideoParam>, mfxIMPL)
-  nameWithType.vb: StreamDecoder(Stream, mfxVideoParam, Nullable(Of mfxVideoParam), mfxIMPL)
+  nameWithType.vb: StreamDecoder.StreamDecoder(Stream, mfxVideoParam, Nullable(Of mfxVideoParam), mfxIMPL)
 - uid: LimeVideoSDK.QuickSync.StreamDecoder.#ctor*
   name: StreamDecoder
   href: api/LimeVideoSDK.QuickSync.StreamDecoder.html#LimeVideoSDK_QuickSync_StreamDecoder__ctor_
