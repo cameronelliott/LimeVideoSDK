@@ -15,7 +15,8 @@ We recommend you read the article @prepare_your_system to make sure that your mo
 This sample shows transcoding of video.
 By default it takes H.264 input, and writes H.264 output.
 It transcodes Big Buck Bunny to a new bitstream.
-The class StreamTranscoder is passed a stream and frames are read back one by one and written to disk.
+The class StreamTranscoder is passed a stream for the compressed video input, and frames are read back one by one and then written to disk.
+There is also a benchmark mode, where disk i/o is avoided in order to measure performance. 
 
 <a name="Decoder1"></a>
 ### Decoder1 C# Sample
@@ -23,12 +24,19 @@ This sample shows decoding of compressed video bitstreams.
 By default it takes H.264 input, and writes NV12 output.
 It decodes Big Buck Bunny to uncompressed frames.
 The class [StreamDecoder] is passed a stream and frames are read back one by one and written to disk.
+This sample supports formats other than NV12, such as RGB, UYVY, I420, etc... About 10 formats supported.
+Please see this class @NV12ToXXXXConverter for formats supported for CPU conversion.
+There is also a benchmark mode, where disk i/o is avoided in order to measure performance. 
+
 
 <a name="Encoder1"></a>
 ### Encoder1
 This sample shows encoding of uncompressed frames.
 By default it takes NV12 input, and writes H.264 output.
 A class implementing ILowLevelEncoder is passed individual frames, and compressed frames are returned from the encoder engine, one by one.
+This sample supports formats other than NV12, such as RGB, UYVY, I420, etc... About 10 formats supported.
+Please see this class @NV12FromXXXXConverter for formats supported for CPU conversion.
+There is also a benchmark mode, where disk i/o is avoided in order to measure performance.  
 
 <a name="Player1"></a>
 ### Player1 C# Sample
