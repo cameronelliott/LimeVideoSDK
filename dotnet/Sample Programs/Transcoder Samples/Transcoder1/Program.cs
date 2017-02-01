@@ -33,13 +33,14 @@ namespace Transcoder1
             Directory.SetCurrentDirectory("Media");
 
             mfxIMPL impl = mfxIMPL.MFX_IMPL_AUTO;
-            CodecId inputCodecId = CodecId.MFX_CODEC_AVC;
-            CodecId outputCodecId = CodecId.MFX_CODEC_AVC;
+            CodecId inputCodecId = CodecId.MFX_CODEC_JPEG;
+            CodecId outputCodecId = CodecId.MFX_CODEC_JPEG;
             string outputExtension = ".transcoded.264";//this should match codecld above
 
 
             string inFilename;
-            inFilename = "BigBuckBunny_320x180.264";
+            inFilename = @"C:\x\core-imaging-playground\images\IMG_2301.jpg";
+          //  inFilename = "BigBuckBunny_320x180.264";
             //inFilename = "BigBuckBunny_1920x1080.264";
             //inFilename = "BigBuckBunny_3840x2160.264";
             string outFilename = Path.ChangeExtension(inFilename, outputExtension);

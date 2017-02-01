@@ -287,6 +287,17 @@ namespace LimeVideoSDK.QuickSync
             QuickSyncStatic.ThrowOnBadStatus(sts, "enc.getvideoparams");
 
 
+            // from mediasdkjpeg-man.pdf
+            // BufferSizeInKB = 4 + (Width * Height * BytesPerPx + 1023) / 1024;
+            //where Width and Height are weight and height of the picture in pixel, BytesPerPx is number of
+            //byte for one pixel.It equals to 1 for monochrome picture, 1.5 for NV12 and YV12 color formats,
+            //	2 for YUY2 color format, and 3 for RGB32 color format(alpha channel is not encoded).
+
+            int MaxLength = (par.mfx.BufferSizeInKB * 1000);
+
+            if (MaxLength == 0 && mfxEncParams.mfx.CodecId == CodecId.MFX_CODEC_JPEG)
+                MaxLength = (4 + (mfxEncParams.mfx.FrameInfo.CropW * mfxEncParams.mfx.FrameInfo.CropH * 3 + 1023)) / 1000;
+
 
 
             // Create task pool to improve asynchronous performance (greater GPU utilization)
@@ -298,7 +309,7 @@ namespace LimeVideoSDK.QuickSync
             for (int i = 0; i < taskPoolSize; i++)
             {
                 // Prepare Media SDK bit stream buffer
-                pTasks[i].mfxBS.MaxLength = (uint)(par.mfx.BufferSizeInKB * 1000);
+                pTasks[i].mfxBS.MaxLength = (uint)MaxLength;
                 pTasks[i].mfxBS.Data = MyAllocHGlobalAndZero((int)pTasks[i].mfxBS.MaxLength);
                 Trace.Assert(pTasks[i].mfxBS.Data != IntPtr.Zero);
             }
@@ -534,6 +545,10 @@ namespace LimeVideoSDK.QuickSync
                             if (mfxStatus.MFX_ERR_NONE != sts)
                             QuickSyncStatic.ThrowOnBadStatus(sts, "dec or vpp");
 
+
+
+                        sts = UnsafeNativeMethods.MFXVideoCORE_SyncOperation(session, syncpV, 60000);
+                        QuickSyncStatic.ThrowOnBadStatus(sts, "syncOper");
 
                         for (;;)
                         {
