@@ -1,0 +1,3 @@
+lib/* linguist-vendored
+docfx_project/* linguist-documentation
+
