@@ -73,6 +73,14 @@ namespace LimeVideoSDK.QuickSync
     {
         public const string dllname = "libLimeVideoSDKNativex64"; // must have lib prefix for Linux, keep it!
 
+
+
+        [DllImport(dllname, EntryPoint = "prefix_MFXVideoUSER_Load")]
+        public static extern mfxStatus MFXVideoUSER_Load(mfxSession session, byte* uid, UInt32 version);
+
+        [DllImport(dllname, EntryPoint = "prefix_MFXVideoUSER_UnLoad")]
+        public static extern mfxStatus MFXVideoUSER_UnLoad(mfxSession session, byte* uid);
+
         [DllImport(dllname, EntryPoint = "prefix_MFXInit")]
         public static extern mfxStatus MFXInit(mfxIMPL impl, mfxVersion* ver, mfxSession* session);
 

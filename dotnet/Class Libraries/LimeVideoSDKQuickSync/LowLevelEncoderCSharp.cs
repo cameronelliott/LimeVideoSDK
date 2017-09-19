@@ -51,7 +51,7 @@ namespace LimeVideoSDK.QuickSync
         List<GCHandle> pinningHandles = new List<GCHandle>();
         int nFirstSyncTask = 0;
 
-
+        byte[] plugin_uid = null;
 
         /// <summary>
         /// Place decoder configuration data in here.
@@ -84,19 +84,28 @@ namespace LimeVideoSDK.QuickSync
         /// <summary>Initializes a new instance of the <see cref="LowLevelEncoderCSharp"/> class.</summary>
         /// <param name="mfxEncParams">The encoder parameters.</param>
         /// <param name="impl">The implementation.</param>
-        public LowLevelEncoderCSharp(mfxVideoParam mfxEncParams, mfxIMPL impl = mfxIMPL.MFX_IMPL_AUTO)
+        /// <param name="plugin_uid">A 16 byte guid for HEVC, not AVC</param>
+        /// <param name="plugin_ver">plugin version, usually one</param>
+        /// 
+        public LowLevelEncoderCSharp(mfxVideoParam mfxEncParams, mfxIMPL impl = mfxIMPL.MFX_IMPL_AUTO, byte[] plugin_uid = null, int plugin_ver = 1)
         {
             mfxStatus sts;
 
             session = new mfxSession();
-            var ver = new mfxVersion() { Major = 1, Minor = 3 };
+            var ver = new mfxVersion() { Major = 1, Minor = 8 };
             fixed (mfxSession* s = &session)
                 sts = UnsafeNativeMethods.MFXInit(impl, &ver, s);
             QuickSyncStatic.ThrowOnBadStatus(sts, "MFXInit");
             //deviceSetup = new DeviceSetup(session, false);
 
 
-
+            if (plugin_uid != null && plugin_uid.Length == 16)
+            {
+                this.plugin_uid = plugin_uid;
+                fixed (byte* uid = plugin_uid)
+                    sts = UnsafeNativeMethods.MFXVideoUSER_Load(session, uid, 0);
+                QuickSyncStatic.ThrowOnBadStatus(sts, "MFXVideoUSER_Load");
+            }
 
 
             sts = UnsafeNativeMethods.MFXVideoENCODE_Query(session, &mfxEncParams, &mfxEncParams);
@@ -113,6 +122,10 @@ namespace LimeVideoSDK.QuickSync
             QuickSyncStatic.ThrowOnBadStatus(sts, "queryiosurf");
 
             EncRequest.NumFrameSuggested = (ushort)(EncRequest.NumFrameSuggested + mfxEncParams.AsyncDepth);
+
+            //seems to been needed for HEVC!! ?? why???
+            if (plugin_uid != null && plugin_uid.Length == 16)
+                EncRequest.NumFrameSuggested *= 2;
 
             EncRequest.Type |= (FrameMemoryType)0x2000; // WILL_WRITE; // This line is only required for Windows DirectX11 to ensure that surfaces can be written to by the application
 
@@ -319,7 +332,7 @@ namespace LimeVideoSDK.QuickSync
 
 
             // Frames[nEncSurfIdx] = frame;
-            for (;;)
+            for (; ; )
             {
                 // Encode a frame asychronously (returns immediately)
                 fixed (mfxFrameSurface1* a = &Frames[frameIndex])
@@ -414,7 +427,7 @@ namespace LimeVideoSDK.QuickSync
             Trace.Assert((int)mfxStatus.MFX_ERR_NOT_FOUND != nTaskIdx);
 
 
-            for (;;)
+            for (; ; )
             {
                 // Encode a frame asychronously (returns immediately)
 
@@ -485,6 +498,13 @@ namespace LimeVideoSDK.QuickSync
                     // Free other state (managed objects).
                 }
 
+                if (plugin_uid != null && plugin_uid.Length == 16)
+                {
+                    mfxStatus sts = mfxStatus.MFX_ERR_NONE;
+                    fixed (byte* uid = plugin_uid)
+                        sts = UnsafeNativeMethods.MFXVideoUSER_UnLoad(session, uid);
+                    QuickSyncStatic.ThrowOnBadStatus(sts, "MFXVideoUSER_UnLoad");
+                }
 
 
 

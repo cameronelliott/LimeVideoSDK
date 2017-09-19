@@ -296,7 +296,8 @@ namespace LimeVideoSDK.QuickSync
             int MaxLength = (par.mfx.BufferSizeInKB * 1000);
 
             if (MaxLength == 0 && mfxEncParams.mfx.CodecId == CodecId.MFX_CODEC_JPEG)
-                MaxLength = (4 + (mfxEncParams.mfx.FrameInfo.CropW * mfxEncParams.mfx.FrameInfo.CropH * 3 + 1023)) / 1000;
+                MaxLength = (4 + (mfxEncParams.mfx.FrameInfo.CropW * mfxEncParams.mfx.FrameInfo.CropH * 3 + 1023)) / 1000;
+
 
 
 

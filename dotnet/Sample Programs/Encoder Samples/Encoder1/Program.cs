@@ -25,10 +25,21 @@ namespace Encoder1
 {
     class Program
     {
+        //key
+        // MFX_PLUGINID_HEVCE_SW - software only HEVC
+        // MFX_PLUGINID_HEVCE_HW - hw skylake or later
+        // MFX_PLUGINID_HEVCE_GACC - not as fast as Skylake, Haswell or Broadlake only
+        static byte[] MFX_PLUGINID_HEVCE_SW = new byte[] { 0x2f, 0xca, 0x99, 0x74, 0x9f, 0xdb, 0x49, 0xae, 0xb1, 0x21, 0xa5, 0xb6, 0x3e, 0xf5, 0x68, 0xf7 };
+        static byte[] MFX_PLUGINID_HEVCE_HW = new byte[] { 0x6f, 0xad, 0xc7, 0x91, 0xa0, 0xc2, 0xeb, 0x47, 0x9a, 0xb6, 0xdc, 0xd5, 0xea, 0x9d, 0xa3, 0x47 };
+        static byte[] MFX_PLUGINID_HEVCE_GACC = new byte[] { 0xe5, 0x40, 0x0a, 0x06, 0xc7, 0x4d, 0x41, 0xf5, 0xb1, 0x2d, 0x43, 0x0b, 0xba, 0xa2, 0x3d, 0x0b };
+
 
         static void Main(string[] args)
         {
             ConfirmQuickSyncReadiness.HaltIfNotReady();
+
+
+
 
             Environment.CurrentDirectory = AppDomain.CurrentDomain.BaseDirectory;
             // keep ascending directories until 'media' folder is found
@@ -98,7 +109,7 @@ namespace Encoder1
 
 
             mfxVideoParam mfxEncParams = new mfxVideoParam();
-            mfxEncParams.mfx.CodecId = CodecId.MFX_CODEC_AVC;
+            mfxEncParams.mfx.CodecId = CodecId.MFX_CODEC_HEVC;
             mfxEncParams.mfx.TargetUsage = TargetUsage.MFX_TARGETUSAGE_BALANCED;
             mfxEncParams.mfx.TargetKbps = 2000;
             mfxEncParams.mfx.RateControlMethod = RateControlMethod.MFX_RATECONTROL_VBR;
@@ -121,8 +132,21 @@ namespace Encoder1
 
             BitStreamChunk bsc = new BitStreamChunk(); //where we receive compressed frame data
 
+
+
+
+
+
+            // HEVC requires special setup
+            byte[] plugin_guid = null;
+            if (mfxEncParams.mfx.CodecId == CodecId.MFX_CODEC_HEVC)
+                plugin_guid = Program.MFX_PLUGINID_HEVCE_SW; // there are 3 options: SW, HW/6th-gen, HW/4th&5th-gen, see defines
+
+
+            //for testing hevc->mp4 file, use 3rd party cmd: MP4Box -add file.hvc -new file.mp4
+
             //var encoder = new LowLevelEncoder2(mfxEncParams, impl);
-            ILowLevelEncoder encoder = new LowLevelEncoder(mfxEncParams, impl);
+            ILowLevelEncoder encoder = new LowLevelEncoder(mfxEncParams, impl, plugin_guid);
 
 
             string impltext = QuickSyncStatic.ImplementationString(encoder.session);
