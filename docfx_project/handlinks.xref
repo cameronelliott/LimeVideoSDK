@@ -8,8 +8,10 @@ references:
   name: "Intel HD and Iris Graphics"
   href: https://en.wikipedia.org/wiki/Intel_HD_and_Iris_Graphics
 - uid: NV12ToXXXXConverter
-  href: xref:LimeVideoSDK.CPUConvertResize.NV12ToXXXXConverter
+  name: NV12ToXXXXConverter
+  href: LimeVideoSDK.CPUConvertResize.NV12ToXXXXConverter
+
 - uid: NV12FromXXXXConverter
-  href: xref:LimeVideoSDK.CPUConvertResize.NV12FromXXXXConverter
+  href: xref:LimeVideoSDK.QuickSync.StreamDecoder
   
   
