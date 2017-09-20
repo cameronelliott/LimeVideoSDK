@@ -109,7 +109,8 @@ namespace Encoder1
 
 
             mfxVideoParam mfxEncParams = new mfxVideoParam();
-            mfxEncParams.mfx.CodecId = CodecId.MFX_CODEC_HEVC;
+            mfxEncParams.mfx.CodecId = CodecId.MFX_CODEC_HEVC;  //this works too now! remove next line to use
+            mfxEncParams.mfx.CodecId = CodecId.MFX_CODEC_AVC;
             mfxEncParams.mfx.TargetUsage = TargetUsage.MFX_TARGETUSAGE_BALANCED;
             mfxEncParams.mfx.TargetKbps = 2000;
             mfxEncParams.mfx.RateControlMethod = RateControlMethod.MFX_RATECONTROL_VBR;
@@ -140,7 +141,7 @@ namespace Encoder1
             // HEVC requires special setup
             byte[] plugin_guid = null;
             if (mfxEncParams.mfx.CodecId == CodecId.MFX_CODEC_HEVC)
-                plugin_guid = Program.MFX_PLUGINID_HEVCE_SW; // there are 3 options: SW, HW/6th-gen, HW/4th&5th-gen, see defines
+                plugin_guid = Program.MFX_PLUGINID_HEVCE_GACC; // there are 3 options: SW, HW/6th-gen, HW/4th&5th-gen, see defines
 
 
             //for testing hevc->mp4 file, use 3rd party cmd: MP4Box -add file.hvc -new file.mp4
